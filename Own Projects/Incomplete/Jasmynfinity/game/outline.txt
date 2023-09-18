@@ -1,0 +1,68 @@
+Plot:
+
+Jasmyn has been split between the game world and the real world and must explore both to solve puzzles and find her prize.
+
+
+Transfer to game world!
+
+
+
+
+Rooms:
+Office
+ - Computer wall
+ - Bookshelf wall
+ - Door/Shelf/Boiler wall
+ - Back wall
+ - Boiler room
+ - Storage room
+Craft Room
+  - Table
+  - Bookshelves
+  - Yarn storage
+  - Window
+  - Door
+Bedroom
+ - 
+Bathroom
+ - Toilet
+ - Sink
+ - Shower
+Hallway - Upstairs
+ - Right side
+ - Left side
+ - Stair side
+ - Backdoor
+ - Closet
+Hallway - Downstairs
+ - Fusebox
+Stairs
+  - Paintings
+Living Room
+ - Sofa / photos
+ - Sofa / back wall
+ - Chair
+ - Consoles
+ - TV
+ - Unit / Mirrors
+Kitchen
+ - Counter - Right
+ - Counter / Stove
+ - Sink
+ - Oven/fridge
+ - Back wall / Table
+ - Cubbie hole
+ - Various Cupboards/Drawers
+ 
+ 
+ 
+
+=== Ideas: ===
+Print from game to IRL
+Find codes in game to unlock locks IRL
+Find codes IRL to unlock locks in game
+Play video from USB on TV with clues
+QR Codes
+Web addresses
+ 
+ 
