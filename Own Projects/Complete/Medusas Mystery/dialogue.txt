@@ -1,0 +1,247 @@
+Medusas Mini Mystery
+Back
+History
+Skip
+Auto
+Save
+Q.Save
+Q.Load
+Prefs
+Start
+Load
+Options
+End Replay
+Main Menu
+Endings
+About
+Help
+Version [config.version!t]
+
+Made with Ren'Py [renpy.version_only].
+
+[renpy.license!t]
+%A, %B %d %Y, %H:%M
+empty slot
+<
+A
+Q
+>
+Display
+Window
+Spelling
+Donut
+Doughnut
+I don't like either, can it be like a croissant or something?
+Unseen Text
+After Choices
+Transitions
+Text Speed
+Auto-Forward Time
+Volume
+Sound Volume
+Test
+Voice Volume
+Mute All
+The dialogue history is empty.
+Keyboard
+Mouse
+Enter
+Advances dialogue and activates the interface.
+Space
+Advances dialogue without selecting choices.
+Arrow Keys
+Navigate the interface.
+Escape
+Accesses the game menu.
+Ctrl
+Skips dialogue while held down.
+Tab
+Toggles dialogue skipping.
+Page Up
+Rolls back to earlier dialogue.
+Page Down
+Rolls forward to later dialogue.
+Hides the user interface.
+Takes a screenshot.
+Toggles assistive self-voicing.
+Left Click
+Middle Click
+Right Click
+Mouse Wheel Up
+Click Rollback Side
+Mouse Wheel Down
+Right Trigger
+A/Bottom Button
+Left Trigger
+Left Shoulder
+Right Shoulder
+D-Pad, Sticks
+Start, Guide
+Y/Top Button
+Yes
+No
+Skipping
+Menu
+*nods in unison*
+[notgood].
+[notgood] at all.
+Pssst everyone wake up.
+Huh? What is it?
+Shhhh, don't wake Melissa
+What's going on?
+The [persistent.donut_spelling] has a bite missing.
+Are you serious?!
+Oh My God.
+Melissa was looking forward to that [persistent.donut_spelling].
+She specifically said not to touch it!
+Who did it?
+...
+Unless the culprit turns themselves in we'll all be in trouble.
+...
+I guess we are doing this the hard way.
+Detective Agnesss is on the case!
+Don't get too excited, you're also a suspect!
+Wha?!
+Aren't you a suspect too?!
+Like 'Saint Agnesss' would ever do anything interesting like that.
+She's got a point, you being such a square and all.
+...ANYWAYS!
+Let's walk through the time leading up to the crime.
+Ok so we arrived home at like 8pm
+Which was later than usual...
+...because Melissa just finished closing out that last case.
+No crime can sneak past the watchful eye of Detective Melissa!
+...except this one.
+Ok, but like when she's awake.
+Of course.
+We're getting off track!
+So after we got home Melissa took the [persistent.donut_spelling] out of the cupboard
+She got it this morning from her favourite bakery
+But when she sat at the table, the days' exhaustion hit her.
+All of us really.
+So we like decided to take a quick nap, like 10 minutes max.
+But it's like 11pm now.
+Yeah, I've no idea how, these chairs aren't that comfortable.
+So we came home and slept in front of the [persistent.donut_spelling].
+Pretty much.
+Alright that covers the lead-up, next I need to look for clues.
+Let's check out the crime scene!
+Our victim, a delicious [persistent.donut_spelling], but with a large bite taken out of it.
+The remains of a jam sandwich, whoever finished this off made a mess, there are crumbs everywhere.
+Tomato Juice, Yuck. Only two snakes drink this stuff, probably because it looks like blood.
+It's still dark out.
+I don't think thats relevant to my investigation.
+Why would I pick myself?
+Let's interrogate the suspects!
+Better let her sleep.
+I'm gonna need more info to push this.
+Nope.
+Where's my lawyer?!
+Calm down, this isn't one of your cop shows.
+*sigh* Before I went to sleep I made a bet with Elissse, around 8:30, that I could go without eating for a whole day.
+So obviously I couldn't have done it. Since I'm tough.
+These crumbs!
+I've no idea what you are talking about.
+They look like sandwich crumbs
+Elissse said she saw you eating a sandwich.
+You got me. Guess I lose the bet, fair and square.
+If you were sneaking food...
+Fair. And. Square.
+[ok2].
+What are you saying?
+Just trying to piece together what happened.
+The only time I woke up was at around 10, and I saw Beatrisss and Francesssca sniffing around.
+They were being mighty suspicious if you ask me.
+Oh, what were they doing? 
+I don't know, but they looked like they maybe finished eating or something.
+The sprinkles on your face!
+Must've fallen off the true culprit onto me!
+I went to sleep at the same time as Elissse and Beatrisss. They were talking about eating or something.
+Eating a [persistent.donut_spelling]?
+I dunno, but like it was about how tough Beatrisss was or something. I didn't really get it.
+The sweetness on your breath!
+OH LOL, I was really hungry when we got back so I had a jam sandwich.
+Jam sandwich?
+Yeah!
+...Right.
+Oh I woke up later and I think saw Elissse and Francesssca arguing.
+What time was this?
+*shrugs* I was tired and went right back to sleep.
+I was too busy fighting Ninjas to keep track. See this scar?
+That you've drawn on yourself?
+Ninjas.
+They woke Francesssca, but I calmed her with a blood offering.
+Blood?
+Yes at 9:30, then she rested. She would need her strength for battles to come.
+I'm just not gonna ask.
+These sprinkles on your head!
+No doubt placed there by THEM in an attempt to frame me!
+Oh, I did see Daisssy eat a sandwich before we went to sleep.
+Even saw Beatrisss finish it off!
+We had an agreement where she would not eat to display her strength of will!
+She failed!
+Ugh, do I have to play along with this?
+Just humor me.
+*sigh* Elissse woke me up shouting about something stupid, as usual, at around 9:30.
+As far as I could tell everyone was sleeping.
+I got a drink and then went back to sleep.
+Your Redish lips!
+Really? That's the best you'd got?
+It's Tomato Juice.
+Yuck.
+You have no taste.
+I don't eat sweet things.
+That's it?
+That's it.
+The culprit is...
+Doing time for a crime I didn't commit? Classic.
+All right you caught me!
+You're picking me? So what do I win?
+You've been sent by THEM to take me out, haven't you?!
+Wow, you're really doing this. Ok.
+...
+*Gulp*
+I'll take responsibility to spare the rest of you!
+There is another option.
+Really?
+*whisper whisper*
+You guys would do that for me?
+Ok on the count of 3.
+...3!
+Ending 1: All for One!
+We are going to turn you in as soon as Melissa wakes up.
+Ending 2: In for a Penny...
+Ending 3B: Falsely Accused (Oblivious)
+Ending 3: Falsely Accused
+The [persistent.donut_spelling]?
+Well if this is how it's going to be.
+[_name] lunges for the [persistent.donut_spelling] and takes a bite.
+What are you doing?!
+It's not long before the whole thing is gone.
+The commotion wakes Melissa
+What's going on?
+...Where is my [persistent.donut_spelling]?
+The only possible explanation is that Melissa ate it herself.
+Oh?
+Everyone's alibi checks out and we all know how much of a glutton she is...
+Shhhhhhhhhhhhhhhhhhh!
+Is that so.
+W-what I mean is...
+Well then, oh great DETECTIVE...
+If I ate it myself then why am I still hungry?
+...
+Hmmmmmmmm?!
+Ending 4: A Bold Move, Let's see if it pays off.
+Investigate!
+Interrogate!
+Accuse!
+I'm [_text].
+Wait...
+Tell me what you did between 8pm and 11pm
+Then how do you explain...
+Anything else you'd like to say?
+That's all
+Actually...
+Turn her in...
+Or...
+This is not good
