@@ -1,0 +1,47 @@
+
+
+
+Scenes:
+
+A road to the city
+An Ominous ring found
+A ring sale
+A celebration
+A rude awakening
+A deal and a threat
+
+
+Main game loop:
+Day - Trading
+Night - Scavenging
+
+Milestones:
+50%
+100%
+
+Debt Paid
+A new debt and A new partner.
+TBC? - Demo end
+
+MVP features:
+Collecting items - Trash
+Selling items - Trading
+Time/Days
+Calendar
+Inventory
+Events?
+
+Extra Features:
+Relationships
+Catalog
+Skills
+Shop enhancements
+More Events?
+
+
+Relationship features:
+Unknown - no change
+Known - Will ignore you if caught poking through trash so you can spend longer at their location (more items per visit)
+Friendly - May leave better items in the trash for you to pick up at night (Higher chance of rarer items at location)
+Very Friendly - May buy specific items from you at a discount outside of shop hours
+Best friends/Romantic interest - May teach you a special ability.
