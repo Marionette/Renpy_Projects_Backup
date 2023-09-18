@@ -1,0 +1,87 @@
+Get Meowt of here!
+Story outline:
+
+
+1 - Intro
+  - discovery
+2 - Bedroom 1 escape
+  - find out how to open door
+3 - Explore
+  - Bath/Hall/Stairs/Living room/ Kitchen all open
+  - Bedroom 2 locked - needs key
+  - Basement stairs locked - needs combination
+4 - Phone call - After Basement door checked, once not in living room anymore
+  - Gives location for Bedroom 2 key
+5 - Bedroom 2
+  - Has journal
+    - Journal has hints for basment combination
+    - Hints on what happened
+6 - Basement
+  - Bathroom 2 / Boiler room open
+  - Office unlocked - Requires keyfob
+7 - Find fob
+  - On bedroom keys
+8 - Office
+  - Find Spell clues/Instructions
+9 - Find Spell Items
+  - Tokens x2
+  - Candles x4
+  - Matches
+  - incense
+  - chalk to finish circle
+  - Hairbrush
+  - Cat brush
+10 - Do spell
+   - Spirit walk
+11 - Get body back 
+   - END
+
+   
+Item starting locations:
+
+Top floor:
+Bedroom 1:
+- Pencil - Open Drawers
+- Drawers - closed - contains Lazer pen?
+- Lazer pen - Used to have Clawdia interact with items. ie. hit/push them
+- Mouse toy - relocate Clawdia to different rooms
+- Chalk - Used to draw circle
+Bathroom 1:
+- Toilet brush - Reach items under things
+- Silver Token
+- Makeup - No function
+- Hairbrush - 
+Hall:
+- Mirror - No function
+- Stairs
+Bedroom 2:
+- Journal
+- Incense
+- Candle
+
+Downstairs:
+Living:
+- Sofa
+- Phone
+- Candle
+- Cat brush
+Kitchen:
+- Veronicas keys - On fridge
+  - Has Bedroom 2 key
+  - Has Office Keyfob
+- Matches
+- Gold Token - Under fridge
+
+Basment:
+Laundry+Storage:
+- Spider - Requres Claudia to move (Mouse toy to bring her to the room, then lazer pen to have her target it)
+- Candle
+- Matches
+Boiler room:
+- Candle
+-Spell location
+Bathroom 2:
+Office:
+-PC - Needs password - found in Journal
+  - nxbr2g - nut xbox bread rope 2 golf (randomly generate at game start?)
+-Spell notes/Instrucitons - On PC?

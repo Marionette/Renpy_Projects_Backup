@@ -1,0 +1,11 @@
+Map unlock timescale:
+
+Week 1: Peasants quarter
+Week 2: Forest + Farm
+Week 3: Marketplace + Inn
+Week 4: Barracks
+Week 5: Blacksmith + Mine
+Week 6: Adventurers Guild + Hunters Guild
+Week 7: Church + Mages Guild
+Week 8: Noble Quarter
+Week 9: Castle

@@ -1,0 +1,179 @@
+Caracters:
+  Jessica / 'Jessicat' - MC
+  Cawdia - the cat
+  Veronica - the Roommate
+  
+  
+Introduction:
+Come in tired
+fall asleep on bed
+dream
+wake up feeling refreshed
+stretch - notice paws
+Freak the fuck out. 
+[explore a little here, doesnt do much, click on sleeping person to continue]
+[can click mirror to realise youre clawdia]
+Realise that her body is still asleep
+Try to wake up [sit on face/unlock claws?]
+Body wakes up and falls on the floor
+body gets up
+try to talk to body
+get a meow - realise its Clawdia an that you swapped
+Find a mirror to see self
+[explore to find mirror, if not clicked the first time]
+Realise that you're the cat
+
+Escape Bedroom 1:
+Try to leave the room - realise your stuck because the door is closed and youre too small to open it
+ask clawdia to open it - realise you can't communicate by talking
+try other ways to communicate - all fail
+try to find another way out
+[explore again - can pick up items now]
+  items of note
+  [pencil]
+  [locked bedside drawer - opened while holding pencil]
+    [contains yarn ball, candle]
+  [mouse toy - makes clawdia follow - dont know this yet possibly hinted]
+  [bedroom door - closed]
+  [ball of yarn - can be thrown at door handle (floor too far to throw) - pull both ends to open door]
+  [chest of drawers - can be jumped onto - right place to throw]
+  [bed - can be stood on - too far to throw]
+  [books - does nothing]
+  [laundry basket - does nothing - smells]
+  [candle - used in spell - dont know this yet]
+  [Mirror]
+Open door with yarn to escape room
+
+Hallway:
+Hear a buzz from downstairs, decide to explore for clues or help
+[can explore now]
+[hallway]  
+  [Bathroom - open but dark]
+  [bedroom 2 - door locked, requres key]
+  [stairs - open, leads to living room]
+  [Mirror - too high to reach]
+  [cupboards - contain towels and cloths]
+  [broom near bedroom 2 - can be pushed over to access room lock]
+
+[Bathroom]
+  [dark - unlock cats eyes vision to see night vision]
+  [bath/shower - does nothing]
+  [toilet - does nothing]
+  [toilet brush - can be used to reach items under things]
+  [small plunger - can unblock sinks]
+  [hair brush - medium for spell - not known yet]
+  [silver token - used in spell - not known yet]
+  [makeup - does nothing]
+  [cat litter - does nothing]
+  [Mirror]
+  [cupboards - cannot open]
+  [sink]
+
+[Downstairs]
+[Living Room]
+  [phone - ringing if downstairs picked instead of bathroom to explore, otherwise missed call]
+    [Picking phone starts the answering the phone scene]
+  [Sofa]  
+    [Behind cushions]
+      [Loose change - does nothing]
+      [buttons - does nothing]
+      [a pen - does nothing]
+    [Underneath - cant reah unassisted, use toilet brush]
+  [side table]
+    [Cat brush - medium for spell - not known yet]
+    [candle]
+      
+    
+Answering the phone:
+  If ringing - answer the phone
+  If Missed call - redial
+  Caller is Veronica
+  try to ask for help
+  Veronica comments that its cute that the cat is trying to talk
+  Realise she only hears Meows
+  Veronica realises that only the cat is present
+  Veronica makes a comment about her bedroom keys on top of the fridge, if Jessica wants the fan in her room
+  Veronica tells the cat to stay out of her room, mentions her allergies.
+  
+[Living room - Basement door]
+  [Basement door - locked, combination lock]
+  [cardboard box L - can be pushed to reach lock, arranged as steps - too flimsy to jump straight on]
+  [cardboard box M - can be pushed to reach lock, arranged as steps] #Move these around?
+  [cardboard box S - can be pushed to reach lock, arranged as steps] #Move these around?
+  [Bookshelf - Missing volumes give basement combination]
+  
+[Kitchen]
+  [fridge]
+    [Fridge door]
+      [Magnets - does nothing]
+      [Notes - ???]
+        - Shopping list - Hints on spelll items
+    [under fridge - cant reah unassisted, use toilet brush]
+      [Gold Token - used in spell - not known yet]
+    [top of fridge - Cannot be reached without closing cupboard doors]
+      [Cereal boxes - block jumping from table]
+      [Veronicas keys - bedroom key, office key fob - not known yet]
+  [cupboard]
+    [Food - does nothing]
+    [cupboard door - blocks fridge, requires Clawdia and Lazer pen to close]
+  [sink]
+    [spoon - does nothing]
+    [bowl - does nothing]
+    [plastic cup - does nothing]
+    
+[Bedroom 2 - Unlocked with Veronicas keys, push over broom to reach]
+  [Journal]
+    Read in journal:
+      Hint for basment lock - missing book volumes
+      Hint for PC password
+      Complain about Jessica using hairbrush
+      Complain about cat alergies / cat getting into room
+      Talk about trouble sleeping / feeling fatigued
+      Talk about new 'mystical' thing she heard about to help you sleep
+      Mention that she will try it in her office 'tomorrow night' - dated yesterday
+  [Fan - turn to blow curtain to get at incense]
+  [Incense - used in spell - not known yet]
+  [candle]
+  [globe - does nothing]
+  
+[Basement]
+  [light switch - required to bring clawdia down]
+  [!!Spider!! - Cant do anything else until dealt with - requires clawdia]
+    - Freak out when find the spider
+    - decide it needs to be dealt with, but not by you
+    - decide to get clawdia
+    - clawdia grabs it
+    - clawdia eats the spider
+    - jessica feels ill about it
+  [washer/drier - does nothing]
+  [shelves]
+    [candle]
+    [matches]
+  [Office Door - Locked - Requires keyFob]
+  [Boilerroom door - Stiff - requres clawdia to open]
+  [bathroom 2 door]
+  
+[bathroom 2]
+  [toilet brush - can be used to reach items under things]
+  [sink - with water - Unblocked by plunger]
+  [Allergy Meds - does nothing]
+  [toilet - does nothing]
+  
+[boilerroom]
+  [chalk circle - incomplete - needs to be repaired using chalk]
+    - Choose the shapes
+    - choose the runes in each shapes
+    - If incorrect spell does nothing
+  [candles - 1 of 5 needed for spell]
+  
+[Office]
+  [PC - Needs password - found in Journal]
+    - Using keyboard requires claws
+    - Spell notes/Instructions on PC
+    - Find Warning notes + FAQ hints to turn back
+  [Notepad]
+    - List of things needed for spell
+    - Hints where to find some things?
+    - TODO list
+  [book shelf]
+    - Spellbook?
