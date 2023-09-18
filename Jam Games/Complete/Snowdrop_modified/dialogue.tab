@@ -1,0 +1,464 @@
+Identifier	Character	Dialogue	Filename	Line Number	Filename	Identifier
+prologue_96b53f77		"Tonight is a silent night, as I sit in front of my childhood home for the last time."	game/script.rpy	20		prologue_96b53f77
+prologue_b5661fb4		"After I return from my trip, the place will have nothing but a Christmas tree and a set table."	game/script.rpy	21		prologue_b5661fb4
+prologue_7aa103a8		"Tomorrow morning, I will be saying goodbye to a childhood friend who has watched my family and I grow within its walls."	game/script.rpy	23		prologue_7aa103a8
+prologue_013a4b85		"I will be leaving for my Aunt's Bed and Breakfast in the countryside, while my mother packs all of our good memories into boxes. At least, the ones that fit. "	game/script.rpy	24		prologue_013a4b85
+prologue_0edeb824		"The house I grew up in isn't really a house, but no one ever asks about the two bedroom walk up I grew up in. "	game/script.rpy	27		prologue_0edeb824
+prologue_bf60cc95		House is a strange word. I don't really like the way it tastes on my tongue. It feels so much more extravagant than what I live in. Why don't people ever ask about my home?	game/script.rpy	30		prologue_bf60cc95
+prologue_366fde3a		"A house has enough bedrooms for every person living in the place. It has a comfy living space, a backyard and a front porch."	game/script.rpy	33		prologue_366fde3a
+prologue_8bec53e4		"What it doesn't have is a bedroom so small that the mattress acts as a couch, desk and bed all at once. A house doesn't have four flights of stairs between its occupants and a musty smelling lobby."	game/script.rpy	36		prologue_8bec53e4
+prologue_2efffb1a		"But, most importantly, a house doesn't have the memory of a deceased loved one lingering in all of the things scattered around the cramped space."	game/script.rpy	39		prologue_2efffb1a
+prologue_951f0d6e		"Not in the always tidy hamper, or the uncluttered top shelf of the wall unit. Not even in the almost empty refrigerator."	game/script.rpy	40		prologue_951f0d6e
+prologue_b1e73afe		"My two bedroom walk up certainly isn't a house, but it is a home. A home filled with painful memories that I can no longer stomach. That's why I'm leaving. "	game/script.rpy	44		prologue_b1e73afe
+prologue_c35355dd		"Not for good, that would kill my beautiful mother's taped together smile."	game/script.rpy	48		prologue_c35355dd
+prologue_bd2d02bb		"But, I'll leave until all of the holiday cheer in the streets of New York City is gone. Until I no longer have to watch my mother wrap a gift and label it ""To Craig, from Santa."""	game/script.rpy	49		prologue_bd2d02bb
+prologue_d7b6eb27		We all know that he is going to miss the third Christmas in a row but it will still feel like the very first time we celebrated his favorite holiday without him. 	game/script.rpy	53		prologue_d7b6eb27
+prologue_cc2282e9		I'll have to look into my mother's hollow eyes as she tears open the finely wrapped paper and exclaim that Craig would appreciate the gift. 	game/script.rpy	56		prologue_cc2282e9
+prologue_763cd1be		"It's always the same thing too, the sterling silver guardian angel pin that she had given him almost five Christmases ago."	game/script.rpy	60		prologue_763cd1be
+prologue_5ed8097b		The one she and I had spent hours arguing with the postal service on the phone for after they lost the package on route. 	game/script.rpy	61		prologue_5ed8097b
+prologue_f60d0031		"This Christmas, my mother will not have to spend the happiest time of year with three spots at the table unclaimed. She has my word."	game/script.rpy	65		prologue_f60d0031
+prologue_9c491326		"Until that time comes, I need to leave the overtly ""in your face"" holiday cheer that New York City is famous for. "	game/script.rpy	66		prologue_9c491326
+prologue_7638a901		Not because I don't appreciate a large Christmas tree in every well known area or ice skating rinks filled with people chattering excitedly.	game/script.rpy	69		prologue_7638a901
+prologue_9eb18061		"It's because I just don't know how the city is able to keep moving when, to me and my mother, it feels as if it the world has stopped spinning. "	game/script.rpy	70		prologue_9eb18061
+prologue_0f42d8e9		My hand glides over the aluminum mailbox. The same aluminum mailbox that my mother and I would wait anxiously by.	game/script.rpy	73		prologue_0f42d8e9
+prologue_a090ffe1		Our best memories were when we would finally receive a letter from Craig after months. We'd both smile and count our blessings. 	game/script.rpy	74		prologue_a090ffe1
+prologue_bdec2b4e		"Tonight, there is a different sentiment as I look at the mailbox. Tonight I feel melancholic. But alas, all good things must come to an end eventually."	game/script.rpy	77		prologue_bdec2b4e
+prologue_4dfec7c0		"Goodbye, old friend. "	game/script.rpy	78		prologue_4dfec7c0
+chapterOne_de9d1013	ta	"Please have your tickets ready for boarding. This train leaves to Riversone, making local stops along the way."	game/script.rpy	99	TrainLine1	chapterOne_de9d1013
+chapterOne_a784df18		"I'm already seated on the train. If living in New York City has taught me anything, it's that behind a crowded train is usually an empty one."	game/script.rpy	104		chapterOne_a784df18
+chapterOne_693d53a1		Score one for me!	game/script.rpy	106		chapterOne_693d53a1
+chapterOne_7a3ee159		"I place my bulky duffel bag on the seat next to me. It's a little tactic I like to call ""uncomfortable silence."" Most people will see my bag and glare at it silently, but they won't tell me to move it. "	game/script.rpy	110		chapterOne_7a3ee159
+chapterOne_631a7499		"You can't get away with it for the whole ride, but for a few stops it's totally possible. So until some old woman demands I move my stuff, I'm sitting here pretty comfortably. "	game/script.rpy	114		chapterOne_631a7499
+chapterOne_c00614d6		"Archer Lane's new hit single blasts through the online radio app on my phone. It's catchy, sure, but the high tempo makes me want to chuck my phone at the wall of the train car."	game/script.rpy	119		chapterOne_c00614d6
+chapterOne_c0a891bf		"Not really feeling the whole, ""Dance with Me"" thing Archer's got going on. Nope, no thanks. Not today, buddy. "	game/script.rpy	123		chapterOne_c0a891bf
+chapterOne_4f820444		I quickly turn off the app and find my saved music folder. 	game/script.rpy	127		chapterOne_4f820444
+chapterOne_52692d63		Thomas De Luca is my go to artist. I can feel his raspy voice in the pit of my stomach with each word he sings and it's amazing. 	game/script.rpy	132		chapterOne_52692d63
+chapterOne_11e0cb8e		He doesn't hide behind autotune like Archer Lane does. Thomas De Luca doesn't need to. I shut my eyes and let his vocals take me to a different place. 	game/script.rpy	135		chapterOne_11e0cb8e
+chapterOne_80a86c13		"Right now, I'm not on a train to my sister in law's inn to work for the winter. I'm on stage and Thomas De Luca is singing to me. He's holding my hand and letting me know that everything will be okay. "	game/script.rpy	140		chapterOne_80a86c13
+chapterOne_aad5695a		Even if I know that nothing is okay.	game/script.rpy	144		chapterOne_aad5695a
+chapterOne_f926ee95		"Well for one, I can't even stand to look my mother in the eye as she pours an extra cup of hot cocoa in the morning, or sets the table for three people instead of two."	game/script.rpy	145		chapterOne_f926ee95
+chapterOne_3b40dc1c		How sad is that? I am running away from my own mother!	game/script.rpy	146		chapterOne_3b40dc1c
+chapterOne_28975920		"On top of that, I have no money. I'm a 22 year old college graduate with a degree in film and a surmounting pile of debt."	game/script.rpy	149		chapterOne_28975920
+chapterOne_2034ce6f		All I have to show for my education is one movie and it isn't even that good. I still have no permanent job offers. 	game/script.rpy	150		chapterOne_2034ce6f
+chapterOne_5f80c156		"Thomas De Luca's voice can't magically toss money in my lap or bring the smile back to my mother's face. But, he does help me tune out the world for a few minutes so I can pretend like my problems don't exist. "	game/script.rpy	153		chapterOne_5f80c156
+chapterOne_496dd894		"When I open my eyes it's because I can feel that the train has stopped moving. I leave my bag next to me, but I drape an arm over it protectively. "	game/script.rpy	159		chapterOne_496dd894
+chapterOne_075fff8d		A person boards the train and walks casually to the other end of the car. My bag's seat is still secured. 	game/script.rpy	162		chapterOne_075fff8d
+chapterOne_fc68ae66		I notice that the scenery around me has changed as the train pulls away farther and farther from the big city. There are so many trees and the sunlight isn't hidden by tall buildings.	game/script.rpy	166		chapterOne_fc68ae66
+chapterOne_51955d86		Riversone might not be so bad after all. Especially if it looks as peaceful as the scene through the train window.	game/script.rpy	169		chapterOne_51955d86
+chapterOne_2aba1cd7		Riversone is the perfect middle point for travelers heading up north to the textile driven cities or south to the more rural areas. Or so the internet has told me.	game/script.rpy	172		chapterOne_2aba1cd7
+chapterOne_beef7e4d		"I'm sure I'll meet a lot of interesting people there. Or hey, maybe none at all, which I'm totally cool with too. "	game/script.rpy	175		chapterOne_beef7e4d
+chapterOne_6dcbcac8		I switch the music off for a second when I notice we're approaching a new station. This one looks much more packed.	game/script.rpy	181		chapterOne_6dcbcac8
+chapterOne_9edc21f2		"I give a forlorn look to my bag, which I know I'll have to move onto my lap. It's fine, just a mild inconvenience."	game/script.rpy	182		chapterOne_9edc21f2
+chapterOne_603da632	ta	We are now approaching Wistfield station.	game/script.rpy	185	TrainLine2	chapterOne_603da632
+chapterOne_317b23f7		The train slows down once again and pulls into a station like the ones before it. I wonder how far we are from Riversone. 	game/script.rpy	191		chapterOne_317b23f7
+chapterOne_aa04199b		"Despite having an aisle seat, I can't see much of what's in front of me as people pile into the now crowded train. "	game/script.rpy	194		chapterOne_aa04199b
+chapterOne_e875cc60		I lean back into my seat and remove my hand from my bag.	game/script.rpy	198		chapterOne_e875cc60
+chapterOne_58835283		"Play it cool, Lilah. "	game/script.rpy	199		chapterOne_58835283
+chapterOne_e97d7dc0		My solace has already been lost as I notice the sunlight from the window is being blocked by the people standing in front of my seated figure.	game/script.rpy	202		chapterOne_e97d7dc0
+chapterOne_6b3f7495		I never really realized how much darkness can damper one's mood.	game/script.rpy	203		chapterOne_6b3f7495
+chapterOne_c141be49		I look up to see a man towering above me. He looks annoyed and motions to the seat next to me with his head.	game/script.rpy	207		chapterOne_c141be49
+chapterOne_a456fa79		"Without a single word, I slide the duffel bag into my lap. I'm not trying to cause any trouble."	game/script.rpy	208		chapterOne_a456fa79
+chapterOne_93de2f13		"I expect the man to sit down, but he doesn't."	game/script.rpy	211		chapterOne_93de2f13
+chapterOne_40ac1311		"Instead, he steps back and holds his arm out for an older woman with a cane to slide into the seat next to me."	game/script.rpy	216		chapterOne_40ac1311
+chapterOne_02126b75	ow	Kids these days...you ought to be more respectful!	game/script.rpy	219	Old1	chapterOne_02126b75
+chapterOne_dddc8a73		"She glares at me, but it's nothing that hasn't happened to me on a train before. Kindly I begin to explain that I hadn't seen her, otherwise I would have moved my stuff. "	game/script.rpy	223		chapterOne_dddc8a73
+chapterOne_a3f8987c		"While I like the seat next to me being empty, I'm not heartless. I'd even stand up for someone if they looked like they needed a seat. "	game/script.rpy	227		chapterOne_a3f8987c
+chapterOne_6e1577d0		This isn't a commuter train in the city. The social cues are much different.	game/script.rpy	231		chapterOne_6e1577d0
+chapterOne_f3be0a69		"I only begin to realize that when I lock eyes with the man from earlier. It isn't quite a glare that sits upon his face, but he's definitely judging me. "	game/script.rpy	232		chapterOne_f3be0a69
+chapterOne_183d9cf8	li	"Ma'am, I swear I didn't see you."	game/script.rpy	235	L1	chapterOne_183d9cf8
+chapterOne_5a97bc66	ow	"The train is crowded, that big bag should go in the overhead above!"	game/script.rpy	237	Old2	chapterOne_5a97bc66
+chapterOne_416aaaf3	li	"When I got onto the train, it was empty. I was just..."	game/script.rpy	240	L2	chapterOne_416aaaf3
+chapterOne_4ae2a65d		"But she continuously cuts me off to tell me I need to learn some respect. Well, sometimes you lose the ""uncomfortable silence"" game..."	game/script.rpy	243		chapterOne_4ae2a65d
+chapterOne_9da54ef3		"I stand up and offer the seat to the man, since this woman looks like she'd much rather sit next to the ""well mannered gentleman"" who helped her get a seat. "	game/script.rpy	246		chapterOne_9da54ef3
+chapterOne_eab5ba9c		"He opens his mouth to protest, but I've already got the hulking duffel bag over my shoulder."	game/script.rpy	249		chapterOne_eab5ba9c
+chapterOne_f31617fc		"I push passed the crowd of people, muttering ""sorry"" before settling into a spot by the door and away from the old woman."	game/script.rpy	250		chapterOne_f31617fc
+chapterOne_88649de9		"Still, for some reason I feel the need to keep stealing glances at the guy. I've always been infatuated with the idea of people moving around in everyday settings."	game/script.rpy	257		chapterOne_88649de9
+chapterOne_a2b556c6		"It's like a photographer friend of mine always said, ""people living their lives is the most fascinating thing"". "	game/script.rpy	258		chapterOne_a2b556c6
+chapterOne_50fcde10		"The best way to come up with a character is to just look at the people around you. Trains are the best place to do that, especially in New York. "	game/script.rpy	261		chapterOne_50fcde10
+chapterOne_7d4668ed		I try to figure out who the person might be by what they're wearing or how their posture is. It's a little quirk of mine that helped me through tons of screenwriting classes in college. 	game/script.rpy	264		chapterOne_7d4668ed
+chapterOne_d95ac686		"This particular man is strange. As he nestles himself into his corner seat, I take a long look at him. The man looks out of place, and it's no doubt because of the scarf that is pulled all the way up passed his nose. "	game/script.rpy	268		chapterOne_d95ac686
+chapterOne_1509dce1		"He definitely gives off the vibe that he's trying to hide himself. Whether it be him trying to mask his identity or a deeper self esteem issue, I don't know. I'm not a psychologist, just a people watcher."	game/script.rpy	271		chapterOne_1509dce1
+chapterOne_42d58eb0		The man's blond locks peek out from his oversized wool hat. His eyes are closed and the woman next to him is staring at him in awe. How the heck does she gravitate towards the shadiest looking guy in the train car?	game/script.rpy	274		chapterOne_42d58eb0
+chapterOne_44fd7db7		Ughh...how many more stops until I reach my destination?	game/script.rpy	277		chapterOne_44fd7db7
+chapterOne_7d6b5fde		"I turn on my radio app once again and it brings me back to where I left off in Archer Lane's song. I just leave it on, hoping the beat is enough to cheer me up again. "	game/script.rpy	282		chapterOne_7d6b5fde
+chapterOne_892d028c	ta	We are now arriving in Riversone. Please exit the train as this is our last stop.	game/script.rpy	289	TrainLine3	chapterOne_892d028c
+chapterOne_1888b50c		I step out of the train as soon as it stops and the door opens. I have no interest in being trampled on by the twenty or so people trying to exit as well.	game/script.rpy	292		chapterOne_1888b50c
+chapterOne_8563f065		"The cold air greets me. Now, I have to call my sister in law. She said that she would be at the station waiting for me, but it's hard to pinpoint anything here."	game/script.rpy	298		chapterOne_8563f065
+chapterOne_a899f58c		"Despite the train letting out a big crowd, there aren't many people mulling around the massive station. "	game/script.rpy	299		chapterOne_a899f58c
+chapterOne_5c3082c2	que	Can you move?	game/script.rpy	303	A01	chapterOne_5c3082c2
+chapterOne_4cbe89e4		Huh?	game/script.rpy	307		chapterOne_4cbe89e4
+chapterOne_6dea6c3c		I whip around to see the man from earlier.	game/script.rpy	311		chapterOne_6dea6c3c
+chapterOne_be4754ba		I step aside and he quickly brushes passed me with not even a second glance in my direction.	game/script.rpy	313		chapterOne_be4754ba
+chapterOne_a036b1ce		Rude!	game/script.rpy	316		chapterOne_a036b1ce
+chapterOne_834e7048	an	"Lilah! Hey, you're here! How was the train ride?"	game/script.rpy	319	Anjali1	chapterOne_834e7048
+chapterOne_a78dced0		"Startled, I jump slightly. She probably saw all of that, but she's too polite to bring it up."	game/script.rpy	323		chapterOne_a78dced0
+chapterOne_bb709abf		Classic Anjali. 	game/script.rpy	324		chapterOne_bb709abf
+chapterOne_08036350		I regain my composure and smile brightly at her. She looks as gorgeous as ever.	game/script.rpy	329		chapterOne_08036350
+chapterOne_c5a85bea		"To someone who doesn't know her, I'm sure her brilliant smile masks the bags under her eyes. She's worn down and tired, but she's too proud to admit it."	game/script.rpy	330		chapterOne_c5a85bea
+chapterOne_a909279e	an	Well? You never answered my question. How was your train ride?	game/script.rpy	333	Anjali2	chapterOne_a909279e
+chapterOne_e8ff4b53	li	"It was nice. The scenery especially was beautiful. So all in all, I'd say it was a relaxing ride."	game/script.rpy	339		chapterOne_e8ff4b53
+chapterOne_0b191291		I'm careful not to mention the old lady who sat next to me or the weird guy who caused the whole commotion earlier. I don't want to worry Anjali with something so trivial. Especially not during this time of the year.	game/script.rpy	342		chapterOne_0b191291
+chapterOne_17c4de98	an	That's great. You're just going to love it in Riversone. I'm so happy to have you here.	game/script.rpy	344	Anjali3	chapterOne_17c4de98
+chapterOne_02541587	li	I hope so.	game/script.rpy	346		chapterOne_02541587
+chapterOne_d36e9ffc	li	"It sucked. There was this old lady and a guy with a big scarf who tag teamed me! The guy basically made me move my bag for this old lady, which is totally fine. But she was yelling at me for not doing it myself."	game/script.rpy	352		chapterOne_d36e9ffc
+chapterOne_b86fa900	an	And why didn't you do it yourself?	game/script.rpy	355		chapterOne_b86fa900
+chapterOne_cdf326bf	li	Honestly? I didn't see the lady!	game/script.rpy	357		chapterOne_cdf326bf
+chapterOne_90c3f234	an	"It's not because of the bag trick your brother taught you, huh?"	game/script.rpy	359		chapterOne_90c3f234
+chapterOne_cad05aeb	li	"I know when to use the bag trick, Anjali! Only when there's not a ton of people and I planned to move it whenever someone asked me to. Until then, how am I supposed to know someone wants to sit there?"	game/script.rpy	361		chapterOne_cad05aeb
+chapterOne_9ca2d147	an	Lilah...	game/script.rpy	363	Anjali4	chapterOne_9ca2d147
+chapterOne_edf5bdde	li	"I swear, I was going to move it! You're looking at me like that guy was. He didn't believe me either."	game/script.rpy	365		chapterOne_edf5bdde
+chapterOne_8684807b	an	"I believe you, Lilah. I'm only teasing. There are unspoken rules on the trains in NYC, but not here in Riversone. Everything is much more laid back. Don't be as hasty."	game/script.rpy	368		chapterOne_8684807b
+chapterOne_631e8b0f		"You know what they say. You can take the girl out of New York City, but you can't take New York City out of the girl. "	game/script.rpy	372		chapterOne_631e8b0f
+chapterOne_feb42b6c	li	"It's not that easy, but I'll try not to be an obnoxious city girl."	game/script.rpy	374	L3	chapterOne_feb42b6c
+chapterOne_common_b02bc604	an	"Try to see the bright side for once, will you?"	game/script.rpy	383		chapterOne_common_b02bc604
+chapterOne_common_a0550c1b	li	Yes ma'am!	game/script.rpy	386		chapterOne_common_a0550c1b
+chapterOne_common_5d635ef3		Anjali isn't happy with my feigned obedience.	game/script.rpy	391		chapterOne_common_5d635ef3
+chapterOne_common_6be9bad1	an	"You know, I actually missed your sass. Believe it or not."	game/script.rpy	394		chapterOne_common_6be9bad1
+chapterOne_common_ae8bfc6f		I frown. It must really be lonely out here for her. I don't know why she chooses to run this hotel in the middle of nowhere by herself. There isn't anything exciting about the area that I know of. 	game/script.rpy	399		chapterOne_common_ae8bfc6f
+chapterOne_common_222ca5a7	an	That was supposed to be a compliment.	game/script.rpy	403		chapterOne_common_222ca5a7
+chapterOne_common_77abe078	li	It's not you. I'm just thinking of something.	game/script.rpy	406		chapterOne_common_77abe078
+chapterOne_common_ca061350	an	I'm okay. Really.	game/script.rpy	409	Anjali5	chapterOne_common_ca061350
+chapterOne_common_3a73387f		"She sees right through me, not surprisingly. Anjali is really good at reading people. She reaches out to me and puts a comforting hand on my back. "	game/script.rpy	412		chapterOne_common_3a73387f
+chapterOne_common_da6ed2df	an	Business is doing better and my sister is thinking about moving out here. So don't pity an old soul.	game/script.rpy	414		chapterOne_common_da6ed2df
+chapterOne_common_2b856072	li	Old? Hardly! You're 32!	game/script.rpy	418	L4	chapterOne_common_2b856072
+chapterOne_common_ec6dd4d9	an	In mountain time that's almost 50.	game/script.rpy	421		chapterOne_common_ec6dd4d9
+chapterOne_common_89305812		I scoff.	game/script.rpy	424		chapterOne_common_89305812
+chapterOne_common_94548ea9	li	Your math is off and I don't even think it works like that.	game/script.rpy	426		chapterOne_common_94548ea9
+chapterOne_common_07b04c43	an	"Hey now, don't argue with me."	game/script.rpy	428	Anjali6	chapterOne_common_07b04c43
+chapterOne_common_836966ef		Anjali insists on taking my suitcase from me. She tells me that her car is nearby and begins to talk happily about what my living arrangements will be for the next few months. 	game/script.rpy	433		chapterOne_common_836966ef
+chapterOne_common_6cfe6ae8		"It's hard to concentrate on her words when I see the man who caused so much trouble for me on the train earlier. He looks disgruntled, impatiently typing on his phone. Anjali follows my gaze. "	game/script.rpy	436		chapterOne_common_6cfe6ae8
+chapterOne_common_84e60816	an	What are you looking at?	game/script.rpy	439		chapterOne_common_84e60816
+chapterOne_common_4153d54d	li	Uhm... everything. Riversone is so different from the big city.	game/script.rpy	442		chapterOne_common_4153d54d
+chapterOne_common_8f517901	an	"We have a lot of character here, that's for sure."	game/script.rpy	445		chapterOne_common_8f517901
+chapterOne_common_a8598254		I get a better look at the man's outfit as we pass him by. He's wearing a red plaid shirt under a large jacket. His eyes are hidden under his blonde hair.	game/script.rpy	449		chapterOne_common_a8598254
+chapterOne_common_8090e936		"Yep, he looks just as out of place as I feel. But the few people roaming around pay him no mind. I guess it doesn't really matter. "	game/script.rpy	450		chapterOne_common_8090e936
+chapterOne_common_0d798f50	li	What were you saying before?	game/script.rpy	453		chapterOne_common_0d798f50
+chapterOne_common_c5495415		"I change the conversation back to Anjali. As she leads me to her car, Anjali begins to talk about how many people have worked at the hotel during the winter."	game/script.rpy	457		chapterOne_common_c5495415
+chapterOne_common_93ccdb1a		"Not including me this year, two others have worked there prior. Not really a big employment pool. "	game/script.rpy	458		chapterOne_common_93ccdb1a
+chapterOne_common_f1d4ce4c		"Anjali's car is nothing extravagant, but considering I took a train to get here I'm in no position to judge. Anjali speeds down the empty road with zero reservations. "	game/script.rpy	467		chapterOne_common_f1d4ce4c
+chapterOne_common_43ba2fe6		"She isn't irresponsible, rather, a woman who knows her small town well. I admire her comfort in her own world, something I can't ever seem to achieve."	game/script.rpy	471		chapterOne_common_43ba2fe6
+chapterOne_common_92513f90		"I look out into the town, seeing Christmas trees in front of almost every single building we pass. It is picturesque."	game/script.rpy	474		chapterOne_common_92513f90
+chapterOne_common_a33d2a48		"Riversone resembles a postcard, and it makes me wonder if anything has changed at all. I wouldn't be surprised if the Christmas aesthetic was part of Riversone's all year round traditions. "	game/script.rpy	475		chapterOne_common_a33d2a48
+chapterOne_common_3a6330e6		"Anjali switches on the radio with her right hand as her left steers through the bumpy road. I admire her control. Not only of the car, but of herself and probably her hotel too. "	game/script.rpy	478		chapterOne_common_3a6330e6
+chapterOne_common_a814e67d		"Dance With Me plays through the speakers and I shut my eyes. It's one of Archer Lane's better songs but it's still missing something. Rather, it has too much going on. I wonder what the song would sound like without so much production. "	game/script.rpy	483		chapterOne_common_a814e67d
+chapterOne_common_8997473b	an	This is that guy right? Arrow something?	game/script.rpy	486	Anjali7	chapterOne_common_8997473b
+chapterOne_common_202a2694		I let out a laugh. 	game/script.rpy	491		chapterOne_common_202a2694
+chapterOne_common_218662ff	li	"Archer Lane, Anjali. But close."	game/script.rpy	494	L5	chapterOne_common_218662ff
+chapterOne_common_c1f38fd9		Anjali laughs. 	game/script.rpy	498		chapterOne_common_c1f38fd9
+chapterOne_common_f0409993	an	"I told you, I'm an old lady. I've seen things that would prove it."	game/script.rpy	501		chapterOne_common_f0409993
+chapterOne_common_ff9cf297		"I don't doubt that she has. She must have, but that's another reason I admire her. "	game/script.rpy	505		chapterOne_common_ff9cf297
+chapterOne_common_88ca5917		"Anjali and I drive like this for ten more minutes, chatting and laughing. It really is good to see her again in person and not just behind a video chat."	game/script.rpy	509		chapterOne_common_88ca5917
+chapterOne_common_8a3d7dc7		"The last time wasn't the happiest of memories, and my heart still aches thinking about her tearful eyes at my older brother's funeral. For the first time ever, I had seen the composed woman crack."	game/script.rpy	513		chapterOne_common_8a3d7dc7
+chapterOne_common_97f2d029		"Anjali pulls into the parking lot of The Red Turtleneck Inn. I haven't ever seen it in person, but the pictures I've seen online don't do this place justice. The Inn is breathtakingly beautiful."	game/script.rpy	518		chapterOne_common_97f2d029
+chapterOne_common_46a695a6		"This is the place my brother had always wanted to open with the woman of his dreams. ""The Red Turtleneck is finally a reality,"" he had once exclaimed happily, slamming the lease papers on the kitchen table of the old two bedroom walkup. "	game/script.rpy	519		chapterOne_common_46a695a6
+chapterOne_common_7a5afb6d		"Anjali tugs at the hem of her shirt. This is the first time I've seen her uncomfortable. Usually, she's a paragon of hope, always looking at the brighter side of things. I feel the need to break the silence that weighs heavily upon us."	game/script.rpy	526		chapterOne_common_7a5afb6d
+chapterOne_common_cf964410	li	Craig never told me why you guys decided on the name Red Turtleneck all those years ago.	game/script.rpy	529		chapterOne_common_cf964410
+chapterOne_common_5020d425		The naming of the Inn is always a thought that passes through my mind. Craig was always so tight lipped about his plans with this place once he acquired it.	game/script.rpy	532		chapterOne_common_5020d425
+chapterOne_common_5c50d5dd		"Anjali gives me a smile, but it isn't as big as the ones we shared in the car. "	game/script.rpy	536		chapterOne_common_5c50d5dd
+chapterOne_common_88bf7de0	an	"The red turtleneck was what I was wearing when Craig and I first met. He was sentimental, that one."	game/script.rpy	538	Anjali8	chapterOne_common_88bf7de0
+chapterOne_common_bf860fb3		"I can feel my heart tearing apart. My brother truly loved Anjali. She was his heart, his soul, and his better half. I start to realize that the Inn might not be the best place to escape the painful memories of Craig's death. Anjali, despite her normally cool personality, is hurting too. "	game/script.rpy	543		chapterOne_common_bf860fb3
+chapterOne_common_1bd718c3	an	"Anyway, why don't we unlock the place?"	game/script.rpy	547		chapterOne_common_1bd718c3
+chapterOne_common_278e195d		"As she fishes in her purse for the keys, I take in the view. The Red Turtleneck Inn looks like a log cabin, with hand crafted furniture to match. It resembles a house in size, and I wonder how many rooms are in it. "	game/script.rpy	552		chapterOne_common_278e195d
+chapterOne_common_588f14a0		"Behind the Inn there are two buildings. One of them must be Anjali's home. Or maybe it's a cabin she rents out to guests. Looking at the property in its entirety, I'd say this place is pretty charming. "	game/script.rpy	555		chapterOne_common_588f14a0
+chapterOne_common_711b7c1c		"The mountainous backdrop is like a painting. The lush green mountains stretch up towards the clouds. Tall trees line the base of the mountains trying to reach the summits, but they fall a couple hundred feet short. "	game/script.rpy	559		chapterOne_common_711b7c1c
+chapterOne_common_aeca7ebf		What's most glaring though are the Christmas decorations on the building. There are lights adorning the top of the roof and a plastic snowman by the Inn's sign. 	game/script.rpy	562		chapterOne_common_aeca7ebf
+chapterOne_common_2c89a3ed		"Anjali has the Christmas spirit despite Craig's death. I hope that, unlike my mother, Anjali isn't living a lie. I hope that she's honoring Craig's memory by celebrating his favorite season, and not just going through the motions of monotony to pretend that everything is okay."	game/script.rpy	565		chapterOne_common_2c89a3ed
+chapterOne_common_9ee75749		"Clearly, she isn't okay. Even if she's putting on a brave front, I can tell that her heart still lurches at the mention of my brother. I suppose this is what an attempt at moving on looks like. "	game/script.rpy	568		chapterOne_common_9ee75749
+chapterOne_common_abfcf29c		"A hand flies up to my heart. I have so many conflicting emotions. Love for Anjali and her strength, anger at myself for not being able to move on myself, and of course sadness for all that is lost."	game/script.rpy	572		chapterOne_common_abfcf29c
+chapterOne_common_d957f73b		"But dwelling is part of the problem. I promised my mother, myself, and Craig that I wouldn't live in the past. So, I won't dwell on it. I turn back to Anjali. She has to unlock the place. Which means..."	game/script.rpy	575		chapterOne_common_d957f73b
+chapterOne_common_49458438	li	Unlock? It hasn't been open this whole time?	game/script.rpy	578		chapterOne_common_49458438
+chapterOne_common_f793b831		Anjali shakes her head and her black locks fall against her face. 	game/script.rpy	583		chapterOne_common_f793b831
+chapterOne_common_79ad8120	an	"Normally we would be, but someone booked the whole place."	game/script.rpy	586		chapterOne_common_79ad8120
+chapterOne_common_9852422f	li	What? The entire thing? Who can afford that?	game/script.rpy	589	L6	chapterOne_common_9852422f
+chapterOne_common_2b0d7e64	an	"I don't ask questions. My clients are entitled to their privacy. The person prepaid when they booked online and gave me the name Irving Prince. He'll be coming in a little later today, so we'll meet him then."	game/script.rpy	592		chapterOne_common_2b0d7e64
+chapterOne_common_0b52ebe1	li	What about me? Where do I stay?	game/script.rpy	595		chapterOne_common_0b52ebe1
+chapterOne_common_cf747e99	an	"We have two cabins in the back. You can stay in the one on the left. It's pretty nice. Plus, you'll only have one guest to deal with."	game/script.rpy	598		chapterOne_common_cf747e99
+chapterOne_common_e89420db	li	I hope that means less work.	game/script.rpy	601		chapterOne_common_e89420db
+chapterOne_common_20272cf0		Anjali just shrugs. She slides the key into the lock and leads us inside of the inn.	game/script.rpy	605		chapterOne_common_20272cf0
+chapterOne_common_3ccf3bcd		"The interior of the place is just as beautiful and serene as the outside. While the outside boasts vintage light fixtures and Adirondack style lawn chairs, the inside has a much different feel. It reminds me of a bed and breakfast, with warm colored wallpaper and quaint furniture. "	game/script.rpy	613		chapterOne_common_3ccf3bcd
+chapterOne_common_8d95e204		"There's a large Christmas tree by the front door, which I can't help but gravitate towards as Anjali settles into the Inn."	game/script.rpy	616		chapterOne_common_8d95e204
+chapterOne_common_227d0b01		"The tree is decorated with colorful lights and plenty of ornaments, but one sticks out to me. I gasp involuntarily as a hand flies to my mouth. "	game/script.rpy	622		chapterOne_common_227d0b01
+chapterOne_common_90328dd8		Anjali is in the midst of sliding off her coat when she hears me. 	game/script.rpy	625		chapterOne_common_90328dd8
+chapterOne_common_502c9b91	an	What is it?	game/script.rpy	627	Anjali9	chapterOne_common_502c9b91
+chapterOne_common_e10c2544	li	This ornament...	game/script.rpy	630	L7	chapterOne_common_e10c2544
+chapterOne_common_14971937		"I point to the one I'm looking at. It is a group of penguins riding on a sled and each one has a name on it's scarf. Anjali, Craig, Lilah, Marsha. Our family's names, even mom's."	game/script.rpy	633		chapterOne_common_14971937
+chapterOne_common_9401cd90	li	You put out the ornament I gave you all those years ago?	game/script.rpy	635		chapterOne_common_9401cd90
+chapterOne_common_3451be21	an	"Of course. I've put it out every year since you've given it to me. It's the real star of the tree, topper aside."	game/script.rpy	637	Anjali10	chapterOne_common_3451be21
+chapterOne_common_3d7909cb		Anjali hangs her coat up on a nearby coat rack and walks over to me. She places a comforting hand on my shoulder. 	game/script.rpy	640		chapterOne_common_3d7909cb
+chapterOne_common_42fabc4e	an	Are you okay?	game/script.rpy	642		chapterOne_common_42fabc4e
+chapterOne_common_be1fe84b	li	"Yeah. It's just that it's so different from home. Mom is going through the motions of putting out our ornaments, but the sparkle behind her eyes is gone. Your eyes still sparkle when you talk about the sentimental things."	game/script.rpy	644	L8	chapterOne_common_be1fe84b
+chapterOne_common_25055012	an	Your mother has lost a child. That isn't something anyone but a parent could comprehend. You have to give her time.	game/script.rpy	646		chapterOne_common_25055012
+chapterOne_common_c28e9861	li	Will time ever be enough?	game/script.rpy	648	L9	chapterOne_common_c28e9861
+chapterOne_common_c9aa39c0	an	"Maybe. Maybe not. But your mom is strong. She can get through anything, I know it."	game/script.rpy	650		chapterOne_common_c9aa39c0
+chapterOne_common_1573e8af		"Anjali places a kiss on the top of my head before sliding behind the front desk. She's right, but it's hard waiting for things to go back to normal. I miss the mother I knew five years ago. "	game/script.rpy	655		chapterOne_common_1573e8af
+chapterOne_common_77d1a9ac	an	"Ms.Scott, reservation for 1?"	game/script.rpy	662		chapterOne_common_77d1a9ac
+chapterOne_common_30425187		I roll my eyes. Anjali is trying to make me smile and I applaud her effort. I feign shock. 	game/script.rpy	665		chapterOne_common_30425187
+chapterOne_common_cd2d4af0	li	I made no such thing.	game/script.rpy	667		chapterOne_common_cd2d4af0
+chapterOne_common_d5d67ded		Anjali rolls her eyes in return but begins starting up the computer. 	game/script.rpy	671		chapterOne_common_d5d67ded
+chapterOne_common_24e19a9b	an	Today I'm going to let you explore because you just got here. But tomorrow I want you up bright and early for work.	game/script.rpy	674		chapterOne_common_24e19a9b
+chapterOne_common_7d8ebbce		Bright and early? Ugh. I'm not built for that.	game/script.rpy	678		chapterOne_common_7d8ebbce
+chapterOne_common_817702db	an	"If you see our prolific guest, don't scare them away. I quite like the idea of having only one guest to deal with. Speaking of...that means you'll be the only one on shift."	game/script.rpy	681		chapterOne_common_817702db
+chapterOne_common_41af3aa2	li	"That's alright. If I'm being honest with you, I think I want the quiet."	game/script.rpy	685		chapterOne_common_41af3aa2
+chapterOne_common_389b3209		Anjali is typing furiously on the computer. She flashes me a smile before speaking. 	game/script.rpy	690		chapterOne_common_389b3209
+chapterOne_common_383b1a78	an	Why not check out the place while we wait for Irving Prince? Put your stuff away and get comfortable.	game/script.rpy	692		chapterOne_common_383b1a78
+chapterOne_common_2d772264		It's not a bad idea. I should drop my stuff off in my cabin and settle in. I take the keys that Anjali offers me.	game/script.rpy	695		chapterOne_common_2d772264
+chapterOne_common_91b59417	an	The smaller cabin on the left is yours. Dial 648 on the phone to reach the front desk and 949 to reach my cabin. I'll be here doing a quick maintenance check before our guest arrives.	game/script.rpy	698		chapterOne_common_91b59417
+chapterOne_common_4ba21410	li	What about wifi? I need to be connected to the internet.	game/script.rpy	701		chapterOne_common_4ba21410
+chapterOne_common_831277f7	an	"The signal is weak back there, so you'll have to be in the lobby to connect. But, I doubt you'll be worrying so much when you realize what there is to do around here in the winter."	game/script.rpy	705		chapterOne_common_831277f7
+chapterOne_common_7015ba36	li	But what about at night when I want to stream a movie?	game/script.rpy	709	L10	chapterOne_common_7015ba36
+chapterOne_common_d0b623c9	an	"We have a dvd player. Make use of that, or stream from the lobby."	game/script.rpy	712		chapterOne_common_d0b623c9
+chapterOne_common_c609655b		I groan but Anjali shoos me off so she can finish her work.	game/script.rpy	715		chapterOne_common_c609655b
+chapterOne_common_05b1d45e		"The walk to my cabin is short. Inside, it's beautiful. The cabin has a very rustic charm. There is only one floor, but it has everything I'll need including a bedroom, bathroom, living area and kitchen."	game/script.rpy	722		chapterOne_common_05b1d45e
+chapterOne_common_96ce7fb1		"I lean my suitcase against the counter in the kitchen and sit at one of the high barstools. This is the perfect place to sit with my coffee and write film scripts. That is, if inspiration strikes again. "	game/script.rpy	725		chapterOne_common_96ce7fb1
+chapterOne_common_1b0213e8		"I spent years on my first film, Snowdrop. Yet, no one seemed to even bat an eyelash when it was released. I just wonder if making a new film will have the same result. Maybe being in the mountains a bit will benefit me. Who knows? I could use the creative juices."	game/script.rpy	728		chapterOne_common_1b0213e8
+chapterOne_common_18d220fa		"I have the day off, at least for a few hours. While I'd love to explore, I need to jot some things down before I forget. My mind wanders to the stranger from the train. "	game/script.rpy	731		chapterOne_common_18d220fa
+chapterOne_common_f7a68036		"What's his story? Er...world class super spy who was following the old woman around? She must have been a world class information broker for a secret organization! Well, probably not. But it'd be fun to write about. "	game/script.rpy	734		chapterOne_common_f7a68036
+chapterOne_common_df944397		"I pull my notebook out from my bookbag and scrawl ""Identity"" across the top of the first available blank page. A movie about one's self. How we see ourselves versus how others see us. And it all starts with a guy on the train. "	game/script.rpy	737		chapterOne_common_df944397
+chapterOne_common_418d4385		No! Even better. I'll tell his story through the perspective of the girl who watches the events unfold. It'll be a good juxtaposition of the two seemingly different narratives. 	game/script.rpy	740		chapterOne_common_418d4385
+chapterOne_common_1f7761dc		"I scribble all of my ideas down before slamming my notebook shut. I should explore Riversone before it gets dark. It wouldn't hurt to know my way around. If I remember my research of the small town correctly, everything closes early. "	game/script.rpy	748		chapterOne_common_1f7761dc
+chapterOne_common_0e41f95a		I hop off of the tall barstool and head out to tell Anjali of my plans. 	game/script.rpy	751		chapterOne_common_0e41f95a
+chapterOne_common_31ee1c19		Anjali is still fumbling with the computer when I make my way into the lobby of the Red Turtleneck Inn.	game/script.rpy	757		chapterOne_common_31ee1c19
+chapterOne_common_3fe956fb		She looks up with a small smile and waves me over. 	game/script.rpy	759		chapterOne_common_3fe956fb
+chapterOne_common_0b40b72e	an	So how do you like your accommodations?	game/script.rpy	761		chapterOne_common_0b40b72e
+chapterOne_common_88d89769	li	"They're amazing. Honestly, a breath of fresh air. There's something about looking outside of your window and seeing a vast forest that is so calming. Thanks again for letting me stay."	game/script.rpy	763		chapterOne_common_88d89769
+chapterOne_common_39506986	an	"Anything for you. Besides like I said, I could use the help. Now, what are your plans?"	game/script.rpy	765		chapterOne_common_39506986
+chapterOne_common_7450cdb8	li	I was hoping to check out the town before it gets dark. Do you have any suggestions of where I should check out?	game/script.rpy	767		chapterOne_common_7450cdb8
+chapterOne_common_152b9b08	an	"Well, it depends. Are you hungry?"	game/script.rpy	769		chapterOne_common_152b9b08
+chapterOne_common_fb43feb3		I grin sheepishly. Is she kidding me? Of course I am.	game/script.rpy	773		chapterOne_common_fb43feb3
+chapterOne_common_f7e01088	li	Always.	game/script.rpy	775		chapterOne_common_f7e01088
+chapterOne_common_15ddb6b7	an	"There's a small cafe and gelato shop to the west of here. I think it may be closed for the time being, if I'm not mistaken. East is a souvenir shop and a grocery store."	game/script.rpy	777		chapterOne_common_15ddb6b7
+chapterOne_common_ddf16b20		Grocery Store! That way I can stock my fridge. It won’t hurt to be prepared. I say a quick goodbye to Anjali before leaving the lobby.	game/script.rpy	784		chapterOne_common_ddf16b20
+chapterOne_grocery_9cd96d34		"Luckily, I'm able to find my way around Riversone relatively easily. I take my time walking around, letting the cold brisk air caress my cheeks."	game/script.rpy	801		chapterOne_grocery_9cd96d34
+chapterOne_grocery_54a4afc5		"The scenery of Riversone is truly breathtaking. The tall trees are lush and green, the buildings are composed of a dulled red brick and the storefronts are all decorated with snowmen, reindeer, penguins and the like. "	game/script.rpy	804		chapterOne_grocery_54a4afc5
+chapterOne_grocery_a4b9ee49		Riversone is a winter town just like in one of those cheesy romantic Christmas movies.	game/script.rpy	807		chapterOne_grocery_a4b9ee49
+chapterOne_grocery_70752343		"Leighton's Milk and Grocery Store is stocked to the top with local delicacies. Their selection of homemade pies is impressive, but what I'm here for is something much more savory. Maybe fresh cold cuts and chips? Or, how about a roast beef? I'm sure the oven in my cabin works well. "	game/script.rpy	812		chapterOne_grocery_70752343
+chapterOne_grocery_5117d62e		"I turn down into the meat aisle, only to stop in surprise. The man from the train is standing there. "	game/script.rpy	815		chapterOne_grocery_5117d62e
+chapterOne_grocery_20c4b222		He's fiddling with his scarf in one hand while the other holds up a pack of organic chicken. I instinctively take a step back and turn on my heels to run. But then I realize that I need some food in this aisle if I want to eat.	game/script.rpy	820		chapterOne_grocery_20c4b222
+chapterOne_grocery_4d87748d		Ok Lilah. Play it cool. You can do this. Cool as a cucumber.	game/script.rpy	823		chapterOne_grocery_4d87748d
+chapterOne_grocery_1986ed28		"I pick up a package of chopped meat and flip it over to read the nutritional facts. Really, I'm looking at the man from the corner of my eye. His stature, lazily hunched over a package of cured beef, tells me that he's young. That and the expensive name brand headphones that are peaking out of his winter hat. "	game/script.rpy	826		chapterOne_grocery_1986ed28
+chapterOne_grocery_f4d6e3fa		"For a moment we meet eyes. He looks up at me, dropping the package into his shopping cart casually. I look away quickly. Does he recognize me?"	game/script.rpy	829		chapterOne_grocery_f4d6e3fa
+chapterOne_grocery_0c4499c3		"I expect him to look away too, but he doesn't. I feel his steady gaze on my back. It's a little unsettling. That must be how he feels with me staring at him."	game/script.rpy	833		chapterOne_grocery_0c4499c3
+chapterOne_grocery_0413eedb		Fine. Point taken. I drop the packaged chopped meat back into the fridge where I got it from and head into the next aisle.	game/script.rpy	836		chapterOne_grocery_0413eedb
+chapterOne_grocery_3473cfdf		"I almost forget why I'm here to begin with. I'm hungry! But I would rather get something else to eat than deal with this guy staring at me, even if I was staring at him first. My bad."	game/script.rpy	839		chapterOne_grocery_3473cfdf
+chapterOne_grocery_2aa6872d		I'm in the cereal aisle. Whatever. That'll do. I grab the fruitiest thing I can off the shelf and try to find the milk. I purposely traverse the aisles slowly so I can steal glances at the stranger to assure he doesn't approach me.	game/script.rpy	844		chapterOne_grocery_2aa6872d
+chapterOne_grocery_40418643		He doesn't. Thank goodness. I don't think I can deal with another old lady yelling at me today.	game/script.rpy	847		chapterOne_grocery_40418643
+chapterOne_cafe_2f92afd6		Gelato sounds delicious right about now. I turn to tell Anjali a quick goodbye. 	game/script.rpy	853		chapterOne_cafe_2f92afd6
+chapterOne_cafe_5f3cca31	an	Lilah! Wait! On your way back can you pick up some white bread for me? I can't have jam and toast in the morning without it.	game/script.rpy	857		chapterOne_cafe_5f3cca31
+chapterOne_cafe_b902b678		She hands me some money.	game/script.rpy	860		chapterOne_cafe_b902b678
+chapterOne_cafe_69742641	an	For the gelato too.	game/script.rpy	862		chapterOne_cafe_69742641
+chapterOne_cafe_d1d55f34	li	I can't take this. I have money.	game/script.rpy	864		chapterOne_cafe_d1d55f34
+chapterOne_cafe_1205a719	an	I can't spoil my sister? Nonsense.	game/script.rpy	867		chapterOne_cafe_1205a719
+chapterOne_cafe_22fb11d4		Anjali refers to me as a sister rather than her sister-in-law. That means a lot to me. 	game/script.rpy	870		chapterOne_cafe_22fb11d4
+chapterOne_cafe_58cff27e	li	Thank you.	game/script.rpy	872		chapterOne_cafe_58cff27e
+chapterOne_cafe_45d3da1a	an	Have fun!	game/script.rpy	874		chapterOne_cafe_45d3da1a
+chapterOne_cafe_167cc953		I thank Anjali one more time before leaving the lobby. 	game/script.rpy	877		chapterOne_cafe_167cc953
+chapterOne_cafe_0bc35d1c		"The streets are quiet, and there is barely anyone traversing them. I follow Anjali's directions and arrive at Lady Lacy's Sweet Shoppe but it's closed. There's a sign on the door that says:"	game/script.rpy	886		chapterOne_cafe_0bc35d1c
+chapterOne_cafe_50747acb		Family Emergency. We'll be open again tomorrow.	game/script.rpy	890		chapterOne_cafe_50747acb
+chapterOne_cafe_b3126275		"I guess I can pick up some food at the grocery store to make for lunch. Though, gelato really did sound good..."	game/script.rpy	893		chapterOne_cafe_b3126275
+chapterOne_cafe_46372737		"Leighton's Milk and Grocery store is stocked to the top with local delicacies. Their selection of homemade pies is impressive, but what I'm here for is something much more savory. "	game/script.rpy	898		chapterOne_cafe_46372737
+chapterOne_cafe_eba43280		"Maybe fresh cold cuts and chips? Or, how about a roast beef? I'm sure the oven in my cabin works well. Oh, and I need to pick up some bread for Anjali. "	game/script.rpy	901		chapterOne_cafe_eba43280
+chapterOne_cafe_e509720e		"I turn down into the bread aisle, only to stop in surprise. The man from earlier is there. "	game/script.rpy	904		chapterOne_cafe_e509720e
+chapterOne_cafe_1728a46e		He's fiddling with his scarf in one hand and the other holds up a loaf of wheat bread. I instinctively take a step back and turn on my heels when I realize that being in this aisle is unavoidable.	game/script.rpy	909		chapterOne_cafe_1728a46e
+chapterOne_cafe_b7969095		"Anjali wants bread. Ok, fine. I can do this."	game/script.rpy	912		chapterOne_cafe_b7969095
+chapterOne_cafe_fdb890c9		"I pick up a loaf of white bread and flip it over to read its contents. But really, I'm looking at the man from the corner of my eye. His stature, lazily hunched over a package of plain bagels, tells me that he's young. That and the expensive name brand headphones that are peaking out of his winter hat. "	game/script.rpy	916		chapterOne_cafe_fdb890c9
+chapterOne_cafe_1d2775b3		"For a moment we meet eyes. He looks up at me, dropping the package into his shopping cart with purpose. I look away quickly. Does he recognize me?"	game/script.rpy	919		chapterOne_cafe_1d2775b3
+chapterOne_cafe_0c4499c3		"I expect him to look away too, but he doesn't. I feel his steady gaze on my back. It's a little unsettling. That must be how he feels with me staring at him."	game/script.rpy	923		chapterOne_cafe_0c4499c3
+chapterOne_cafe_6c21b689		Fine. Point taken. I drop the white bread into my shopping cart and head into the next aisle. All but forgetting why I'm here in the first place. I'm hungry!	game/script.rpy	925		chapterOne_cafe_6c21b689
+chapterOne_cafe_6dc695fd		I'm in the cereal aisle. Whatever. That'll do. I grab the fruitiest thing I can off the shelf and try to find the milk. I purposely traverse the aisles slowly so I can steal glances at the stranger to assure that he doesn't approach me. 	game/script.rpy	930		chapterOne_cafe_6dc695fd
+chapterOne_cafe_40418643		He doesn't. Thank goodness. I don't think I can deal with another old lady yelling at me today.	game/script.rpy	933		chapterOne_cafe_40418643
+chapterTwo_cc68e18e		"I open the box of cereal and eat it as I'm walking. The cell service isn't the best here, and I'm struggling to maintain an internet connection long enough to check my social media. "	game/script.rpy	944		chapterTwo_cc68e18e
+chapterTwo_dd4df6db		It's no use. 	game/script.rpy	947		chapterTwo_dd4df6db
+chapterTwo_a7a3cc59		"The walk back to the Inn is uneventful. But, Riversone seems like a pretty uneventful place in itself. It's why I chose to come here. "	game/script.rpy	950		chapterTwo_a7a3cc59
+chapterTwo_8a52ad13	li	I'm back!	game/script.rpy	955		chapterTwo_8a52ad13
+chapterTwo_7c6b8d30		"I chime in happily as I take off my earmuffs and scarf. Even though there's no snow on the ground, it's still pretty cold out."	game/script.rpy	958		chapterTwo_7c6b8d30
+chapterTwo_16ac634e		Anjali looks frazzled. She sighs when she notices me. 	game/script.rpy	964		chapterTwo_16ac634e
+chapterTwo_d6a63965		"Standing in front of her is the man from both the train and the grocery store, but this time the stranger has managed to take off his hat and has pulled the scarf down from covering his mouth. "	game/script.rpy	976		chapterTwo_d6a63965
+chapterTwo_832ec114		"Involuntarily, I gasp. I know this man. Not from the train, or from the grocery store. I know him from somewhere else entirely."	game/script.rpy	978		chapterTwo_832ec114
+chapterTwo_b1e7e3f9		Archer Lane. 	game/script.rpy	983		chapterTwo_b1e7e3f9
+chapterTwo_44468ea1		"At least, his doppleganger. I rub my eyes to get a better look at him. I'm finding it hard to believe the man I've been avoiding looks exactly like pop sensation, Archer Lane. I mean, why haven't I noticed this until now?"	game/script.rpy	986		chapterTwo_44468ea1
+chapterTwo_775acc70		"Anjali stretches an arm out to me to grab my attention. I realize that my eyes are trained on the disgruntled man for a little too long, and seeing Anjali snap her fingers jolts me out of my thoughts. "	game/script.rpy	989		chapterTwo_775acc70
+chapterTwo_2eac1114		She carries on the conversation as if I hadn't just been gawking at the celebrity look-alike.I bite my lip and look away from both of them. 	game/script.rpy	992		chapterTwo_2eac1114
+chapterTwo_47994966	an	Good. You're here.	game/script.rpy	994	Anjali11	chapterTwo_47994966
+chapterTwo_6ecd04f3		Anjali turns to the man with her warming smile adorned proudly on her face. 	game/script.rpy	998		chapterTwo_6ecd04f3
+chapterTwo_35d7ad29	an	This is Lilah. She'll be the only one in and out of your room to clean it and-	game/script.rpy	1001		chapterTwo_35d7ad29
+chapterTwo_24252418		The man cuts her off mid sentence. 	game/script.rpy	1005		chapterTwo_24252418
+chapterTwo_faa1dc85	que	I don't need any cleaning done. I'll leave my dirty bed sheets and towels in the hallway. I can take care of everything else.	game/script.rpy	1009	A02	chapterTwo_faa1dc85
+chapterTwo_eeb5da4c	an	And toiletries? Will you need someone to restock your room?	game/script.rpy	1013		chapterTwo_eeb5da4c
+chapterTwo_c963fffb		The man looks annoyed at Anjali's perfectly reasonable question. Rude. There is no way that this guy can be the celebrity that people gush over. But his look is definitely convincing.	game/script.rpy	1018		chapterTwo_c963fffb
+chapterTwo_b360fede		"Anjali looks unperturbed, a seasoned veteran at dealing with insulting behavior. If not for her, I'd be telling that guy to watch his tone. No need to be so snippy about everything when Anjali is being perfectly hospitable"	game/script.rpy	1021		chapterTwo_b360fede
+chapterTwo_03da310a	que	"Lilah, was it? She can bring those to me when she supplies me with clean sheets. Also, access to your kitchen facilities will be helpful."	game/script.rpy	1024	A03	chapterTwo_03da310a
+chapterTwo_61f5ceb0		"This is a lot to take in and kind of strange frankly. If the man notices me from earlier, he doesn't mention it. Am I supposed to? Is that socially acceptable? What now? "	game/script.rpy	1029		chapterTwo_61f5ceb0
+chapterTwo_90d6d9e3	an	"I assume this is all in your paperwork, Mr. Lane? A nondisclosure agreement and your rules for staying here that we must comply with?"	game/script.rpy	1031		chapterTwo_90d6d9e3
+chapterTwo_ca02065e		Irving Prince is actually Archer Lane? I pull on my ear lobe. Did I just hear Anjali right?	game/script.rpy	1034		chapterTwo_ca02065e
+chapterTwo_968737e4	li	Mr.Lane? You mean he isn't just some look alike?	game/script.rpy	1036	L11	chapterTwo_968737e4
+chapterTwo_744e9fbd		"Of course he isn't. A look alike wouldn't carry himself with so much authority. It baffles me how I didn't notice this sooner. The mystery man who caused a scene on the train for me is a celebrity. A rude one, at that. "	game/script.rpy	1039		chapterTwo_744e9fbd
+chapterTwo_5c0cc0ad		The man lets out an aggravated sigh. 	game/script.rpy	1042		chapterTwo_5c0cc0ad
+chapterTwo_3fe281cb	ar	"Yes, I'm Archer Lane. Stop gawking. My nondisclosure agreement is in the paperwork packet I handed to your boss. It details my conditions for staying here, the gist being not to enter my room without permission, not taking any pictures or videos of me, and not leaking my whereabouts or personal information to the public. I will not stay otherwise."	game/script.rpy	1045	A04	chapterTwo_3fe281cb
+chapterTwo_583f164c	an	"I've signed it. Lilah, you'll need to sign it as well."	game/script.rpy	1049		chapterTwo_583f164c
+chapterTwo_d2d80f41		Anjali hands me the packet in question. My hands are shaking as I flip through the documents and I don't know why. 	game/script.rpy	1053		chapterTwo_d2d80f41
+chapterTwo_10ec450c		"The rules are what I'd imagine are standard for a nondisclosure agreement, but also for a decent human being. For example, things like not going into Archer's room without permission or not taking something from him. "	game/script.rpy	1056		chapterTwo_10ec450c
+chapterTwo_22f24e3e		"I know I shouldn't be, but I'm offended that Archer assumes I'm like that. Even if it is standard procedure, I respect people's privacy. I'm a decent human being."	game/script.rpy	1059		chapterTwo_22f24e3e
+chapterTwo_d21a2d28	li	Uhm...	game/script.rpy	1061	L12	chapterTwo_d21a2d28
+chapterTwo_3ac57478		I struggle to find the words to say right now. 	game/script.rpy	1064		chapterTwo_3ac57478
+chapterTwo_c2adaac8	an	Lilah? Are you hesitant to sign the agreement?	game/script.rpy	1066	Anjali12	chapterTwo_c2adaac8
+chapterTwo_30e8f619	li	"I'm sorry, it's just very hard to believe all of this. I mean, just a few hours ago Archer was on the train with me and he had drawn everyone's attention to me as if I was some bad guy."	game/script.rpy	1068		chapterTwo_30e8f619
+chapterTwo_8d4ea306	ar	Were you not ogling me in the grocery store?	game/script.rpy	1072	A05	chapterTwo_8d4ea306
+chapterTwo_fdf2151b		"He poses the question as if to say, ""we're even,"" but clearly those are two different scales. Besides, ogling isn't the word I would use!"	game/script.rpy	1076		chapterTwo_fdf2151b
+chapterTwo_b76cd593	li	T-hat was different! I was just trying to buy some lunch. You were in the aisle where my food was...	game/script.rpy	1079	L13	chapterTwo_b76cd593
+chapterTwo_798721ab		"Anjali puts her hand up, saving me from my embarrassing rambling. "	game/script.rpy	1082		chapterTwo_798721ab
+chapterTwo_fbcac49d	an	Mr.Lane has a right to his privacy. We won't go against his wishes. Correct?	game/script.rpy	1085		chapterTwo_fbcac49d
+chapterTwo_c8211f98		"I shrink back, not wanting to disappoint her. "	game/script.rpy	1089		chapterTwo_c8211f98
+chapterTwo_a342699b	li	I guess...	game/script.rpy	1091		chapterTwo_a342699b
+chapterTwo_53a7c2f2	an	"Mr. Lane, I assure you that Lilah won't be a problem. She'll aid you to the best of her abilities. You just need to ask."	game/script.rpy	1094		chapterTwo_53a7c2f2
+chapterTwo_c811881c	ar	I don't need a teenage girl in control of my stay.	game/script.rpy	1096	A06	chapterTwo_c811881c
+chapterTwo_31197dff	li	"I'm not a teenager. I'm twenty two. Dude, I've got a college degree."	game/script.rpy	1100		chapterTwo_31197dff
+chapterTwo_a54dab3e		"Because, Archer seems like the kind of guy that needs my qualifications to assert that I can do a decent job."	game/script.rpy	1103		chapterTwo_a54dab3e
+chapterTwo_2f0258a8		Archer begins to laugh and then swipes at his eyes as if drying tears. 	game/script.rpy	1108	A07	chapterTwo_2f0258a8
+chapterTwo_6edd166d	li	Hey! What's so funny about that?	game/script.rpy	1111	L14	chapterTwo_6edd166d
+chapterTwo_267ee5a0	ar	You were listening to my album on the train.	game/script.rpy	1114	A08	chapterTwo_267ee5a0
+chapterTwo_67f468a0		I can feel my face heat up. Did he see me listening to his song? I wasn't even near him! 	game/script.rpy	1119		chapterTwo_67f468a0
+chapterTwo_c75be002	li	He-y! How did you know that?	game/script.rpy	1121		chapterTwo_c75be002
+chapterTwo_cbce31f2		Archer smirks but doesn't answer me. He definitely saw me on his way out of the train. That has to be it...	game/script.rpy	1124		chapterTwo_cbce31f2
+chapterTwo_4a0e5adf		"Anjali steps in front of us, her arms crossed over her chest. She looks more concerned than angry."	game/script.rpy	1127		chapterTwo_4a0e5adf
+chapterTwo_bf8ad4db	an	How many times have you two run into each other exactly?	game/script.rpy	1129		chapterTwo_bf8ad4db
+chapterTwo_227705a6	li	"Twice. He was that guy on the train I was telling you about earlier. Except, I didn't know he was Archer Lane because there was a scarf covering his face."	game/script.rpy	1132		chapterTwo_227705a6
+chapterTwo_3009bc25	ar	"That's the point. I'm in hiding. I want a few weeks to myself without any paparazzi bugging me. If that's going to be a problem, I'll check in somewhere else."	game/script.rpy	1136	A09	chapterTwo_3009bc25
+chapterTwo_e0260503	an	"Will it be, Lilah?"	game/script.rpy	1139		chapterTwo_e0260503
+chapterTwo_1e4070d4		Her stare is fierce and I look down at my boots. 	game/script.rpy	1142		chapterTwo_1e4070d4
+chapterTwo_cd6ec995	li	"No, I'll be good."	game/script.rpy	1146		chapterTwo_cd6ec995
+chapterTwo_360231c5		Archer waves the paper in the air. So much for some respect. 	game/script.rpy	1149		chapterTwo_360231c5
+chapterTwo_952c8f4c	ar	"I'll basically be invisible. You don't have to worry about me. But, I need written proof of your intentions."	game/script.rpy	1152	A10	chapterTwo_952c8f4c
+chapterTwo_6246e183	li	How do I know that I'm not signing my life away?	game/script.rpy	1156		chapterTwo_6246e183
+chapterTwo_d5ec7e17		"This whole thing is surreal. Archer Lane is standing right in front of me, but it doesn't feel like I'm looking at a mega star. He just seems like a regular smug dude, minus the non-disclosure agreement he's waving in my face."	game/script.rpy	1160		chapterTwo_d5ec7e17
+chapterTwo_2a8b0655	ar	You're not if you follow some simple rules.	game/script.rpy	1163	A11	chapterTwo_2a8b0655
+chapterTwo_9335b010	li	I'm giving you my word. Is that not enough?	game/script.rpy	1166		chapterTwo_9335b010
+chapterTwo_a3ff84fb		"He cuts me off abruptly, as he seems to have a habit of doing. "	game/script.rpy	1169		chapterTwo_a3ff84fb
+chapterTwo_3d07f467	ar	It's not.	game/script.rpy	1172	A12	chapterTwo_3d07f467
+chapterTwo_27c53745		He looks at Anjali who softens her gaze. 	game/script.rpy	1177		chapterTwo_27c53745
+chapterTwo_c996f976	an	"I apologize, Mr. Lane. I promise that Lilah and I both have your best interest in mind as our guest. Please bring your stuff upstairs. Anyone who doesn't sign your agreement will not have access to you or your room."	game/script.rpy	1179		chapterTwo_c996f976
+chapterTwo_4dc2b849	ar	Thank you. That's all I ask.	game/script.rpy	1182	A13	chapterTwo_4dc2b849
+chapterTwo_4f6c4bf5		"I swear I see a glare shot in my direction. Whatever Archer, I'm not a fan of yours either. "	game/script.rpy	1186		chapterTwo_4f6c4bf5
+chapterTwo_dff7a417		Archer grabs his bags and begins carrying them up the stairs with little fuss. 	game/script.rpy	1190		chapterTwo_dff7a417
+chapterTwo_d3ee0ac8		"When she's sure he's out of view, Anjali looks at me with a frown. I grin sheepishly at her, but she's having none of it. Anjali lets out a huff. "	game/script.rpy	1199		chapterTwo_d3ee0ac8
+chapterTwo_6bfb5b82	an	Don't give Archer a hard time.	game/script.rpy	1201		chapterTwo_6bfb5b82
+chapterTwo_a7e649c7	li	I'm really not trying to. I'm sorry if it came across that way.	game/script.rpy	1204		chapterTwo_a7e649c7
+chapterTwo_e20b4127	an	"I understand that this may be a shock to you. Honestly, I'm shocked too. Archer Lane is staying at my Inn! I've never had a prolific guest here before."	game/script.rpy	1207		chapterTwo_e20b4127
+chapterTwo_fb851959		She steps closer to me and pushes my bangs out of my face gently. I smile weakly at her.	game/script.rpy	1211		chapterTwo_fb851959
+chapterTwo_09578bcf	an	"I also know that it's a tough time of year with Craig gone. But, Archer doesn't know that. So don't take out your frustrations out on him in the future if you feel upset."	game/script.rpy	1213		chapterTwo_09578bcf
+chapterTwo_b9135d71		I keep forgetting that the world doesn't stop spinning even if it feels like my world has ceased motion sometimes.	game/script.rpy	1217		chapterTwo_b9135d71
+chapterTwo_8a345396	li	"So you're saying to sign his agreement, then. It wasn't my intention not to. I just...I don't know."	game/script.rpy	1219		chapterTwo_8a345396
+chapterTwo_9676317b	an	"Honey, I get it. But you have to give Archer a chance. You didn't say it, but I saw by the look on your face that he might not be the ideal guest you were hoping for. This is business, we ignore our feelings of dread."	game/script.rpy	1221		chapterTwo_9676317b
+chapterTwo_cf3dfa62	li	"It's just that I'm confused, overwhelmed, and a little bit disappointed with the idea of having to work with someone who is so arrogant. But that's on me I guess, not him."	game/script.rpy	1223		chapterTwo_cf3dfa62
+chapterTwo_f65fe9c7	an	"He's protecting himself and what he's built. I don't blame him. But the fact of the matter is, Archer is our guest. He will not stay without that agreement being signed. All we have to do is make sure his stay is pleasant."	game/script.rpy	1226		chapterTwo_f65fe9c7
+chapterTwo_2d3c16a5		"I groan. She's right. It's way too late now for Anjali to get any more customers if we let Archer walk out. Something tells me that even though Riversone is gorgeous, it isn't bustling with people looking for a place to stay. I'll sign that agreement. "	game/script.rpy	1229		chapterTwo_2d3c16a5
+chapterTwo_44814644	li	"He's going to be so annoying to deal with, Anjali..."	game/script.rpy	1232		chapterTwo_44814644
+chapterTwo_58d86e4c	an	"That's my girl. If you just keep being the person that I know you are, you won't have a problem dealing with Archer. I know you mean well. "	game/script.rpy	1235		chapterTwo_58d86e4c
+chapterTwo_2eddce40	li	I didn't yell at him. I should get points for that.	game/script.rpy	1238		chapterTwo_2eddce40
+chapterTwo_547b86de		She lets out a small laugh. 	game/script.rpy	1243		chapterTwo_547b86de
+chapterTwo_672a026d	an	"This is that game where the points don't matter, Lilah."	game/script.rpy	1245		chapterTwo_672a026d
+chapterTwo_21943a8f		She winks and hands me the thick packet of paper.	game/script.rpy	1248		chapterTwo_21943a8f
+chapterTwo_9ec656c0		I pick up a pen from the front desk and sign my name as neatly as I can. I don't want Archer Lane to think I have bad penmanship. I slide the document back to Anjali when it has my name scrawled across it in thin blue ink. 	game/script.rpy	1252		chapterTwo_9ec656c0
+chapterTwo_b133f9a6	an	"Thank you. Now, why don't you bring this agreement up to Mr.Lane? He's staying in the first room by the top of the steps."	game/script.rpy	1255		chapterTwo_b133f9a6
+chapterTwo_1409c687		"I don't know if I want to. Archer seemed to be annoyed by my presence and if I bring him the document I'll have to face him again. But if I don't bring him the agreement, what will that show about who I am as a person? "	game/script.rpy	1258		chapterTwo_1409c687
+chapterTwo_a5947a7c		I don't know what I should do. 	game/script.rpy	1261		chapterTwo_a5947a7c
+chapter2_Agreement_Yes_2ba46a0c	li	"Fine, but only because I love you."	game/script.rpy	1271	L15	chapter2_Agreement_Yes_2ba46a0c
+chapter2_Agreement_Yes_23bb21e6		"It's also because I know this is something I owe Archer. A peace offering, if I may. "	game/script.rpy	1274		chapter2_Agreement_Yes_23bb21e6
+chapter2_Agreement_Yes_86826cb3	an	"Thank you, dear. When you come down, we can hang out and catch up on things. I want to hear all about this movie premiere your mom told me about."	game/script.rpy	1277		chapter2_Agreement_Yes_86826cb3
+chapter2_Agreement_Yes_bdd22607		I drag my feet to the stairs. 	game/script.rpy	1281		chapter2_Agreement_Yes_bdd22607
+chapter2_Agreement_Yes_9ff62528	li	"Trust me, it's not that exciting."	game/script.rpy	1284		chapter2_Agreement_Yes_9ff62528
+chapter2_Agreement_Yes_a755c922	an	I'm sure it is. Your mother seemed very proud of you when she told me about it over the phone.	game/script.rpy	1287		chapter2_Agreement_Yes_a755c922
+chapter2_Agreement_Yes_9b701dfc	li	"As moms do, Anjali."	game/script.rpy	1290		chapter2_Agreement_Yes_9b701dfc
+chapter2_Agreement_Yes_e6552630		I give Anjali a slight nod to let her know that we'll continue this conversation if I've survived my time in the dragon's den. 	game/script.rpy	1293		chapter2_Agreement_Yes_e6552630
+chapter2_Agreement_Yes_c1c3dcff		I take a minute to admire the decor of the inn. Anjali has done a nice job making it feel homey.	game/script.rpy	1299		chapter2_Agreement_Yes_c1c3dcff
+chapter2_Agreement_Yes_4141ebdd		I'm surprised Archer hasn't complained about his room being right next to the staircase. Easy access to his belongings or something like that. I roll my eyes just thinking about it. 	game/script.rpy	1302		chapter2_Agreement_Yes_4141ebdd
+chapter2_Agreement_Yes_e330780c		"All of a sudden I'm nervous. I know I need to be a big girl, but anxiety creeps in. "	game/script.rpy	1305		chapter2_Agreement_Yes_e330780c
+chapter2_Agreement_Yes_b0a8355c		The door opens. Archer looks unimpressed as he leans lazily against the door frame. 	game/script.rpy	1312		chapter2_Agreement_Yes_b0a8355c
+chapter2_Agreement_Yes_b78cf4c7	ar	Don't look at me like that. I heard you walking up the stairs.	game/script.rpy	1325	A14	chapter2_Agreement_Yes_b78cf4c7
+chapter2_Agreement_Yes_458febca		"Ah, so that's why he wanted a room near the staircase. "	game/script.rpy	1329		chapter2_Agreement_Yes_458febca
+chapter2_Agreement_Yes_d5895be8	ar	"What is it you want? I told you my terms. Until you sign that document, we have nothing to discuss."	game/script.rpy	1332	A15	chapter2_Agreement_Yes_d5895be8
+chapter2_Agreement_Yes_0e85b388		I hold the packet out to him. 	game/script.rpy	1338		chapter2_Agreement_Yes_0e85b388
+chapter2_Agreement_Yes_3bf23149	li	"Here it is, your highness. I'm at your service, or whatever."	game/script.rpy	1340		chapter2_Agreement_Yes_3bf23149
+chapter2_Agreement_Yes_04278a2c		"Archer has a satisfied smirk on his face. Ugh, I want to punch him so bad but Anjali might demote me from sister status if I do. "	game/script.rpy	1344		chapter2_Agreement_Yes_04278a2c
+chapter2_Agreement_Yes_0f4584a6	ar	You read it carefully?	game/script.rpy	1347	A16	chapter2_Agreement_Yes_0f4584a6
+chapter2_Agreement_Yes_f46c4ba0		"I thumbed through it. Does that count? Eh, Archer doesn't need to know that. I think he made himself pretty clear with what he expects from me. "	game/script.rpy	1351		chapter2_Agreement_Yes_f46c4ba0
+chapter2_Agreement_Yes_dd447f45	li	Yeah. I won't even look at you after this conversation. You leave your dirty sheets or whatever in the hall and I'll bring the replacement toiletries to your room. Should we have a drop off service? I just leave them in the hall and knock 3 times?	game/script.rpy	1354		chapter2_Agreement_Yes_dd447f45
+chapter2_Agreement_Yes_3c749781		He rolls his eyes.	game/script.rpy	1357		chapter2_Agreement_Yes_3c749781
+chapter2_Agreement_Yes_b1b17b8e	ar	Smart ass.	game/script.rpy	1361	A17	chapter2_Agreement_Yes_b1b17b8e
+chapter2_Agreement_Yes_14e7bf7c		"Archer flips through the packet to make sure I actually gave my signature. His lack of trust is disheartening, but I guess that's the kind of precautions that celebrities have to take."	game/script.rpy	1365		chapter2_Agreement_Yes_14e7bf7c
+chapter2_Agreement_Yes_9de4cd12	li	"Wow. You're being rude again, shocking. Is there anything else I can do for you? Bring you a bell?"	game/script.rpy	1367		chapter2_Agreement_Yes_9de4cd12
+chapter2_Agreement_Yes_7ccd660a	ar	"Actually, yeah. You can help me. I need the wifi."	game/script.rpy	1370	A18	chapter2_Agreement_Yes_7ccd660a
+chapter2_Agreement_Yes_5a283e02		I have some bad news...	game/script.rpy	1376		chapter2_Agreement_Yes_5a283e02
+chapter2_Agreement_Yes_75c0b034	li	"There is barely any service out here, buddy. If you want wifi you'll need to hang out in the lobby."	game/script.rpy	1379		chapter2_Agreement_Yes_75c0b034
+chapter2_Agreement_Yes_a3a9458a	ar	Are you done? I have to unpack.	game/script.rpy	1382	A19	chapter2_Agreement_Yes_a3a9458a
+chapter2_Agreement_Yes_babbe91a		Rude. Fine. I don't want to be up here anyway.	game/script.rpy	1386		chapter2_Agreement_Yes_babbe91a
+chapter2_Agreement_Yes_93ffac4d	li	"Of course I am, Lane."	game/script.rpy	1390		chapter2_Agreement_Yes_93ffac4d
+chapter2_Agreement_Yes_bc56d6ab	ar	"Didn't your boss ever teach you to be courteous to your guests? It's Mr.Lane or Sir, to you."	game/script.rpy	1393	A20	chapter2_Agreement_Yes_bc56d6ab
+chapter2_Agreement_Yes_6aab6615	li	Right. Oh and Anjali is my sister-in-law.	game/script.rpy	1396		chapter2_Agreement_Yes_6aab6615
+chapter2_Agreement_Yes_91b2d0b7		"I don't know why I added that extra information in, as Archer doesn't seem to care one bit. "	game/script.rpy	1399		chapter2_Agreement_Yes_91b2d0b7
+chapter2_Agreement_Yes_574a8cb4	ar	That poor woman. She seems like such a nice lady too.	game/script.rpy	1402	A21	chapter2_Agreement_Yes_574a8cb4
+chapter2_Agreement_Yes_597d0d95		Archer doesn't say anything more as he closes the door in my face. 	game/script.rpy	1407		chapter2_Agreement_Yes_597d0d95
+chapter2_Agreement_Yes_df1717c4	li	Thanks for the vote of confidence!	game/script.rpy	1411		chapter2_Agreement_Yes_df1717c4
+chapter2_Agreement_Yes_5aa36946		I shout at the door and hear a grunt in return.	game/script.rpy	1414		chapter2_Agreement_Yes_5aa36946
+chapter2_Agreement_Yes_11c70ae1		I can do this. It's just a few weeks.	game/script.rpy	1418		chapter2_Agreement_Yes_11c70ae1
+chapter2_Agreement_Yes_241fdaaa		Downstairs Anjali is sitting in one of the living chairs near the fireplace. There's a bookshelf behind her packed so tightly that I wonder how hard it will be to dislodge one of the books.	game/script.rpy	1425		chapter2_Agreement_Yes_241fdaaa
+chapter2_Agreement_Yes_54eb7076	li	You read any of these?	game/script.rpy	1427		chapter2_Agreement_Yes_54eb7076
+chapter2_Agreement_Yes_89265367	an	I've read a few every here and there. It's relaxing to have a good book in your hand. How'd it go upstairs?	game/script.rpy	1429		chapter2_Agreement_Yes_89265367
+chapter2_Agreement_Yes_f9892788	li	"Fantastic. We are really getting along. You know, I might have been wrong about this Archer guy. He seems great!"	game/script.rpy	1431	L16	chapter2_Agreement_Yes_f9892788
+chapter2_Agreement_Yes_b9614924	an	"That bad, huh? I thought he'd appreciate you bringing the packet to him as a truce. Guess people like him are set in their ways. I wouldn't dwell on it. So, tell me about this movie you made. I'm dying to know."	game/script.rpy	1433	Anjali13	chapter2_Agreement_Yes_b9614924
+chapter2_Agreement_No_0f7ef282	li	You can do it.	game/script.rpy	1438		chapter2_Agreement_No_0f7ef282
+chapter2_Agreement_No_f10b9f7a		Anjali frowns. 	game/script.rpy	1443		chapter2_Agreement_No_f10b9f7a
+chapter2_Agreement_No_f2a0194d	an	Lilah.	game/script.rpy	1445		chapter2_Agreement_No_f2a0194d
+chapter2_Agreement_No_f2217630	li	I'm just not in the mood today.	game/script.rpy	1449		chapter2_Agreement_No_f2217630
+chapter2_Agreement_No_8580564a	an	Welcome to adulthood. Sometimes we have to swallow our pride. I can call him down if that makes you feel better.	game/script.rpy	1453		chapter2_Agreement_No_8580564a
+chapter2_Agreement_No_9d314605	li	It doesn't.	game/script.rpy	1455		chapter2_Agreement_No_9d314605
+chapter2_Agreement_No_1558c142	an	I'm not going to force you to do anything you don't want to. I can hand it to him in the morning when he comes down for breakfast.	game/script.rpy	1457		chapter2_Agreement_No_1558c142
+chapter2_Agreement_No_9486266a		She places the contract in a drawer behind the front desk and then saunters over to the seating area of the lobby. 	game/script.rpy	1460		chapter2_Agreement_No_9486266a
+chapter2_Agreement_No_df426b6a		She motions for me to follow before taking a seat in a comfortable looking leather chair.	game/script.rpy	1467		chapter2_Agreement_No_df426b6a
+chapter2_Agreement_No_7a26b193	an	I'm dying to know about this movie premier your mother told me about over the phone. I could feel her pride. It must have been really exciting.	game/script.rpy	1470		chapter2_Agreement_No_7a26b193
+chapter2_postAgreement_d1aee04c		"I sit down in the chair opposite her. It makes me feel ten times worse knowing how excited Anjali is to see me succeed. Looking at Archer, a man who is so popular that he has to have nondisclosure agreements drawn up, reminds me that I'm a nobody. "	game/script.rpy	1474		chapter2_postAgreement_d1aee04c
+chapter2_postAgreement_519e5b94	li	"It premiered to a total of 11 people, and the majority of them were friends or family members."	game/script.rpy	1476		chapter2_postAgreement_519e5b94
+chapter2_postAgreement_71cec616	an	"That's a huge accomplishment! It was at an independent filmmakers festival, correct? Who can say they've done that?"	game/script.rpy	1479	Anjali14	chapter2_postAgreement_71cec616
+chapter2_postAgreement_bf8b9e91	li	"All 23 other independent filmmakers. I'm telling you, it wasn't a big deal at all. My movie isn't even that good."	game/script.rpy	1481		chapter2_postAgreement_bf8b9e91
+chapter2_postAgreement_ab0ce931	an	I'll be the judge of that. What's it about?	game/script.rpy	1484		chapter2_postAgreement_ab0ce931
+chapter2_postAgreement_18725236		"I'm hesitant to answer, but Anjali has never meant ill will towards me."	game/script.rpy	1487		chapter2_postAgreement_18725236
+chapter2_postAgreement_3dec044f	li	Well...it's called Snowdrop. It's about this girl who feels trapped where she is. All she wants to do in life is make a difference in the world but she doesn't know how.	game/script.rpy	1489		chapter2_postAgreement_3dec044f
+chapter2_postAgreement_1251b7a1	li	"Her resources are limited and the people around her don't seem to care about her dreams. Because of this, she is at her lowest point until she meets someone who inspires her and picks her up off the ground."	game/script.rpy	1490		chapter2_postAgreement_1251b7a1
+chapter2_postAgreement_52e7449e	an	It sounds like an intriguing plot. Reminds me an awful lot of someone I know. A recent college graduate who doesn't think her parents understand her career in the fine arts.	game/script.rpy	1494		chapter2_postAgreement_52e7449e
+chapter2_postAgreement_ed610efd		"I feel her gaze on me deep within my soul. Now, I'm a bit embarrassed."	game/script.rpy	1497		chapter2_postAgreement_ed610efd
+chapter2_postAgreement_fc46d572	li	"I didn't know how else to channel my frustrations. I think after watching it, mom finally understands how passionate I am about making films."	game/script.rpy	1499		chapter2_postAgreement_fc46d572
+chapter2_postAgreement_c2842c7b		I have always fought with my mother on pursuing film in college. She doesn't understand why I would take out student loans to study something that will probably make me little to no money.	game/script.rpy	1502		chapter2_postAgreement_c2842c7b
+chapter2_postAgreement_d8321880		" Anjali and Craig have always supported my dreams, but they weren't the people I was living with and had to face everyday. My mother means well, she just wants to make sure that I'll have enough money to support myself. "	game/script.rpy	1505		chapter2_postAgreement_d8321880
+chapter2_postAgreement_c1f28c4a		"I'm starting to see their fears become a reality. My first movie didn't make nearly as many waves as I thought it would. To me, it feels like I'm proving them right. On top of everything else in my life, I'm stressing out. "	game/script.rpy	1508		chapter2_postAgreement_c1f28c4a
+chapter2_postAgreement_301dbabc	an	"Your mother is proud of you, that's for sure. I could hear the exuberance in her voice. You are her everything, Lilah."	game/script.rpy	1511		chapter2_postAgreement_301dbabc
+chapter2_postAgreement_1e9afe61		Because Craig is gone.	game/script.rpy	1516		chapter2_postAgreement_1e9afe61
+chapter2_postAgreement_6a61e4a5		"I want to say it but my better judgement kicks in. I know uttering these words will hurt Anjali, so I keep them to myself. But when Anjali leans in closer to me, I know I don't have to say a word. She's aware of what I'm thinking."	game/script.rpy	1519		chapter2_postAgreement_6a61e4a5
+chapter2_postAgreement_8ac13a34		"The tension in the room is thick.I can't deny that things have changed because of my brother's passing. People treat me differently, my mother especially. "	game/script.rpy	1522		chapter2_postAgreement_8ac13a34
+chapter2_postAgreement_3876a12b	an	"You can't tell me that your mother didn't hold you on a pedestal when Craig was alive. Even if your mother is clinging to you so that she doesn't lose you, it doesn't invalidate her love for you. I'm telling you Lilah, she adores you. She is proud of who you've become. It has nothing to do with your brother."	game/script.rpy	1525	Anjali15	chapter2_postAgreement_3876a12b
+chapter2_postAgreement_6a86cb9f		We hear footsteps and instantly Anjali is standing up. Always the perfect host. Archer comes downstairs with his laptop in his hands. I'm relieved to not have to talk about my mother with Anjali. 	game/script.rpy	1531		chapter2_postAgreement_6a86cb9f
+chapter2_postAgreement_0fd6d7a6	ar	I feel like I'm interrupting a moment. I don't mean to. I just have to send an email before I disappear off the face of the earth for a few weeks.	game/script.rpy	1542	A22	chapter2_postAgreement_0fd6d7a6
+chapter2_postAgreement_46a4a645		"When he's talking to Anjali, Archer seems so much more polite. "	game/script.rpy	1546		chapter2_postAgreement_46a4a645
+chapter2_postAgreement_3c5fefe2	an	"There's a room right behind you that has a desk and some chairs in it, and also a communal kitchen across from it. Either of those rooms gets a strong wifi signal."	game/script.rpy	1548		chapter2_postAgreement_3c5fefe2
+chapter2_postAgreement_8e833cf0	ar	Thanks.	game/script.rpy	1551	A23	chapter2_postAgreement_8e833cf0
+chapter2_postAgreement_48dd7ee6		He offers only a single word before turning to leave us. 	game/script.rpy	1555		chapter2_postAgreement_48dd7ee6
+chapter2_postAgreement_7085e181	an	Should we offer him some coffee?	game/script.rpy	1559		chapter2_postAgreement_7085e181
+chapter2_postAgreement_dcfd4f47	li	I guess that's the polite thing to do.	game/script.rpy	1562		chapter2_postAgreement_dcfd4f47
+chapter2_postAgreement_685a483d		"My arms feel heavy. I want to curl up in a ball and disappear. Archer didn't dissipate the tension, only pulled my attention away from it for a second."	game/script.rpy	1565		chapter2_postAgreement_685a483d
+chapter2_postAgreement_b3b95111	an	"Yeah, it is. Always offer your guest a drink."	game/script.rpy	1567		chapter2_postAgreement_b3b95111
+chapter2_postAgreement_1a9e2378		Anjali begins walking towards the kitchen. 	game/script.rpy	1570		chapter2_postAgreement_1a9e2378
+chapter2_postAgreement_0307d9c2	an	"Do you want anything to drink, Lilah?"	game/script.rpy	1572		chapter2_postAgreement_0307d9c2
+chapter2_postAgreement_ff5c4c48	li	I'm good. Thanks though.	game/script.rpy	1574		chapter2_postAgreement_ff5c4c48
+chapter2_postAgreement_8914cf72		"I walk over to the bookshelf and look at the titles idly. Anjali has a lot of detective fiction and romance novels on the shelf, a weird combination. "	game/script.rpy	1579		chapter2_postAgreement_8914cf72
+chapter2_postAgreement_9279314c		"As I wait for her I pull a book off of the shelf ""Love in Arms"" by some author I've never heard of. The woman looks like an independent author, as the copy of the book has a signature and a thank you note scrawled across the front page."	game/script.rpy	1582		chapter2_postAgreement_9279314c
+chapter2_postAgreement_fdfdefec		"I flip through the book aimlessly until I see the words ""For you, always."" They catch my eyes because they're highlighted in a fluorescent yellow and underlined in red. Anjali has definitely read this book before."	game/script.rpy	1585		chapter2_postAgreement_fdfdefec
+chapter2_postAgreement_75681184		Those words must mean something to her. 	game/script.rpy	1588		chapter2_postAgreement_75681184
+chapter2_postAgreement_ac637a39	an	That was a good book.	game/script.rpy	1592		chapter2_postAgreement_ac637a39
+chapter2_postAgreement_ab23440a		I jump when I hear her voice.	game/script.rpy	1595		chapter2_postAgreement_ab23440a
+chapter2_postAgreement_ce9699e3	li	You scared the crap out of me.	game/script.rpy	1597		chapter2_postAgreement_ce9699e3
+chapter2_postAgreement_259bbd4c		Anjali is standing beside me with two mugs overflowing with whipped cream. 	game/script.rpy	1600		chapter2_postAgreement_259bbd4c
+chapter2_postAgreement_5d3005bc	li	I take it Archer wanted a drink?	game/script.rpy	1602		chapter2_postAgreement_5d3005bc
+chapter2_postAgreement_049cbe52	an	"Yeah. And he thanked me three times before I left. I think he regrets his first impression, L."	game/script.rpy	1604	Anjali16	chapter2_postAgreement_049cbe52
+chapter2_postAgreement_c252192f		I'm astounded. I could barely get the guy to talk to me civilly for five seconds and here Anjali has coaxed him out of his lair with the promise of a hot beverage. 	game/script.rpy	1607		chapter2_postAgreement_c252192f
+chapter2_postAgreement_b2fda1f6	an	"I told him he could sit down here with us for a bit. It's getting dark out, so I don't imagine either you or him wanting to head outside."	game/script.rpy	1609		chapter2_postAgreement_b2fda1f6
+chapter2_postAgreement_69e00aa3	li	Is he actually going to?	game/script.rpy	1611		chapter2_postAgreement_69e00aa3
+chapter2_postAgreement_a5336b4c	an	You can ask him yourself when he's finished sending his email.	game/script.rpy	1613		chapter2_postAgreement_a5336b4c
+chapter2_postAgreement_c6e9cca4		"I pull my knees up to my chest and bury my face into them. Well, this is going to be an interesting few weeks. "	game/script.rpy	1616		chapter2_postAgreement_c6e9cca4

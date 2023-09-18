@@ -1,0 +1,1078 @@
+#Starts at the end of the demo
+
+"I sit in silence. Let me process this again. I was sitting next to Archer Lane on the train ride here. I nearly stalked him in the grocery store and now here he is without any publicist or body guard chilling in my sister-in-law’s hotel. Oh, and he hates me too. {i}What the hell."
+stop music fadeout (1.0)
+hide an-happy
+show an-normal at left with movefast
+show ar-normal:
+       xpos 500
+"Archer walks in as if on cue. His arms are crossed over his chest as he stares at Anjali."
+voice "A24.ogg"
+"Archer" "Thank you for your hospitality."
+hide an-normal
+show an-happy
+"Anjali" "Of course! Here, I’ve brought you some hot chocolate with whipped cream. Please do consider sitting with us. Or, you can make yourself at home in one of the back rooms."
+voice "A25.ogg"
+"Archer" "I seemed to have a decent internet connection in the room I was in. I’d like to stream a movie, so I might just stay back there. Thank you for your offer."
+play music "Home.ogg" fadein (1.0)
+"Anjali hands Archer his drink. He takes a large sip of it before thanking Anjali again for the kindness and concern. Not once does he look at me, which is fine I guess. I didn’t exactly come out here to impress the likes of him."
+mc "Actually, I think I’m going to head to bed too if that’s alright. It’s kind of late."
+"I stretch my arms over my head and let out a large yawn. Maybe it’s the warm atmosphere in this room, but I want to cuddle up under a large blanket and write. I too say my goodnight to Anjali. I give Archer a slight nod that he doesn’t acknowledge. Whatever."
+hide an-happy 
+hide ar-normal
+hide libnight
+hide Lnormal
+scene nbedroom
+show Lnormal at left
+"My bed is wonderful. As soon as I had entered my cabin, I flopped onto my queen sized bed. Now, I find myself squeezed comfortably between stacks of pillows and blankets I’ve surrounded myself with."
+"My laptop is perched comfortably on my lap. I begin typing. I’m not incredibly inspired, but I’ve been in the habit of writing daily. It helps me get the word count I’d like and then I edit all of the jumble when the story is done."
+"Tonight, I only get a few words in before I put my laptop to the side. My thoughts keep returning to everything that’s happened today. Archer Lane. I didn’t even care about him before today but now I have to practically be his maid."
+" I wouldn’t mind so much if he didn’t keep giving me the cold shoulder. But that probably requires me to fall all over him and do as he wishes, which I’m not going to do. I’ll do all that my job requires but nothing more."
+"I guess I can worry about that tomorrow…"
+hide Lnormal 
+stop music
+hide nbedroom
+scene black
+scene chpt1 with Dissolve (1.0)
+pause
+scene black
+play sound "phone.ogg"  
+show Lnormal at left
+"I’m awoken from my peaceful slumber by the sound of the phone ringing. It’s not my cellphone, rather the landline that Anjali has set up in the kitchen. At first I try to ignore it but the ringing is incessant and so I have no choice but to drag myself out of bed." 
+stop sound
+play sound "phone.ogg"
+scene kitchen 
+"The floor is ice cold. I remember Anjali telling me that Riversone can get absolutely frigid. Right now I want to curl up in my blanket and close my eyes. But, that won’t get the phone to stop ringing, will it?"
+show Lnormal at left
+stop sound
+mc "Hello?"
+"I’m sure I’m slurring my words as I adjust to the real world."
+"Anjali" "Good morning! Did you sleep well?"
+"Anjali sure is chipper this morning."
+mc "Morning. The bed was comfy. I’d actually like to sleep more though."
+"Anjali" "No can do, Cadet. I need you down here at the barracks."
+hide Lnormal
+show Lsad at left
+"At the mention of the word cadet, my chest tightens. Craig and I used to play soldier all the time. He was the energetic sergeant and I, his unwilling pledge."
+"He used the title of cadet when referring to me because he saw it in some movie once and admitted one day when we were both much older that he thought it’d make me more willing to participate in his little activities."
+"I’m sure Anjali knows this. The reminder of Craig is also a reminder that I’m not the only one hurting. One of us is just better at holding herself together than the other. I shouldn’t let small triggers ruin my day. Craig would not want that."
+"Anjali" "Lilah?"
+"I’ve been silent for too long. Oops."
+mc "Er, sorry...it might be the connection. You want me there now?"
+"Anjali" "In a bit. I’m making breakfast in the Inn’s kitchen. Will you be joining me or eating there?"
+hide Lsad
+show Lnormal at left
+mc "Oh, I can join you. That’d be really nice."
+"Anjali" "Ok great. Come on over. After we eat, I’ll show you what you have to do today."
+mc "Ok, see you soon."
+if No:
+    "Anjali" "Wait, before you hang up...I just want you to know that I gave Archer the agreement after you left last night."
+    "Ugh. I had actually forgotten about that."
+    mc "Did he say anything stupid?"
+    "Anjali" "Lilah, come on now. Be nice."
+    mc "So then he just accepted the document without a single remark? That’s hard to believe."
+    "Anjali" "Uh...not exactly. But he was relieved to have your cooperation."
+    "I can imagine why he’d be relieved. Though, now I’m even more on edge. I have to do everything the way he wants or risk a lawsuit. Definitely what I want to think about on my first day of work."
+else:
+    "Anjali and I say our goodbyes before I hang up. It will be nice to eat with her. I wonder what she’ll be making." 
+    "Today I feel like wearing something simple. I quickly get changed and head over to the Red Turtleneck Inn."
+hide kitchen
+scene green 
+play music "Home.ogg"
+show Lnormal at left
+"I pass through the empty lobby and a sudden realization hits me. It really is only me, Anjali, and Archer in this place. I’m not used to the peaceful energy. Everything is so high strung back home in the city."
+"I’m careful to be quiet so that my footsteps do not wake the angry beast upstairs. It’s too early to deal with his smart mouth." 
+hide brown
+scene corner
+"Anjali has her back to me when I first enter the small room. She looks hard at work." 
+hide Lnormal
+show Lhappy at left
+mc "Morning."
+show an-happy
+"Anjali looks up at me with a sweet smile."
+"Anjali" "Just in time. Last night after you left I wasn’t tired so I made some paratha. I just reheated it for our breakfast."
+mc "Yes! I love your paratha, Anjali! Thank you!"
+"Anjali brings the flattened bread over to me. It smells really good."
+"Anjali" "My mother taught me how to make this, so you should be thanking her."
+"She places a piece from the top of the stack onto a plate and puts it onto the table. I grab a seat and wait for her to sit down across from me." 
+"Anjali" "I made this at least twice a week for your brother."
+"I nod as I take a bite. I can see why Craig liked this dish so much. It’s simple yet delicious. The flaky texture and warm temperature makes it easy to scarf one piece down and reach for another." 
+mc "So GOOD."
+"Anjali" "I’m glad you’re enjoying it."
+hide an-happy
+show an-normal
+"I munch happily as Anjali begins to explain today’s duties." 
+"Anjali" "First and foremost, Mr. Lane is your top priority because he’s a guest at the Inn. The customers are always first. You can check the hallway for any dirty linen."
+"Anjali" " Then, of course ask if there’s anything you can do for him should you two make contact. He’s expressed his desire for his privacy, so keep your distance unless he initiates the meeting."
+hide Lhappy
+show Lnormal at left
+mc "So basically, just go upstairs and see if Archer left anything in the hall, drop off some fresh toiletries and then avoid him? Can do. What’s next?"
+"Anjali" "When everything's said and done, I need you to do inventory. You’ll note how much of each supply the Inn is stocked with and then together we’ll purchase the necessary supplies. After that, if it seems like Archer isn’t in need of anything, you’re free to take off early and do as you please."
+mc "Ok, I can manage that."
+"Anjali" "There is a festival coming up on Saturday. I’m going to give you the day off. Just make sure you finish everything we set out to do."
+hide Lnormal
+show Lhappy at left
+mc "Sweet! What kind of festival is it?"
+hide an-normal
+show an-happy
+"Anjali" "Riversone’s own Snow Festival. You can eat delicious food and do all sorts of activities. It’s really a good time. You can’t miss it."
+mc "Are you going to come with me?"
+hide an-happy
+show an-normal
+"Anjali" "I usually hang around a bit if I can get someone to watch the Inn. Usually, we have guests so we can’t just lock it up."
+hide Lhappy
+show Lnormal at left
+mc "I can watch the hotel. You go and have fun."
+"Anjali" "Absolutely not! I go every year. I can miss it once. Besides, I don’t know if I like the prospect of you and Archer alone together. Could be explosive."
+mc "Nope, definitely not now that I signed his agreement. I’ll be on my best behavior."
+"Anjali" "Anyway, I really think you’ll enjoy it so I want you to go."
+"Anjali seems adamant that I go. It must be a really fun time."
+mc "We can split the day. I can go at night. How long is the festival?"
+"Anjali" "The entire weekend so we can worry about it when the time arrives."
+mc "For now I should finish the task at hand, right?"
+"Anjali" "Well, if you’ve finished your breakfast, it isn’t a bad idea."
+"I stand up."
+mc "Point taken."
+"Anjali begins cleaning up and gently pushes me away when I try to help."
+"Anjali" "Go and get a small bottle of conditioner, shampoo, and some toilet paper and towels from the room across the hall."
+mc "I nod and leave."
+hide an-normal
+hide Lnormal
+scene black with Dissolve (1.0)
+"Once I have everything, I make my way upstairs. I’m planning a stealthy drop off and pick up. Archer won’t even know I’ve been up there!"
+scene brown
+show Lnormal at left
+"I quietly make my way up the stairs, which isn’t too hard if I take it one step at a time. When I reach the top, it’s as simple as placing the stuff gently against the wall. There’s nothing outside the door which just tells me that Archer is probably sleeping in, which is perfect." 
+"I turn to leave when…"
+stop music
+play sound "Interlude.ogg"
+"A loud noise jolts me out of the peaceful silence." 
+hide Lnormal 
+show Lblush at left
+play sound "Interlude.ogg"
+"My phone begins ringing uncontrollably. I fumble to stop Thomas De Luca’s gorgeous voice from serenading me. I’m an idiot, I realize. I forgot to turn off my alarm when Anjali called me this morning. I was planning on waking up just a little bit later." 
+"I finally get the song to stop playing, but the damage has already been done."
+stop sound
+play sound "OpenDoor.ogg"
+show ar-mad 
+"A disheveled, but fully dressed pop star opens the door and is, you guessed it, glaring at me as if I have been sent from Satan himself to smite the singer."
+voice "A26.ogg"
+"Archer" "You disturb me up with Thomas De Luca of all things. Really? You are seriously not the person I want to be dealing with this early."
+hide Lblush
+show Lmad at left
+mc "A simple thank you would have done fine."
+"I point to the toiletries and towels I’ve brought up for him. Archer rolls his eyes and crosses his arms over his chest. Come on. Is a thank you really that hard? He can’t be this rude, can he?"
+"Well, now that I think about it, the whole thing probably means nothing to him because I signed a legal document preventing me from slandering him publicly."
+"Jerk."
+voice "A27.ogg"
+"Archer" "I can’t thank a De Luca fan. Honestly, I’m not even surprised that you like him."
+mc "What is that supposed to mean?"
+voice "A28.ogg"
+"Archer" "He’s mediocre."
+mc "Are you implying that I’m mediocre?"
+hide ar-mad
+show ar-sad
+voice "A29.ogg"
+"Archer" "Did I say that?"
+mc "You didn’t have to."
+"I’m fuming. First of all, let’s get this off the table: Thomas De Luca has good music. His album “TDL” has some of the best lyrics I have ever heard. His voice is not hidden behind all the production that Archer uses on his tracks."
+"Archer doesn’t apologize. Instead, he begins berating me again."
+hide ar-sad
+show ar-mad
+voice "A30.ogg"
+"Archer" "You were to drop off the necessities without bothering me."
+mc "I was trying, but then you opened the door and started talking to me about my alarm."
+voice "A31.ogg"
+"Archer" "Your alarm? You’ve got to be kidding me."
+hide ar-mad
+show ar-normal
+"He takes in a large breath."
+voice "A32.ogg"
+"Archer" "I don't understand you."
+"He gently pushes me to the side and walks out into the hallway." 
+play sound "doorclose.ogg"
+"The door makes a loud click as it shuts."
+mc "Um...what are you doing?"
+voice "A33.ogg"
+"Archer" "Leaving. So don’t touch my stuff." 
+"I want to yell at him and say that I’m legally barred from even entering his room. But, instead I’m too dumbfounded by the fact that Archer Lane put his hands on me and literally moved me out of his way."
+voice "A34.ogg"
+"Archer" "This is going to be a reoccurring thing with you, isn’t it? You just stand there and stare at me."
+mc "Your toiletries."
+"That’s all I can muster, despite wanting to say so much more."
+voice "A35.ogg"
+"Archer" "They’re not going anywhere. I’ll be back."
+"He actually waves me off and bounds down the stairs with the energy of someone who has just heard some really good news."
+"I have no choice but to follow him as the rest of today’s duties are downstairs."
+hide ar-normal
+show black with Dissolve (1.0)
+scene green
+show Lnormal at left
+show an-normal
+"Anjali" "Ok Mr. Lane, do enjoy your day!"
+"She waves at him as he walks out of the Inn. Who knows where he’s even going."
+"Anjali" "Everything went well, Cadet?"
+hide Lmad
+show Lhappy at left
+mc "Aye aye ma’am."
+hide an-normal
+show an-happy
+"Anjali" "That’s a pirate, but I’ll take it. Next up is stock inventory. It’s a little boring but it'll go by quickly with the two of us."
+hide Lhappy
+hide an-happy
+scene black with Dissolve (1.0)
+scene green
+show Lnormal at left
+show an-normal
+"After a few hours, the inventory is finally done. What a drag."
+"Anjali" "Alright. You’re free to go do as you please."
+mc "I think food is a good idea."
+"Anjali" "I can’t leave the Inn unattended. But, you can check out the town a bit. You haven’t seen it all, I’m sure."
+"She holds her hand up in front of me."
+"Anjali" "And before you say anything, no I don’t mind. Go ahead and have fun."
+mc "I was hoping I could eat here, actually. I want to hang outside of the Inn."
+"Anjali" "That’s a good idea. Let me whip something up for us."
+scene black with Dissolve (1.0)
+play music "ThinkingofYou.ogg"
+scene patio
+show Lnormalout at left
+show an-normal
+"Anjali" "It’s going to snow soon."
+"I finish chewing and place my food back into my plate."
+mc "How can you tell?"
+"Anjali" "It usually happens around the time of the festival, hence the name."
+mc "The Snow Festival."
+"Anjali" "Yep, exactly."
+"It’s so peaceful out here on the back porch of the Inn. There are a few tables and chairs spread about the maroon wood deck. Beyond that is the most amazing view of any backyard I’ve ever been into. I forget my burdens as I stare into the vast forest."
+"Riversone is a beautiful place and I’m surprised that more people are not clamoring to be out here, especially during the holiday season." 
+"Anjali" "Dollar for your thoughts?"
+hide Lnormalout
+show Lhappyout at left
+"I smile because she never says penny. Anjali always tells me that my thoughts are worth so much more than a single penny. The dollar is to entice. Then you charge more. Afterall, she always says, my thoughts are worth an incredible amount. She has an interesting outlook on life."
+"Anjali wasn’t born and raised in America, rather Pakistan where her mother owned a restaurant and her father took care of the finances. She’s one of two children who have left their homeland for better educational opportunities."
+"Then, she met Craig in a mandatory math class at University and the rest is history."
+mc "I just love it out here. Being from the city, the most foliage you see in one place is in someone’s backyard, or a park. The open wilderness is so much different. I feel so relaxed."
+"Anjali" "Ah, yes. Living in the big city and commuting always felt like such a drag to me. This open space...nature, is what I live for."
+mc "I’d like to take Marina around in this huge open space."
+hide an-normal
+show an-happy 
+"Anjali" "Aw, how is the little girl?"
+mc "Not so little anymore! She’s like 35 pounds."
+"I reach into my jacket pocket for my phone so I can show Anjali a picture of my French Bulldog, Marina. But when the smartphone is in my hands I start to think of Archer and his scowl from this morning." 
+hide Lhappyout
+show Lsadout at left
+mc "Hey, uh- do you know who Thomas De Luca is?"
+hide an-happy
+show an-normal
+"She ponders the name for a minute."
+"Anjali" "My gut is telling me he’s a singer."
+hide Lsadout
+show Lnormalout at left
+mc "Your gut would be right. He’s fairly new on the scene, but he’s really good."
+"Anjali" "So, what about him?"
+"I think about telling her about what happened earlier with Archer but decide against it. It isn’t important."
+mc "I was just wondering."
+"When we’re done eating, Anjali insists I take a walk around Riversone. I stand up and help her clean up
+the mess we made before I head out."
+hide an-normal
+stop music
+scene park
+play music "Autumn.ogg"
+show Lnormalout at left
+"When we’re done eating, Anjali insists I take a walk around Riversone."
+"I decide to visit a park where I can sit down and get some writing done. I need a new idea. The mystery guy thing isn’t going to work if Archer finds out it’s modeled after him. He’d sue me for the little I have to mine and my family’s name." 
+"My fingers begin to feel numb. I have been typing for at least twenty minutes and the cold is finally catching up to me. I’m sitting on a bench in the mostly vacant park. There is someone clearing out the trash bins, but besides that it’s just me." 
+"It is Tuesday at 4’oclock. Everyone must still be at work and school. Plus, it is rather chilly out. Maybe people are indoors by the fire."
+"Rubbing my hands together generates some warmth. It’s not a lot, but probably enough for me to keep brainstorming. I now have an elderly woman character with a fleshed out back story. But what about the conflict?"
+show Lsadout at left
+play sound "footstepsOutside.ogg"
+mc "Ugh!"
+hide Lsadout
+show Lnormalout at left
+"The footsteps approaching aren’t loud but for some reason I can’t focus when I hear them. For a second, I see blonde hair poking out from the bottom of a beige beanie." 
+hide Lnormalout
+show Lblushout at left
+"Archer! He doesn’t seem to recognize me. The man is in his own little world as he walks through the park."
+"What do I do?"
+
+menu:
+    "Hide":
+      jump goaway
+    "Wave":
+      jump hi
+
+label goaway:
+    hide Lblushout
+    show Lnormalout at left
+    "I don’t want him to see me. He’s definitely not going to come up and talk to me if he does, but I’d like to avoid the awkward eye contact if possible."
+    "I try Archer’s favorite tactic and pull my scarf up over my nose. To cover my eyes, I just look down at my laptop. At least that way I can pretend I’m working and not have to be polite."
+    "I wait a few minutes and when I finally look up, Archer is gone. Good riddance. Now I can finally concentrate."
+    jump moveon
+    
+label hi:
+    hide Lblushout
+    show Lnormalout at left
+    "It wouldn’t hurt to be polite. I know Anjlai will appreciate me trying my best. Besides, if I'm a tad bit nicer to Archer, he might be a tad bit nicer to me which will make my job less painful."
+    "As Archer passes by me, I wave. I think he notices it because he nods in my direction. No look of annoyance or anything. Is that a score for me?"
+    "I wait for him to pass me by nonchalantly, but he doesn’t go on his way. He keeps walking toward me."
+    show Lblushout at left
+    "Oh no. What have I done?"
+    show ar-winternormal
+    stop music
+    play sound "success.ogg" 
+    show heart:
+      xpos 700 ypos 50
+    with Dissolve (2.0)
+    pause
+    hide heart
+    hide Lblushout
+    show Lnormalout at left
+    "In a matter of seconds Archer is standing above me, still no malice on his features. I wave again."
+    "He doesn’t ask me to move over, he just sits down in the empty spot next to me."
+    voice "A36.ogg"
+    "Archer" "What are you doing out here? Don’t you have a job to do?"
+    mc "Not when you’re my only client."
+    "I point at my laptop."
+    mc "I'm writing something."
+    voice "A37.ogg"
+    "Archer" "Not gonna ask."
+    mc "Why are you talking to me anyway?"
+    "Is this some kind of prank? Archer came up to {i}me{i} to strike up a conversation."
+    voice "A38.ogg"
+    "Archer" "You waved me down."
+    mc "I was waving to be polite."
+    hide ar-winternormal 
+    show ar-wintersmile
+    voice "A39.ogg"
+    "Archer" "So, are you saying that you don’t want to talk to me?"
+    hide Lnormalout
+    show Lmadout at left
+    "His cocky grin makes me sick to my stomach. Who the hell does he think he is?"
+    "Archer Lane."
+    "That’s right. I almost forget for a minute that he’s Power Magazine's Most Successful Male Singer of 2017. Archer isn’t some regular guy strolling through the park and he keeps reminding me of that."
+    mc "What’s the answer that you’re looking for?"
+    "No use arguing with him. He just wants to hear compliments all day. I won’t give him that kind of satisfaction."
+    hide ar-wintersmile
+    show ar-winternormal
+    voice "A40.ogg"
+    "Archer" "I’m not looking for an answer."
+    mc "Which begs my original question, why are you talking to me?"
+    "I shut my laptop and twist my body to get a better look at him. Archer looks calmer than yesterday, serene almost."
+    voice "A41.ogg"
+    "Archer" "Well, I figure that if I’m going to be seeing you everyday, it would behoove me to know a little bit about you."
+    "It’s the same old tired speech over and over again from this guy."
+    mc "You don’t want some stalker going through your stuff, right?"
+    voice "A42.ogg"
+    "Archer" "Why do you insist upon putting words in my mouth? Did I say any of that?"
+    mc "No, but given our past interactions you’ve done nothing but lead to that claim. So, forgive me if I’m inclined to believe that."
+    hide ar-winternormal
+    show ar-winterhappy
+    "I feel that I need to match his formal language. He only laughs though."
+    hide ar-winterhappy
+    show ar-winternormal
+    voice "A43.ogg"
+    "Archer" "One, stop talking like that. It doesn’t suit you. Two, you signed the agreement. It’s over with. If you go into my stuff, I’ll have my attorney deal with it. I’m not concerned about that anymore. I’m really just talking to you."
+    hide Lmadout
+    show Lsadout at left
+    hide ar-winternormal
+    show ar-wintersad
+    "Maybe my confusion is written on my face because he frowns suddenly."
+    voice "A44.ogg"
+    "Archer" "I’m abrasive at times, I’m aware of that. But, am I not reasonable?"
+    "I simply shrug. I don’t have an answer for him."
+    mc "Maybe I just don’t grasp what it’s like to be you."
+    hide ar-wintersad
+    show ar-winternormal
+    voice "A45.ogg"
+    "Archer" "I don’t quite think I understand you either. You’re a strange one."
+    mc "So I’ve been told by tons of strangers. You wouldn’t be the first."
+    voice "A46.ogg"
+    "Archer" "It’s not necessarily a bad thing."
+    hide Lsadout
+    show Lmadout at left
+    mc "I didn’t say that it was."
+    "I kick my feet into the dirt. Our conversation had distracted me from the cold, but now I feel tingling in my toes as they freeze."
+    voice "A47.ogg"
+    "Archer" "No matter. We better get inside somewhere. Your teeth are chattering."
+    hide Lmadout
+    show Lnormalout at left
+    "He stands up and offers me his hand, totally uncharacteristic of the man I spoke to this morning. I don’t take it. Instead, I place my laptop in its case and stand up on my own. I don’t want him thinking that I’ve forgotten about his past behavior because of one or two of his actions."
+    mc "I think I’m going to head back to the Inn."
+    hide ar-winternormal
+    show ar-wintersad
+    "Archer retracts his hand and for a second I think I see a slight frown. If it was there, it’s now masked by his usual unimpressed expression."
+    hide ar-wintersad
+    show ar-winternormal
+    voice "A48.ogg"
+    "Archer" "Suit yourself."
+    "He slightly lowers his head, a gesture to signify goodbye, and walks away from me."
+    voice "footstepsOutside.ogg"
+    hide ar-winternormal
+    play music "Autumn.ogg"
+    "Some kind of progress has been made between us. Whether it’s good or bad, I don’t really seem to know. What I do know is that Archer Lane is just a client I’m supposed to tend to. I don’t for a second buy his sudden niceness, or what he considers to be niceness."
+    $ lane += 5
+    jump moveon
+    
+label moveon:
+    "Still...I can’t stop thinking about Archer. Where does a famous celebrity go for fun? Especially in a small town like this?"
+    "The thought of some kind of second life is exhilarating. Archer is a celebrity posing as a regular person…"
+    "There’s more to it than that. There’s got to be. He must do this often, for no one to even bat an eyelash. It’s more than just the big scarf and hat that keeps his identity hidden. He’s a pro, and there’s a story behind that too. If I could just understand his motivations, I could write a compelling character…"
+    "I try to squash that thought. I better leave before it gets too late. No use spending all my time out here thinking about Archer."
+    show black with Dissolve (1.0)
+    hide park
+    hide Lnormalout
+    stop music
+    scene bathroom
+    "Play music: warmth."
+    show Lnormal at left
+    "I dry my hair off with a towel and throw it up into my usual messy bun. There’s not much to do tonight. Anjali has some paperwork to fill out and I don’t think Archer needs my help with anything. A hot shower has warmed me right up and now I want to do something relaxing."
+    "When I’m in a creative rut, I watch movies to see how other filmmakers have accomplished their goals. It’s inspiring, so I’m always watching movies."
+    "I leave the bathroom in search of my laptop and a comfy pair of sweats. I’ll be sitting in the lobby of the Inn, so I don’t need an extravagant outfit."
+    hide bathroom
+    scene libnight
+    "I stretch my legs out across the floor. Anjali has lit the fireplace and brought me a thick comforter and fluffy pillow before returning to what she was doing. I’ve made myself a comfortable setup. It’s the perfect setting for a movie night. This is what I call relaxation."
+    "What should I watch? A love story? A drama? A comedy? All three? Oh! Maybe a mystery!"
+    "If I can only get this wifi to connect…"
+    hide Lnormal
+    show Lmad at left
+    "After a few minutes of fumbling, I let out a frustrated cry. It’s no use, the connection is weak."
+    show ar-mad
+    voice "A49.ogg"
+    "Archer" "You sound like a dying animal, are you alright?"
+    "The prince has arrived to ruin my night."
+    hide Lmad
+    show Lnormal at left
+    mc "I was just trying to stream a movie but the wifi signal is weak today."
+    "I look up at Archer and see a disheveled man. His wet hair is sticking to his face. His beanie and scarf are lying on the lobby desk behind him and there are three plastic bags in between his legs. Yet, he’s asking if I’m alright."
+    mc "Do you need a towel or something?"
+    "I remember that it’s my job to make sure Archer is enjoying his stay. Even if that means getting up out of my comfy seat."
+    voice "A50.ogg"
+    "Archer" "Yeah, please?"
+    "Urgh okay….I get up off of the floor and head towards the supply closet where Anjali holds the towels."
+    hide Lnormal
+    show black with Dissolve (1.0)
+    scene libnight
+    hide ar-mad
+    show Lnormal at left
+    show ar-normal
+    "When I return, Archer is sitting on one of the chairs looking down at his phone. I toss the towel to him which he’s able to catch effortlessly."
+    voice "A51.ogg"
+    "Archer" "Thank you."
+    "He moves to dry his hair as I awkwardly sit in the chair next to him. What do I do now?"
+    voice "A52.ogg"
+    "Archer" "It's snowing out."
+    "Thankfully Archer breaks the silence because I have no idea what to say."
+    mc "That would make sense."
+    "I motion to the towel in his hands. It must be a heavy downfall for him to be soaked like that."
+    mc "Anjali told me that it usually snows around the time of the Snow Festival. Must be holiday magic."
+    "I’m tip toeing with my words around Archer. He hasn’t insulted me yet. I don’t want to shatter this calmness."
+    hide ar-normal
+    show ar-sad
+    "Archer scoffs."
+    voice "A53.ogg"
+    "Archer" "Holiday magic. You don’t actually believe in that do you?"
+    mc "Why not? You might be in the wrong place. This whole town seems to believe in it. You can’t walk a block without seeing a candy cane or something."
+    hide ar-sad
+    show ar-normal
+    voice "A54.ogg"
+    "Archer" "I’m not a scrooge but Holidays have become about spending and making money. There’s no magic in that."
+    mc "In the big cities maybe, but I don’t really get that vibe here. You should go to the Snow Festival this weekend to change your mind."
+    "Could there be a chance of changing Archer’s mind? He has Christmas albums and I’ve seen him in Holiday themed commercials on television."
+    "It would make sense if that’s all a ploy for money. In that case, I can see how he would hate the Holidays. Everything he does is probably to sell himself to the public. It suddenly occurs to me…"
+    mc "Is that why you’re out here on your own with no publicist or anything?"
+    hide ar-normal
+    show ar-mad
+    hide Lnormal
+    show Lsadblush at left
+    "I regret my question the minute I see Archer’s face twist in anger. I place my hands up in front of me."
+    mc "Forget I said anything."
+    voice "A55.ogg"
+    "Archer" "You didn’t read the agreement."
+    hide Lsadblush
+    show Lmad at left
+    mc "I did."
+    voice "A56.ogg"
+    "Archer" "All of it? Even page 7 section c?"
+    hide Lmad
+    show Lblush at left
+    mc "I uh..."
+    hide ar-mad
+    show ar-normal
+    voice "A57.ogg"
+    "Archer" "You didn't read it."
+    mc "It was really long and non disclosure agreements are self explanatory aren’t they?"
+    voice "A58.ogg"
+    "Archer" "You’re insufferable. The agreement concludes with the statement that you will not ask any questions about my personal life."
+    "Can he even do that? Is that legal?"
+    hide Lblush
+    show Lsadblush at left
+    mc "Sorry I asked then..."
+    "...And there was the end of an almost golden conversation."
+    voice "A59.ogg"
+    "Archer" "Alright, I can’t get any wifi either and I don’t want to bother your aunt."
+    hide Lsadblush
+    show Lnormal at left
+    mc "She’s my sister-in-law actually."
+    "Archer is a confusing person. I can’t tell if he hates me or not. At times, he’s tolerable. Others, not so much."
+    play sound "plasticbag.ogg"
+    "Archer fishes in one of his bags until he finds what he’s looking for. He holds up the old DVD and cracks a small smile."
+    hide ar-normal
+    show ar-happy
+    voice "A60.ogg"
+    "Archer" "Got this bad boy for a steal."
+    mc "Good Riddance Old King? Dude, that movie is terrible."
+    hide ar-happy
+    show ar-normal
+    voice "A61.ogg"
+    "Archer" "What?"
+    mc "I don’t mind that the movie was filmed in the 70s. I appreciate the camera angles, but the script itself...so cheesy."
+    voice "A62.ogg"
+    "Archer" "No no. You’re not watching it the right way. It’s meant to be cheesy. 70s comedy at its best. Put your mind in that time."
+    hide ar-normal
+    show ar-happy
+    "As Archer talks about the film, I notice the corners of his lips turning up into a vibrant smile. He’s a big fan of the movie and it seems like he’s forgotten all about his outburst a minute ago. Another side of Archer, this one much more relaxed. How many sides are there? Do I even want to know?"
+    "Here goes nothing."
+    mc "Maybe we can watch it?"
+    hide Lnormal
+    show Lblush at left
+    "I hold my breath. Oh, Lilah...why would I ask that? I expect Archer to get up angrily but he doesn’t."
+    hide ar-happy
+    show ar-normal
+    voice "A63.ogg"
+    "Archer" "It’s not like there’s anything else I planned on doing tonight. Can we use your laptop?"
+    hide Lblush
+    show Lnormal at left
+    "I nod, completely dumbfounded. The Archer from this morning is gone. In his place is either a really good actor or someone who isn’t a complete jerk after all."
+    "Archer places the disc into the CD tray of my laptop and starts the movie up."
+    play sound "themesong.ogg"
+    "The over the top theme music plays and I can’t help but roll my eyes."
+    hide ar-normal
+    show ar-happy
+    voice "A64.ogg"
+    "Archer" "It's so good!"
+    "Archer himself is a little over the top, so this doesn’t surprise me one bit. He begins humming along to the opening theme and drums his fingers across his thighs."
+    "I watch him carefully. Suddenly, I don’t want to watch this movie anymore. I can’t shake the feeling of apprehension. I’m afraid to say anything that might get him angry."
+    "To me, Archer is the perfect mystery. He’s full of intrigue. Yet, I want to not be so interested in his personality shifts. They’re more than just his private versus public self being on display. Ever since the man sat next to me on the train, I’ve been thinking about his story."
+    "I want to tell it. Not Archer Lane’s life, but the life of the man sitting next to me. The storyline can’t get more honest than that."
+    "But then I feel bad. It feels sort of like exploitation, being here like this. I don’t know if my desire to see into his world is just my cinematic lens talking, if it’s because of the novelty of hanging out with a celebrity, or if it’s me genuinely wanting to hang out with the guy."
+    "It dawns on me why he’s so guarded and I hate myself for not seeing it sooner. He’s Archer freaking Lane. His public self overtakes his private self. I have the luxury of going home after a long day and being a nameless face among many."
+    "I don’t have to watch what I say or do to the extreme that he does. I can simply sit down and watch a movie like this at home. Seeing how excited he is watching this movie, I wonder if he even gets to really enjoy it in his private sphere."
+    "I feel even worse now. I’m not justifying his behavior, but it makes sense. People want to exploit him, even if they don’t quite realize it themselves."
+    voice "A65.ogg"
+    "Archer" "Prepare to be dethroned!"
+    "Archer is imitating the man in the movie, obviously forgetting I’m here. He moves his arms in a grandiose fashion, only laughing when he catches my eye."
+    voice "A66.ogg"
+    "Archer" "Watch this. It’s the best part."
+    mc "The man on the screen, Sir William Dansky, stumbles on his lines and fails to deliver his punchline correctly. It isn’t 70s comedy, just a low budget movie. The jokes are terrible and the shoddy acting isn’t intentional. The actors are simply amateurs."
+    hide Lnormal
+    show Lhappy at left
+    "The room fills with the sound of Archer’s laughter. It’s contagious and the laughter leaps out of me."
+    voice "A67.ogg"
+    "Archer" "Told you, it’s good."
+    mc "I wouldn’t say that, but okay."
+    hide ar-happy
+    show ar-normal
+    voice "A68.ogg"
+    "Archer" "Besides the jokes, what’s so bad about it?"
+    hide Lhappy
+    show Lnormal at left
+    mc "The dialogue isn’t as witty as you think it is. Not to mention the acting is just plain bad."
+    "I want to say more but I stop myself."
+    voice "A69.ogg"
+    "Archer" "We’re never going to be on the same page, are we?"
+    "I shake my head.  Archer and I are in two different books completely. He’s an anthology and I’m a simple chapter book."
+    hide Lnormal
+    show Lsad at left
+    mc "I suppose not. We’re from two different worlds."
+    "Archer is silent. His gaze is on the screen of my laptop. Even now with us sitting together, he feels untouchable."
+    voice "A70.ogg"
+    "Archer" "We’re both from planet Earth. We’re both humans."
+    "Archer’s tone is serious."
+    mc "That’s not what I meant. You made it clear the minute you walked in this lobby that you’re a big celebrity and I am the hotel worker, or that weird girl from the train."
+    hide ar-normal
+    show ar-smile
+    voice "A71.ogg"
+    "Archer" "Don’t forget about the over zealous girl who followed me in the supermarket."
+    hide ar-smile
+    show ar-normal
+    mc "Point is, we’re not on a level playing field."
+    voice "A72.ogg"
+    "Archer" "Celebrities aren’t their own species. We’re people too."
+    mc "People don’t make other people sign non disclosure agreements."
+    voice "A73.ogg"
+    "Archer" "Should I explain to you again why that agreement is important? I didn’t have you sign it to avoid having to see you. It’s a safety measure."
+    "I hold up two fingers."
+    hide Lsad
+    show Lnormal at left
+    mc "Two different worlds, buddy. Just accept it."
+    $ movefast = MoveTransition(0.5)
+    show ar-normal at left with movefast
+    show an-normal:
+       xpos 400 ypos -50
+    "Anjali enters the room with a smile. She must be done with her work."
+    "Anjali" "Are you two playing nice?"
+    hide Lnormal
+    show Lblush at left
+    "Startled, I nod as quickly as I can. Archer is much more nonchalant."
+    voice "A74.ogg"
+    "Archer" "For the most part."
+    "Anjali" "Very good."
+    hide Lblush
+    show Lnormal at left
+    "She peers at the laptop screen and gives us a thumbs up."
+    hide an-normal
+    show an-happy:
+        xpos 400 ypos -50
+    "Anjali" "Is that Good Riddance Old King? What a good movie!"
+    "Archer taps my arm softly. When he has my attention he motions to Anjali appreciatively."
+    hide ar-normal
+    show ar-smile at left
+    voice "A75.ogg"
+    "Archer" "See? It’s a good movie!"
+    "Anjali" "To our, or at least my, commoner tastes. Lilah is a film connoisseur. She premiered her own movie at a film festival."
+    hide Lnormal
+    show Lblush at left
+    "I can feel my face pale. Anjali, no! I’m so embarrassed. She is telling a man who has appeared in many movies himself that I’m some kind of big shot when all I did was appear in some small independent movie festival in New York and fail."
+    hide ar-smile
+    show ar-normal at left
+    voice "A76.ogg"
+    "Archer" "Is that so?"
+    hide Lblush
+    show Lsadblush at left
+    mc "Nothing compared to you, oh great one."
+    hide ar-normal
+    show ar-mad at left
+    "Archer looks angry at what I said."
+    voice "A77.ogg"
+    "Archer" "Can’t you be serious for one second? A film festival is a big accomplishment. That’s your future."
+    hide an-happy
+    show an-sad:
+        xpos 400 ypos -50
+    "I lower my eyes at Archer. He’s right and it’s definitely the validation I need but...I just don’t understand this man. Why does he care?"
+    "I shrink away from his attention. My film career is still a sore spot for me."
+    hide Lsadblush
+    show Lmad at left
+    mc "What was it you said earlier? Not to ask you questions? Well, same."
+    "I stand up and dust off my pants."
+    hide Lmad
+    show Lnormal at left
+    mc "I’m going to bed now. You can watch the rest of the movie on your own laptop."
+    "I eject the disc from my computer and hand it back to a disgruntled Archer. I don’t mean to sound rude but it comes out that way. I don’t want to talk to Archer about my failure of a creative career. I turn to Anjali."
+    hide an-sad
+    show an-mad:
+        xpos 400 ypos -50
+    mc "Need help closing up?"
+    "Anjali" "I've got it."
+    "She’s frowning but I don’t want to divulge so much information to a man whom I will never see again. Why does he need to know? It is the kind of information I’d discuss with a friend, considering how close to home Snowdrop is to me. Archer and I aren’t exactly best friends."
+    "Not to mention I don’t want to come across as a person looking for doors to be opened for them. Archer more than likely has connections in the film industry. He made it abundantly clear yesterday and this morning that I should not cross his boundaries."
+    "The last thing I need is for him to think that I’m trying to use him."
+    mc "Good night Archer."
+    hide ar-mad
+    show ar-sad at left
+    voice "A78.ogg"
+    "Archer" "Night, Lilah."
+    "The annoyance from mere seconds ago is replaced with a tone of dejection and then a look of realization that spreads across his face."
+    hide Lnormal
+    show Lsad at left
+    "I leave with a heavy heart, but I don’t fully understand why. I want to get to know him, but I also know it isn’t possible."
+    show black with Dissolve (1.0)
+    scene chpt2 with Dissolve (2.0)
+    pause
+    play sound "Interlude.ogg"
+    show black with Dissolve (2.0)
+    pause
+    scene nbedroom
+    show Lnormal at left
+    "I wake up to the sound of my own alarm which startles me because I’ve grown accustomed to Anjali’s early morning wake up calls. I check the time, 9:00 am. She let me sleep in?"
+    "Oh, that’s right! Today is the Snow Festival and I get the day off. No having to deal with Archer’s superiority complex this morning, which I’m thrilled about."
+    "It’s like these past few days Archer has forgotten about our movie night. He has gone back to treating me as cold as ice. I pay it no mind. It makes more sense to me this way. He is the unruly client, and I the indifferent worker."
+    "Yet that day, Archer accepted my offer to watch a movie. Why? I keep telling myself that if I can crack that small code, I’ll be so much closer to writing a better script."
+    "It’s all about life experiences, my film professor used to say. Even if it’s a fictional story, a good screenwriter always puts what they’ve experienced in their script. It’s why we can relate to even the most absurd movies."
+    "Is a guy like Archer the conflict I need, and if so, is it worth embracing that? Because of his non-disclosure agreement I have so much at stake."
+    "What’s most important to me?"
+    "I guess it doesn’t matter much, considering I’ll probably never have the opportunity to show a more appreciative and lucrative audience one of my films."
+    "I am dressed by the time I finish my inner monologue. I am more than ready and excited to go to the Snow Festival. I push the negative thoughts out of my mind and gleefully head out into the snowfall."
+    hide nbedroom
+    hide Lnormal
+    show black with Dissolve (2.0)
+    scene snowstreet
+    show Lnormalout at left
+    play sound "PeopleAmbient.ogg"
+    "Snow pelts my face. I love being out here on the bustling street. It certainly feels like all of Riversone is at the Snow Festival. I see children excitedly tugging on their parent’s coats, dogs patiently waiting at their owner’s side, and couples both old and young holding hands."
+    "I don’t know what to do first. Maybe I can buy Anjali something as a thank you for letting me stay with her at the Red Turtleneck Inn. Whether she realizes it or not, she’s been more than helpful to me."
+    "Anjali offering her place to me in her own time of need and putting herself aside for my well-being shows just what kind of person she really is."
+    "Everyday I see why Craig fell for her. Through it all, his deployment, the PTSD, the subsequent sickness...without her, I don’t think my older brother would have held on for as long as he had. A little gift is nothing compared to what she deserves. It’s the least I can do." 
+
+menu:
+     
+    "Check out the Market Stalls":
+     jump stalls
+     
+    "Check out of the foods":
+     jump food
+
+label stalls:
+    scene snowmarket
+    show Lnormalout at left
+    "There are dozens of stands scattered about the big park. I decide to walk down the aisles of shops. Even during flea markets and farmer markets at home, there isn’t as much heart. People are displaying themselves in the art that they’re trying to sell."
+    "I can appreciate that. I know that it takes a lot of courage and strength to put yourself out there."
+    "I’m particularly drawn to the small hand carved statuettes that an older gentleman is selling. He sits down behind the table he is using as a display and begins carving a chunk of wood right before my eyes. He looks up with a warm smile."
+    que "I haven’t seen you around here before…"
+    mc "Oh, I’m working in my sister-in-law, Anjali’s, Inn. I just got here recently. My name is Lilah."
+    que "Ah, Anjali is always a doll. Her paratha is to die for."
+    "He notices my curious gaze and motions for me to come closer and get a better look at the statuette in his hand. It’s not complete yet, but it resembles a person."
+    que "My name is Willis and I have lived here for all of my life. In my day I was a contractor and certified handyman. Now I carve."
+    hide Lnormalout 
+    show Lhappyout at left
+    "I see how intricate all of his designs are and know that this is the right gift for Anjali. I just have to find the perfect statue. I can totally see her putting it right on her desk in the lobby of the Inn."
+    mc "Your work is beautiful."
+    will "Thank you. Are you interested in any of these little guys?"
+    mc "Actually, yeah. I want to get one for Anjali."
+    "Willis holds up his index finger."
+    will "Ah, say no more. I’ve got the perfect one. And because you’re a new customer I’ll give you a discount."
+    "Willis and I talk for a bit before I tell him goodbye. He’s a really friendly man and assures me that everyone in Riversone is this way. I’m happy with the statuette he picked out and am positive that it will have Anjali gushing. I walk around and enjoy the art on display, stopping only when I hear a voice."
+    jump moveontwo
+    
+label food:
+    "BG: Streetmarket"
+    show Lnormalout at left
+    "There are dozens of stands scattered about the big park. I decide to walk down the aisle that has the best smelling food. My stomach is rumbling and I’m itching to taste some of Riversone’s local favorites."
+    "My nose takes me to a stall selling waffles. I can see a woman behind the counter mixing the batter. The cashier beams brightly at me."
+    cash "Come and try Lady Lacy’s homemade waffles fresh!"
+    mc "Oh, are you guys from Lady Lacy’s Sweet Shoppe? My sister-in-law loves your gelato."
+    cash "Well it is the only place you can get homemade ice cream in Riversone."
+    mc "The only place?"
+    cash "Yeah, this place is pretty small. Are you new here? Just visiting?"
+    mc "My sister-in-law, Anjali, owns the Red Turtleneck Inn. I’m staying with her for a few months."
+    "The Cashier’s smile grows even wider at the mention of Anjali’s name."
+    hide Lnormalout
+    show Lhappyout at left
+    "It’s infectious, and I find myself smiling as well."
+    cash "Oh, how is she doing? Is she going to stop by the festival?"
+    mc "She’s doing well but I’m not sure if she’s going to stop by because there’s not that many people working at the Inn this month."
+    "The cashier holds up her finger as if she has an idea."
+    cash "She’s a doll. Please give Anjali this waffle, on the house. I’m giving you two. One for her and one for you. Any newcomer just HAS to try this. You’ll be coming back for more."
+    mc "That’s so nice of you. Thank you so much. Anjali will definitely appreciate it."
+    cash "Just tell your friends about us!"
+    hide Lhappyout 
+    show Lnormalout at left
+    "The cashier waves and I head off with the waffles in hand. I scan the area and find an empty table not too far away."
+    "Sitting down on the cold metal is slightly uncomfortable but I can’t wait to taste these homemade waffles. I hastily unwrap the foil and place the waffle on the table."
+    mc "So good!"
+    "I can’t help but exclaim when I taste the dessert. The waffle is topped with brown sugar and laced with cinnamon. The warm center is just perfect in this weather."
+    "It’s not long until I finish the waffle and place Anjali’s in my bag. I stand up, ready to see what else the festival will offer."
+    jump moveontwo
+
+label moveontwo:
+    stop music
+    scene snowstreet
+    play music "Autumn.ogg"
+    show Lnormalout at left
+    voice "A79.wav"
+    "Archer" "Following me again?"
+    show ar-winternormal
+    "I turn to see Archer standing behind me, hands on his hips. His face is once again hidden beneath his scarf and hat."
+    mc "You’re behind me, so you must be the one doing the following."
+    voice "A80.wav"
+    "Archer" "Wow, cute."
+    mc "I thought so."
+    "Archer stares at me for what feels like hours. It’s kind of uncomfortable under his gaze. So, I’m thankful when a loud voice breaks the silence."
+    que "All who wish to participate in the snowman building contest please sign up by the left field! The contest is for pairs, so please teams only!"
+    "Someone is shouting about a snowman building contest. It must be great fun to watch.Though, Archer doesn’t seem to share the same sentiment."
+    hide ar-winternormal
+    show ar-wintermad
+    "Archer" "Are we children?"
+    "Archer’s negativity is a damper on the holiday spirit."
+    mc "I don’t see why we can’t watch."
+    voice "A82.wav"
+    "Archer" "We?"
+    mc "Relax, it’s just a phrase. I’m going to watch it. You don't have to come."
+    hide ar-wintermad
+    show ar-winternormal
+    "Archer is wearing his infamous scowl and I can only roll my eyes."
+    mc "Remember we talked about you coming to the festival to get more in the spirit?"
+    voice "A83.wav"
+    "Archer" "I recall, which is why I’m here…and pleasantly surprised. The people here seem to be proud of what they do."
+    mc "And they should be. This is all so incredible. A lot of people have put themselves on display. It’s really a festival of inspiration."
+    hide ar-winternormal
+    show ar-wintersmile
+    "Archer seems pleased by this statement."
+    voice "A84.wav"
+    "Archer" "Got some ideas for a script?"
+    "That’s right. Anjali mentioned to Archer that I’m interested in making films."
+    mc "There are a lot of interesting characters in Riversone. It’s hard not to want to pick up a pen and jot a bunch of things down."
+    hide ar-wintersmile
+    show ar-wintersad 
+    "Archer frowns and for a moment I notice something. He’s hesitating. Did I strike a nerve?"
+    mc "Anyway, I’m going to be watching the snowman building contest. I’ll see you back at the inn."
+    hide ar-wintersad
+    show ar-winternormal
+    voice "A85.wav"
+    "Archer" "Have fun with your childish games."
+    mc "You know, I bet you’re just saying that because you know you’ll never win."
+    voice "A86.wav"
+    "Archer" "With my creative genius, a simple snowman will be almost mundane."
+    mc "Prove it."
+    voice "A87.wav"
+    "Archer" "I would but it’d require me to find a partner."
+    "I point to myself."
+    hide Lnormalout
+    show Lhappyout at left
+    mc "Hello! Me!"
+    "Archer shakes his head."
+    hide Lhappyout 
+    show Lnormalout at left
+    voice "A88.wav"
+    "Archer" "No, I can’t work with a De Luca fan. You have bad taste."
+    mc "I bet you my taste wins us the contest."
+    "Archer" "Fine, let’s make it a bit more interesting. If I win, you have to show me that movie Anjali was telling me about."
+    hide Lnormalout
+    show Lblushout at left
+    "My eyes widened. Snowdrop is only the most important tale of my life. I put my heart and soul into it. I don’t need Archer making fun of my vulnerability."
+    mc "No way."
+    voice "A90.wav"
+    "Archer" "I knew it. You don’t think you can win."
+    hide Lblushout 
+    show Lmadout at left
+    "I glare at him intensely."
+    mc "Fine but if we win because of me, you let me see your room."
+    "He raises a brow."
+    hide Lmadout 
+    show Lblushout at left
+    mc "Wait! No. I didn’t mean that."
+    voice "A91.wav"
+    "Archer" "So you didn’t just ask to see my bedroom?"
+    mc "No, I did but….I just want to get a glimpse of it. I won’t walk in or anything. Just open your door and let me see."
+    "I realize that didn’t make it any better. I just want to get a better idea of who Archer is. They say you can figure out who someone is by seeing the place they live in. In this case, the closest I’ll get is Archer’s room."
+    "He sighs."
+    mc "I know! I know! You don’t understand me."
+    voice "A92.wav"
+    "Archer" "I guess as long as you don’t do anything weird, it’s fine."
+    hide Lblushout
+    show Lnormalout at left
+    mc "Or violate the agreement. I got it."
+    hide Lnormalout
+    show black with Dissolve (1.0)
+    "BG: Snowpark"
+    show Lnormalout at left
+    show ar-winternormal
+    "Archer and I head over to the park where the contest is being held. He looks around in awe."
+    voice "A93.wav"
+    "Archer" "How does this much snow fall at just the right moment? It doesn’t make any sense."
+    mc "Holiday magic, buddy."
+    "Archer looks unconvinced."
+    mc "Maybe it usually snows around this time so the people of Riversone know when to plan their festival. Or, maybe the name of the festival means something other than the obvious celebration of snow having fallen."
+    "Archer rolls his eyes but doesn’t respond. Okay, so maybe there’s no reason good enough for him. I’m not surprised."
+    que "Last call for sign ups! People of all ages welcome!"
+    hide ar-winternormal
+    show ar-wintersad
+    voice "A94.wav"
+    "Archer" "Is it too late to back out now?"
+    mc "No, but we did walk all the way here."
+    hide ar-wintersad
+    show ar-winternormal
+    voice "A95.wav"
+    "Archer" "Fair enough."
+    "Archer, er...Iriving Prince, and I sign up for the intermediate level snowman building contest. Apparently there are multiple levels. Junior is for children only and advanced is for people who go as far as carving the snow."
+    hide Lnormalout
+    show Lmadout at left
+    mc "See! Not for kids!"
+    hide Lmadout
+    show Lnormalout at left
+    "Archer rolls his eyes but begins packing snow. The rules have already been explained. All we have to do is build the best snowman using things from the park in only 30 minutes."
+    voice "A96.wav"
+    "Archer" "Hey, if you don’t stop talking we won’t even finish making this damn snowman."
+    "I stick my tongue out at him but drop to my knees to begin packing the base of our snowman as well."
+    "Archer is very methodical with his actions, focusing on building the snowman up quite literally. He points to the ball of snow in my hand."
+    voice "A97.wav"
+    "Archer" "No moving pieces. Build the whole thing from the base."
+    mc "Yeah but it’d be easier to pack bigger chunks of snow than to do it your way."
+    voice "A98.wav"
+    "Archer" "What? No it wouldn’t. The snow you packed could break."
+    mc "But your way will take too long and we won’t finish in time."
+    "He stops long enough to glare at me. I want to wipe that stupid look off of his face. In fact…"
+    "Before I can rationally talk myself out of it, I toss the large chunk of snow in my hands at Archer’s covered face."
+    "He looks startled for a moment before standing up. Then, he leans down and grabs a fistful of snow."
+    hide Lnormalout 
+    show Lblushout at left
+    mc "Don’t do it."
+    "I try to warn him, but he steps closer and launches the snow at me. My face is cold but I am not backing down."
+    hide Lblushout
+    show Lmadout at left
+    mc "It’s so on!"
+    "Archer pulls up his scarf as if realizing he’s out in the public and shakes his head."
+    hide ar-winternormal
+    show ar-winterblush
+    voice "A99.wav"
+    "Archer" "Uh...wipe your face."
+    show Lnormalout at left
+    "I use my scarf to dry up the cold snow but it does nothing to warm me up. Being with Archer like this, even I forget that he’s a celebrity. Maybe an all out snowball brawl isn’t the best idea. I don’t want people to recognize him."
+    hide ar-winterblush
+    show ar-winternormal
+    voice "A100.wav"
+    "Archer" "At the inn, when we don’t have to worry about all this…"
+    "He motions to his face."
+    voice "A101.wav"
+    "Archer" "I will crush you."
+    mc "I doubt it, but you can certainly try."
+    voice "A102.wav"
+    "Archer" "I’ll have you know, my hand eye coordination is top level."
+    mc "On what scale?"
+    "Just then, a judge walks by our partially formed snowman. She places a hand under her chin and stares at the two of us."
+    judge "You two are falling behind the others, but there’s still time to catch up. Lilah Scott and Irving Prince correct?"
+    "After I nod, the woman looks down at the clipboard in her hands and then gives us an exaggerated smile."
+    judge "Newbies always take this competition for granted, but we have some really good prizes. So, try your hardest."
+    "Huh? Did she just say that people take this competition for granted? Maybe I misread how serious snowman building is in Riversone. Archer is unamused with her passive aggresive tone, and rightfully so."
+    voice "A103.wav"
+    "Archer" "We’re not interested in any prizes."
+    judge "Even front row tickets to the tree lighting in the town square? Because, those are a hot commodity. I mean, you’re welcome to stop by anyway next weekend but these tickets put you in the best spot."
+    hide ar-winternormal
+    show ar-wintersmile
+    "Archer smiles, and I know it’s because he could get those tickets easily if he exposed who he was. I’m kind of glad that he isn’t the kind of person who flaunts his fame around."
+    "There’s a lot of ways that Archer has proven that he can be a jerk, but it isn’t because he throws it in your face that he’s rich and powerful."
+    "After all, he’s in this small town of all the places in the world that are more lavish and flashy. Another curious thing about him that I want to find out more about."
+    hide ar-wintersmile
+    show ar-winternormal
+    hide Lnormalout
+    show Lblushout at left
+    "Archer raises a brow when he looks at me. I look away quickly, as if he could read my thoughts."
+    voice "A104.wav"
+    "Archer" "You want those tickets, don’t you?"
+    "Oh! That’s what he’s getting at. Good."
+    "But now that I think about it, I do want those tickets. Well...I mean, not for me. For Anjali! It’s not because I never ever get to see the tree lighting in New York City up close. Nope. Not for me."
+    judge "Everyone in Riversone does. On top of that, you get a gingerbread village baked by Lady Lacy herself! So try your best. There’s still some time left to fix this mess."
+    hide Lblushout
+    show Lmadout at left
+    "While our snowman is barely a snowman, really just a foundation, it is by no means a mess. Looking around, I notice that most of the snowmen from the other contestants are already two thirds of the way built."
+    hide ar-winternormal
+    show ar-wintermad
+    voice "A105.wav"
+    "Archer" "I think we’ll manage. Thank you."
+    "When the judge leaves, I can’t help but bite my lip and rub my gloved hands together."
+    hide Lmadout
+    show Lnormalout at left
+    mc "Snowmen competitions are serious business here."
+    hide ar-wintermad
+    show ar-winternormal
+    "Archer" "I don’t like to lose, Lilah."
+    mc "I don’t imagine you’re used to it, either."
+    "Which may be why he hates Thomas De Luca for stepping onto the scene and questioning his spot at the top of the pop artist pyramid."
+    "Archer" "Of course not. I suggest we put aside our differences for the time being and win this competition. We’re both creative individuals, we can do it."
+    mc "Maybe, but it might be nicer to see you taste some humble pie. You know, seeing you lose might be better than those tickets to the tree lighting."
+    "Archer" "My pride can take the hit."
+    hide Lnormalout
+    show Lhappyout at left
+    mc "Can't it?"
+    hide Lhappyout 
+    show Lnormalout at left
+    "Despite my jovial tone, I lean down into the snow and pick up a fistful once again.I toss it in my hands and try to look as serious as I can to Archer."
+    mc "Okay, let’s do it. But if we win, those tickets go to Anjali."
+    voice "A109.wav"
+    "Archer" "I’m not against that. The woman is a saint for putting up with you."
+    mc "Me? Right, because I’m the one dealing with you."
+    voice "A110.wav"
+    "Archer" "And I’m the perfect guest. There’s hardly any work you need to do."
+    "I ignore his remark and instead redirect him to our snowman."
+    mc "I know you said no moving pieces but we’re better off having someone build the base and the body and then having the other do the head separately. We’ll save some time."
+    voice "A111.wav"
+    "Archer" "Fine, go for it. But the face is the money maker so don’t make it an ugly snowman."
+    mc "We just need to make it distinct! You build your base and let me worry about the details, okay?"
+    "Archer and I have called off our bet in favor of working together to make the best snowman. Apparently, Archer doesn’t like coming in second place and those tickets might be the best gift I can give Anjali. So it’s a win win situation for both of us."
+    "Besides, seeing him so intensely motivated for something he said was for children to begin with makes me smile. For once I feel like I’m seeing the guy off of the screen and not some projection meant to protect himself."
+    "Archer builds up the base quite nicely. He pats around the sides, making both the base and the abdomen of the snowman perfectly round. I don’t know how he manages it, but Archer’s style is very meticulous. The head I’m holding in my hands is much more rough. It has edges that I can’t seem to smooth down."
+    voice "A112.wav"
+    "Archer" "Place it on top and then we can decorate."
+    "Archer looks so focused, and I’m honestly shocked when he doesn’t make a rude remark about how my work is much less perfect than his. He helps me place the lump of snow firmly on top of our snowman and then gets to work on patting down the sides."
+    " I watch him in awe. Archer tackles every single imperfection."
+    voice "A113.wav"
+    "Archer" "Give her some features. A face, a nose, some hair?"
+    mc "Oh, she’s a her?"
+    voice "A114.wav"
+    "Archer" "Mhm. A strong independent snow woman."
+    "I can’t help but laugh and Archer winks at me. It’s so sudden that I just stare at him for a few seconds, trying to convince myself of what I’ve seen."
+    voice "A115.wav"
+    "Archer" "Well?"
+    mc "So uh... hair, eyes and a nose. Maybe a scarf and some arms!"
+    "Rules state that anything in nature can be used to construct the snowman. It’s easy to find some rocks lying around for her eyes and some sticks for her arms. But there isn’t much else besides snow that I can see around us. Still, it doesn’t hurt to make a quick sweep of the area."
+    show black with Dissolve (1.0)
+    "BG: Snowpark"
+    voice "A116.wav"
+    "Archer" "Do you think we can use sticks to outline a shirt?"
+    "I see Archer holding a stick up to the chest of our snow woman when I return. He tilts his head, trying to figure something out."
+    mc "Do we have enough time to fill it in with some stones? It could be like a sweater. We just push the stones in the front and the back."
+    voice "A117.wav"
+    "Archer" "I don’t see why not. I like it better than the stick idea. Do you want me to get the stones?"
+    mc "You have a better eye for this kind of thing than I do. Plus I don’t want to mess up the perfect round snow woman we’ve made. Too much pressure."
+    "I give him what I have and as he positions the arms onto our snow woman, I search for as many stones as I can. There isn’t much, but we’re able to create a striped pattern on both sides of the snow woman."
+    "When the bell for time rings, we both step back. I’m actually happy with what we’ve created. The snow woman has on a nice striped sweater and has some thick hair made from sticks."
+    hide ar-winternormal
+    hide Lnormalout
+    show ar-wintersmile
+    show Lhappyout at left
+    voice "A118.wav"
+    "Archer" "I can’t believe I’m going to say this but we made a good team today."
+    mc "I did good for a De Luca fan, huh?"
+    voice "A119.wav"
+    "Archer" "You should be a Lane fan."
+    mc "If we win, I will be."
+    hide ar-wintersmile
+    hide Lhappyout
+    show ar-winternormal
+    show Lnormalout at left
+    "Archer pulls out his cell phone and snaps a picture of the snow woman."
+    voice "A120.wav"
+    "Archer" "Too bad I can’t upload this masterpiece."
+    mc "Will everyone really be able to find you if you do? What are you so worried about?"
+    "This time I don’t apologize for my question and Archer doesn't seem so irritated by it."
+    hide ar-winternormal
+    show ar-wintersad
+    voice "A121.wav"
+    "Archer" "Last year some woman and her friends broke into my home and posted pictures of all my stuff on her social media accounts. People were able to find my address and I had to move after that."
+    hide Lnormalout
+    show Lsadout at left
+    mc "That’s not right. I’m so sorry."
+    voice "A122.wav"
+    "Archer" "It is what it is, I guess."
+    "We’re interrupted once again by the judge who is giving us a fake smile. Urgh! RIght when Archer was opening up!"
+    hide ar-wintersad
+    hide Lsadout
+    show Lnormalout at left
+    show ar-winternormal
+    judge "Gorgeous work, you two. I’m shocked that you’re newbies if I’m being honest with you. Definitely top three."
+    hide Lnormalout
+    hide ar-winternormal
+    show Lblushout at left
+    show ar-wintersmile
+    mc "Top three!?"
+    voice "A123.wav"
+    "Archer" "Did you doubt me?"
+    hide Lblushout
+    show Lnormalout at left
+    "I roll my eyes at him."
+    mc "Maybe."
+    judge "Your boyfriend is cocky but I guess it’s within reason. This snow woman is a strong contender. You guys worked well with what you had."
+    hide ar-wintersmile
+    show ar-winternormal
+    "I wait for Archer to correct the woman on her comment about him being my boyfriend but he doesn’t. Though, I do notice his playful smile falter. The judge writes some things down on her clipboard before walking away to judge another team."
+    hide Lnormalout
+    show Lhappyout at left 
+    mc "Thanks for entering the contest with me. Even if we don’t win, I had fun."
+    hide ar-winternormal
+    show ar-wintersmile
+    voice "A124.wav"
+    "Archer" "Me too, surprisingly."
+    hide ar-wintersmile
+    hide Lhappyout
+    show ar-winternormal
+    show Lnormalout at left
+    "When the judge calls the teams over to announce the winners, Archer and I are shocked to see that we had made second place. Me, because I didn’t think we’d score so high and Archer, because he didn’t think he’d score so low."
+    "We did get a consolation prize, a gift card to Leighton’s Grocery which we both agreed to give to Anjali."
+    "Archer and I part ways from here. Neither of us have forgotten about the snowball fight suggested earlier. He’s highly competitive, but I’m happy to have seen a new side of him. He was actually pleasant to be around today."
+    "I decide to head back to the inn so that Anjali can visit the Snow Festival for a bit."
+    scene green
+    stop music
+    play music "Home.ogg"
+    "When I enter the Inn, Anjali is typing away on the keyboard behind the counter. She looks up at me."
+    "Bookmark to page 93."
+    
+return 
