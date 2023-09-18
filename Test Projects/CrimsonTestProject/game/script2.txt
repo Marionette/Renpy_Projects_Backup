@@ -1,0 +1,3730 @@
+
+label lbl_rimitars_story_episode_1:
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+
+    #Location: Golden Meadow Inn, Lyr-Taer, Lyriathis (Night)
+    #● We are inside the Golden Meadow Inn in Lyr-Taer, specifically the main room where customers come to eat and drink. It is night, the room illuminated by a number of candles and lanterns. Yandar is working behind the counter while a number of customers sit at tables or drink at the counter. Sitting on a stool at the counter is Player-Character (PC). A bard is playing a lute and singing in one corner of the room.
+
+    #1. 
+    player_narration "I entered the Golden Meadow and walked over to the counter, wincing as I took a seat on a vacant stool, my body stiff and sore. Although I was certain I'd sleep well tonight, a relaxing drink seemed in order first."
+
+    #2. 
+    player_narration "Gods knew I'd earned one after the day's training I'd endured at the Warriors' Guild. While I was generally happy with how I'd handled myself, Rimitar, the guildmaster, was a hard taskmaster."
+
+    #3. 
+    player_narration "While he was clearly extremely skilled in numerous disciplines and possessed a great deal of experience to share and knowledge to impart..."
+
+    #4. 
+    player_narration "...he expected nothing but the best from his pupils - and he had high standards. My aching bones and muscles could attest to that."
+
+    #5. 
+    player_narration "Trying to work the tension out of my neck, I looked around the inn. It was fairly busy, with most of the tables and stools being occupied, and the general buzz of conversation was overlapped by the singing and lute-playing of a bard seated in one corner."
+
+    #6. 
+    player_narration "Yandar was working behind the counter, and after he finished serving another customer, I caught his eye and he walked over to me."
+
+    #7. 
+    player_narration "The punishments of the day must have shown on me, because he looked me over, smiled and raised one eyebrow."
+
+    #8. 
+    yandar "Long day at the Warriors' Guild?"
+
+    #9. 
+    player_narration "I nodded, smiling wearily."
+
+    #10. 
+    player "Is it that obvious? An ale, please."
+
+    #11. 
+    player_narration "As Yandar poured my drink, he glanced over in the direction of the bard, who had just started a new song, an energetic and grand-sounding piece. Yandar chuckled."
+
+    #12. 
+    yandar "Well, there's good timing."
+
+    #13. 
+    player_narration "Unsure as to what Yandar meant, I looked at the bard and listened to him sing of a mighty warrior who was famed throughout Lyriathis, a noble hero who fought for justice."
+
+    #14. 
+    player_narration "I turned my attention back to Yandar. He handed me my drink and I paid him in return."
+
+    #15. 
+    player "Why's that?"
+
+    #16. 
+    yandar "You don't know the song? I'm surprised, seeing as it's about the lyrian who's been smacking your head in all day."
+
+    #17. 
+    player_narration "Looking once again at the bard, I listened further as he sang of the warrior who protected the innocent and the weak, battled evil wherever he found it, and generally did things you'd expect from some fabled, romantic hero."
+
+    #18. 
+    player_narration "I quickly looked back at Yandar - enjoying the accompanying twinge in my aching neck - and couldn't help but express my surprise."
+
+    #19. 
+    player "This song's about Rimitar?"
+
+    #20. 
+    yandar "Of course. He was very famous in his youth, travelling across all the lands, fighting in countless battles, performing heroic deeds, all that sort of thing. Assuming the stories are true, of course."
+
+    #21. 
+    yandar "True or not, as you can see, it's the kind of stuff that people write songs about."
+
+    #22. 
+    player "I had no idea."
+
+    #23. 
+    player_narration "Another customer gestured for service, and Yandar excused himself and walked away from me. I shook my head in surprise at what he'd told me, and frowned in thought as I took a long swallow of ale."
+
+    #24. 
+    player_narration "So Rimitar was some kind of hero who people sang and told stories about? The master of the Warriors' Guild spoke little about himself, but even so, I was surprised that this aspect of his life hadn't come through somehow during my time with him."
+
+    #25. 
+    player_narration "I had to admit to being curious to learn more. For now I'd settle for listening to the rest of the bard's song, but perhaps when I got the chance I'd ask the hero "
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_2:
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+    #Location: Warriors' Guild, Lyr-Taer, Lyriathis (Day)
+    #● We are inside a training hall at the Warriors' Guild. It is daytime, the hall illuminated by daylight entering from outside. Player-Character (PC) stands just inside a doorway, watching Rimitar, the guildmaster, who is in the centre of the room.
+
+    #1. 
+    player_narration "I entered the main training hall of the Warriors' Guild to find it empty apart from Rimitar, although I could hear the muffled sounds of conversation and sparring coming from other rooms in the building."
+
+    #2. 
+    player_narration "Rimitar was practising with a sword in the centre of the room, the guildmaster darting and dodging this way and that, as if surrounded by several opponents, his sword thrusting and slicing through the air gracefully."
+
+    #3. 
+    player_narration "His expression was one of total focus, and he paid no attention to me as I watched him for a time, admiring the lyrian's skill."
+
+    #4. 
+    player_narration "Hearing the song about Rimitar being performed by the bard at the Golden Meadow had made me curious to learn more about the guildmaster's past, and watching him now, in full flow, only cemented that curiosity."
+
+    #5. 
+    player_narration "Something beyond Rimitar, on the opposite side of the room, caught my eye: a sword and shield hanging together in the centre of the wall."
+
+    #6. 
+    player_narration "I'd noticed the set before, but now the aged sword and shield - their metal chipped and tarnished in places but appearing no less impressive for it - took on newfound significance."
+
+    #7. 
+    player_narration "I knew they belonged to Rimitar, and I wondered what they'd seen over the years during his adventures, in how many battles they'd been used, what stories they could tell."
+
+    #8. 
+    player_narration "As I was staring at the sword and shield, Rimitar finally came to a stop, so I returned my attention to him. He lowered his sword and turned to look at me. I noticed that even after all of his exertion, he was barely breathing heavily."
+
+    #9. 
+    rimitar "Good morning, [PLAYER NAME]."
+
+    #10. 
+    player "Good morning, Master Rimitar. That was a very impressive display."
+
+    #11. 
+    player_narration "Rimitar didn't acknowledge the compliment, instead simply gesturing towards one of the weapon racks standing at the edge of the room."
+
+
+    #12. 
+    rimitar "We're going to be working with spears today, fetch two training spears from the rack."
+
+    #13. 
+    player_narration "I did as I was told while Rimitar placed the sword he'd been using back in its place in a different rack. I walked to the centre of the room and handed one of the wooden training spears to him while keeping the other for myself."
+
+    #14. 
+    player "Sir, I was wondering..."
+
+    #15. 
+    player "I recently heard that you had some incredible adventures when you were younger, things that people sing and tell stories about today."
+
+    #16. 
+    player "I was just wondering if you'd be willing to share some of those stories with me. I'd love to know more about them, and obviously hearing them from you would be best."
+
+    #17. 
+    player_narration "Rimitar stared at me in silence for a moment, his expression grave."
+
+    #18. 
+    rimitar "The past is a thing best left buried. You should no sooner disturb it than you would any other corpse."
+
+    #19. 
+    player_narration "As if his words didn't make it clear enough, Rimitar raised his spear and pointed it at me: he wasn't interested in sharing tales of his past with me, we were here to fight, not talk."
+
+    #20. 
+    player_narration "Although I was disappointed, I tried to put it from my mind and "
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_3:
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+    #Location: City library, Lyr-Taer, Lyriathis (Day)
+    #● We are in the main room of Lyr-Taer's city library, the room being vast, with a very high ceiling and a second-floor balcony which runs around the whole room. Both the ground floor and second floor hold rows upon rows of tall bookshelves filled with thousands of books. The room is illuminated by the daylight which enters through the numerous tall windows. Player-Character (PC) stands before the main desk, standing behind which is Belawen, the head librarian.
+
+    #1. 
+    player_narration "The City Library was fittingly quiet as I entered the main room of the building, my footfalls sounding loud to my own ears in the huge, hushed space around me as I walked over to the main desk."
+
+    #2. 
+    player_narration "I'd been carrying two books which I now placed on the surface of the desk, intending to return them. There were a few stacks of books already on the desk, along with a thick ledger."
+
+    #3. 
+    player_narration "The head librarian, Belawen, was working behind the desk, sorting through one of the stacks while making notes in the ledger.  As I put down my own books, she looked up from her work and smiled at me."
+
+    #4. 
+    belawen "Good morning."
+
+    #5. 
+    player "Morning. I'm just returning these."
+
+    #6. 
+    player_narration "Belawen picked up the books and glanced at each of the two covers before putting them to one side, then her gaze returned to me."
+
+    #7. 
+    belawen "That's fine, thank you."
+
+    #8. 
+    player_narration "I smiled politely and turned to leave, but then paused and turned back as I heard Belawen begin to speak again."
+
+    #9. 
+    belawen "You, uh, wouldn't happen to be on your way to the Warriors' Guild, would you?"
+
+    #10. 
+    player_narration "Before I could reply, Belawen's eyes widened slightly and she seemed to catch herself, embarrassed, as if I might have taken offence."
+
+    #11. 
+    belawen "I don't mean to pry, of course, it's just that I've happened to see you going in there a couple of times."
+
+    #12. 
+    player "It's fine. Why do you ask?"
+
+    #13. 
+    belawen "I have some books which were supposed to be delivered to Guildmaster Rimitar today, but I'm afraid I'm swamped with work here and there's no one else in who can do it."
+
+    #14. 
+    belawen "I realise it's a bit presumptuous, so if you can't then of course I understand."
+
+    #15. 
+    player "No, it's no problem, I can do that."
+
+    #16. 
+    belawen "Oh, marvelous, thank you very much."
+
+    #17. 
+    player_narration "Belawen turned towards one of the stacks of books on the desk and carefully pulled out three particular books. She held them out to me."
+
+    #18. 
+    belawen "There we are. If you could pass these on to the guildmaster then I really would be very grateful."
+
+    #19. 
+    player_narration "I looked down at the books, moving them in my hands so as to see the cover of each one, and as I did so I frowned, puzzled."
+
+    #20. 
+    player_narration "Because if I'd had to guess as to what kind of books Rimitar would be taking out of the library then I'd have assumed they would be books involving combat or weaponry or something along those lines."
+
+    #21. 
+    player_narration "Not three volumes of love poems, which were what I held in my hands now. I looked up from the books and at Belawen, who smiled at the surprised expression which I was unable to keep from my face."
+
+    #22. 
+    belawen "You seem surprised."
+
+    #23. 
+    player "I am. I don't know Rimitar very well, but considering what he's like during the time I do spend with him... well, let's just say I didn't take him for a fan of love poetry."
+
+    #24. 
+    belawen "Oh yes. I know he's very quiet and brooding - and a hard teacher, by all accounts - but Rimitar isn't just a fan of poetry, he used to write it himself many years ago."
+
+    #25. 
+    belawen "Some of his pieces never received proper printings and so have been lost to time, sadly. If Rimitar does still have copies of them then he's not interested in sharing them."
+
+    #26. 
+    belawen "But I've read everything of his that I've been able to get my hands on, and to be frank, he's written poetry which would put some so-called masters of the form to shame."
+
+    #27. 
+    belawen "Most of his poems are about love, although a few are more adventurous and heroic in nature. All of them are wonderful."
+
+    #28. 
+    player "If he was so good at it, why did he stop? And why doesn't he want to share his poetry with anyone anymore?"
+
+    #29. 
+    player_narration "Belawen glanced around and hesitated, as if unsure about saying aloud what she had in mind. After a moment she leaned in towards me and spoke in a slightly quieter voice."
+
+    #30. 
+    belawen "Rimitar has never spoken of it, and no one else seems to be able to say for certain, but I have a theory."
+
+    #31. 
+    belawen "No lyrian could have written love poetry the likes of which Rimitar wrote without having been in love himself. To just suddenly stop in the way he did, to turn away from his gift like that..."
+
+    #32. 
+    belawen "I can't help but think that whoever it was that he loved so deeply, he must have lost her, and that's what changed him: a broken heart. It's tragic."
+
+    #33. 
+    player_narration "I nodded, thinking about Rimitar. First I learn that he used to be some famed hero, now this. There really was a lot more to that lyrian than met the eye."
+
+    #34. 
+    player "Alright, I best be off. I'll see that Rimitar receives these books."
+
+    #35. 
+    player_narration "Belawen thanked me again and I turned and left the library through the main entrance, my curiosity concerning Rimitar stronger than ever. (END OF "
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_4:
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+    #Location: Warriors' Guild, Lyr-Taer, Lyriathis (Day)
+    #● We are inside a training hall at the Warriors' Guild. It is daytime, the hall illuminated by daylight entering from outside. Player-Character (PC) and Guildmaster Rimitar stand facing each other in the centre of the room.
+
+    #1. 
+    player_narration "Although part of me was distracted by the rumours concerning an apparent upcoming war between Lyriathis and Dahraith, I'd tried to keep my mind on the here-and-now during my latest training session at the Warriors' Guild."
+
+    #2. 
+    player_narration "Besides, absolute focus was a necessity when you were sparring with Guildmaster Rimitar - if you wanted to avoid getting absolutely battered, anyway."
+
+    #3. 
+    player_narration "As we finished a round of sparring with some wooden training swords, Rimitar called a five-minute break, although I was the only one who really needed to get my breath back."
+
+    #4. 
+    player_narration "After I'd managed to do that, and despite Rimitar's typically terse nature, I decided to take the opportunity to speak to him before we got back to the training."
+
+    #5. 
+    player "Sir? I take it you've heard the rumours going around about war breaking out between us and the Dahris...?"
+
+    #6. 
+    player_narration "I paused, waiting for an answer, but none came as Rimitar placed the training swords we'd been using back in their rack. I pressed on."
+
+    #7. 
+    player "I was just wondering what you thought about it. Do you really think it'll happen? If it did, do you think Lyriathis would win?"
+
+    #8. 
+    player_narration "Having returned the swords, Rimitar walked back over to me unarmed. He came to a stop and looked at me with his usual grave expression."
+
+    #9. 
+    rimitar "There are never any real winners in war, [PLAYER NAME]. Some people live, some die, many suffer. Whatever happens, I'll have no part of it."
+
+    #10. 
+    player_narration "Something seemed to occur to Rimitar, and his eyes narrowed slightly, his expression taking on a more questioning, piercing aspect."
+
+    #11. 
+    rimitar "Tell me, what do you actually know about Dahraith? About the Dahris?"
+
+    #12. 
+    player "Well, I - "
+
+    #13. 
+    rimitar "Not as much as you think you do, I'd wager. Few Lyris do."
+
+    #14. 
+    rimitar "No doubt you were told the same as everyone else growing up: tales of the evil Dahris, our ancient and hated enemy, the dark and wicked counterpart to the more civilised and morally upright Lyris..."
+
+    #15. 
+    rimitar "Life is very, very rarely that simple. The Dahris are not monsters, they're people, just like us, with all of the qualities and flaws that make people everywhere - whatever their race - what they are."
+
+    #16. 
+    player "You sound like you're very familiar with them. Do you know any Dahris well, then?"
+
+    #17. 
+    player_narration "Rimitar paused and looked away from me."
+
+    #18. 
+    rimitar "Not anymore. But that doesn't change what I said."
+    #"(IF SPEECH STAT IS BELOW REQUIRED AMOUNT, GO TO 19.1.)"
+    #"(IF SPEECH STAT IS HIGH ENOUGH, GO TO 20.1.)"
+
+
+    ###
+
+
+    #19.1.
+    player_narration "Although it certainly seemed like Rimitar had more to say on the matter, I couldn't think of the right words which might encourage him to speak further. "#(GO TO 19.2.)
+
+    #19.2.
+    player_narration "After a few seconds he moved into a fighting stance, and I knew I'd missed my chance. "#(GO TO 19.3.)
+
+    #19.3.
+    player_narration "So I just agreed with him that perhaps I could stand to learn more about the Dahris, and left it at that. I moved into my own fighting stance, took a deep breath, and prepared for the next bout of training. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #20.1.
+    player_narration "There was a pause and I knew Rimitar had more to say on the matter, something he was reluctant to discuss but which I couldn't help be curious about. I seized my opportunity before it passed me by. "#(GO TO 20.2.)
+
+    #20.2.
+    player "If you think I should learn more about the Dahris then surely you're the best person for me to talk to at the moment, if you know them well - or even if you used to. "#(GO TO 20.3.)
+
+    #20.3.
+    player "You obviously don't want me to just blindly believe what I'm told and be ignorant, and I don't want that either. "#(GO TO 20.4.)
+
+    #20.4.
+    player_narration "There was more silence as Rimitar stared off across the room, a thoughtful frown on his face. I waited, the only sounds being our breathing and the distant noises of voices and combat coming from elsewhere in the building. "#(GO TO 20.5.)
+
+    #20.5.
+    rimitar "Many years ago, when I used to roam far and wide across this land and others... for a time I travelled with a group of other adventurers like myself. "#(GO TO 20.6.)
+
+    #20.6.
+    rimitar "One of them was a dahria. Her name was Hellaren. "#(GO TO 20.7.)
+
+
+    #20.7.
+    rimitar "She was a Dahris, I was a Lyris. She was a mage, whereas I'd always placed my faith in more traditional weaponry and warfare. But none of that mattered. Because I loved her, and she loved me. "#(GO TO 20.8.)
+
+    #20.8.
+    rimitar "We were together for a long time, saw and did a lot of things together, made each other happy. It seems like it all passed in the blink of an eye now, though. "#(GO TO 20.9.)
+
+    #20.9.
+    rimitar "I thought we'd spend the rest of our lives together. And I thought she felt the same. "#(GO TO 20.10.)
+
+    #20.10.
+    rimitar "But a day came when I had to travel to Lyr-Taer alone, to honour an old debt which I didn't want Hellaren to be any part of. I didn't expect to be gone long, and I wasn't. "#(GO TO 20.11.)
+
+    #20.11.
+    rimitar "But when I returned to where I'd last seen her, the place where I was supposed to meet her, she was gone. There was no sign of a struggle or anything like that, she'd just... gone. "#(GO TO 20.12.)
+
+    #20.12.
+    rimitar "I searched for her, of course, and for a long time, but I never found her. Eventually I accepted the fact that she'd simply left me, that in the end she hadn't loved me like I'd loved her. That I'd been a fool. "#(GO TO 20.13.)
+
+    #20.13.
+    rimitar "And that was that. "#(GO TO 20.14.)
+
+    #20.14.
+    player_narration "Rimitar focused his gaze on me now and stared at me with a hard expression. "#(GO TO 20.15.)
+
+    #20.15.
+    rimitar "But whatever reason Hellaren had for doing what she did to me, that doesn't change what I said about the Dahris being people just like the rest of us. Understand? "#(GO TO 20.16.)
+
+    #20.16.
+    player_narration "I nodded in silence, still reflecting on everything which Rimitar had just shared with me. Belawen the librarian had been right: it was a broken heart which had changed Rimitar and made him the lyrian he was now. "#(GO TO 20.17.)
+
+    #20.17.
+    rimitar "Good. Keep that in mind. And keep what I just told you about my past to yourself. Are we clear on that as well? "#(GO TO 20.18.)
+
+    #20.18.
+    player "Absolutely, sir. "#(GO TO 20.19.)
+
+    #20.19.
+    player_narration "Rimitar nodded, satisfied, then moved into a fighting stance, his mind back to the task at hand. I followed his lead, took a deep breath, and prepared for the next bout of training. "
+    #END OF EPISODE
+    return
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_5:
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+    #Location: Warriors' Guild, Lyr-Taer, Lyriathis (Day)
+    #● We are inside a training hall at the Warriors' Guild. It is daytime, the hall illuminated by daylight entering from outside. Player-Character (PC) and Guildmaster Rimitar stand facing each other in the centre of the room.
+
+    #1. 
+    player_narration "Although I'd decided to travel beyond the borders of Lyriathis, I'd also decided that I didn't want to leave without telling Rimitar what I was doing - as well as offering to do something for him."
+
+    #2. 
+    player_narration "I arrived at the Warriors' Guild to find Rimitar alone in the main training room, practicing with a pair of swords, although as ever he was far from rusty, and he moved gracefully as he thrust and swung the weapons expertly."
+
+    #3. 
+    player_narration "After a few seconds he stopped and turned to face me, holding the swords down at his sides. He looked at me with no words or gesture of acknowledgement, instead waiting for me to state my business."
+
+    #4. 
+    player_narration "I walked further into the room and came to a stop before Rimitar."
+
+    #5. 
+    player "Hello, sir. I just thought I'd stop in to say goodbye."
+
+    #6. 
+    rimitar "You're leaving the Warriors' Guild?"
+
+    #7. 
+    player "Yes. For now, anyway. I won't be around, I'm leaving Lyr-taer altogether for a time."
+
+    #8. 
+    rimitar "Your training was progressing satisfactorily. But if you have to leave then good luck."
+
+    #9. 
+    player_narration "I was sure that was as close as Rimitar was going to come to a compliment and an emotional farewell, so I didn't waste any time in bringing up the offer I'd had in mind."
+
+    #10. 
+    player "Thank you, guildmaster."
+
+    #11. 
+    player "Actually, I was thinking about what you told me before, about the Dahris mage you used to know..."
+
+    #12. 
+    player_narration "Rimitar tensed very slightly but said nothing as he waited for me to continue."
+
+
+
+    #13. 
+    player "And I was just wondering if you'd like me to keep an ear out for any news of her on my travels. I know you said it was a long time ago, and that you searched for her yourself, but... well, I just thought I'd offer."
+
+    #14. 
+    player_narration "Rimitar stared at me, tense but also seemingly unsure of how to react to my suggestion. Eventually he gave a small sigh and looked away."
+
+    #15. 
+    rimitar "I appreciate the offer, but it would be pointless. It wasn't just a long time ago, it was a lifetime ago. I've changed since then."
+
+    #16. 
+    rimitar "And besides, if I couldn't find her back then - and gods know I tried so hard - I fail to see how you'd be able to do so now after all these years and with nothing to go on."
+
+    #17. 
+    player "I understand all that, sir. But there's no harm in it, is there? I mean, you've got nothing to lose by letting me try, seeing as I'm already going to be travelling anyway..."
+
+    #18. 
+    player_narration "Rimitar looked at me with a thoughtful frown. Several seconds passed."
+
+    #19. 
+    rimitar "Wait there."
+
+    #20. 
+    player_narration "Rimitar turned and walked over to his sword-and-shield set which hung on the wall. He placed the two swords he'd been holding in a nearby rack, reached one hand behind the shield and withdrew something which he held as he returned to me."
+
+    #21. 
+    player_narration "Rimitar held out the object to me, and I looked down at it as I reached for it: it was an old and tattered envelope, still sealed."
+
+    #22. 
+    rimitar "I wrote this letter years ago, after I'd given up on my search for Hellaren. Those were... dark days. Even though I'd resigned myself to never seeing her again, part of me thought maybe writing the letter would help."
+
+    #23. 
+    rimitar "It didn't. I've almost thrown it into the fire a hundred times, but could never bring myself to do it."
+
+    #24. 
+    rimitar "But anyway, it's not doing any good here. If, by some miracle, you should ever happen to meet her on your travels... then give Hellaren this letter."
+
+    #25. 
+    player_narration "I accepted the letter from Rimitar and carefully placed it in one of my pockets. I looked at him and nodded."
+
+    #26. 
+    player "I will."
+
+    #27. 
+    player_narration "To my surprise, Rimitar held out a hand in a handshake gesture. I took it in my own and shook it."
+
+    #28. 
+    rimitar "Good luck, [PLAYER NAME]."
+
+    #29. 
+    player "Thank you, sir."
+
+    #30. 
+    player_narration "We broke the handshake, and with that I turned and left, carrying the "
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_6:
+
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+
+    #Location: The Moon and Sabre, Belgran, Grana (Day)
+    #● We are in the Moon and Sabre tavern in Belgran. Specifically we are in one of the guest rooms on one of the upper floors of the building, the room illuminated by daylight entering through its single window. Standing inside the room is the dahrian named Elyndir. Standing together in the room's open doorway are Player-Character and Meda, the tavern-owner.
+
+    #1. 
+    player_narration "Belgran's streets were bustling, the city crowded due to the festival currently being celebrated here - everywhere you turned Granians were singing, laughing, drinking, playing games, and generally enjoying themselves."
+
+    #2. 
+    player_narration "After having slowly made my way through several busy streets, I entered the Moon and Sabre to find the place packed with yet more celebrating Granians."
+
+    #3. 
+    player_narration "I squeezed my way through the crowd and over to the bar where Meda was serving drinks. After a minute or so I managed to catch her eye, and after serving her current customer, she walked over to me and greeted me with a smile."
+
+    #4. 
+    player_narration "I asked for the key to my room, and her smile faltered. She said that the room was no longer available, that the tavern was in fact fully booked due to the festival."
+
+    #5. 
+    player_narration "She apologised for not warning me in advance and claimed that every other inn and guest-house in Belgran would also be full by now. However, there was one thing she might be able to offer me, she added."
+
+    #6. 
+    player_narration "Apparently one of the rooms upstairs was being rented by a fellow Lyris - Meda said I could share the room with him if I liked, and that this was the best she could do."
+
+    #7. 
+    player_narration "Although I was initially hesitant at the thought of sharing a room with a complete stranger, if everywhere else really was fully booked as well then I wondered if this was perhaps an offer I should accept."
+
+    #8. 
+    player_narration "Also, I had to admit to missing Lyriathis, so perhaps meeting a new, fellow Lyris here in this foreign place might not be such a bad thing."
+
+    #9. 
+    player_narration "I told Meda I'd take her up on her offer. Smiling again now, she walked out from behind the bar and led me upstairs."
+
+
+    #10 P
+    LAYER NARRATION: We came to a stop before the door of the room which she had in mind. She knocked and then, before anyone could answer, turned the handle.
+
+    #11. 
+    player_narration "Meda opened the door wide and we stepped through the doorway together. A moment later I suddenly stopped in my tracks as I saw the room's occupant: it was no Lyris, but a Dahris!"
+
+    #12. 
+    player_narration "Specifically a dahrian, one who seemed to be around the same age as Olin. He glanced at Meda before looking at me, a flicker of surprise appearing on his face as he did so."
+
+    #13. 
+    player_narration "After a couple of seconds of us holding each other's gaze, the dahrian broke eye contact and looked once again at Meda, clearly waiting for an explanation."
+    (IF PLAYER IS NOT ON RIMITAR'S ROUTE, GO TO 14.1.)
+    (IF PLAYER IS ON RIMITAR'S ROUTE, GO TO 15.1.)
+
+
+    ###
+
+
+    #14.1.
+    player_narration "Meda opened her mouth to speak, but I beat her to it. "#(GO TO 14.2.)
+
+    #14.2.
+    player "This isn't a Lyris. He's a Dahris. And I'm not sharing a room with him. "#(GO TO 14.3.)
+
+    #14.3.
+    player_narration "The dahrian looked at me, his eyes narrowing slightly in contempt. Meda's eyes moved between the two of us and she smiled awkwardly. "#(GO TO 14.4.)
+
+    #14.4.
+    meda "Oh, I'm sorry, I thought... well, my mistake. "#(GO TO 14.5.)
+
+    #14.5.
+    player_narration "Meda focused her attention on me. "#(GO TO 14.6.)
+
+    #14.6.
+    meda "Are you sure you want to be so hasty? As I said, I doubt you'll find a room anywhere else in Belgran by now. I'm sure you two will get along fine once you're both settled in. "#(GO TO 14.7.)
+
+    #14.7.
+    elyndir "Actually, the Lyris can have the room. "#(GO TO 14.8.)
+
+    #14.8.
+    player_narration "The dahrian picked up a bag which I assumed contained his possessions and then walked towards Meda and I. We moved aside, clearing the doorway for him. "#(GO TO 14.9.)
+
+    #14.9.
+    player_narration "As he reached us, the dahrian came to a stop. He looked at Meda with an annoyed frown. "#(GO TO 14.10.)
+
+    #14.10.
+    elyndir "I have no interest in giving any more money to a woman so ignorant she can't even tell the difference between a Dahris and a Lyris. I'll take my chances elsewhere. "#(GO TO 14.11.)
+
+    #14.11.
+    player_narration "The dahrian turned to look at me with the same contemptuous frown as before. "#(GO TO 14.12.)
+
+    #14.12.
+    elyndir "Besides, I couldn't in good conscience allow a poor, witless child like this one to be thrown out into the street. "#(GO TO 14.13.)
+
+    #14.13.
+    player_narration "I tensed in anger at the insult, but the dahrian passed through the doorway and out into the hallway beyond. A few seconds later, I heard his footsteps descending the stairs. "#(GO TO 14.14.)
+
+    #14.14.
+    player_narration "Meda and I turned to look at each other. She cleared her throat and then smiled. "#(GO TO 14.15.)
+
+    #14.15.
+    meda "Well, that was... interesting. Anyway, looks like you're in luck - the room's all yours! "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #15.1.
+    player_narration "My first instinct was to speak before Meda could, to tell her that I had no intention of sharing a room with a Dahris... "#(GO TO 15.2.)
+
+    #15.2.
+    player_narration "...but then I remembered what Rimitar had told me about the Dahris, and I paused. Would I just be letting old, unnecessary prejudices get the better of me if I refused Meda's offer? "#(GO TO 15.3.)
+
+    #15.3.
+    #menu:
+    #"Refuse Meda's offer to share the room. ": #(GO TO 16.1.)
+    #"Accept Meda's offer to share the room. ": #(GO TO 17.1.)
+
+
+    ###
+
+
+    #16.1.
+    player_narration "Perhaps. But whatever that said of me, at that moment I didn't care: I didn't want to share a room with a Dahris, and that was the end of it. "#(GO TO 14.2.)
+
+
+    ###
+
+
+    #17.1.
+    player_narration "I did speak before Meda could, but not to say what had first come to mind. I looked at her with a disapproving frown. "#(GO TO 17.2.)
+
+    #17.2.
+    player "This isn't a Lyris. He's a Dahris. Not that it matters to me, but you might want to learn to tell the difference for future reference, in case you cause offence. I thought tavern-owners were supposed to be good with people...? "#(GO TO 17.3.)
+
+    #17.3.
+    player_narration "Before Meda could reply to that, I turned to look at the dahrian and glimpsed a small smile appear on his lips before it disappeared, although the curious frown which he wore as he looked at me remained. "#(GO TO 17.4.)
+
+    #17.4.
+    player "My name's [PLAYER NAME]. Pleased to meet you. "#(GO TO 17.5.)
+
+    #17.5.
+    player "This woman proposed that you and I share this room, given that this place and all the other inns and guest-houses in the city are full because of the festival. Would that be alright with you? "#(GO TO 17.6.)
+
+    #17.6.
+    player_narration "There was silence for a few seconds as the dahrian continued to stare at me with the same curious frown. Eventually he shrugged. "#(GO TO 17.7.)
+
+    #17.7.
+    elyndir "I suppose so. My name's Elyndir, by the way. "#(GO TO 17.8.)
+
+    #17.8.
+    player_narration "I handed Meda the money for the room as her eyes moved between Elyndir and I. She smiled, satisfied, apparently choosing to ignore my blunt comment in the interest of profit. "#(GO TO 17.9.)
+
+    #17.9.
+    meda "That's all sorted, then. Lovely. Well, I better get back to the chaos downstairs. "#(GO TO 17.10.)
+
+    #17.10.
+    player_narration "Meda walked back out into the hallway and closed the door behind her. "#(GO TO 17.11.)
+
+    #17.11.
+    elyndir "I have to admit, I'm surprised. It's not exactly often you meet a Lyris willing to have anything to do with a Dahris. "#(GO TO 17.12.)
+
+    #17.12.
+    player "Someone I know reminded me not to judge an entire people based on old prejudices. It's good advice. "#(GO TO 17.13.)
+
+    #17.13.
+    elyndir "So there are two Lyris who don't automatically expect a Dahris to ritually sacrifice them as soon as look at them? Well, now I'm not just surprised but officially amazed. So who was it that gave you that advice? "#(GO TO 17.14.)
+
+    #17.14.
+    player "A lyrian named Rimitar. He was my teacher at the Warriors' Guild back in Lyr-Taer. "#(GO TO 17.15.)
+
+    #17.15.
+    player_narration "I noticed a sudden expression of interest appear on Elyndir's face, although he instantly tried to hide it. "#(GO TO 17.16.)
+
+    #17.16.
+    elyndir ""Rimitar", eh? Well, he sounds like a lyrian with some wisdom. Tell me more about him. "#(GO TO 17.17.)
+
+    #17.17.
+    player_narration "I wondered at Elyndir's sudden interest when I'd mentioned Rimitar, and whether or not I'd imagined it - was I right to be suspicious, or was it just those old prejudices breaking the surface again? "#(GO TO 17.18.)
+
+    #17.18.
+    player_narration "Either way, I wasn't interested in continuing the subject right now. "#(GO TO 17.19.)
+
+    #17.19.
+    player "Another time, perhaps. For now I'd just like to get settled in. "#(GO TO 17.20.)
+
+    #17.20.
+    elyndir "Of course. "#(GO TO 17.21.)
+
+    #17.21.
+    elyndir ""A Lyris and a Dahris end up sharing a room at a tavern..."Sounds like the start of a bad joke. "#(GO TO 17.22.)
+
+    #17.22.
+    player "Better a comedy than a tragedy, I suppose. There have been enough of the latter between our peoples. "#(GO TO 17.23.)
+
+    #17.23.
+    elyndir "Well said. Anyway, I'll give you some time to settle in - I could do with a "
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_7:
+
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+    PART A
+
+    #Location: A street somewhere in Belgran, Grana (Night)
+    #● We are on a street somewhere in Belgran. It is night and the street is quiet. Player-Character (PC) walks along the street, alone, until he is confronted by a gang of three criminals.
+
+    #1. 
+    player_narration "Belgran's recent festival was now a memory, and while thoughts of the day occasionally popped into my head, one thing in particular had remained: Elyndir, the dahrian who I'd ended up sharing a room with at the Moon and Sabre."
+
+    #2. 
+    player_narration "While we were no longer sharing a room - within a couple of days of the end of the festival, the inns and guest-houses of Belgran once again had rooms available - both of us were still staying at the Moon and Sabre."
+
+    #3. 
+    player_narration "I was glad I'd chosen not to let any inherent mistrust of the Dahris stop me from staying with Elyndir and getting to know him, as he turned out to be a likeable enough dahrian, albeit one who could be quite cutting when he chose to be."
+
+    #4. 
+    player_narration "I suspected there was more to him beneath the surface, however, something driving him but which he kept to himself - he could be secretive, and there was an intensity to him which flared up at times."
+
+    #5. 
+    player_narration "Although I'd tried to subtly question him about his past, his purpose in  Belgran and other details about himself, he always managed to avoid the question somehow. "
+
+    #6. 
+    player_narration "Also, he often left the Moon and Sabre at night, quietly exiting his room and being gone from the tavern for up to hours at a time."
+
+    #7. 
+    player_narration "The first time I'd noticed this had been by accident, but then I made a point of listening out for it on following nights. Unsurprisingly, Elyndir never mentioned his nocturnal jaunts to me."
+
+    #8. 
+    player_narration "Although part of me thought I should just mind my own business and that I was only being suspicious of Elyndir because he was a Dahris..."
+
+    #9. 
+    player_narration "...another part of me couldn't help but wonder if his outward personality was all a façade, a mask he wore to hide his true self. Ultimately I still didn't really know anything about him, after all."
+
+
+
+    #10. 
+    player_narration "In the end, my curiosity got the better of me. Earlier tonight I'd made a point of staying awake until eventually, as I hoped I might, I once again heard Elyndir quietly leaving the Moon and Sabre. Trying to be quieter still, I followed him."
+
+    #11. 
+    player_narration "The night air was cold and the wind piercing as I slipped out of the tavern, the surrounding streets dark and empty - apart from Elyndir, who I saw move into an alley down the street. Keeping my distance and sticking to the shadows, I continued to follow."
+
+    #12. 
+    player_narration "Pursuing Elyndir took me through a number of Belgran's quieter streets and alleys - wherever the dahrian was going, apparently he wanted to get there in as discreet a fashion as possible."
+
+    #13. 
+    player_narration "Occasionally I saw Granians out and about, alone or in pairs at most. We ignored one another, the hood I wore up over my head hiding my noteworthy nature as a Lyris."
+
+    #14. 
+    player_narration "A few times I thought Elyndir might have realised that someone was following him, but every time he stopped and paused, eventually he always pressed on again."
+
+    #15. 
+    player_narration "After following Elyndir around one particular street corner, I suddenly  found he was nowhere to be seen. I moved in the direction he'd have most likely taken but was greeted by nothing but empty cobbles."
+
+    #16. 
+    player_narration "I doubled back, tried a nearby alley, but met with the same result. I scanned my surroundings: nothing. I cursed and accepted that I'd lost him."
+
+    #17. 
+    player_narration "Even so, I wasn't ready to give up completely, and so I spent the next twenty minutes searching the surrounding streets and alleys, trying to remain discreet while keeping an eye out for Elyndir."
+
+    #18. 
+    player_narration "But my searching turned out to be fruitless, and I was standing alone in an empty alley when I reluctantly decided to give up and return to the Moon and Sabre. It seemed Elyndir's secrets would remain hidden from me for now."
+
+    #19. 
+    player_narration "I turned to leave the alley only to see a cloaked and hooded figure appear from around the corner and stand before me, blocking the alley mouth."
+
+    #20. 
+    player_narration "Due to the darkness, the figure's clothing and the distance between us, I couldn't really make out any details, although the fact that they stood in silence, facing me and blocking the alley at that end instantly put me on edge."
+
+    #21. 
+    player_narration "Tense but trying to appear calm, I turned around and began walking in the opposite direction. I soon stooped, however, when a second person - also cloaked and hooded - appeared from around the corner ahead."
+
+    #22. 
+    player_narration "Like the first person, the newcomer stood at the end of the alley, facing me and blocking my exit. So this was how it was going to be."
+
+    #23. 
+    player_narration "Movement in one corner of my eye caused me to turn my head towards a smaller, adjoining alley which would have been my one remaining exit - if a third shadowy figure hadn't just appeared there, standing and watching me like the others."
+
+    #24. 
+    player_narration "I moved slowly, trying to keep all three people within my field of vision, breathing slowly and mentally preparing myself for what was about to happen. The first figure began walking towards me, and the other two followed his lead."
+
+
+    #25. 
+    player_narration "I turned so that I was facing across the alley and in the direction of the third figure. I backed up a few steps. I quickly looked over my surroundings, hoping to spot some other way out which I'd missed, but there was nothing."
+
+    #26. 
+    player_narration "When the three cloaked and hooded figures came to within about ten feet of me, surrounding me, they stopped. I still couldn't make out much of their features or even tell what they race they were, although all three seemed to be male."
+
+    #27. 
+    player_narration "Apart from a few distant, scattered sounds - a dog barking, someone coughing, a wooden sign creaking in the wind - the night was silent. My three assailants made no sound and said no words as they drew their knives."
+
+    #28. 
+    player_narration "I took a slow, deep breath and got ready."
+
+    #29. 
+    elyndir "Back away. [He's / She's] with me."
+
+    #30. 
+    player_narration "The three figures and I looked towards the alley from which the third of them had emerged only to see Elyndir standing there now, watching us with a hard frown. His eyes roamed over the people surrounding me."
+
+    #31. 
+    elyndir "The Lyris is my partner. I wanted [him / her] to shadow me tonight as a test of [his / her] skills."
+
+    #32. 
+    elyndir "Touch [him/ her] and you and I are going to have a problem, and I'd hate to see our relationship sour so soon."
+
+    #33. 
+    player_narration "The three figures glanced at each other before their eyes moved back to Elyndir. One of them - I knew him to be a Granian now, judging by his voice - spoke with an annoyed, accusatory edge."
+
+    #34. 
+    cloaked_granian "You never said anything about a partner."
+
+    #35. 
+    elyndir "I didn't see the need. Frankly, I wasn't expecting [him / her] to run into you fine gentlemen."
+
+    #36. 
+    elyndir "But now we're all clear on things, so if you'd put away the knives and leave me to have a talk with my partner? Alone?"
+
+    #37. 
+    player_narration "The men looked at each other again before seemingly coming to a silent agreement - they slowly lowered their knives and backed away from me. Even so, I remained ready to defend myself."
+
+    #38. 
+    player_narration "The man who'd spoken previously looked at me and then at Elyndir."
+
+    #39. 
+    cloaked_granian "Alright, then. But you and your partner should be more careful in future, whether you're walking down dark alleys or keeping secrets from people you're supposed to be working with. Both of those things can turn out very nasty..."
+
+    #40. 
+    cloaked_granian "See you soon, Dahris."
+
+    #41. 
+    player_narration "The man had apparently said his piece, and didn't wait for any kind of reply from Elyndir. He turned and began walking down the alley, his two colleagues following him."
+
+    #42. 
+    player_narration "They moved calmly and quietly, pocketing their knives once more as they went. Eventually they disappeared around the corner."
+
+    #43. 
+    player_narration "Although I couldn't help but relax a little, I remained on edge due to the continued presence of Elyndir, whose gaze was focused on me now, his expression serious. I looked back, waiting for him to make the first move."
+
+    #44. 
+    player_narration "To my surprise, one corner of Elyndir's mouth lifted in a smile."
+
+    #45. 
+    elyndir "A curious one, aren't you. Come with me, maybe I'll give you some of the answers you're looking for."
+
+    #46. 
+    player_narration "With that, Elyndir turned around and began walking back into the alley from which he'd emerged."
+
+    #47. 
+    player_narration "I paused, wondering if I should follow him or if perhaps the more sensible option was to walk off alone in a different direction and back to the Moon and Sabre, and to forget my curiosity regarding the dahrian."
+
+    #48. 
+    player_narration "I followed Elyndir into the alley. (GO TO PART B)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    PART B
+
+    #Location: The Moon and Sabre, Belgran, Grana (Night)
+    #● We are in the Moon and Sabre tavern in Belgran. It is night, the place illuminated by candles and glass lamps. The tavern is quiet, with only a few scattered men drinking as they sit at tables or at the counter. Working behind the counter is the young man who works as Meda's assistant. Player-Character (PC) and Elyndir are sitting together at a table in a corner of the room.
+
+    #1. 
+    player_narration "After my encounter with the three cut-throats who'd cornered me after I lost Elyndir, the dahrian had led me back to the Moon and Sabre. When I demanded answers, he said we'd talk over a drink."
+
+    #2. 
+    player_narration "At this late hour, Meda was in bed, the handful of customers scattered around the tavern being served by the young man who worked part-time as her assistant."
+
+    #3. 
+    player_narration "Elyndir and I walked up to the counter and he ordered an ale. When it arrived, I took the tankard for myself, raised it and took a long swallow. Elyndir turned to look at me, raising one eyebrow. "
+
+    #4. 
+    player_narration "I set down the tankard but kept it in my hand as I looked back at him with a flat expression. After my meeting with his charming, knife-wielding friends, I figured Elyndir owed me a drink. He ordered another ale for himself."
+
+    #5. 
+    player_narration "Elyndir led me to a table in a quiet corner of the room, a spot far enough away from everyone else that our conversation wouldn't be overheard. He took a drink and then looked at me with a serious expression."
+
+    #6. 
+    elyndir "Now listen: if I'm going to share these details with you then as far as I'm concerned, there's no going back - for you."
+
+    #7. 
+    elyndir "I'd be placing my trust in you, and that is not something I do lightly. Nor is it something I'd forgive if the person I trusted betrayed me. Do you understand?"
+
+    #8. 
+    elyndir "But it's your choice. If you don't want to get involved any further then say so now. We'll finish these drinks and say no more about it."
+
+    #9. 
+    elyndir "So which is it?"
+
+    #10. 
+    player_narration "Given what I'd seen of the type of people Elyndir worked with, part of me immediately insisted that becoming further involved with the dahrian was a terrible idea which could get me into very serious trouble."
+
+    #11. 
+    player_narration "But even so, that curiosity which had been strong enough to see me sneaking out after dark and following Elyndir through the city hadn't disappeared. I thought about it as I drank some of my ale."
+
+    #12. 
+    #menu:
+    #"Tell Elyndir you don't want to get involved. ": #(GO TO 13.1.)
+    #"Tell Elyndir you still want to learn more. ": #(GO TO 14.1.)
+
+
+    ###
+
+
+    #13.1.
+    player "Actually, I don't think I do want to know any more. My curiosity has already gotten me into enough trouble. "#(GO TO 13.2.)
+
+    #13.2.
+    player_narration "Elyndir nodded, seemingly taking my decision in his stride. "#(GO TO 13.3.)
+
+    #13.3.
+    elyndir "Fair enough. Then that's how it'll be. "#(GO TO 13.4.)
+
+    #13.4.
+    player "Right. "#(GO TO 13.5.)
+
+    #13.5.
+    player_narration "We drank the rest of our drinks, talking only occasionally and about nothing in particular. When our tankards were empty, Elyndir and I bid each other goodnight. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #14.1.
+    player "I'm in. "#(GO TO 14.2.)
+
+    #14.2.
+    elyndir "Alright. "#(GO TO 14.3.)
+
+    #14.3.
+    player_narration "Frowning, Elyndir looked down at his drink and then at mine, as if something had suddenly occurred to him. "#(GO TO 14.4.)
+
+    #14.4.
+    elyndir "Hang on, shouldn't you be buying me a drink? I did come to your rescue, after all. "#(GO TO 14.5.)
+
+    #14.5.
+    player "I'd have managed somehow. Anyway, I wouldn't have even been in that position if you didn't have bloody cut-throats for friends. "#(GO TO 14.6.)
+
+    #14.6.
+    elyndir "Those men aren't my friends. "#(GO TO 14.7.)
+
+    #14.7.
+    player "You knew each other, though. "#(GO TO 14.8.)
+
+    #14.8.
+    elyndir "I've worked with them a few times recently, that's all. "#(GO TO 14.9.)
+
+    #14.9.
+    player "Oh? And what work is that, exactly? They wanted to kill me. "#(GO TO 14.10.)
+
+    #14.10.
+    player_narration "A mischievous smile appeared on Elyndir's face as he raised his drink to his lips. "#(GO TO 14.11.)
+
+    #14.11.
+    elyndir "Only because that would've made it easier to rob you. "#(GO TO 14.12.)
+
+    #14.12.
+    player "Very funny. "#(GO TO 14.13.)
+
+    #14.13.
+    elyndir "They only wanted you dead because they thought you were following them. They're dangerous men, and they tend to value their secrecy quite highly. "#(GO TO 14.14.)
+
+    #14.14.
+    elyndir "Yes, those men are criminals, and yes, I've done some illegal work for them while I've been in Belgran. "#(GO TO 14.15.)
+
+    #14.15.
+    elyndir "And before you get on your high horse, no, I haven't been robbing and murdering people in dark alleys. Just some smuggling, a little breaking-and-entering, that kind of thing. "#(GO TO 14.16.)
+
+    #14.16.
+    player "But why? "#(GO TO 14.17.)
+
+    #14.17.
+    elyndir "I'm a mercenary, [PLAYER NAME]. The clue's in the job description. "#(GO TO 14.18.)
+
+    #14.18.
+    player_narration "Elyndir took a long swallow of ale and then set down his tankard. Frowning, he sighed. "#(GO TO 14.19.)
+
+    #14.19.
+    elyndir "Alright, so maybe it's not quite that simple... "#(GO TO 14.20.)
+
+    #14.20.
+    elyndir "I don't like those men. I don't particularly like working for them. But they have something I need, and I'm doing what I have to in order to get it. "#(GO TO 14.21.)
+
+    #14.21.
+    player "What is it? "#(GO TO 14.22.)
+
+    #14.22.
+    elyndir "Information. Information which might help me find something I've been searching for for a very long time. "#(GO TO 14.23.)
+
+    #14.23.
+    elyndir "And since you're now in this with me, you're going to help me. "#(GO TO 14.24.)
+
+    #14.24.
+    player "So what are you searching for? "#(GO TO 14.25.)
+
+    #14.25.
+    elyndir "I said I'd share details with you, I didn't say I was going to tell you everything. Not tonight, anyway. It's a long story, maybe another time. We'll have plenty of time to talk if we're going to be partners-in-crime. "#(GO TO 14.26.)
+
+    #14.26.
+    player_narration "Elyndir smiled and tapped his tankard against mine. "#(GO TO 14.27.)
+
+    #14.27.
+    elyndir "This should be interesting. "#(GO TO 14.28.)
+
+    #14.28.
+    player "That's what I'm afraid of. "#(GO TO 14.29.)
+
+
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_8:
+
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+
+    #Location: The Moon and Sabre, Belgran, Grana (Night)
+    #● We are in the Moon and Sabre tavern in Belgran. It is night, the place illuminated by candles and glass lamps. The tavern is busy, with men and women drinking and talking as they sit at tables or at the counter. Working behind the counter is Meda, the owner of the tavern. Player-Character (PC) and Elyndir are sitting together at a table in a corner of the room. In another corner of the room, playing a lute and singing, is a bard.
+
+    #1. 
+    player_narration "Elyndir and I sat together at a table in a corner of the Moon and Sabre, each drinking an ale and talking occasionally about this and that."
+
+    #2. 
+    player_narration "The warmth and light of the tavern was welcome after the time we'd spent out on the cold, dark streets of Belgran earlier in the evening due to a job which Elyndir had agreed to do - a job on which I accompanied him thanks to my new status as his partner."
+
+    #3. 
+    player_narration "Given my previous encounter with Elyndir's three knife-wielding acquaintances, naturally I'd been wary of what the job would entail, expecting something dangerous."
+
+    #4. 
+    player_narration "But in the end it had turned out to be quite pedestrian, Elyndir and I only being required to deliver a sealed package to an unnamed man at the back door of a particular shop..."
+
+    #5. 
+    player_narration "...and to take another package from him, which we were to then deliver to another unnamed man at a different location. It was from the second man that Elyndir received the second half of our payment, the first half having been demanded up-front."
+
+    #6. 
+    player_narration "I asked Elyndir what the packages contained but he said he didn't know - or care. I didn't know if he was telling the truth or not but either way I didn't press the issue. "
+
+    #7. 
+    player_narration "We hadn't spoken about the job - or future jobs, or anything else concerning our new partnership - since arriving at the Moon and Sabre, instead just chatting amiably as we often did."
+
+    #8. 
+    player_narration "A Granian bard was sitting in another corner of the room, playing a lute and singing, and his performance was pleasant enough but not something I was paying a lot of attention to."
+
+
+
+    #9. 
+    player_narration "That changed, however, when he suddenly began playing a familiar song, one which took me a few seconds to recognise, but then it hit me: it was the song written about Rimitar, which I'd heard for the first time in the Golden Meadow in Lyr-Taer."
+
+    #10. 
+    player_narration "Although I didn't think this Granian bard was as talented as the lyrian I'd seen perform in the Golden Meadow, he gave a decent enough performance and carried the song well. I turned to Elyndir."
+
+    #11. 
+    player "You might not believe this, but do you remember when we first met and I mentioned a lyrian named Rimitar? My teacher at the Warriors' Guild in Lyr-Taer?"
+
+    #12. 
+    player_narration "I waited for some kind of response but Elyndir - who was frowning now, I noticed - simply looked back at me in silence. Undaunted, I continued."
+
+    #13. 
+    player "Well, this song is actually about him. Really. He used to be a famous adventurer, travelling all over the lands, fighting evil wherever he found it, all that sort of thing."
+
+    #14. 
+    player "I suppose some people must know him in Grana as well as in Lyriathis, otherwise I doubt this bard would be playing the song."
+
+    #15. 
+    player_narration "Elyndir was looking off across the room with the same frown on his face, and didn't look back at me as he grunted dismissively and then spoke."
+
+    #16. 
+    elyndir "The noble, flawless Lyris hero fighting for justice and protecting the innocent... what a lovely fairytale."
+
+    #17. 
+    player "Well, some of it's exaggerated or missing things, no doubt. I know he travelled with a group of companions for a time, and this song doesn't mention them."
+
+    #18. 
+    player "Actually, you might be interested to hear that one of them was a Dahris. A dahria mage, to be specific."
+
+    #19. 
+    player_narration "Elyndir turned his gaze on me now and he didn't look interested, he looked angry, even if only for a moment. Then he lifted his tankard, drained the remaining ale in several long swallows, and stood up. He nodded at my own tankard."
+
+    #20. 
+    elyndir "Another one?"
+
+    #21. 
+    player "No, I'm alright, I've still got about half left."
+
+    #22. 
+    player_narration "Elyndir walked off towards the counter without another word, and I wondered what was bothering him."
+
+    #23. 
+    player_narration "Was it the fact that no Dahris companion was mentioned in the legend of Rimitar as portrayed in this song and probably other tales? I doubted it, Elyndir had never struck me as the type to care about something like that."
+
+    #24. 
+    player_narration "Whatever it was, I decided not to push him on the subject. As I waited for Elyndir to return, I sat and drank and listened to the bard as he continued singing of "
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_9:
+
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+
+    #Location: The Moon and Sabre, Belgran, Grana (Night)
+    #● We are in the Moon and Sabre in Belgran. It is night, the place illuminated by candles and glass lamps. The tavern is busy, with men and women drinking and talking as they sit at tables or at the bar. Working behind the bar is Meda, the owner of the tavern. Player-Character (PC) and Elyndir are sitting together at a table in a corner of the room.
+
+    #1. 
+    player_narration "As I entered the main room of the Moon and Sabre, I stopped as I spotted Elyndir sitting alone at the bar, staring into the tankard he held in one hand."
+
+    #2. 
+    player_narration "My surprise didn't come from seeing Elyndir drinking in the tavern but rather that he hadn't invited me to have a drink with him as he usually did. I walked over to the bar and took a seat on the empty stool next to him."
+
+    #3. 
+    player_narration "Meda was working and I asked her for an ale. As she poured my drink, I looked over at Elyndir, who only glanced at me before returning his attention to his tankard, his expression thoughtful."
+
+    #4. 
+    player "Evening."
+
+    #5. 
+    elyndir "Evening."
+
+    #6. 
+    player "I'm surprised you didn't ask me to join you. You don't usually like to drink alone. Or pay for your own drinks, if you can help it."
+
+    #7. 
+    elyndir "Well, you're here now. If you insist then you can buy me an ale when I'm done with this one."
+
+    #8. 
+    player_narration "Meda handed me my drink and I paid her. She wandered off down the other end of the bar as I sipped my ale and looked at Elyndir. He didn't seem to be his usual self."
+
+    #9. 
+    player "Is everything alright? You seem a little distracted."
+
+    #10. 
+    elyndir "Just something on my mind. I've learned some interesting information."
+
+    #11. 
+    player_narration "I waited for Elyndir to elaborate but instead he just took a drink from his tankard. But I wasn't going to let him just leave it at that."
+
+    #12. 
+    player "Well? What is it?"
+
+
+    #13. 
+    elyndir "An opportunity has presented itself. If I decide to act on it, it could cause me a lot of trouble... or it could be very beneficial."
+
+    #14. 
+    player "So...?"
+
+    #15. 
+    player_narration "Elyndir turned in my direction and finally gave me his full attention. He lowered his voice slightly although the tavern wasn't particularly busy, with no one close enough to overhear us."
+
+    #16. 
+    elyndir "There's a new group of smugglers in town. A rough bunch, by all accounts. And arrogant."
+
+    #17. 
+    elyndir "Apparently these smugglers have decided that, unlike most other sensible criminals in Belgran, they don't need to pay a cut of their profits to the Thieves' Guild."
+
+    #18. 
+    elyndir "Needless to say, this hasn't sat well with the guild. They want to make an example of these smugglers. And they're offering a handsome reward to anyone willing to do just that."
+
+    #19. 
+    elyndir "But it's not just about the money. My gaining favour with the Thieves' Guild could turn out to be just as valuable."
+
+    #20. 
+    elyndir "I've heard a rumour regarding the supposed place where these smugglers meet, and if what else I've heard is true then I know when they're bringing in their next shipment..."
+
+    #21. 
+    elyndir "...but what I don't know is exactly how many of them there are, or just how capable they are in a fight. And that's the kind of information that can make the difference between life and death."
+
+    #22. 
+    elyndir "That said, if I wait too long then someone else will take the Thieves' Guild up on their offer and snatch this opportunity out from under me. Hence my current dilemma."
+
+    #23. 
+    #menu:
+    #● Wish Elyndir luck. (GO TO 24.1.)
+    #● Offer to help Elyndir. (GO TO 25.1.)
+
+
+    ###
+
+
+    #24.1.
+    player_narration "Elyndir's "opportunity"sounded to me like a potential recipe for disaster, but I didn't bother trying to dissuade him as I knew that ultimately he'd do whatever he thought best. "#(GO TO 24.2.)
+
+    #24.2.
+    player "Well, good luck. Be careful. "#(GO TO 24.3.)
+
+    #24.3.
+    player_narration "I don't know if Elyndir had been expecting me to offer my help, but he gave no indication either way, instead he just nodded and turned back to the bar. "#(GO TO 24.4.)
+
+    #24.4.
+    player_narration "He drank his ale and I did the same, and we sat like that for a time, neither of us mentioning the Thieves' Guild or this new group of smugglers again. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #25.1.
+    player "Whatever the case with this group of smugglers, two of us would stand a better chance against them than just one. "#(GO TO 25.2.)
+
+    #25.2.
+    player_narration "Elyndir smiled and held out his tankard, and I tapped it with my own. "#(GO TO 25.3.)
+
+
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_10:
+
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+
+    #Location: Smugglers' Warehouse, Belgran, Grana (Night)
+    #● We are inside a warehouse somewhere in Belgran. It is night, the only illumination coming from the moonlight which enters through several high windows. There are a number of crates of various types stacked around the room. Player-Character (PC) and Elyndir have broken into the warehouse and are now stealthily exploring it. There is no one else in sight.
+
+    #1. 
+    player_narration "After I'd agreed to help Elyndir put the new group of smugglers in Belgran out of business, he continued learning what he could about the newcomers while at the same time being careful not to make them aware of his interest."
+
+    #2. 
+    player_narration "He'd also informed the Thieves' Guild of his intentions, but of course they were more interested in results than intentions, so Elyndir had to actually get the job done before he'd gain any favour with the guild."
+
+    #3. 
+    player_narration "He eventually came to me with the location of the back-alley warehouse out of which the smugglers seemed to be operating."
+
+    #4. 
+    player_narration "Also, although he was confident they'd brought in their latest shipment as he'd heard they would, he hadn't been able to find out what this shipment consisted of."
+
+    #5. 
+    player_narration "Elyndir's plan was simple. The two of us would infiltrate the warehouse at night and see what we could learn about the smugglers and their goods."
+
+    #6. 
+    player_narration "If the situation presented itself, we'd put an end to the smugglers and their operation there and then. If not, we'd at least have gathered more information on our targets."
+
+    #7. 
+    player_narration "After quietly forcing open the door at the rear of the warehouse, Elyndir and I slipped inside, moving as stealthily as possible, sticking to the darkness."
+
+    #8. 
+    player_narration "We'd watched the exterior of the building for a time before making our move but hadn't seen any sign of the smugglers, and the place was still and silent inside as well."
+
+    #9. 
+    player_narration "We moved along a couple of corridors, checking rooms as we passed them, but discovered nothing out of the ordinary."
+
+
+    #10. 
+    player_narration "Then we came to the main room which made up the bulk of the warehouse, the large, open space filled with stacks of wooden crates and barrels of varying size and design."
+
+    #11. 
+    player_narration "The room was dark and, due to the crates and barrels, contained a lot of blind spots. Elyndir leaned towards me and spoke in a whisper."
+
+    #12. 
+    elyndir "I don't like it. Where the hell are the guards?"
+
+    #13. 
+    player "We still don't know exactly how many are in this gang, maybe they don't have enough men to keep watch on this place every hour of every day."
+
+    #14. 
+    elyndir "Maybe. Keep your eyes open."
+
+    #15. 
+    player_narration "We crept further into the room, trying to make as little noise as possible despite the old, creaking floorboards on which we walked. My eyes scanned the darkness..."
+    #"(IF MAGIC STAT IS BELOW REQUIRED AMOUNT, GO TO 16.1.)"
+    #"(IF MAGIC STAT IS HIGH ENOUGH, GO TO 19.1.)"
+
+
+    ###
+
+
+    #16.1.
+    player_narration "...but I saw no movement or anything else besides more containers and shadows and warehouse space. "#(GO TO 16.2.)
+
+    #16.2.
+    player_narration "Then, suddenly, from a spot on the floor just a few feet ahead of me, there was a bright flash."
+    #"(IF DEXTERITY STAT IS BELOW REQUIRED AMOUNT, GO TO 17.1.)"
+    #"(IF DEXTERITY STAT IS HIGH ENOUGH, GO TO 18.1.)"
+
+
+    ###
+
+
+    #17.1.
+    player_narration "I tried to move but it was already too late, and as I rapidly blinked away the pinpricks of light scattered across my vision as a result of the flash, I found myself unable to move. "#(GO TO 17.2.)
+
+    #17.2.
+    player_narration "The bright flash had been a magical trap being sprung - sprung by me, specifically, and now I was caught in it, the spell rendering me immobile. Although I remained on my feet, I couldn't move a muscle. "#(GO TO 17.3.)
+
+    #17.3.
+    player_narration "Also, only now did I see that Elyndir and I weren't alone in the warehouse after all. I noticed a cloaked and hooded figure standing off to one side of me, in the shadows, his hands gesturing as he cast some kind of spell. A mage. "#(GO TO 17.4.)
+
+    #17.4.
+    player_narration "Elyndir had avoided the trap which had ensnared me, and now, drawing his sword, he darted past me and in the direction of the mage. "#(GO TO 17.5.)
+
+    #17.5.
+    player_narration "The mage moved as Elyndir charged towards him, and this, combined with the darkness and the fact I couldn't turn my head, caused me to lose sight of both Elyndir and our attacker. "#(GO TO 17.6.)
+
+    #17.6.
+    player_narration "I heard sounds of struggle as I desperately tried to move, but I was helpless, so all I could do was hope that Elyndir would emerge victorious. "#(GO TO 17.7.)
+
+    #17.7.
+    player_narration "It wasn't long before my hope turned out to be in vain. The sounds of struggle stopped. The mage reappeared at the edge of my vision and gestured with his hands once again. There was another flash, and a bright dart of light flew towards me. "#(GO TO 17.8.)
+
+    #17.8.
+    player_narration "I felt a terrible pain in my chest and I wanted to scream, but before I could even do that, darkness overcame me. (GAME OVER)"
+
+
+    ###
+
+
+    #18.1.
+    player_narration "I darted to one side, away from the arcs of magical energy which exploded into the air from the point at which the flash of light had originated. "#(GO TO 18.2.)
+
+    #18.2.
+    player_narration "The flash had signified a magical trap being sprung, one which I'd been careless enough to trigger but fast enough to then avoid. Elyndir had managed to do the same, and now the two of us drew our weapons and stood at the ready, looking around. "#(GO TO 18.3.)
+
+    #18.3.
+    player_narration "Suddenly Elyndir was sprinting past me, and as I looked in the direction he was heading, blinking away the last few pinpricks of light scattered across my vision, I saw what had caught his attention. "#(GO TO 18.4.)
+
+    #18.4.
+    player_narration "In the shadows off to one side of the room stood a cloaked and hooded figure, his hands gesturing as he cast some kind of spell. A mage. I ran after Elyndir. "#(GO TO 18.5.)
+
+    #18.5.
+    player_narration "Elyndir reached the mage and swung his sword, but the mage quickly created a shield of magical energy which blocked the incoming blow. I rushed towards him from a different angle, hoping to strike while he was dealing with Elyndir. "#(GO TO 18.6.)
+
+    #18.6.
+    player_narration "Even though I'd closed the distance between us, I still couldn't make out the mage's face or much of him in general thanks to the cloak and hood and the darkness surrounding us. "#(GO TO 18.7.)
+
+    #18.7.
+    player_narration "As I was about to attack him, he turned towards me and thrust an arm in my direction. A fireball shot from the ends of his fingertips and hurtled through the air towards me. "#(GO TO 18.8.)
+
+    #18.8.
+    player_narration "I managed to duck and avoid the fireball, although it was close enough that its heat stung my face as it passed over me. "#(GO TO 18.9.)
+
+    #18.9.
+    player_narration "The fireball hit a wooden beam and exploded, sending a shower of flames over the nearby floor and wooden crates, immediately igniting them. The wood of the building itself was dry and old, perfect for burning. "#(GO TO 18.10.)
+
+    #18.10.
+    player_narration "I turned my attention back to the mage just in time to see him move his arms again, and then an invisible shock wave of energy exploded outwards from him and slammed into Elyndir and I, sending us flying. "#(GO TO 18.11.)
+
+    #18.11.
+    player_narration "I grunted as I hit the floor, momentarily dazed. As I cleared my head and rose to my feet, I saw Elyndir doing the same nearby. We both looked in the direction of the mage only to see no sign of him, our attacker having seemingly vanished. "#(GO TO 18.12.)
+
+    #18.12.
+    player_narration "But there was another problem to deal with: the fire was spreading dangerously quickly throughout the room, the air becoming hot and filled with smoke. "#(GO TO 18.13.)
+
+    #18.13.
+    player_narration "We couldn't risk being trapped. We had to leave. I looked over at Elyndir, who was illuminated by the flickering orange light of the spreading blaze, and had to shout over the increasing roar of the fire. "#(GO TO 18.14.)
+
+    #18.14.
+    player "We need to get out of here! "#(GO TO 18.15.)
+
+    #18.15.
+    player_narration "Frowning, Elyndir quickly looked around at the numerous containers and at the spot where the mage had been. "#(GO TO 18.16.)
+
+    #18.16.
+    elyndir "Dammit, alright! "#(GO TO 18.17.)
+
+    #18.17.
+    player_narration "We rushed towards the rear of the building, intending to leave via the same way we'd entered, the heat and flames growing more intense around us as we fled. I coughed as I ran, my eyes watering. "#(GO TO 18.18.)
+
+    #18.18.
+    player_narration "When we made it outside, the cool night air was a blessed relief and I took in several deep breaths of it while rubbing the tears from my eyes. Elyndir led the way into an adjoining alley. "#(GO TO 18.19.)
+
+    #18.19.
+    player_narration "We looked at the warehouse. The windows glowed with the flickering light of the fire, and from inside we heard a large crash as something collapsed. The way it was going, the fire would soon consume the whole building and its contents. "#(GO TO 18.20.)
+
+    #18.20.
+    elyndir "I hate to leave empty-handed. Or without killing that bastard who attacked us. "#(GO TO 18.21.)
+
+    #18.21.
+    player "Better empty-handed than burnt to a crisp. Besides, won't the Thieves' Guild still be happy with this result? The smugglers may not be dead but it certainly looks to me like they're out of business. "#(GO TO 18.22.)
+
+    #18.22.
+    elyndir "Good point. I'll speak to the guild in the morning. "#(GO TO 18.23.)
+
+    #18.23.
+    player_narration "One of the windows of the smugglers' warehouse suddenly exploded outwards, scattering glass onto the street as flames leaped from the shattered window. "#(GO TO 18.24.)
+
+    #18.24.
+    elyndir "We should leave. "#(GO TO 18.25.)
+
+    #18.25.
+    player_narration "And so we did, heading deeper into the alley in which we stood and then taking adjoining alleys and back-streets, avoiding the main streets and moving away from the inferno behind us. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #19.1.
+    player_narration "...but it wasn't my sight which brought me to a sudden stop, simultaneously thrusting out my nearest arm in front of Elyndir to stop him moving forward as well. "#(GO TO 19.2.)
+
+
+
+    #19.2.
+    player_narration "Rather, it was my attunement to magic, and what I sensed ahead of us: an invisible magical trap designed to ensnare unwary intruders. I looked over at Elyndir, who looked back at me with an alert, expectant expression. "#(GO TO 19.3.)
+
+    #19.3.
+    player "Magical trap. Don't move. "#(GO TO 19.4.)
+
+    #19.4.
+    player_narration "Elyndir nodded and I lowered my arm from in front of him. I looked at the spot on the floor where the invisible trap had been placed. I closed my eyes and focused my mind. "#(GO TO 19.5.)
+
+    #19.5.
+    player_narration "Channelling my own sorcery, I deactivated and removed the trap, which dissipated into nothingness with just a few tiny sparks of magical energy. I turned to Elyndir again. "#(GO TO 19.6.)
+
+    #19.6.
+    player "It's gone. "#(GO TO 19.7.)
+
+    #19.7.
+    elyndir "Good. Bloody magic. Anything else in here we need to worry about? "#(GO TO 19.8.)
+
+    #19.8.
+    player_narration "I reached out with my mind but sensed no other traps in the room. There was a non-threatening magical presence nearby, however. "#(GO TO 19.9.)
+
+    #19.9.
+    player "No more magical traps. There's still magic in use here, though. Follow me. "#(GO TO 19.10.)
+
+    #19.10.
+    player_narration "With Elyndir following closely behind me, I led the way over to a corner of the room, that magical presence growing stronger and clearer in my mind as we drew nearer to it. "#(GO TO 19.11.)
+
+    #19.11.
+    player_narration "We came to a stop before a particular stack of five wooden crates. Unlike the other crates and barrels present in the room, these five containers were protected by an invisible magical shield. Dahris magic, to be precise. I turned to Elyndir. "#(GO TO 19.12.)
+
+    #19.12.
+    player "There's a magical shield protecting these particular crates. It's Dahris magic. "#(GO TO 19.13.)
+
+    #19.13.
+    elyndir "Can you remove it? "#(GO TO 19.14.)
+
+    #19.14.
+    player_narration "I focused my attention on the magical shield, and after a few seconds and a moderate amount of effort, it was gone. I looked back at Elyndir and smiled. "#(GO TO 19.15.)
+
+    #19.15.
+    player "Done. So, shall we find out what makes these crates so special? "#(GO TO 19.16.)
+
+    #19.16.
+    player_narration "Elyndir smiled back at me and the two of us knelt before the nearest of the five crates. As we inspected it more closely, the smile fell from Elyndir's face. "#(GO TO 19.17.)
+
+    #19.17.
+    elyndir "These are Kiartar locks. "#(GO TO 19.18.)
+
+    #19.18.
+    elyndir "There's no stronger or more intricate lock in the world. These smugglers really didn't want anyone getting their hands on whatever's inside these crates. "#(GO TO 19.19.)
+
+
+    #19.19.
+    elyndir "I'm not bad with a lockpick, but even I've never been able to pick a Kiartar lock. And every one of these crates is fitted with one. "#(GO TO 19.20.)
+
+    #19.20.
+    player "Let me try. "#(GO TO 19.21.)
+
+    #19.21.
+    player_narration "Elyndir rose to his feet and stepped aside as I moved into place before the thick metal lock which secured the nearest crate. "#(GO TO 19.22.)
+
+    #19.22.
+    player_narration "The lock featured several keyholes, and the twisting, complicated contraption seemed to be embedded throughout the whole crate, preventing it from being forced open. I could sense that magic wouldn't work either. "#(GO TO 19.23.)
+
+    #19.23.
+    player_narration "And just by looking at them it was easy to see that the crates would be too heavy for Elyndir and I to transport out of the warehouse. If we were going to see what they contained, it had to be here and now. "#(GO TO 19.24.)
+
+    #19.24.
+    player_narration "I withdrew a lockpick and slipped it into one of the keyholes."
+    #"(IF LOCK-PICKING STAT IS BELOW REQUIRED AMOUNT, GO TO 20.1.)"
+    #"(IF LOCK-PICKING STAT IS HIGH ENOUGH, GO TO 21.1.)"
+
+
+    ###
+
+
+    #20.1.
+    player_narration "I spent several long, frustrating minutes moving the lockpick around inside the lock, trying to make my movements as subtle and precise as possible, hoping to hear a click signifying my overcoming the first part of the lock... "#(GO TO 20.2.)
+
+    #20.2.
+    player_narration "...but nothing I did made any difference, and eventually I admitted defeat. I withdrew the lockpick, stood up and looked at Elyndir. "#(GO TO 20.3.)
+
+    #20.3.
+    player "I can't do it. "#(GO TO 20.4.)
+
+    #20.4.
+    elyndir "Well, I might as well give it a shot... "#(GO TO 20.5.)
+
+    #20.5.
+    player_narration "I handed Elyndir my lockpick and he set about trying to unlock one of the five crates, but met with the same result as me. He cursed, rose to his feet and gave me back my lockpick. "#(GO TO 20.6.)
+
+    #20.6.
+    player "What do you want to do? "#(GO TO 20.7.)
+
+    #20.7.
+    elyndir "The smugglers are going to know someone's been here because of that trap you disarmed, so there's no point trying to leave no trace now. "#(GO TO 20.8.)
+
+    #20.8.
+    elyndir "If they're so desperate to keep anyone from opening these crates then why don't we make it a pain for them to do so as well? "#(GO TO 20.9.)
+
+    #20.9.
+    player_narration "Elyndir looked around until his eyes settled on an unlit candle lying on top of a nearby barrel. He walked over to it and picked it up, then lit it with a match he withdrew from one of his pockets. "#(GO TO 20.10.)
+
+    #20.10.
+    player_narration "When the wax had started to melt, Elyndir walked back to the Kiartar-lock crates and jammed soft wax into every keyhole of every crate, the wax quickly cooling and hardening. "#(GO TO 20.11.)
+
+    #20.11.
+    player_narration "When he was done, Elyndir blew out the candle and dropped it to the floor. He looked at me and shrugged. "#(GO TO 20.12.)
+
+    #20.12.
+    elyndir "It's petty, I know, but I'm bloody annoyed. "#(GO TO 20.13.)
+
+    #20.13.
+    elyndir "Alright, let's go. "#(GO TO 20.14.)
+
+    #20.14.
+    player_narration "We moved towards the rear of the warehouse and left via the same way we'd entered, slipping out into the night. "
+    #END OF EPISODE
+    return 
+
+
+    ###
+
+
+    #21.1.
+    player_narration "The next few minutes were long and frustrating as I moved my lockpick around inside the lock, being as subtle and precise as possible. Eventually my patience and skill paid off with the sound of a click coming from inside the keyhole. "#(GO TO 21.2.)
+
+    #21.2.
+    player_narration "Although Elyndir was watching me with interest, I kept my attention focused as I moved on to the next keyhole. Eventually, another click. I moved on to the third and final keyhole of the lock. Click. "#(GO TO 21.3.)
+
+    #21.3.
+    player_narration "I rose to my feet and pocketed my lockpick. I smiled at Elyndir and gestured towards the unlocked crate. "#(GO TO 21.4.)
+
+    #21.4.
+    player "Would you care to do the honours? "#(GO TO 21.5.)
+
+    #21.5.
+    player_narration "I took a couple of steps away from the crate as Elyndir approached it. He grasped the lid in both hands and lifted it. Because of where I stood, I couldn't see what was inside the crate, but Elyndir obviously could... "#(GO TO 21.6.)
+
+    #21.6.
+    player_narration "...and whatever it was caused the smile to disappear from his face. After a few seconds spent staring at the contents of the crate, Elyndir looked over at me with a troubled frown. "#(GO TO 21.7.)
+
+
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_11:
+
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+
+    #Location: The Moon and Sabre, Belgran, Grana (Night)
+    #● We are in the Moon and Sabre in Belgran, specifically inside the room which Player-Character (PC) is renting. PC and Elyndir are in the room.
+
+    #● (IF PC AND ELYNDIR FAILED TO STEAL THE WEAPONS FROM THE SMUGGLERS' WAREHOUSE, GO TO 1.)
+    #● (IF PC AND ELYNDIR STOLE THE WEAPONS FROM THE SMUGGLERS' WAREHOUSE, GO TO 11.1.)
+
+
+    ###
+
+
+    #1. 
+    player_narration "I sat in a chair in my room at the Moon and Sabre, watching Elyndir pace the floor with a thoughtful frown."
+
+    #2. 
+    player_narration "Some time had passed since we'd left the smugglers' warehouse with nothing to show for it, and I knew that fact - along with the resulting lack of progress with the Thieves' Guild - still bothered Elyndir."
+
+    #3. 
+    player_narration "Neither of us had come up with another plan yet, so for now the situation didn't seem to be going anywhere, and I wasn't going to push the matter."
+
+    #4. 
+    elyndir "Damn smugglers... it's unfinished business. And I don't like starting something and then not finishing it."
+
+    #5. 
+    elyndir "That said, I'm not going to blindly rush back in and end up making things worse."
+
+    #6. 
+    elyndir "Those smugglers know someone broke into their warehouse. And while I'm fairly sure we didn't leave any traces which could lead them to us, it's not beyond the realms of possibility they'll find out who we are and track us down."
+
+    #7. 
+    elyndir "So as much as I hate to say it, it might be best for us to lay low for a while, just until I can work out what our next move should be."
+
+    #8. 
+    player "Alright, if you think that's for the best."
+
+    #9. 
+    player_narration "Elyndir nodded, clearly not happy with the situation but resigned to it for now."
+
+
+    #10. 
+    player_narration "We talked a little after that but not for long, Elyndir not in much of a mood for conversation, and so eventually he left, telling me to watch my back and that he'd be in touch again soon. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #11.1.
+    player_narration "Elyndir and I stood inside my room at the Moon and Sabre, staring at what we'd laid out on the floor: the weapons we'd stolen from the Kiartar-lock containers at the smugglers' warehouse. "#(GO TO 11.2.)
+
+    #11.2.
+    player_narration "These weren't just any old weapons, however. In fact, they were the finest weapons I'd ever laid eyes upon. It was no wonder the smugglers had kept them so well-protected. "#(GO TO 11.3.)
+
+    #11.3.
+    player_narration "We'd wrapped them in sheets at the warehouse and then carried them back to the Moon and Sabre before sneaking them into my room at the tavern, where we'd been staring at them for the past couple of minutes. "#(GO TO 11.4.)
+
+    #11.4.
+    player_narration "The weapons varied in type but shared the same incredible level of craftsmanship. They were clearly of Kiartar origin, but even the best Kiartar weapons paled in comparison to these. "#(GO TO 11.5.)
+
+    #11.5.
+    player_narration "This was in part thanks to the magical enchantments each weapon had been infused with, these enchantments combining with the physical craftsmanship to make the weapons even more deadly. They almost seemed to hum with power. "#(GO TO 11.6.)
+
+    #11.6.
+    player_narration "While the physical aspect of the weapons was Kiartar in origin, the magic was Dahris in nature. The resulting deadly combination - and the far-reaching implications which came along with it - worried me. "#(GO TO 11.7.)
+
+    #11.7.
+    player_narration "These weapons would be absolutely lethal in any hands and I dreaded to think of the carnage a skilled warrior might be able to cause with them... "#(GO TO 11.8.)
+
+    #11.8.
+    player_narration "...but a bigger sense of dread came from what the weapons' existence suggested: that there was truth to the rumour that the Dahris were preparing to wage war on the Lyris. "#(GO TO 11.9.)
+
+    #11.9.
+    player_narration "And that gave rise to another thought, an unwelcome one but one which popped into my mind nonetheless: if war did indeed break out, whose side would Elyndir be on? "#(GO TO 11.10.)
+
+    #11.10.
+    player_narration "He'd never struck me as being particularly patriotic, so I assumed that during wartime he'd simply continue doing whatever was best for him and leave the politics and duties to others. But how sure could I really be about that? "#(GO TO 11.11.)
+
+    #11.11.
+    player_narration "Before I could follow that troubling line of thought any further, my attention turned to Elyndir when he sighed and shook his head, his eyes still fixed on the weapons laid out before us. "#(GO TO 11.12.)
+
+    #11.12.
+    elyndir "You know, we could make an absolute fortune selling these. I know people who'd pay enough for weapons like this that you and I'd be set for life. "#(GO TO 11.13.)
+
+
+
+    #11.13.
+    elyndir "...But damn it all, you just have to look at these things to know it would be too dangerous. I suppose the safest thing would be for me to just get rid of them. "#(GO TO 11.14.)
+
+    #11.14.
+    #menu:
+    #● Trust Elyndir to dispose of the weapons. (GO TO 12.1.)
+    #● Tell Elyndir that you'll dispose of the weapons yourself. (GO TO 17.1.)
+
+
+    ###
+
+
+    #12.1.
+    player "I think you're right. So you're not bothered by the Dahris connection? I didn't know if you might feel like you'd be betraying your homeland in some way. "#(GO TO 12.2.)
+
+    #12.2.
+    elyndir "The fact I was born in a particular place has never really meant much to me, frankly. But it's all some people seem to care about. "#(GO TO 12.3.)
+
+    #12.3.
+    elyndir "Anyway, if these weapons are part of some secret Dahris war effort then that's just more incentive for me to get rid of them. "#(GO TO 12.4.)
+
+    #12.4.
+    elyndir "I've profited from conflict in the past, make no mistake about that, but not on the scale of something like a fully-fledged war between your country and mine. The only winners in that would be the worms. "#(GO TO 12.5.)
+
+    #12.5.
+    elyndir "Besides, there's people on both sides of that war who I wouldn't want to see get hurt."
+    (IF PLAYER-CHARACTER IS FEMALE, GO TO 13.1.)
+    (IF PLAYER-CHARACTER IS MALE, GO TO 14.1.)
+
+
+    ###
+
+
+    #13.1.
+    player_narration "Elyndir wasn't looking at me when he said that, his attention remaining focused on the weapons, but for a moment I couldn't help but wonder if he was referring to me. "#(GO TO 13.2.)
+
+    #13.2.
+    player_narration "We'd been working together, but did he see me as something more than a colleague? It was hard to tell with how often he played his cards close to his chest. "#(GO TO 14.1.)
+
+
+    ###
+
+
+    #14.1.
+    player_narration "Elyndir looked up at me and smiled. "#(GO TO 14.2.)
+
+    #14.2.
+    elyndir "Mainly myself. "#(GO TO 14.3.)
+
+    #14.3.
+    player_narration "I rolled my eyes and smiled back at Elyndir. "#(GO TO 14.4.)
+
+    #14.4.
+    player "Your caring knows no bounds. "#(GO TO 14.5.)
+
+    #14.5.
+    player_narration "Elyndir leaned down, wrapped the weapons in the sheet in which we'd brought them to the Moon and Sabre, and then hefted the bundle onto his back, carrying it over one shoulder. "#(GO TO 14.6.)
+
+    #14.6.
+    elyndir "I should get moving. The sooner these are gone, the better. "#(GO TO 14.7.)
+
+    #14.7.
+    player "How are you going to do that, exactly? "#(GO TO 14.8.)
+
+    #14.8.
+    elyndir "It's probably best you don't know. But don't worry, I know a few places where a person can get rid of something he never wants to be found. "#(GO TO 14.9.)
+
+    #14.9.
+    player "You worry me sometimes. "#(GO TO 14.10.)
+
+    #14.10.
+    elyndir "It's part of what makes me so fascinating. "#(GO TO 14.11.)
+
+    #14.11.
+    player_narration "Elyndir left my room, closing the door behind him. I heard his first few footsteps as he moved along the hallway, in the direction of the stairs, then they faded into silence. "#(GO TO 14.12.)
+
+    #14.12.
+    player_narration "I hadn't been joking, Elyndir did worry me sometimes, but I also trusted him enough that I was confident I'd made the right choice in leaving the weapons with him. "#(GO TO 14.13.)
+
+    #14.13.
+    player_narration "At the same time, the very existence of the weapons in the first place remained a concern... "#(GO TO 14.14.)
+
+    #14.14.
+    player_narration "...and I wondered if I should inform the Lyris authorities that such weapons had been produced through the apparent combined effort of Kiartar craftsmen and Dahris mages. "#(GO TO 14.15.)
+
+    #14.15.
+    #menu:
+    #● Tell the Lyris authorities about the weapons. (GO TO 15.1.)
+    #● Do not tell the Lyris authorities about the weapons. (GO TO 16.1.)
+
+
+    ###
+
+
+    #15.1.
+    player_narration "Given the implications presented by the weapons, I couldn't keep such potentially critical information from my own people. "#(GO TO 15.2.)
+
+    #15.2.
+    player_narration "I'd be sure to leave out some of the details - Elyndir's existence and the incriminating details of my own involvement, for a start - but if the weapons were indeed a sign that war was imminent then that was a secret I couldn't keep. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #16.1.
+    player_narration "Although I was well aware of the implications presented by the weapons, I had no intention of incriminating myself by informing my people of my involvement with them. "#(GO TO 16.2.)
+
+    #16.2.
+    player_narration "Besides, I didn't want to endanger Elyndir - whatever dim view the Lyris authorities might take of me, it would be nothing compared to how they'd view the involvement of a Dahris mercenary and thief. "#(GO TO 16.3.)
+
+    #16.3.
+    player_narration "I trusted Elyndir to dispose of the weapons, so hopefully that was the last we'd ever see or hear of them. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #17.1.
+    player_narration "I trusted Elyndir... to a degree. But not enough in this situation given what might be at stake. "#(GO TO 17.2.)
+
+    #17.2.
+    player "I'll do it. "#(GO TO 17.3.)
+
+    #17.3.
+    player_narration "There was a moment of silence as Elyndir and I looked at each other. "#(GO TO 17.4.)
+
+    #17.4.
+    elyndir "Alright. Good luck, then. "#(GO TO 17.5.)
+
+    #17.5.
+    player_narration "If Elyndir knew the reason why I didn't want him to take the weapons - and I was fairly sure he did - then he decided not to mention it. "#(GO TO 17.6.)
+
+    #17.6.
+    player_narration "Instead he took one final look at the weapons then left my room, closing the door behind him. I heard his first few footsteps as he moved along the hall, then they faded into silence. "#(GO TO 17.7.)
+
+    #17.7.
+    player_narration "I stared at the weapons and sighed. Although I was confident I'd made the right decision in not letting Elyndir take them, now that I was alone with them I realised I wasn't sure how I was going to get rid of them... or even if I definitely should. "#(GO TO 17.8.)
+
+    #17.8.
+    player_narration "I wondered if I should inform the Lyris authorities that such weapons had been produced through the apparent combined effort of Kiartar craftsmen and Dahris mages. "#(GO TO 17.9.)
+
+    #17.9.
+    #menu:
+    #● Tell the Lyris authorities about the weapons. (GO TO 15.1.)
+    #● Do not tell the Lyris authorities about the weapons. (GO TO 18.1.)
+
+
+    ###
+
+
+    #18.1.
+    player_narration "Although I was well aware of the implications presented by the weapons, I had no intention of incriminating myself by informing my people of my involvement with them. "#(GO TO 18.2.)
+
+    #18.2.
+    player_narration "Besides, I didn't want to endanger Elyndir - whatever dim view the Lyris authorities might take of me, it would be nothing compared to how they'd view the involvement of a Dahris mercenary and thief. "#(GO TO 18.3.)
+
+    #18.3.
+    player_narration "I'd taken responsibility of the weapons, so I'd deal with them. (END "
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_12:
+
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+
+    #Location: The Moon and Sabre, Belgran, Grana (Night)
+    #● We are in the Moon and Sabre in Belgran. It is night, the place illuminated by candles and glass lamps. The tavern is quiet, with a few men and women drinking and talking as they sit at tables or at the bar. Working behind the bar is Meda, the owner of the tavern. Player-Character (PC) and Ashel are sitting together at a table in a corner of the room.
+
+    #1. 
+    player_narration "I'd chosen a table in a quiet corner of the Moon and Sabre and had only been sat there sipping my ale for a few minutes when Councillor Ashel entered the tavern. He scanned the room, spotted me, and headed in my direction."
+
+    #2. 
+    player_narration "Ashel was stationed at King Eadgar's castle, and since I hadn't been able to gain entrance to see him there, I'd instead sent him a message telling him to meet me here at this date and time."
+
+    #3. 
+    player_narration "I'd left the specifics of the message vague but made it clear that my information concerned the rumoured Dahris invasion. I hoped that would be enough to get his attention. It seemed to have worked."
+
+    #4. 
+    player_narration "Ashel sat down in the chair opposite me and looked at me with a businesslike expression."
+
+    #5. 
+    ashel "I assume it was you who sent me that message."
+
+    #6. 
+    player "It was."
+
+    #7. 
+    ashel "I'd have rather had this conversation in the privacy of my office."
+
+    #8. 
+    player "I tried but Eadgar's guards wouldn't let me into the castle."
+
+    #9. 
+    ashel "Well, I'm here now. What's this about?"
+
+    #10. 
+    player_narration "I told Ashel about the incredible weapons which Elyndir and I had taken from the smugglers' warehouse, although I left out any mention of Elyndir along with the details of how I came into possession of the weapons."
+
+    #11. 
+    player_narration "But I didn't skimp on the details when it came to the weapons themselves, doing my best to make it clear just how impressive and dangerous they were."
+
+    #12. 
+    player_narration "I didn't need to emphasise to Ashel what the existence of the weapons implied, of course - he'd already be well aware of that."
+
+    #13. 
+    player_narration "Although he seemed sceptical initially, Ashel obviously took seriously any potentially useful information regarding the Dahris, and so he listened patiently until I was finished. He studied me with a thoughtful frown."
+
+    #14. 
+    ashel "I've never seen a Kiartar-crafted weapon enchanted by Dahris magic, but I can imagine the possibilities."
+
+    #15. 
+    ashel "But my imagination and your word are all I have at the moment. Where's the proof?"
+    #● (IF THE WEAPONS HAVE BEEN DISPOSED OF, GO TO 16.1.)
+    #● (IF PC IS IN POSSESSION OF THE WEAPONS, GO TO 17.1.)
+
+
+    ###
+
+
+    #16.1.
+    player "I don't have any. I decided the weapons were too dangerous to keep around. I got rid of them. "#(GO TO 16.2.)
+
+    #16.2.
+    player_narration "Ashel's annoyed disappointment was clear on his face. "#(GO TO 16.3.)
+
+    #16.3.
+    player "Look, I may not have proof but I have no reason to lie about this either. Just have someone look into it. Where's the harm in that? "#(GO TO 16.4.)
+
+    #16.4.
+    ashel "You understand I take a very dim view of people wasting my time. "#(GO TO 16.5.)
+
+    #16.5.
+    player "I'm sure you do. "#(GO TO 16.6.)
+
+    #16.6.
+    ashel "...Alright. I'll see if there's any truth to this story of yours. In the meantime, if you happen to stumble across any other such weapons or pertinent information, come and see me before doing anything else. What's your name? "#(GO TO 16.7.)
+
+    #16.7.
+    player "[PLAYER NAME]. "#(GO TO 16.8.)
+
+    #16.8.
+    ashel "I'll see to it that next time you won't be denied entry to the castle. "#(GO TO 16.9.)
+
+    #16.9.
+    player_narration "Ashel rose to his feet and gave me a curt nod. "#(GO TO 16.10.)
+
+    #16.10.
+    ashel "Goodbye. "#(GO TO 16.11.)
+
+    #16.11.
+    player "Goodbye, councillor. "#(GO TO 16.12.)
+
+    #16.12.
+    player_narration "Ashel walked to the exit and left the Moon and Sabre. I sat alone and steadily drank the rest of my ale. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #17.1.
+    player_narration "I reached down and withdrew from beneath one of my thighs the small, wrapped bundle which I'd been hiding there. Trying to be as subtle as possible, I passed it to Ashel beneath the table. "#(GO TO 17.2.)
+
+    #17.2.
+    player_narration "He looked down into his lap as he opened the bundle and studied what it contained, being careful not to draw attention to himself as he did so. "#(GO TO 17.3.)
+
+    #17.3.
+    player "That dagger was the smallest weapon out of them all, but it's of the same level of craftsmanship and infused with equally dangerous enchantments. I have the other weapons in my room here at the tavern. "#(GO TO 17.4.)
+
+    #17.4.
+    player_narration "Ashel studied the dagger for a little longer before his eyes met mine again. There was no trace of scepticism on his face now. "#(GO TO 17.5.)
+
+    #17.5.
+    ashel "You'll need to hand them all over. I'll send some lyrians to your room later this evening, they'll collect the weapons. Keep them safe until then. "#(GO TO 17.6.)
+
+    #17.6.
+    player_narration "I nodded and drank some ale as Ashel re-wrapped the dagger and hid it on his person. "#(GO TO 17.7.)
+
+    #17.7.
+    ashel "You did the right thing contacting me. Should I need to speak to you again, you'll hear from me. "#(GO TO 17.8.)
+
+    #17.8.
+    player_narration "Before I could reply, movement off to one side of the room, near the stairs, caught my eye and I turned my head in that direction. "#(GO TO 17.9.)
+
+    #17.9.
+    player_narration "There was nothing out of the ordinary there, and nothing seemed to have disturbed the customers at that end of the room... "#(GO TO 17.10.)
+
+    #17.10.
+    player_narration "...but my brain insisted that the movement I'd glimpsed had been a figure, and that figure may well have been Elyndir. "#(GO TO 17.11.)
+
+    #17.11.
+    player_narration "I knew Elyndir to be elsewhere in the city on business this evening, however, so I chalked it up to my imagination and the guilt I felt at going behind his back like this. "#(GO TO 17.12.)
+
+    #17.12.
+    player_narration "When I turned back to Ashel, he had already risen from his chair and was turning towards the exit. He headed towards the door, and a moment later he was "
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_13:
+
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+
+    #Location: A street somewhere in Belgran, Grana (Night)
+    #● We are on a street somewhere in Belgran. It is night and the street is quiet. Player-Character (PC) and Elyndir have been walking along the street but now stop as they are confronted by a group of four cloaked and hooded figures.
+
+    #1. 
+    player_narration "It was after midnight as Elyndir and I walked the chilly and dark Belgran streets. We'd met up earlier and were now on our way to meet a contact of Elyndir's, a man he wanted information from."
+
+    #2. 
+    player_narration "We'd kept a low profile since the night we broke into the smugglers' warehouse, but now Elyndir had finally had enough and decided to take action, with me along for the ride."
+
+    #3. 
+    player_narration "Wearing our hoods up over our heads, we kept to the smaller streets, which were quiet, only a few scattered Granians passing us in silence along the way."
+
+    #4. 
+    player_narration "We were walking along a narrow alley lined by buildings when two cloaked and hooded figures stepped out of the shadows ahead of us and stood facing us, blocking our path. Elyndir and I stopped."
+
+    #5. 
+    player_narration "A moment later, two more figures appeared behind us, blocking that way as well. We were trapped, and neither of us had seen it coming. We held our ground, tense but calm, waiting to see who'd make the first move."
+
+    #6. 
+    player_narration "I was wondering if these were simply common thieves or if they had specifically targeted Elyndir and I when one of the two ahead of us approached and answered my question for me."
+
+    #7. 
+    salys "Elyndir... it's been a long time."
+
+    #8. 
+    player_narration "The figure stopped before he got too close, and lowered his hood to reveal the face of a dahrian. He had a thin smile on his lips as he looked at Elyndir."
+
+    #9. 
+    player_narration "I glanced over at Elyndir, who was looking back at the dahrian with an expression of recognition. But while Elyndir seemed to know him, he certainly didn't look happy to see him."
+
+    #10. 
+    elyndir "Salys. I heard you were dead. I should've known you'd crawl out from under yet another rock eventually."
+
+
+    #11. 
+    salys "You can't keep a good dahrian down, Elyndir. And is that any way to greet an old friend?"
+
+    #12. 
+    elyndir "I wouldn't piss on you if you were on fire. Let's not waste each other's time pretending otherwise, eh?"
+
+    #13. 
+    player_narration "Salys' smile disappeared, although he retained the confidence and composure of someone who has his enemy trapped and outnumbered."
+
+    #14. 
+    salys "Alright. You stole something very important. Some weapons. It's my job to retrieve them."
+
+    #15. 
+    player_narration "Elyndir barked an abrupt, mocking laugh and shook his head."
+
+    #16. 
+    elyndir "You're a member of the new smuggling gang in Belgran? How the mighty have fallen. And here I thought those smugglers might be something worth worrying about..."
+
+    #17. 
+    salys "I'm no smuggler. You're the common criminal, Elyndir, not me. I'm helping to keep my country and its people safe."
+
+    #18. 
+    elyndir "Salys, the noble and heroic patriot... don't make me laugh."
+
+    #19. 
+    salys "As fond as I've always been of our chats, I think I've already wasted enough time on you. You stole from the wrong people, and now you face the consequences."
+
+    #20. 
+    salys "Although perhaps my friends and I could see our way to going easy on you... if you return all of the weapons to us right now."
+
+    #21. 
+    elyndir "I have no idea what weapons you're talking about."
+
+    #22. 
+    player_narration "Salys turned his attention to me."
+
+    #23. 
+    salys "Maybe you've got the sense to be more talkative. Why don't you lower your hood so we can get a good look at the face of Elyndir's friend?"
+
+    #24. 
+    #menu:
+    #● Show your face. (GO TO 25.1.)
+    #● Do not show your face. (GO TO 26.1.)
+
+
+    ###
+
+
+    #25.1.
+    player_narration "I did as Salys asked and lowered my hood, revealing my face. Salys frowned then looked at Elyndir again. "#(GO TO 25.2.)
+
+    #25.2.
+    salys "A Lyris? Really, Elyndir? So you're not just criminal scum, you're a traitor to your homeland as well. And here I didn't think you could sink any lower. "#(GO TO 25.3.)
+
+    #25.3.
+    player_narration "Elyndir glanced sideways at me and gave me an almost imperceptible nod, and I knew what it meant. "#(GO TO 25.4.)
+
+    #25.4.
+    player_narration "Sure enough, a moment later he suddenly dashed forward, breaking into a sprint, charging towards Salys and the other cloaked figure ahead of us. "#(GO TO 25.5.)
+
+
+    #25.5.
+    player_narration "I did the same, running at his side and just a couple of steps behind him, each of us drawing a weapon as we went. "#(GO TO 25.6.)
+
+    #25.6.
+    player_narration "I could hear two sets of footsteps behind us as those two figures gave chase, while ahead of us Salys and his colleague each drew a sword and stood at the ready as we rushed at them. "#(GO TO 25.7.)
+
+    #25.7.
+    player_narration "The four of us came together in clashes of weapons and bodies, although my and Elyndir's intention wasn't to stand and fight but to break through and make our escape. "#(GO TO 25.8.)
+
+    #25.8.
+    player_narration "After a brief flurry of blows which left Salys dazed and bleeding from his nose, and his colleague lying sprawled and disarmed on the ground, Elyndir and I ran on towards the end of the alley, the remaining two assailants still hot on our heels. "#(GO TO 25.9.)
+
+    #25.9.
+    player_narration "We took a left turn, darting into an adjoining alley and sprinting along that, our feet pounding on the uneven cobbles, the cool night air burning my lungs. "#(GO TO 25.10.)
+
+    #25.10.
+    player_narration "We kept that up for a time, making our way through a maze of alleys and side-streets. Behind us the sounds of our two pursuers gradually receded until eventually I couldn't hear them at all. "#(GO TO 25.11.)
+
+    #25.11.
+    player_narration "When it seemed that we'd lost them, Elyndir and I came to a stop in a shadowy alcove, both of us breathing heavily, our weapons still held at our sides. "#(GO TO 25.12.)
+
+    #25.12.
+    player "So you know the smugglers we stole from? "#(GO TO 25.13.)
+
+    #25.13.
+    elyndir "Something like that. Anyway, I think we've lost them but putting a little more distance between us and them won't hurt. Come on. "#(GO TO 25.14.)
+
+    #25.14.
+    player_narration "Elyndir stepped out of the alcove and I followed despite the fact my mind was buzzing with questions. But they'd have to wait for now. We continued on our way. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #26.1.
+    player_narration "Instead of lowering my hood as Salys asked, I glanced over at Elyndir and gave him an almost imperceptible nod. He noticed the signal and knew what it meant. "#(GO TO 26.2.)
+
+    #26.2.
+    player_narration "I suddenly dashed forward, breaking into a sprint, charging towards Salys and the other cloaked figure ahead of us. "#(GO TO 26.3.)
+
+    #26.3.
+    player_narration "Elyndir did the same, running at my side and just a couple of steps behind me, each of us drawing a weapon as we went. "#(GO TO 26.4.)
+
+    #26.4.
+    player_narration "I could hear two sets of footsteps behind us as those two figures gave chase, while ahead of us Salys and his colleague each drew a sword and stood at the ready as we rushed at them. "#(GO TO 26.5.)
+
+
+    #26.5.
+    player_narration "The four of us came together in clashes of weapons and bodies, although my intention wasn't to stand and fight but to break through and escape. "#(GO TO 26.6.)
+
+    #26.6.
+    player_narration "During the struggle my hood inadvertently fell down, revealing my face. Finally seeing my Lyris nature, Salys looked at me with hatred in his eyes then turned that hatred towards Elyndir. "#(GO TO 26.7.)
+
+    #26.7.
+    salys "Traitor! "#(GO TO 26.8.)
+
+    #26.8.
+    player_narration "Elyndir didn't waste words on Salys, instead landing a blow which left Salys on his knees, dazed and bleeding from his nose. I spun around Salys' colleague and continued running... "#(GO TO 26.9.)
+
+    #26.9.
+    player_narration "...but not before I felt a horribly sharp and searing line of pain cut through the left side of my torso. I cried out but kept running, Elyndir at my side and three assailants hot on our heels. "#(GO TO 26.10.)
+
+    #26.10.
+    player_narration "When we reached the end of the alley we took a left turn, darting into an adjoining alley and sprinting along that, our feet pounding on the uneven cobbles. "#(GO TO 26.11.)
+
+    #26.11.
+    player_narration "The cool night air burned my lungs, but nothing like the fire that burned in my left side. I didn't look at it but I knew I'd been wounded. My skin below the line of pain felt wet and warm. "#(GO TO 26.12.)
+
+    #26.12.
+    player_narration "Still I maintained my pace as we made our way through a maze of alleys and side-streets. Behind us the sounds of our pursuers gradually receded until eventually I couldn't hear them at all. "#(GO TO 26.13.)
+
+    #26.13.
+    player_narration "When we were confident we'd lost them, Elyndir and I came to a stop in a shadowy alcove, both of us breathing heavily, our weapons still held at our sides. "#(GO TO 26.14.)
+
+    #26.14.
+    player_narration "Suddenly my vision began to darken and I realised I was swaying slightly on my feet. I felt dizzy. Elyndir looked down at my left side then placed a hand on one of my shoulders and looked into my eyes. "#(GO TO 26.15.)
+
+    #26.15.
+    elyndir "You're wounded. "#(GO TO 26.16.)
+
+    #26.16.
+    player "You should... keep going. Make sure you've lost them. I'll only slow you down. "#(GO TO 26.17.)
+
+    #26.17.
+    elyndir "Shut up. And close your eyes. "#(GO TO 26.18.)
+
+    #26.18.
+    player_narration "With how light-headed I felt, doing as Elyndir commanded came easily, and the darkness almost tipped me over the edge and into unconsciousness... "#(GO TO 26.19.)
+
+    #26.19.
+    player_narration "...but before that could happen, all of my senses suddenly burst into life again as I felt healing magic flow through me, the pain in my side fading to a dull ache almost immediately."
+    #● (IF PC IS FEMALE AND ON ELYNDIR ROMANCE ROUTE, GO TO 27.1.)
+    #● (OTHERWISE, GO TO 28.1.)
+
+
+    ###
+
+
+    #27.1.
+    player_narration "Two other things surprised me alongside my sudden healing. First was the fact that I recognised the type of magic being used by Elyndir as Lyris in nature rather than Dahris... "#(GO TO 27.2.)
+
+    #27.2.
+    player_narration "...and second was the light kiss that Elyndir planted on my lips as he healed me. "#(GO TO 27.3.)
+
+    #27.3.
+    player_narration "The kiss was surprising, certainly, but a Dahris using Lyris magic? That was supposed to be downright impossible. How had Elyndir done that? "#(GO TO 27.4.)
+
+    #27.4.
+    player_narration "The healing spell and the kiss only lasted a couple of seconds. I opened my eyes to see Elyndir stepping back from me and removing his hand from my shoulder. "#(GO TO 27.5.)
+
+    #27.5.
+    player_narration "I looked down at my left side and saw a slash in my clothing there as well as a lot of blood, but no open wound or even a scar. I looked at Elyndir and we held each other's gaze. "#(GO TO 27.6.)
+
+    #27.6.
+    player "That was a Lyris spell... "#(GO TO 27.7.)
+
+    #27.7.
+    player_narration "Elyndir nodded, his expression unreadable. "#(GO TO 27.8.)
+
+    #27.8.
+    elyndir "Come on, we should keep moving. "#(GO TO 27.9.)
+
+    #27.9.
+    player_narration "Elyndir stepped out of the alcove and I followed despite the fact my mind was buzzing with questions. But they'd have to wait for now. We continued on our way, putting more distance between us and our attackers. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #28.1.
+    player_narration "Something else surprised me alongside my sudden healing: the fact that the type of magic being used by Elyndir was Lyris in nature rather than Dahris. "#(GO TO 28.2.)
+
+    #28.2.
+    player_narration "A Dahris using Lyris magic? That was supposed to be impossible. How had Elyndir done that? "#(GO TO 28.3.)
+
+    #28.3.
+    player_narration "The healing spell only lasted a couple of seconds. I opened my eyes to see Elyndir stepping back from me and removing his hand from my shoulder. "#(GO TO 28.4.)
+
+    #28.4.
+    player_narration "I looked down at my left side and saw a slash in my clothing there as well as a lot of blood, but no open wound or even a scar. I looked at Elyndir and we held each other's gaze. "#(GO TO 28.5.)
+
+    #28.5.
+    player "That was a Lyris spell... "#(GO TO 28.6.)
+
+    #28.6.
+    player_narration "Elyndir nodded, his expression unreadable. "#(GO TO 28.7.)
+
+    #28.7.
+    elyndir "Come on, we should keep moving. "#(GO TO 28.8.)
+
+
+    #28.8.
+    player_narration "Elyndir stepped out of the alcove and I followed despite the fact my mind was buzzing with questions. But they'd have to wait for now. We continued on our way, "
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_14:
+
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+
+    #Location: The Moon and Sabre, Belgran, Grana (Night)
+    #● We are in the Moon and Sabre in Belgran, specifically inside the room which Player-Character (PC) is renting. PC and Elyndir are in the room.
+
+    #● (IF ELYNDIR HEALED PC IN EPISODE 13, GO TO 1.1.)
+    #● (IF ELYNDIR DID NOT HEAL PC IN EPISODE 13, GO TO 3.1.)
+
+
+    ###
+
+
+    #1.1.
+    player_narration "Elyndir and I sat in my room at the Moon and Sabre, me on the edge of the bed and him in a nearby chair. "#(GO TO 1.2.)
+
+    #1.2.
+    player_narration "After our recent alleyway encounter my head was buzzing with questions for Elyndir, some concerning his "old friend"Salys, but more concerning what happened after we fled. "#(GO TO 1.3.)
+
+    #1.3.
+    player_narration "The wound I'd suffered in the scuffle vanished without a trace and no pain had lingered after Elyndir healed me, my bloodstained clothing the only evidence that I'd ever been hurt at all. "#(GO TO 1.4.)
+
+    #1.4.
+    player_narration "Such fast and effective healing magic was a very difficult thing to perform, and I'd never suspected Elyndir of being capable of such sorcery. It was surprising, but not impossible. "#(GO TO 1.5.)
+
+    #1.5.
+    player_narration "But what should have been impossible was such Lyris sorcery being performed by a Dahris. And yet Elyndir had managed it nonetheless. I wanted to know how. "#(GO TO 1.6.)
+
+    #1.6.
+    player_narration "We'd been sitting in silence for a time, Elyndir seemingly not knowing where to begin, and eventually my patience wore out. "#(GO TO 1.7.)
+
+    #1.7.
+    player "Alright, why don't I start? You're a Dahris. You cast a Lyris spell. That's supposed to be impossible. So, how did you do it? "#(GO TO 1.8.)
+
+    #1.8.
+    elyndir "...Because I'm not just a Dahris. I'm a Lyris as well. "#(GO TO 1.9.)
+
+    #1.9.
+    player "What do you mean? "#(GO TO 1.10.)
+
+
+    #1.10.
+    elyndir "My mother is a Dahris, but my father was a Lyris. I'm a result of one of the rare occasions when people from our two races don't hate each other. Lucky me, eh? "#(GO TO 1.11.)
+
+    #1.11.
+    player "So your Lyris heritage is what allowed you to cast that spell... "#(GO TO 1.12.)
+
+    #1.12.
+    elyndir "It's also partly what led to me getting the shit kicked out of me on a regular basis while I was growing up. "#(GO TO 1.13.)
+
+    #1.13.
+    elyndir "My father was never around so no one could say with certainty he was a Lyris, but some people suspected. I was harassed anyway for growing up without a father, but the suspicion about him being a Lyris certainly didn't help matters. "#(GO TO 1.14.)
+
+    #1.14.
+    player "I'm sorry to hear that. "#(GO TO 1.15.)
+
+    #1.15.
+    elyndir "It's not your fault. It's the fault of the coward who got my mother pregnant and then sodded off so he wouldn't have to deal with what came afterwards. Namely, me. "#(GO TO 1.16.)
+
+    #1.16.
+    player "But you don't know who your father is, exactly? "#(GO TO 1.17.)
+
+    #1.17.
+    elyndir "No. My mother has always refused to tell me. She says it doesn't matter. But it does. "#(GO TO 1.18.)
+
+    #1.18.
+    player "So the fact that your father was a Lyris allows you to cast Lyris spells, but still, the healing spell you used on my wound... Elyndir, that was very powerful magic. Where did you learn it? "#(GO TO 1.19.)
+
+    #1.19.
+    elyndir "I didn't. Apart from some lessons my mother gave me as a child - lessons which focused on Dahris magic, of course - I've never studied magic, Lyris or otherwise. "#(GO TO 1.20.)
+
+    #1.20.
+    elyndir "Whenever I've cast a spell as an adult, it's always been more instinctive than anything else, something that suddenly becomes clear in the heat of the moment, and which disappears to the back of my mind again afterwards. "#(GO TO 1.21.)
+
+    #1.21.
+    elyndir "I've never understood why. But then, I've never really had much of a chance to: I've never met another Dahris who could use Lyris magic, and no Lyris mage is going to teach a Dahris mercenary a damn thing. "#(GO TO 1.22.)
+
+    #1.22.
+    player_narration "A thought occurred to me. I hesitated for a moment, wondering if it was a good idea to speak it aloud, but then decided that Elyndir deserved a chance to learn more about himself and his abilities. "#(GO TO 1.23.)
+
+    #1.23.
+    player "Maybe you're wrong there. My father wouldn't refer to himself as a mage, but he knows a lot about healing magic. I'm sure he'd be happy to help you, and he certainly wouldn't care that you're a Dahris. "#(GO TO 1.24.)
+
+    #1.24.
+    elyndir "I appreciate you wanting to help, and maybe you're right about your father, but I wouldn't want to bring trouble to your parents' doorstep. "#(GO TO 1.25.)
+
+    #1.25.
+    elyndir "Besides, there's no guarantee I'd even get that far - I'm sure the Lyris authorities would have plenty of questions for me if they found me within Lyriathis' borders. "#(GO TO 1.26.)
+
+
+
+    #1.26.
+    player "Look, I insist. You've got this power inside you, this untapped potential, and you shouldn't ignore it or waste it. And don't worry about my parents, they'd agree with me if they were here. "#(GO TO 1.27.)
+
+    #1.27.
+    player "As for the Lyris authorities, you know how to keep a low profile, I'm sure you'll be fine. "#(GO TO 1.28.)
+
+    #1.28.
+    player "And maybe, while we're there... I could even help you find your father. It's a long shot, I know, but... well, it's something to keep in mind. "#(GO TO 1.29.)
+
+    #1.29.
+    player_narration "Elyndir was looking off across the room with a thoughtful frown. Eventually he sighed and looked at me with a wry smile. "#(GO TO 1.30.)
+
+    #1.30.
+    elyndir "Alright, you win. Let's do it. But if I get arrested in Lyriathis, I'm going to blame everything I've ever done on you. Deal? "#(GO TO 1.31.)
+
+    #1.31.
+    player_narration "I chuckled and nodded. "#(GO TO 1.32.)
+
+    #1.32.
+    player "Deal."
+    #● (IF PC IS FEMALE AND ON ELYNDIR ROMANCE ROUTE, GO TO 2.1.)
+    #● (OTHERWISE, END OF EPISODE)
+
+
+    ###
+
+
+    #2.1.
+    player_narration "My smile faded as I thought of the other thing I'd wanted to discuss with elyndir "the kiss which had accompanied his healing me. "#": #(GO TO 2.2.)
+
+    #2.2.
+    player "You know, I may not know everything there is to know about magic, but I'm pretty sure that you didn't need to kiss me for that healing spell to work. "#(GO TO 2.3.)
+
+    #2.3.
+    elyndir "Maybe not. But I wanted to. Besides, you were about to pass out, I thought it might help bring you back to your senses. "#(GO TO 2.4.)
+
+    #2.4.
+    player "I suppose it did, it came as something of a surprise. "#(GO TO 2.5.)
+
+    #2.5.
+    elyndir "One kiss and I'm already meeting your parents. You work fast. What have I gotten myself into...? "#(GO TO 2.6.)
+
+    #2.6.
+    player_narration "Elyndir and I smiled at each other but said no more about it for now. I knew time would tell. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #3.1.
+    player_narration "Elyndir and I sat in my room at the Moon and Sabre, me on the edge of the bed and him in a nearby chair. "#(GO TO 3.2.)
+
+    #3.2.
+    player_narration "After our recent alleyway encounter my head was buzzing with questions for Elyndir concerning his "old friend"Salys. "#(GO TO 3.3.)
+
+    #3.3.
+    player_narration "We'd been sitting in silence for a time, Elyndir seemingly not knowing where to begin, and eventually my patience wore out. "#(GO TO 3.4.)
+
+    #3.4.
+    player "Well? Are you going to tell me about those Dahris smugglers? Who's this "Salys"? It would be nice to learn more about him seeing as he's apparently trying to kill me. "#(GO TO 3.5.)
+
+    #3.5.
+    elyndir "They're not smugglers. Well, they might be, but only as part of their real job. "#(GO TO 3.6.)
+
+    #3.6.
+    player "Which is? "#(GO TO 3.7.)
+
+    #3.7.
+    elyndir "Salys is Dahris military. The dahrians who were with him in the alley must be as well. "#(GO TO 3.8.)
+
+    #3.8.
+    player "And what's he to you? You obviously have a history. "#(GO TO 3.9.)
+
+    #3.9.
+    elyndir "We go back some years. Through no choice of my own, I hasten to add. He's a nasty, greedy, arrogant bastard, and if there was any justice in this world he'd have had a crossbow bolt through the throat a long time ago... but here we are. "#(GO TO 3.10.)
+
+    #3.10.
+    player "So he's a soldier? "#(GO TO 3.11.)
+
+    #3.11.
+    elyndir "Not front-line infantry or anything like that. If anything he's more of a spy and assassin, working behind the scenes, although he'll avoid dirtying his own hands if he can help it."
+    #● (IF PC AND ELYNDIR STOLE THE WEAPONS IN EPISODE 10, GO TO 4.1.)
+    #● (IF PC AND ELYNDIR DID NOT STEAL THE WEAPONS IN EPISODE 10, GO TO 7.1.)
+
+
+    ###
+
+
+    #4.1.
+    elyndir "Dammit, as soon as I saw those weapons in the warehouse I should've known we weren't dealing with a simple group of smugglers. "#(GO TO 4.2.)
+
+    #4.2.
+    elyndir "I've got no love for the Dahris military but I'd be a fool to underestimate them. They may have their problems and weaknesses but when they set their minds to something they can be deadly... and utterly ruthless. "#(GO TO 4.3.)
+
+    #4.3.
+    player "And now they think you're a traitor. "#(GO TO 4.4.)
+
+    #4.4.
+    elyndir "Let them. Dahraith and my "beloved countrymen"have never done me any favours, so I don't owe them a thing. Maybe I should turn to my other heritage, just to spite them. "#(GO TO 4.5.)
+
+    #4.5.
+    player "Your other heritage? What do you mean? "#(GO TO 4.6.)
+
+    #4.6.
+    elyndir "...I'm not just a Dahris. I'm a Lyris as well. "#(GO TO 4.7.)
+
+    #4.7.
+    player "What? "#(GO TO 4.8.)
+
+    #4.8.
+    elyndir "My mother is a Dahris, but my father was a Lyris. I'm a result of one of the rare occasions when people from our two races don't hate each other. Lucky me, eh? "#(GO TO 4.9.)
+
+    #4.9.
+    elyndir "It's also partly what led to me getting the shit kicked out of me on a regular basis while I was growing up. "#(GO TO 4.10.)
+
+
+
+    #4.10.
+    elyndir "My father was never around so no one could say with certainty he was a Lyris, but some people suspected. I was harassed anyway for growing up without a father, but the suspicion about him being a Lyris certainly didn't help matters. "#(GO TO 4.11.)
+
+    #4.11.
+    player "I'm sorry to hear that. "#(GO TO 4.12.)
+
+    #4.12.
+    elyndir "It's not your fault. It's the fault of the coward who got my mother pregnant and then sodded off so he wouldn't have to deal with what came afterwards. Namely, me. "#(GO TO 4.13.)
+
+    #4.13.
+    player "But you don't know who your father is, exactly? "#(GO TO 4.14.)
+
+    #4.14.
+    elyndir "No. My mother has always refused to tell me. She says it doesn't matter. But it does. "#(GO TO 4.15.)
+
+    #4.15.
+    elyndir "In fact, the main reason I got into smuggling, mercenary work and all of that kind of thing was because I was looking for information which I couldn't find through more conventional channels. Information on my father. "#(GO TO 4.16.)
+
+    #4.16.
+    player_narration "A thoughtful frown appeared on Elyndir's face and he looked down at the floor for a moment. Then he let out a deep breath and raised his eyes to meet mine once again. "#(GO TO 4.17.)
+
+    #4.17.
+    elyndir "For a long time I've had my suspicions as to who he might be. But since you and I first met, there have been a few things which have strengthened those suspicions, and now I'm more sure than I've ever been. "#(GO TO 4.18.)
+
+    #4.18.
+    player "So who is he? "#(GO TO 4.19.)
+
+    #4.19.
+    elyndir "A lyrian we've spoken about before: Rimitar. "#(GO TO 4.20.)
+
+    #4.20.
+    player "Really? Why do you think it's him? "#(GO TO 4.21.)
+
+    #4.21.
+    elyndir "Some things my mother said - inadvertently - when I was younger, things I learned over the years, things you've said, that song we heard... it all adds up. "#(GO TO 4.22.)
+
+    #4.22.
+    player "If you want to know for sure then there's a simple solution: you and I go and see Rimitar in Lyriathis. "#(GO TO 4.23.)
+
+    #4.23.
+    elyndir "You call it simple, I call it an invitation to get myself arrested by the Lyris authorities. I'm sure they'd have plenty of questions for a Dahris mercenary they found wandering around inside their borders. "#(GO TO 4.24.)
+
+    #4.24.
+    player "I'll be travelling with you and I know the land, I can keep us out of trouble. Besides, you've got plenty of experience in keeping a low profile, I'm sure you'll be fine. "#(GO TO 4.25.)
+
+    #4.25.
+    player "I'll contact Rimitar and arrange a meeting. I won't tell him the reason why, just that it's very important. Then you can talk to him and, well, see what happens. "#(GO TO 4.26.)
+
+    #4.26.
+    elyndir "...Alright, you win. Let's do it. But if I get arrested in Lyriathis, I'm going to blame everything I've ever done on you. Deal? "#(GO TO 4.27.)
+
+    #4.27.
+    player_narration "I chuckled and nodded. "#(GO TO 4.28)
+
+    #4.28.
+    player "Deal. "#(GO TO 4.29.)
+
+    #4.29.
+    player "So, have you ever asked your mother about it? Rimitar possibly being your father, I mean? "#(GO TO 4.30.)
+
+    #4.30.
+    elyndir "No. I wanted to be more sure before I did. That and I don't see her often. We're not that close anymore. She's a busy dahria and she doesn't exactly approve of my chosen lifestyle."
+    #● (IF PC RECEIVED A LETTER FROM RIMITAR, GO TO 5.1.)
+    #● (IF PC DID NOT RECEIVE A LETTER FROM RIMITAR, GO TO 6.1.)
+
+
+    ###
+
+
+    #5.1.
+    player "...Elyndir, something just occurred to me: is your mother named Hellaren? "#(GO TO 5.2.)
+
+    #5.2.
+    player_narration "Elyndir looked at me with a curious frown. "#(GO TO 5.3.)
+
+    #5.3.
+    elyndir "Yes. How did you know that? "#(GO TO 5.4.)
+
+    #5.4.
+    player_narration "I took out the old, sealed letter which Rimitar had given me and held it out towards Elyndir. "#(GO TO 5.5.)
+
+    #5.5.
+    player "If it's the same Hellaren - and it would be quite a coincidence if it wasn't, given what you've told me - then this is for your mother. It's from Rimitar. "#(GO TO 5.6.)
+
+    #5.6.
+    player_narration "Elyndir took the letter and held it in both hands as he stared at the creased envelope. "#(GO TO 5.7.)
+
+    #5.7.
+    player "He wrote it years ago but held onto it because he had nowhere to send it. He gave it to me just in case I ever met Hellaren, the Dahris mage he used to love but who vanished one day. "#(GO TO 5.8.)
+
+    #5.8.
+    player "He told me he spent a long time looking for her but could never find her. It broke his heart. "#(GO TO 5.9.)
+
+    #5.9.
+    player "You should speak to your mother about Rimitar. And if she definitely is the same Hellaren, give her that letter. "#(GO TO 5.10.)
+
+    #5.10.
+    player_narration "Elyndir was still staring at the letter, a stunned expression on his face. "#(GO TO 5.11.)
+
+    #5.11.
+    elyndir "Then it is him... "#(GO TO 5.12.)
+
+    #5.12.
+    player "It's looking that way. Hopefully you'll finally have a definite answer soon enough. "#(GO TO 5.13.)
+
+    #5.13.
+    player "I know you've got a lot on your mind with all this, but while we're still in Belgran, remember to be careful and keep an eye out for Salys and his friends. "#(GO TO 5.14.)
+
+    #5.14.
+    player_narration "Elyndir nodded like a dahrian in a daze. He stood up, pocketed Rimitar's letter, looked at me for a moment, and then headed to the door and left my room. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #6.1.
+    player "You've got more reason than ever to ask her about it now. Although you should have a definite answer soon enough either way. "#(GO TO 6.2.)
+
+    #6.2.
+    player "I know you've got a lot on your mind with all this, but while we're still in Belgran, remember to be careful and keep an eye out for Salys and his friends. "#(GO TO 6.3.)
+
+    #6.3.
+    elyndir "I know. Make sure you do the same. "#(GO TO 6.4.)
+
+    #6.4.
+    player_narration "Elyndir stood up and walked to the door, then he was gone. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #7.1.
+    player "He accused you of stealing weapons from him. Is that true? "#(GO TO 7.2.)
+
+    #7.2.
+    elyndir "Like I told him, I have no idea what he's talking about. The only thing I've ever stolen from Salys was a barmaid he was sweet on back in Dahraith. "#(GO TO 7.3.)
+
+    #7.3.
+    elyndir "She was a lot of fun. But not as fun as the look on his face when I told him. "#(GO TO 7.4.)
+
+    #7.4.
+    player "That's a lovely story, Elyndir, but it doesn't really help us at the moment, does it. Even if Salys is wrong about you stealing these weapons, I'm guessing him and his friends aren't going to give up looking for us until they get some answers. "#(GO TO 7.5.)
+
+    #7.5.
+    elyndir "You're right about that. I've got no love for the Dahris military but it's wise not to underestimate them. They may have their problems and weaknesses but when they set their "
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_15:
+
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+    PART A
+
+    #Location: Player-Character's family home, Lyriathis (Night)
+    #● We are inside the house in which Player-Character's (PC) parents live. PC and his father are sitting together at the dinner table.
+
+    #1. 
+    player_narration "It was late in the evening as I sat with my father at the dinner table in my parents' home, my mother having gone to bed after the three of us shared supper together."
+
+    #2. 
+    player_narration "I'd been staying at home for the past few days, enjoying spending some time with my parents while simultaneously trying to find the right moment to speak to my father about Elyndir."
+
+    #3. 
+    player_narration "So far that moment hadn't come. My father seemed to have realised there was something on my mind, however, so I was grateful when he prompted the conversation which I'd been avoiding."
+
+    #4. 
+    alarad "Your mother and I have enjoyed you being home again, and you know you're always welcome here, but don't you have things you'd rather be doing elsewhere?"
+
+    #5. 
+    alarad "You're young, you've got your whole life ahead of you, you don't want to be spending too much time with your boring mum and dad..."
+
+    #6. 
+    player "You're not boring. And to be honest, sometimes I think a quiet life out in the country might be nice."
+
+    #7. 
+    alarad "Whatever makes you happy. We'll always support you, you know that."
+
+    #8. 
+    alarad "I didn't say anything in front of your mother because I don't want her to worry, but if there's something bothering you, you know you can talk to me, don't you."
+
+    #9. 
+    player "I'm fine. It's not really something bothering me, but there is something I wanted to ask you. It's to do with a friend of mine."
+    #● (IF PC IS FEMALE, GO TO 10.1.)
+    #● (IF PC IS MALE, GO TO 11.1.)
+
+
+    ###
+
+
+
+    #10.1.
+    player_narration "My father raised one eyebrow in a knowing manner. "#(GO TO 10.2.)
+
+    #10.2.
+    alarad "Just a friend? "#(GO TO 10.3.)
+
+    #10.3.
+    player_narration "The exact nature of my relationship with Elyndir was an entire conversation in and of itself, and one I didn't feel like having with my father right now. "#(GO TO 10.4.)
+
+    #10.4.
+    player "Yes. I suppose. Anyway, that's not important. "#(GO TO 10.5.)
+
+    #10.5.
+    player "My friend wants to learn healing magic. He's already got this innate ability, the talent is there, but he doesn't know how to harness it. At the moment it comes more from instinct than anything else. "#(GO TO 11.3.)
+
+
+    ###
+
+
+    #11.1.
+    alarad "Go on. "#(GO TO 11.2.)
+
+    #11.2.
+    player "He wants to learn healing magic. He's already got this innate ability, the talent is there, but he doesn't know how to harness it. At the moment it comes more from instinct than anything else. "#(GO TO 11.3.)
+
+    #11.3.
+    player "So I was wondering if maybe he could come and see you and you could help him develop it, teach him how to control it. "#(GO TO 11.4.)
+
+    #11.4.
+    alarad "I'm happy to try, but I don't know how much use I'd be, I've never really been a teacher before. "#(GO TO 11.5.)
+
+    #11.5.
+    player "You'll be a great teacher. You've taught Olin and I plenty of useful things over the years. "#(GO TO 11.6.)
+
+    #11.6.
+    alarad "Your mother probably deserves most of the credit for that. "#(GO TO 11.7.)
+
+    #11.7.
+    alarad "As for your friend, why didn't you ask me sooner? It's obviously been on your mind since you got here. "#(GO TO 11.8.)
+
+    #11.8.
+    player "...Dad, how do you feel about the Dahris? "#(GO TO 11.9.)
+
+    #11.9.
+    alarad "Well, I can't say I have much personal experience of them, I've only ever met a handful over the years. But from what I did experience, they seemed much the same as anyone else, really, for good or bad. "#(GO TO 11.10.)
+
+    #11.10.
+    alarad "Why do you - "#(GO TO 11.11.)
+
+    #11.11.
+    player_narration "My father stopped himself as realisation dawned on him. "#(GO TO 11.12.)
+
+    #11.12.
+    alarad "...Ah. Your friend. "#(GO TO 11.13.)
+
+    #11.13.
+    player "He's a dahrian. His name's Elyndir. "#(GO TO 11.14.)
+
+    #11.14.
+    alarad "If he's your friend then of course he's welcome here, and I'll do what I can to help him. "#(GO TO 11.15.)
+
+    #11.15.
+    player "Thank you, I really appreciate it. And so will he. Are you sure mum won't mind? "#(GO TO 11.16.)
+
+    #11.16.
+    alarad "I'm sure. We can talk to her about it in the morning. "#(GO TO 11.17.)
+
+    #11.17.
+    player_narration "My father stretched and rose from his chair. "#(GO TO 11.18.)
+
+    #11.18.
+    alarad "Speaking of which, I'm going to turn in for the night. Don't stay up too late. "#(GO TO 11.19.)
+
+    #11.19.
+    player "I won't. Goodnight, dad. "#(GO TO 11.20.)
+
+    #11.20.
+    alarad "Goodnight. "#(GO TO 11.21.)
+
+    #11.21.
+    player_narration "My father walked past me, giving me a smile and a pat on the shoulder as he went. I sat alone at the table for a time in the comforting, quiet stillness of my family home, then eventually went to bed myself. "
+    #END OF EPISODE
+    return
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    PART B
+
+    #Location: Warriors' Guild, Lyr-Taer, Lyriathis (Day)
+    #● We are inside a training hall at the Warriors' Guild. It is daytime, the hall illuminated by daylight entering from outside. Player-Character (PC) and Guildmaster Rimitar stand facing each other in the centre of the room.
+
+    #1. 
+    player_narration "I entered the Warriors' Guild and was glad to find Rimitar training alone. I needed to talk to him, and it was a conversation for his ears only."
+
+    #2. 
+    player_narration "When he saw me, he stopped attacking his imaginary opponent and lowered his sword. I approached and we shook hands."
+
+    #3. 
+    rimitar "[PLAYER NAME]. Good to see you."
+
+    #4. 
+    player "You too, sir. Still training as hard as ever, I see."
+
+    #5. 
+    rimitar "I wouldn't be much of a guildmaster if I didn't. How have your travels been?"
+
+    #6. 
+    player "Eventful."
+
+    #7. 
+    rimitar "So what brings you back to Lyr-Taer?"
+
+    #8. 
+    player "Actually, I came to see you. There's something important I need to speak to you about."
+
+    #9. 
+    rimitar "Go on."
+    #● (IF PC RECEIVED A LETTER FROM RIMITAR, GO TO 10.1.)
+    #● (IF PC DID NOT RECEIVE A LETTER FROM RIMITAR, GO TO 11.1.)
+
+
+    ###
+
+
+    #10.1.
+    player "Do you remember the letter you gave me before I left? Well, I gave it to someone. "#(GO TO 10.2.)
+
+    #10.2.
+    player_narration "I saw Rimitar's usually rock-solid composure falter, just for a second. "#(GO TO 10.3.)
+
+    #10.3.
+    rimitar "Hellaren...? "#(GO TO 10.4.)
+
+    #10.4.
+    player "No. I gave it to her son, Elyndir. In fact... I think he may be your son as well. "#(GO TO 10.5.)
+
+    #10.5.
+    player_narration "Rimitar stared at me with a dumbfounded expression as I told him of Elyndir and the evidence which suggested that the dahrian was Rimitar's son. "#(GO TO 10.6.)
+
+    #10.6.
+    player_narration "I concluded by explaining that Elyndir wanted to meet Rimitar and that I'd chosen a location just inside Lyriathis' border, a secluded spot necessary due to Elyndir's nature as a Dahris. "#(GO TO 10.7.)
+
+    #10.7.
+    player_narration "When I was finished, Rimitar stared off across the room like a lyrian in a daze. After a few seconds of silence he finally met my eyes again, still in shock but with other emotions fighting to push to the forefront at the same time. "#(GO TO 10.8.)
+
+    #10.8.
+    rimitar "I have a son...? "#(GO TO 10.9.)
+
+    #10.9.
+    player "It seems very likely. Will you meet him? "#(GO TO 10.10.)
+
+    #10.10.
+    rimitar "...Of course. Yes, of course I will. "#(GO TO 10.11.)
+
+    #10.11.
+    rimitar "But wait, the guild... if I'm going to be away for a time then I need someone to take care of this place in my stead. "#(GO TO 10.12.)
+
+    #10.12.
+    player "You must have some assistants you trust to do it. "#(GO TO 10.13.)
+
+    #10.13.
+    rimitar "There was one, but she left the guild recently. I have plenty of pupils who know how to fight, but running a guild, even only for a short time, is a different thing altogether. "#(GO TO 10.14.)
+
+    #10.14.
+    rimitar "Will you do it? "#(GO TO 10.15.)
+
+    #10.15.
+    #menu:
+    #● Agree to take care of the Warriors' Guild. (GO TO 12.1.)
+    #● Accompany Rimitar to the meeting. (GO TO 13.1.)
+
+
+    ###
+
+
+    #11.1.
+    player "It's to do with your past. I know that's something you don't like to talk about, and I wouldn't ask but, as I said, this really is important. "#(GO TO 11.2.)
+
+    #11.2.
+    rimitar "You better spit it out, then. "#(GO TO 11.3.)
+
+    #11.3.
+    player "Did you... were you ever in love with a dahria? "#(GO TO 11.4.)
+
+    #11.4.
+    player_narration "Rimitar visibly tensed, his expression hardening. "#(GO TO 11.5.)
+
+    #11.5.
+    rimitar "Why? "#(GO TO 11.6.)
+
+    #11.6.
+    player_narration "He stared at me as I told him of Elyndir and the evidence which suggested that the dahrian was Rimitar's son, the guildmaster's demeanour becoming less hostile and more dumbfounded as I spoke. "#(GO TO 11.7.)
+
+    #11.7.
+    player_narration "I concluded by explaining that Elyndir wanted to meet Rimitar and that I'd chosen a location just inside Lyriathis' border - a secluded spot necessary due to Elyndir's nature as a Dahris. "#(GO TO 11.8.)
+
+    #11.8.
+    player_narration "When I was finished, Rimitar stared off across the room like a lyrian in a daze. After a few seconds of silence he finally met my eyes again, still in shock but with other emotions fighting to push to the forefront at the same time. "#(GO TO 11.9.)
+
+    #11.9.
+    rimitar "Yes, I knew - and loved - a dahria. Her name was Hellaren, but she... disappeared one day. I never saw her again. "#(GO TO 11.10.)
+
+    #11.10.
+    rimitar "The timing means it's possible, but if she was pregnant then she never... "#(GO TO 11.11.)
+
+    #11.11.
+    rimitar "Hellaren's alive...? And I have a son...? "#(GO TO 10.9.)
+
+
+    ###
+
+
+    #12.1.
+    player "If you think I'm up to the task then I'd be honoured to, sir. "#(GO TO 12.2.)
+
+    #12.2.
+    rimitar "Good. Thank you. We can discuss the details once we've arranged this meeting between... your friend and I. When can that happen? "#(GO TO 12.3.)
+
+    #12.3.
+    player "As soon as possible, ideally. The less time Elyndir spends in Lyriathis, the less risk there is to him. "#(GO TO 12.4.)
+
+    #12.4.
+    rimitar "Alright. Let's do this, then. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #13.1.
+    player_narration "Although I was honoured by Rimitar's offer, my priority had to remain Elyndir's situation - that was what all of this had been for, after all. "#(GO TO 13.2.)
+
+    #13.2.
+    player "Sir, I appreciate the offer but I'd much rather focus on helping however I can in regard to you and Elyndir. "#(GO TO 13.3.)
+
+    #13.3.
+    player "In fact, I was thinking it might make things easier if I accompanied you to your meeting with him. "#(GO TO 13.4.)
+
+    #13.4.
+    rimitar "...That might be a good idea. I appreciate the thought. I'll make arrangements for the guild somehow. "#(GO TO 13.5.)
+
+    #13.5.
+    rimitar "So when can I meet... your friend? "#(GO TO 13.6.)
+
+    #13.6.
+    player "As soon as possible, ideally. The less time Elyndir spends in Lyriathis, the less risk there is to him. "#(GO TO 13.7.)
+
+
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_16A:
+
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+    #Location: Player-Character's family home, Lyriathis (Day)
+    #● We are inside the house in which Player-Character's (PC) parents live. PC, Olin, Elyndir, Alarad, and Laurin are all sitting around the dinner table.
+
+    #1. 
+    player_narration "My parents had showed no hesitation in welcoming Elyndir into their home when he and I arrived together several days ago, and since then Elyndir had made a good impression on them."
+
+    #2. 
+    player_narration "He helped with any odd jobs that needed doing around the home, but mostly he and my father spent time discussing the basics of magic as a foundation for his learning of healing magic in particular."
+
+    #3. 
+    player_narration "Elyndir had never showed much interest in magic since I'd known him, so part of me had expected him to quickly become bored and impatient, but to his credit he'd been a good pupil so far. Although it was still early days, of course."
+
+    #4. 
+    player_narration "My parents, Elyndir and I were currently sitting around the dinner table, about to eat a light lunch alongside another visitor: Olin, who'd arrived just an hour before."
+
+    #5. 
+    player_narration "After I'd told Olin about Elyndir and the plan for him to learn healing magic from our father, my brother - rather reluctantly - helped me sneak Elyndir across the border and into Lyriathis by warning me of the areas where security was heavier."
+
+    #6. 
+    player_narration "Despite that help, however, within minutes of his visit earlier today it became obvious that Olin didn't approve of Elyndir or his being here, my brother's manner being curt and suspicious."
+
+    #7. 
+    player_narration "Elyndir did his best to keep his cool, but I knew he'd only suffer Olin's sniping for so long, and the atmosphere was tense as we all sat down at the dinner table to eat, even though my parents and I did our best to ignore it and lighten the mood."
+
+    #8. 
+    player_narration "Olin barely touched his food, instead focusing his attention on Elyndir."
+
+    #9. 
+    olin "They won't just arrest you if they find you here, you know. They'll arrest my mother and father as well. Whether you give a damn about your heritage or not, the authorities won't care - my parents will be accused of harbouring an enemy of the state."
+
+    #10. 
+    olin "I'd be stripped of my rank, of course. Possibly worse. And as for my [brother / sister], they'd have plenty of questions for [him / her] as well."
+
+
+    #11. 
+    elyndir "I have no intention of causing trouble for you or your family. I'm just here to learn."
+
+    #12. 
+    olin "You don't strike me as a dahrian whose good intentions count for much when it comes right down to it."
+
+    #13. 
+    player "Olin."
+
+    #14. 
+    olin "I don't know why I let you talk me into helping you with this foolishness, [PLAYER NAME]. Nothing good will come of it."
+
+    #15. 
+    laurin "Olin, that's enough. Elyndir is a guest in our home, and he's welcome here until your father and I decide otherwise."
+
+    #16. 
+    laurin "So while you're here we expect you to treat him with some civility, alright? Now, eat your food."
+
+    #17. 
+    player_narration "Olin continued to only pick at his food while the rest of us ate, and although he didn't say anything else to Elyndir, the tension between them remained."
+
+    #18. 
+    player_narration "I was relieved when lunch eventually came to an end. We all cleared the table and then my mother asked Olin to help her collect some things from outside, while my father went upstairs."
+
+    #19. 
+    player_narration "Elyndir and I sat back down at the dinner table, both of us relaxing slightly now, although I remained annoyed at Olin for his behaviour towards Elyndir, even if it did come from a desire to protect the family."
+
+    #20. 
+    player "Sorry about my brother. He's not being like that because you're a Dahris, he's just..."
+
+    #21. 
+    elyndir "It's alright, I understand he's worried about all of you. More than that, though, I think he's jealous."
+
+    #22. 
+    player "Jealous of what?"
+    #● (IF PLAYER IS ON ROMANCE ROUTE WITH ELYNDIR, GO TO 23.1.)
+    #● (IF PLAYER IS NOT ON ROMANCE ROUTE WITH ELYNDIR, GO TO 24.1.)
+
+
+    ###
+
+
+    #23.1.
+    player_narration "Elyndir reached out and took hold of one of my hands. "#(GO TO 23.2.)
+
+    #23.2.
+    elyndir "Us. "#(GO TO 23.3.)
+
+    #23.3.
+    player "Why would that bother him? He's my brother. Besides, I'm not saying I'm against the idea, but nothing's going on between you and me. Not really. Not yet. "#(GO TO 23.4.)
+
+    #23.4.
+    elyndir "Don't sound too enthusiastic, will you. "#(GO TO 23.5.)
+
+    #23.5.
+    player "You know what I mean. "#(GO TO 23.6.)
+
+
+
+    #23.6.
+    elyndir "I know. And Olin's jealous because he can see there's something between us and he's worried I might whisk you away forever. He doesn't want to lose his little sister. Especially to a Dahris scoundrel like me. "#(GO TO 23.7.)
+
+    #23.7.
+    player "That won't happen. We all may have our own lives but I'd never abandon my family. Olin knows that. "#(GO TO 23.8.)
+
+    #23.8.
+    elyndir "Again, you flatter me. "#(GO TO 23.9.)
+
+    #23.9.
+    player "And again, you know what I mean. "#(GO TO 23.10.)
+
+    #23.10.
+    player_narration "Elyndir let go of my hand and rose from his chair. "#(GO TO 23.11.)
+
+    #23.11.
+    elyndir "Alright, I'd like to get some studying done this afternoon and there are a few things I want to ask your father first. "#(GO TO 23.12.)
+
+    #23.12.
+    player "Good luck. You can let me know how it goes later. "#(GO TO 23.13.)
+
+    #23.13.
+    player_narration "Elyndir smiled and nodded and then went upstairs to speak to my father, leaving me alone at the dinner table. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #24.1.
+    elyndir "You spending time with me. "#(GO TO 24.2.)
+
+    #24.2.
+    player "Why would that bother him? He's my brother. "#(GO TO 24.3.)
+
+    #24.3.
+    elyndir "Exactly. Although he may be off in the woods playing soldier, I think he likes the idea of always having his little [brother / sister] around to look up to him. "#(GO TO 24.4.)
+
+    #24.4.
+    elyndir "He doesn't want to lose you to someone else, especially a Dahris scoundrel like me. "#(GO TO 24.5.)
+
+    #24.5.
+    player "We all may have our own lives but I'd never abandon my family. Olin knows that. "#(GO TO 24.6.)
+
+    #24.6.
+    elyndir "Well, maybe it wouldn't hurt to remind him. "#(GO TO 24.7.)
+
+    #24.7.
+    player_narration "Elyndir rose from his chair. "#(GO TO 24.8.)
+
+    #24.8.
+    elyndir "Alright, I'd like to get some studying done this afternoon and there are a few things I want to ask your father first. "#(GO TO 24.9.)
+
+    #24.9.
+    player "Good luck. You can let me know how it goes later. "#(GO TO 24.10.)
+
+    #24.10.
+    player_narration "Elyndir smiled and nodded and then went upstairs to speak to my "
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_16B:
+
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+    #Location: A forest clearing, Lyriathis (Day)
+    #● We are in a clearing somewhere in a forest in Lyriathis. It is sometime during the day. Rimitar and Elyndir stand facing each other while Player-Character (PC) stands between them and off to one side.
+
+    #1. 
+    player_narration "The journey which Rimitar and I had taken together from Lyr-Taer came to an end as we entered the forest clearing where I'd arranged for Elyndir to meet us."
+
+    #2. 
+    player_narration "Rimitar and I had spoken about various subjects during our journey, but his past was still something he didn't like to talk about much."
+
+    #3. 
+    player_narration "And during the final few hours of our journey, Rimitar had barely spoken at all, the upcoming meeting with the dahrian who seemed to be his son no doubt weighing heavier and heavier on his mind as we neared our destination."
+
+    #4. 
+    player_narration "Elyndir stood in the centre of the clearing, waiting for us, his face expressionless as he watched us approach. As for Rimitar, his brow was furrowed in a thoughtful frown as he studied Elyndir."
+
+    #5. 
+    player_narration "We came to a stop about ten feet away from Elyndir, he and Rimitar directly facing each other while I stood slightly off to one side, not wanting to get between them. They looked at each other in silence."
+
+    #6. 
+    player "Elyndir, meet Rimitar."
+
+    #7. 
+    player "Rimitar, this is my friend Elyndir."
+
+    #8. 
+    elyndir "Bastard!"
+
+    #9. 
+    player_narration "Elyndir's furious, hissed insult in Rimitar's direction came at the same time as he lunged forward and drew his sword, the rage on his face making it instantly clear that he intended to kill the guildmaster."
+
+    #10. 
+    player_narration "Rimitar's reflexes were incredibly sharp, however, and whatever he might have been expecting of Elyndir just moments before, now the dahrian was an immediate threat, and Rimitar had plenty of experience dealing with those."
+
+    #11. 
+    player_narration "Rimitar drew his own sword just in time to block Elyndir's first attack, and the guildmaster then remained on the defensive as Elyndir's rage fuelled his offence, the dahrian swinging and thrusting his sword as Rimitar blocked and dodged."
+
+
+    #12. 
+    player_narration "As for me, I was momentarily frozen to the spot in shock. What the hell was Elyndir doing?"
+
+    #13. 
+    elyndir "I'll kill you for all the pain you've caused me and my mother, you coward!"
+
+    #14. 
+    rimitar "Lower your weapon before someone gets hurt! We can talk about this!"
+
+    #15. 
+    player_narration "Although there were a few moments where Rimitar could have taken the offensive and turned Elyndir's aggression against him, he chose to continue defending instead, apparently hoping Elyndir would calm down."
+
+    #16. 
+    player_narration "But if that was his hope then it seemed to be in vain, as Elyndir's bloodlust showed no sign of abating as he continued to launch attack after attack."
+
+    #17. 
+    player_narration "I'd never realised that this was the reason Elyndir wanted to find his father: vengeance."
+
+    #18. 
+    player_narration "The fact that he'd hidden this from me, that he'd used me in this way, called into question everything I thought I knew about him and what kind of person he was."
+
+    #19. 
+    player_narration "Had I been deluded all along? Was Elyndir really nothing more than a lying, revenge-driven criminal? Or was his desire for vengeance understandable, if perhaps misguided?"
+
+    #20. 
+    #menu:
+    #● Side with Elyndir. (GO TO 21.1.)
+    #● Side with Rimitar. (GO TO 22.1.)
+
+
+    ###
+
+
+    #21.1.
+    player_narration "Elyndir had told me about the kind of life he'd had to endure growing up without a father, and his mother without a husband. "#(GO TO 21.2.)
+
+    #21.2.
+    player_narration "Although I felt a pang of guilt at not stepping in to assist Rimitar, Elyndir was my friend - he deserved his chance at revenge. He'd been waiting a very long time for it, and I had to trust him. "#(GO TO 21.3.)
+
+    #21.3.
+    player_narration "At the same time, I had no intention of raising my own weapon against Rimitar. This wasn't my fight. So I remained standing where I was and watched as the father and son fought. "#(GO TO 21.4.)
+
+    #21.4.
+    rimitar "If you really are who I've been led to believe you are then you have to understand I never left your mother, she disappeared! I spent years searching for her! "#(GO TO 21.5.)
+
+    #21.5.
+    elyndir "Then you didn't look hard enough! You made my life miserable! You made her life miserable! She did everything she could for me, and where the hell were you?! "#(GO TO 21.6.)
+
+    #21.6.
+    player_narration "Elyndir's words seemed to take their toll on Rimitar as much as the dahrian's constant, aggressive attacking, and Rimitar's defence gradually began to falter, which only spurred Elyndir on - he smelled blood... "#(GO TO 21.7.)
+
+
+    #21.7.
+    player_narration "...and then he drew it, his sword arcing through the air and past Rimitar's defence, cutting deep into the guildmaster's torso. "#(GO TO 21.8.)
+
+    #21.8.
+    player_narration "Rimitar cried out and stumbled to one side before collapsing to the ground. He held himself in a sitting position, one free hand planted palm-down on the ground, propping him up, while the other still gripped his sword. "#(GO TO 21.9.)
+
+    #21.9.
+    player_narration "Elyndir stood over Rimitar, the tip of his sword just inches from Rimitar's throat. Rimitar looked up at Elyndir with no fear on his face as he breathed heavily and blood ran freely down his torso and pooled on the ground. "#(GO TO 21.10.)
+
+    #21.10.
+    player_narration "A malicious and satisfied smile appeared on Elyndir's face. "#(GO TO 21.11.)
+
+    #21.11.
+    elyndir "So much for the legendary warrior... "#(GO TO 21.12.)
+
+    #21.12.
+    elyndir "You're no hero. You're cowardly scum who's finally getting what he deserves. "#(GO TO 21.13.)
+
+    #21.13.
+    player "He's not scum. "#(GO TO 21.14.)
+
+    #21.14.
+    player_narration "The smile disappeared from Elyndir's lips as he turned to glare at me, his sword staying close to Rimitar's throat. "#(GO TO 21.15.)
+
+    #21.15.
+    player_narration "I hadn't really intended to speak, but now that I'd started, I knew I needed to finish what I had to say. "#(GO TO 21.16.)
+
+    #21.16.
+    player "I understand that you're angry, that you suffered when you were young, that you hate Rimitar... but he's a better lyrian than you give him credit for. "#(GO TO 21.17.)
+
+    #21.17.
+    player "I think he's telling the truth about not abandoning your mother. He told me he didn't even know she was pregnant when she vanished, and I believe him. Look into his eyes, Elyndir. "#(GO TO 21.18.)
+
+    #21.18.
+    player_narration "Elyndir did as I said but the anger didn't leave his face. "#(GO TO 21.19.)
+
+    #21.19.
+    elyndir "I've known a lot of good liars over the years. "#(GO TO 21.20.)
+
+    #21.20.
+    player "But Rimitar isn't one of them. "#(GO TO 21.21.)
+
+    #21.21.
+    player_narration "Elyndir and Rimitar held each other's gaze, the latter still showing no fear despite his terrible wound. At the rate he was losing blood, he wouldn't last long. "#(GO TO 21.22.)
+
+    #21.22.
+    player_narration "Rimitar didn't deserve to die like this. I hoped Elyndir would see sense. "#(GO TO 21.23.)
+
+    #21.23.
+    rimitar "If you really are my son... then do what you feel you have to. "#(GO TO 21.24.)
+
+    #21.24.
+    rimitar "But know this: I loved your mother... more than anything else in this world. I never would've abandonded her. Just like... I never would've abandoned you... if I'd known about you... "#(GO TO 21.25.)
+
+
+
+    #21.25.
+    player_narration "I saw the first flicker of doubt appear on Elyndir's face. Hopefully all he needed was one more push in the right direction... "#(GO TO 21.26.)
+
+    #21.26.
+    player "There's something else, Elyndir. I've seen Rimitar fight, and there's a reason people tell stories and sing songs about him. "#(GO TO 21.27.)
+
+    #21.27.
+    player "I know you're a dangerous dahrian yourself, but be honest: do you really think you could've beaten Rimitar as easily as you have if he wasn't holding back? "#(GO TO 21.28.)
+
+    #21.28.
+    player "He was holding back because of who you are. Rimitar's the kind of lyrian who could never hurt his own son. "#(GO TO 21.29.)
+
+    #21.29.
+    player_narration "Seconds passed in tense silence as Elyndir and Rimitar continued to stare at each other. The tip of Elyndir's sword never wavered - a single thrust and Rimitar would be dead. "#(GO TO 21.30.)
+
+    #21.30.
+    player_narration "Then Rimitar's eyes rolled up in their sockets, the arm which he was using to prop himself up went limp, and he collapsed to the ground, unconscious, the hand in which he'd been holding his sword unfolding. "#(GO TO 21.31.)
+
+    #21.31.
+    player_narration "For a moment, Elyndir didn't move. But eventually he lowered his sword and sighed. "#(GO TO 21.32.)
+
+    #21.32.
+    elyndir "Shit... "#(GO TO 21.33.)
+
+    #21.33.
+    player_narration "I watched as Elyndir sheathed his sword and knelt down next to Rimitar. He placed his hands on the unconscious lyrian's chest, closed his eyes, and breathed deeply. "#(GO TO 21.34.)
+
+    #21.34.
+    player_narration "Magical energy began to appear around Elyndir's hands, before gently flowing forth into Rimitar's blood-soaked torso. Elyndir was healing him. "#(GO TO 21.35.)
+
+    #21.35.
+    player_narration "After several seconds of this, Elyndir took his hands away, opened his eyes and rose to his feet, the magical energy dissipating. He stood looking down at Rimitar as the guildmaster's eyes flickered open. "#(GO TO 21.36.)
+
+    #21.36.
+    player_narration "Rimitar came around quickly, looking down at his own body, where the fresh wound should have been. Thanks to Elyndir's healing magic, however, the wound was gone. "#(GO TO 21.37.)
+
+    #21.37.
+    player_narration "Rimitar looked up into Elyndir's eyes, the dahrian's face stern but no longer filled with murderous rage. "#(GO TO 21.38.)
+
+    #21.38.
+    elyndir "I'm not going to kill you. I don't want a damn thing to do with you. Whatever you were to my mother in the past, you're not my father. "#(GO TO 21.39.)
+
+    #21.39.
+    player_narration "Without another word to Rimitar or myself, Elyndir turned and began walking away from us, across the clearing and towards the edge of the woods. I watched him go, unsure of what to say or whether I should even try. "#(GO TO 21.40.)
+
+    #21.40.
+    player_narration "Rimitar rose to his feet, picking up his sword as he did so. He watched Elyndir until the dahrian disappeared into the trees. "#(GO TO 21.41.)
+
+    #21.41.
+    player_narration "I walked over to Rimitar, relieved to see him place his sword back in its scabbard. As with Elyndir, I didn't know what to say. "#(GO TO 21.42.)
+
+    #21.42.
+    player "Rimitar, I'm sorry. I didn't know - "#(GO TO 21.43.)
+
+    #21.43.
+    rimitar "Where's he going? "#(GO TO 21.44.)
+
+    #21.44.
+    player "Grana would be my guess. "#(GO TO 21.45.)
+
+    #21.45.
+    rimitar "Alright. Goodbye, [PLAYER NAME]. "#(GO TO 21.46.)
+
+    #21.46.
+    player_narration "Before I could say anything else, Rimitar began walking in the same direction as Elyndir, and soon enough he'd been swallowed by the trees as well, leaving me alone in the clearing. "#(GO TO 21.47.)
+
+    #21.47.
+    player_narration "I looked down at the grass where Rimitar's blood had stained it red and wondered if I should follow them... "#(GO TO 21.48.)
+
+    #21.48.
+    player_narration "...but in the end I decided there was nothing more I could do beyond what I'd already done, and I wasn't even sure if that had been the right thing to do in the first place. "#(GO TO 21.49.)
+
+    #21.49.
+    player_narration "I walked off into the forest but in a different direction, hoping that Elyndir and Rimitar could work things out. "
+    #END OF EPISODE
+    return
+
+
+    ###
+
+
+    #22.1.
+    player_narration "Although I understood Elyndir's motivation, I couldn't condone it. He was out of control and had to be stopped before someone got seriously hurt or killed. "#(GO TO 22.2.)
+
+    #22.2.
+    player_narration "I drew my weapon and rushed forward, moving into the space between Elyndir and Rimitar, holding my weapon at the ready and facing Elyndir. "#(GO TO 22.3.)
+
+    #22.3.
+    player_narration "Elyndir hesitated, ceasing his attacks but glaring at me in a way that made it clear he'd go through me to get to Rimitar if he had to. I was hoping it wouldn't come to that. "#(GO TO 22.4.)
+
+    #22.4.
+    player "Elyndir, stop! "#(GO TO 22.5.)
+
+    #22.5.
+    elyndir "Out of the way, [PLAYER NAME]!   This is between me and him! "#(GO TO 22.6.)
+
+    #22.6.
+    player "This isn't how this was supposed to be. You lied to me. "#(GO TO 22.7.)
+
+    #22.7.
+    elyndir "Step aside. Now. I don't want to hurt you. "#(GO TO 22.8.)
+
+    #22.8.
+    player "I know you're angry, but Rimitar isn't responsible for your miserable childhood. "#(GO TO 22.9.)
+
+    #22.9.
+    player_narration "Elyndir lunged at me and swung his sword, not trying to kill me but distract me and put me off-balance. He wanted me out of the way but not dead. I wondered how long that would last. "#(GO TO 22.10.)
+
+    #22.10.
+    player_narration "I blocked the attack and held my ground. I wasn't going anywhere. "#(GO TO 22.11.)
+
+    #22.11.
+    player "Listen to me: Rimitar didn't abandon your mother. She vanished, and he spent years looking for her but never found her. He didn't even know she was pregnant. "#(GO TO 22.12.)
+
+    #22.12.
+    elyndir "Is that what he told you? He's lying. I've known a lot of good liars over the years. "#(GO TO 22.13.)
+
+    #22.13.
+    player_narration "Elyndir attacked again, a little more forcefully this time, but again I blocked. "#(GO TO 22.14.)
+
+    #22.14.
+    player "But Rimitar isn't one of them. He's your father. If he didn't care then he wouldn't even be here now. Just give him a chance. "#(GO TO 22.15.)
+
+    #22.15.
+    player "And then there's you, Elyndir. I know you. You're better than this, better than letting some misguided need for revenge consume you. "#(GO TO 22.16.)
+
+    #22.16.
+    player_narration "A moment later, Rimitar was standing at my side, his eyes fixed on Elyndir. He lowered his sword. Although I expected Elyndir to strike immediately, the dahrian hesitated instead as his focus moved from me to Rimitar. "#(GO TO 22.17.)
+
+    #22.17.
+    rimitar "If you really are my son then know this: I loved your mother more than anything else in this world. I never would've abandonded her. Just like I never would've abandoned you, if I'd known about you. "#(GO TO 22.18.)
+
+    #22.18.
+    rimitar "I think your mother owes both of us the truth about what happened all those years ago. "#(GO TO 22.19.)
+
+    #22.19.
+    player_narration "Seconds passed in tense silence as Elyndir and Rimitar continued to stare at each other. The tip of Elyndir's sword never wavered, while Rimitar's sword remained down at his side. "#(GO TO 22.20.)
+
+    #22.20.
+    player_narration "Slowly, and with some reluctance, Rimitar relaxed his stance and lowered his weapon. I did the same. "#(GO TO 22.21.)
+
+    #22.21.
+    elyndir "I'll talk to my mother. If I find out you're lying, I'll come for you and I'll kill you. "#(GO TO 22.22.)
+
+    #22.22.
+    elyndir "But even if you're telling the truth, I don't want a damn thing to do with you. Whatever you were to my mother in the past, you're not my father. "#(GO TO 22.23.)
+
+    #22.23.
+    elyndir "As for you, [PLAYER NAME], I don't want to hear another word out of your mouth. "#(GO TO 22.24.)
+
+    #22.24.
+    player_narration "Elyndir sheathed his sword and without another word to Rimitar or myself, turned and began walking away from us, across the clearing and towards the edge of the woods. "#(GO TO 22.25.)
+
+    #22.25.
+    player_narration "Rimitar and I watched him go. Part of me wanted to chase after Elyndir despite the last thing he said, but I had no idea what to say or whether I should even try. Eventually the dahrian disappeared into the trees. "#(GO TO 22.26.)
+
+    #22.26.
+    player "Rimitar, I'm sorry. I didn't know - "#(GO TO 22.27.)
+
+    #22.27.
+    rimitar "Where's he going? "#(GO TO 22.28.)
+
+    #22.28.
+    player "Grana would be my guess. "#(GO TO 22.29.)
+
+    #22.29.
+    rimitar "Alright. Goodbye, [PLAYER NAME]. "#(GO TO 22.30.)
+
+    #22.30.
+    player_narration "Rimitar sheathed his sword and began walking in the same direction as Elyndir. "#(GO TO 22.31.)
+
+    #22.31.
+    player "I don't think you going after him is a good idea. Give him time. "#(GO TO 22.32.)
+
+    #22.32.
+    rimitar "I'll keep my distance. But he can lead me to Hellaren. "#(GO TO 22.33.)
+
+    #22.33.
+    player_narration "Rimitar didn't say anything else and he didn't need to. After all this time, after the heartbreak he'd suffered, he wasn't going to ignore a chance to finally find the dahria he loved. "#(GO TO 22.34.)
+
+    #22.34.
+    player_narration "It wasn't long before Rimitar, like Elyndir before him, had been swallowed by the trees, leaving me alone in the clearing. "#(GO TO 22.35.)
+
+    #22.35.
+    player_narration "I put away my weapon and wondered if I should follow them, but in the end I decided there was nothing more I could do beyond what I'd already done, and I wasn't even sure if that had been the right thing to do in the first place. "#(GO TO 22.36.)
+
+    #22.36.
+    player_narration "I walked off into the forest but in a different direction, hoping that "
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest
+
+label lbl_rimitars_story_episode_17A:
+
+
+    #Plot by Katja Alexeeva
+
+    #Script by Alex De-Gruchy
+
+
+
+
+
+    #Location: The Sacred Grove, Lyriathis (Day)
+    #● We are in the #Eternal Forest, specifically the Sacred Grove, the place where Player-Character's (PC's) birth tree was planted. PC and Elyndir stand side-by-side at the edge of the grove. It is morning and the sun is shining.
+
+    #1. 
+    player_narration "It was early in the morning, the sun still low in the sky, when Elyndir and I arrived at the Sacred Grove after having walked there together from my parents' house."
+
+    #2. 
+    player_narration "The grove was close enough to home that I could take Elyndir there, show him the grove and my birth tree, and then have him back early enough that he could spend the rest of the day continuing his magic studies with my father."
+
+    #3. 
+    player_narration "I knew well enough that travelling somewhere with Elyndir, even to a location not that far away, brought with it an increased chance of him being spotted and possibly reported to the authorities..."
+
+    #4. 
+    player_narration "...but the grove and my birth tree were important to me, and I wanted to share them with him."
+
+    #5. 
+    player_narration "I hadn't told him where we were going, only that there was something I wanted him to see. I told him to wear a cloak and hood, and to keep the latter over his head."
+
+    #6. 
+    player_narration "I admit that for a moment it felt strange walking into the Sacred Grove with a Dahris at my side..."
+
+    #7. 
+    player_narration "...but I suppose that was to be expected given that this place - and the natural, life-affirming magic which was so strong here - had been such a bitter point of contention between the Lyris and the Dahris for so very long."
+
+    #8. 
+    player_narration "But I quickly reminded myself that it wasn't just a Dahris at my side, it was Elyndir, and that when it came to that ancient enmity between the Lyris and Dahris, he felt the same way as me: he didn't really care."
+
+    #9. 
+    player_narration "I'd wanted to leave home early so that we'd hopefully arrive at the grove at a time when there was likely to be no one around, and now I was relieved to see that was the case."
+
+    #10. 
+    player_narration "We paused at the edge of the grove, Elyndir's head moving as his eyes roamed over the birth trees. The grass and leaves rustled gently in the cool morning breeze as I watched him."
+
+    #11. 
+    elyndir "Is this... the Sacred Grove?"
+
+    #12. 
+    player "Yes."
+
+    #13. 
+    player_narration "Although he was good at playing his cards close to his chest, I was glad to see a smile appear on Elyndir's lips. I don't think he even knew he was doing it."
+
+    #14. 
+    player "What do you think?"
+
+    #15. 
+    elyndir "...It's beautiful."
+
+    #16. 
+    player_narration "I started walking deeper into the grove, Elyndir once again falling into step beside me. We moved at a relaxed pace, taking in and enjoying the atmosphere."
+
+    #17. 
+    player_narration "A hint of a smile remained on Elyndir's lips, and he looked more at peace than I'd ever seen him."
+
+    #18. 
+    player_narration "I wondered if him being half-Lyris and possessing the inherent healing magic that he did made him feel an instinctive connection to the Sacred Grove. With his Lyris heritage, I thought it a shame that Elyndir didn't have his own birth tree."
+
+    #19. 
+    player "These are all birth trees. When a Lyris is born, their family plants a birth tree for them as a symbol of life and growth."
+
+    #20. 
+    player "But the birth trees are more than that. Each tree becomes fundamentally connected to the Lyris whose birth it marks. So when that Lyris dies, so does their tree."
+
+    #21. 
+    elyndir "I'm assuming it doesn't work the other way around - that if I start chopping down these trees, Lyris are going to start dropping dead a hundred miles away."
+
+    #22. 
+    player "No, it doesn't work that way. Although losing a birth tree can still be a terrible blow to a Lyris."
+
+    #23. 
+    player_narration "After walking for a time, I came to a stop at the specific spot to which I'd been leading elyndir "my own birth tree. Elyndir looked at the tree and then at me.""
+
+    #24. 
+    player "This is my tree."
+
+    #25. 
+    player_narration "Elyndir and I both admired my birth tree as I ran a hand over the bark of the trunk. The tree was healthy and growing well, its branches thick and filled with leaves and reaching towards the sky."
+
+    #26. 
+    player_narration "Growing out of the ground at the base of my tree were some wild flowers. They were in full bloom, their colour a mixture of brilliant shades of purple and blue."
+
+    #27. 
+    player_narration "I picked one of the flowers and brought it up to my nose, breathing in its sweet fragrance. I held the flower out to Elyndir. He accepted it and smiled at me."
+
+    #28. 
+    elyndir "Thank you."
+
+    #29. 
+    elyndir "...Hang on, this isn't some kind of Lyris marriage ceremony that you're tricking me into, is it?"
+
+    #30. 
+    player_narration "I laughed and gave Elyndir a playful smack on the shoulder as he grinned at me."
+
+    #31. 
+    player "You wish."
+
+    #32. 
+    player_narration "I sat before my birth tree, gestured towards the ground next to me and looked up at Elyndir."
+
+    #33. 
+    player "Sit down."
+
+    #34. 
+    player_narration "Elyndir looked around, checking to see if we were still the only people in sight. Once he was satisfied that we were, he sat next to me."
+
+    #35. 
+    player_narration "We didn't say anything for a while, both of us simply enjoying the tranquility of the Sacred Grove, comfortable in each other's company. Elyndir held onto his flower, studying it now and again."
+
+    #36. 
+    elyndir "It's hard to think that a place like this could inspire hatred and conflict like it does between the Dahris and Lyris. Seems to me like someone's missing the point."
+
+    #37. 
+    player "I know. Most people seem to just accept that the Dahris and Lyris are enemies and that's how it's always going to be, when at the end of the day we're all just people. It's nonsense. Hopefully things will change in time."
+
+    #38. 
+    elyndir "It would be nice to think so. I know it's something my mother's always wanted. I suppose that's why I grew up not hating the Lyris like so many other Dahris of my age did. She taught me it didn't matter."
+
+    #39. 
+    elyndir "Although my mother has actively worked to try to improve relations between the Dahris and Lyris over the years, and I've never gone that far."
+
+    #40. 
+    elyndir "I've always been more focused on looking out for myself. In my line of work that attitude helps keep you alive."
+
+    #41. 
+    elyndir "But being here now... I think I understand a little better why she does it, even if she's never seen this place. As far as I know, anyway."
+
+    #42. 
+    player "It's people like your mother who'll make a difference. As I said, things will change."
+
+    #43. 
+    elyndir "I suppose we'll see."
+
+    #44. 
+    player_narration "Elyndir and I smiled at each other and then settled into another comfortable silence."
+
+    #45. 
+    player_narration "The sun continued to rise in the sky, scattered rays of its light filtering through the leaves of the trees and dappling the grove floor below."
+
+    #46. 
+    player_narration "As beautiful a sight as it was, it was also a reminder that time was passing, and that the longer Elyndir and I remained here, the greater the risk we were taking."
+
+    #47. 
+    player_narration "Reluctantly I suggested that it was best we head home, and Elyndir - just as reluctantly - agreed. He rose to his feet and offered me his hand, helping me up."
+
+    #48. 
+    player_narration "Rather than let go of his hand, I held onto it, and we left the Sacred Grove that way, connected to each other as well as to the beauty and magic "
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+
+    ##---------------------------------------------------------------------------------------------------------------
+    ##---------------------------------------------------------------------------------------------------------------
+    #Eternal Forest

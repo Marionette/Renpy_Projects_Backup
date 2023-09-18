@@ -1,0 +1,18 @@
+ - Error line : "My name is {color=#F00}Eileen{/color}..." at (u'game/script.rpy', 110) 
+ > Correction to make : grammar/typo error : My name is {color=#F00}Eileen{/color}...2 
+ 
+ - Error line : "My name is {color=#F00}Eileen{/color}..." at (u'game/script.rpy', 110) 
+ > Correction to make : Sprite error 
+ 
+ - Error line : "My name is {color=#F00}Eileen{/color}..." at (u'game/script.rpy', 110) 
+ > Correction to make : Sprite error 
+ 
+ - Error line : "My name is {color=#F00}Eileen{/color}..." at (u'game/script.rpy', 110) 
+ > Correction to make : oh crapsticks 
+ 
+ - Error line : "Hi {color=#F00}Eileen{/color}, my name's {color=#00F}[pc]{/color}" at (u'game/script.rpy', 113) 
+ > Correction to make : background not showing 
+ 
+ - Error line : "He didn't limit himself to royalty, or so the tabloids said." at (u'game/script.rpy', 128) 
+ > Correction to make : nvl window not aligned 
+ 

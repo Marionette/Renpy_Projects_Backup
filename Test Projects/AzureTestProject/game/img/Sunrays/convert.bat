@@ -1,0 +1,1 @@
+ffmpeg -framerate 1 -pattern_type glob -i 'sunrays_%03d.png' -c:v libx264 out.mp4

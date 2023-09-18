@@ -1,0 +1,1 @@
+ffmpeg -framerate 1/5 -i E:\RenpyGames\AzureProject\game\img\sprite\girl2\%04d.gif -c:v libx264 -r 30 -pix_fmt yuv420p out.mp4
