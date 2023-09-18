@@ -1,0 +1,90 @@
+What the heck is going on?
+
+Game Res: 768x1366
+
+This pack includes:
+	-All currently completed school backgrounds
+	-Most house backgrounds
+	-Two public backgrounds
+	-Random temp GUI things
+
+Gui Things:
+
+Mini-map:
+	I've included a "base" for the map, and then two variations of "Highlighted/Unlocked" locations.
+	I included one that would be used for image maps and then individual ones to be used for image buttons. You can pick which one you want to use.
+
+Directional arrows:
+	I don't know if its less code heavy or easier to have one arrow and rotate it for each instance it appears, or to have pre-rotated arrows.
+	There is an option for both. You can chose which tactic you want to use.
+	I don't know how big the arrows are going to be on the screen, so if they look massive then you can scale them down.
+
+
+Map instructions:
+
+	When you are on the mini map, if you click the house smily face, it should take you to the background "house backgrounds/house.jpg"
+	" ", if you click the 'School' (Big grey rectangle thing) it should take you to "school backgrounds/baseball.jpg"
+	" ", if you click the 'Trees' it should take you to "public backgrounds/park.jpg" whatever.
+
+Arrow instructions: (Bear with me)
+
+	House backgrounds:
+		"house.jpg"
+			One NE arrow pointing in toward the door (Links with "kitchen.jpg")
+			One E arrow on the far right centre of the screen pointing offscreen (Links with "street.jpg")
+		"kitchen.jpg"
+			One S arrow at bottom of screen centre pointing downward (links with "house.jpg") 
+				(Also I don't know about the textbox, you should put all the 'bottom' arrows above the textbox I think.)
+			One (Small?) NE arrow pointing to random entrance in kitchen.(links to bedroom.jpg)
+		"bedroom.jpg"
+			One SW arrow pointing toward bottom right corner of room (links to kitchen.jpg)
+
+	Public backgrounds:
+		"street.jpg"
+			One S arrow pointing down at screen bottom (links to house.jpg)
+			One NE or N arrow pointing down other end of read (Links to park.jpg)
+			One W arrow with baseball in school.
+		"park.jpg"
+			One SW arrow bottom left corner links to street.jpg
+			
+	School backgrounds:
+		"baseball.jpg"
+			One arrow points in the door, links with "hallway2.jpg"
+			One S arrow linking with street
+		"hallway2.jpg"
+			One arrow pointing to bathroom door. Links to "bathroom.jpg"
+			one arrow pointing down another corridoor (E or W) links with hallway1
+		"hallway1.jpg"
+			One arrow pointing down stairs linsk with hallway2
+			One arrow pointing anywherewhocares, linking to classroom
+		"bathroom"
+			One E arrow pointing at far right of screen linking to hallway2
+		"classroom"
+			One E arrow pointing at far right of screen linking to hallway1
+
+
+
+Test "Quests" (Only try code these if you want to and/or have time.)
+
+	1. A quest where you start at your bedroom and have to "Go to class"
+		The person has to navigate from the bedroom to the classroom.
+			Bonuses:
+			If the person goes back the way they came or goes the wrong way, have the textbox say "Did I forget something?"
+			or "I'm going the wrong way" 
+			or when they are at the school (baseball onwards) if they go the wrong way or back the way they came "I'm going to be late to class!"
+
+
+	2. A quest where it's the weekend and the 'school' location on the minimap is locked. 
+		If the person explores via the street they can go to the baseball field but thats all, 
+			if they try to go in the door to the school it says "it's locked because it's the weekend" or something.
+
+	3. A quest where they are in school and need to go to the bathroom.
+		The person starts in the classroom and has to navigate to the classroom. Both House and Public on minimap are locked.
+			The person can go out to the baseball field but if they try and go to the street it's locked and a message says "I can't leave the school. it's classtime."
+				(Pretty much oppisite of the last one) 
+				(They win by going to the bathroom then going back to class)
+
+
+
+
+Thanks for reading this massive info dump. My brain is too addled to go through the skype convo to find that guys minigame theory tonight. Maybe next time. 	

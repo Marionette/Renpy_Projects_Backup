@@ -1,0 +1,1590 @@
+﻿# Ren'Py automatically loads all script files ending with .rpy. To use this
+# file, define a label and jump to it from another file.
+
+label mon1_morning:
+    
+    $Sol_pts = GetPoints('Solomon')
+    $Milo_pts = GetPoints('Milo')
+    $Joel_pts = GetPoints('Joel')
+    
+    scene black with dissolve
+
+    show text "{size=60}Five Years Later" with Pause(3.0)
+    
+    $ dayofweek = 3
+    $ dayofmonth = 7
+    $ month = 7
+    $ currentTimeOfDay = 0
+    
+    call calendar() from _call_calendar
+    
+    scene west_home with pixellate
+    
+    show screen screen_TOD_indicator_sml()
+    $ currentTimeOfDay = 0 # 0 = morning
+    
+    "Current Points:\nkindness = [stat_kindness],
+     honesty = [stat_honesty],
+     intellect = [stat_intellect],
+     dependability = [stat_dependability],
+     imagination = [stat_imagination],
+     laziness = [stat_laziness]"
+    
+    si thinking "Got my keys, got my phone--"
+    
+    #phone ring tone sound effect
+    
+    si surprised "Hm?"
+    
+    si "Hello?"
+    
+    tr "Oh, great, you're awake!"
+    
+    tr "Last night, we talked about the wedding so long, I got worried that you wouldn't wake up on time for work."
+    
+    si smile "No, no, I did. I'm just about to leave out now, actually."
+    
+    si "I still can't believe you're getting married in two weeks."
+    
+    tr "I can, trust me. It couldn't come fast enough."
+    
+    si sigh "Mhm..."
+    
+    "I trail off."
+    
+    "She pauses."
+    
+    tr "I avoided mentioning it last night but... are you still upset about not having a date to the wedding? I keep trying to tell you that really doesn't matter if Nhung comes with a date and you don't--"
+    
+    si incredulous "Except it does because I can't stand Nhung. Since we were kids, she's always tried to one up me and I just can't anymore, Trina. {w}Her very {i}presence{/i} irks my soul."
+    
+    si sad "Even if by some miracle, I {i}did{/i} show up with a date, she'd probably show up with six from each continent, plus a scientist from Antarctica for good measure!"
+    
+    si angry "And honestly! {w}When I woke up, I {i}wasn't{/i} thinking about it at all but now that you've reminded me, I can experience my first emotion of the day. {w}Bitterness."
+    
+    tr "I'm sorry! I mean, something could happen in the next two weeks and you--"
+    
+    si "{i}Extreme{/i} bitterness."
+    
+    tr "Okay, okay, forget I said anything. So, uhm, what {i}were{/i} you thinking about then?"
+    
+    si thinking"{i}Well{/i}, I just woke up from a weird dream about my first interview with 5/7."
+    
+    tr "Oh, wow! With the eyebrow lady?"
+    
+    si uncomf "...I still can't believe you named one of the drinks on the menu 'De-Brow of Levitation.'"
+    
+    tr "And {i}I'm{/i} still not sorry that I did. How could I let such a moment of comedic genius fade away in the hallowed halls of comics past?"
+    
+    "She lets out a loud laugh, then sighs. I can still hear the smile in her voice."
+    
+    tr "...Simone, can you believe it's been five whole years?"
+    
+    "I snort aloud."
+    
+    si sigh "Oh, I believe it, alright. Every day I wake up {i}not{/i} as an intern is a blessed one, in my opinion."
+    
+    tr "Well, can't deny that."
+    
+    tr "Oh! {w}Since you're already awake, I probably shouldn't hold you up. Isn't today the day you report to your new editor-in-chief?"
+    
+    "She's right, of course. It comes to me as no surprise that Trina's more on top of my schedule than I am."
+    
+    "As much as I enjoyed being a copy-editor for 'The Daily Dollar', I am beyond ready to move on. One can edit but so many articles about finance before losing their mind."
+    
+    tr "See? New magazine, new day. Maybe you'll meet that hottie you told me about from the photocopier incident."
+    
+    si "Didn't you promise me that we'd never speak of that again?"
+    
+    tr "Yeah, yeah. I still think I should've named a drink after that incident, too. Just imagine, customer after customer coming in to order a tall 'Xerox Machine of Doom.'"
+    
+    tr "It'd be coffee, a dark roast as black as ink."
+    
+    si bored "...You really do like to hurt me, don't you?"
+    
+    tr "Ah, don't be so hung up on it! If {i}I{/i} recall correctly, you were the one all, {i}'Not all heroes wear capes, Trina.'{/i}"
+    
+    tr "{i}'Right when I thought it was the pits, he came in like a herald of light, stapler in hand, and helped me put together those two hundred--'{/i}"
+    
+    si  worried "First of all, the fact that you remember my exact words is highly disturbing, and second, let's stop talking about this. {w}Please."
+    
+    si uncomf "That utter {i}nightmare{/i} was four months into my internship and it almost cost me my job. And it was actual factual years ago. Please forget it."
+    
+    si "For all I know, he might not even work for 5/7 Publishing anymore."
+    
+    tr "For all you know. Which is nothing."
+    
+    si "He might've been a guest and not even a full on employee!"
+    
+    tr "But he might not of been one."
+    
+    si "Trina, I never even learned his name."
+    
+    tr "Bet you remember his face, though."
+    
+    "Touché."
+
+    si angry "...Don't you have a café to be opening somewhere?"
+    
+    "Trina just laughs."
+    
+    tr "Bye, Simone. See you."
+    
+    "We hang up, and I sling a jacket over my arm and hit the door."
+    
+    scene black with dissolve
+    
+    scene trina_cafe with pixellate
+    
+    "As I do every morning before work, I make a stop at Trina's for breakfast and more banter."
+    
+    "Like clockwork, she's outside right as I approach."
+    
+    show trina surprised
+    
+    tr "Oh, good, you made it! I was starting to worry."
+    
+    si depressed "I left right after we hung up but traffic was awful."
+    
+    hide trina surprise
+    
+    show trina disappointed
+    
+    "Trina looks at me guiltily, but I pretend that I don't notice."
+    
+    "With her getting married and all, I had to move out from our formerly shared apartment above the coffee shop. {w}After marriage, they'd decided he'd move in with her so she could still be close to the business."
+    
+    "It's not like it bothers me, but since commuting isn't quite my strong suit, Trina still feels obliged to call me in the morning to make sure I'm awake."
+    
+    "The puppy eyes weigh on me more than moving out ever did, so I hastily change the subject."
+    
+    si smile "Can I have--"
+    
+    show trina neutral
+    
+    #half-smile
+    
+    "She holds out a paper bag."
+    
+    tr "Already got it. I had it made for you and even threw in a bagel. {w}Your caffeine addiction is a little worrying, by the way."
+    
+    si uncomf "...says the owner of a coffee shop."
+    
+    "Trina's tone is defensive but her face betrays the fact that she doesn't mind at all."
+    
+    hide trina neutral
+    
+    show trina happy
+    
+    tr "Hey, now! We cater, too!"
+    
+    "I take the offered cup and gesture with it."
+    
+    si happy "On the house?"
+    
+    hide trina happy
+    
+    show trina neutral
+    
+    #happy
+    
+    tr "Don't be cheap, Simone."
+    
+    si sigh "Alright, alright."
+    
+    tr "If you can, you should come by at lunch!"
+    
+    hide trina neutral
+    
+    show trina smirk
+    
+    tr "Make sure to bring a bunch of your rich, new co-workers with you, too."
+    
+    "I scoff."
+    
+    si uncomf "Trina, 5/7 is right down the street."
+    
+    tr "Meaning?"
+    
+    si surprised "People from work come here for lunch all the time. {i}Meaning{/i} if anything you'll probably know them better than I do."
+    
+    hide trina smirk
+    
+    show trina neutral
+    
+    "She shrugs bashfully."
+    
+    hide trina neutral
+    
+    show trina happy
+    
+    tr "Fair enough. {w}Anyway, you're going to be late if you keep hovering here."
+    
+    si smile "Right!"
+    
+    "I thank her again and, waving good bye, rush off to the office."
+    
+    scene black with dissolve
+    
+    scene office with pixellate
+    
+    "When the elevator doors open, I step off onto the unfamiliar floor."
+    
+    "As unprofessional as it may be, it occurs to me that I don't even know the name of my new publication."
+    
+    "I'd gotten the email about the transfer when I was out with Trina and because I like to keep my work and private lives separate, I... admittedly I didn't check it at the time."
+    
+    "And promptly forgot to do so."
+    
+    "Can't blame me though-- tax articles don't write themselves."
+    
+    "The executive secretary eyes me, waiting for me to speak. I take a moment to note his name tag, then meet his eyes. As expected, the moment we make eye contact, he does."
+    
+    se "Can I help you?"
+    
+    si surprised "Oh!"
+    
+    si smile "I just want to make sure I'm on the right floor."
+    
+    se "This is the floor for Cufflinks, the flagship publication of..."
+    
+    "His voice filters to the background as he hands me a business card, and although the words are right in front of me, I can scarcely believe what I'm reading."
+    
+    "There's no way... {w}I got transferred to Cufflinks?"
+    
+    "{i}Cufflinks{/i} Cufflinks?"
+    
+    "The shock washing over me like a wave, I take out my phone to read the email-- half to reassure myself I'm in the right place, half to prove myself wrong-- when a warm, deep voice surprises me."
+    
+    z "Excuse me, are you the new transfer?"
+    
+    "I turn around."
+    
+    show solomon neutral with dissolve
+    
+    "I was already grasping at straws for some composure, but this one takes the cake."
+    
+    "I don't know his name, but Trina's smug voice echoes in my head--"
+    
+    "{i}\"Bet you didn't forget his face, though.\"{/i}"
+    
+    si uncomf "Oh, that's... that's me. I'm--"
+    
+    z "Simone."
+    
+    "I swear I feel my blood pressure drop when he says my name. Please don't tell me he recognizes me, too."
+    
+    "Don't get me wrong-- {w}any other time, I'd be {i}beyond{/i} thrilled that my new boss has taken note of me, but considering he might remember the lowest moment of my then-budding career, I can't say that such a first impression would be very... {w}flattering."
+    
+    show solomon smile
+    
+    "He holds out a hand accompanied with a warm smile."
+    
+    "When I take it, the man envelopes my hand in both of his and gives it a firm shake. Chuckling at my obvious surprise, he lets go."
+    
+    show solomon neutral
+    
+    z "Don't worry, Ms. West. I'm well acquainted with both you and your work."
+    
+    si uncomf "In... what... way?"
+    
+    "I feign ignorance, just in case he's addressing The Xerox Incident, but he mostly just looks surprised."
+    
+    z "I heard about the work you did for the accounting magazine on the ninth floor."
+    
+    "He lowers his voice and leans in secretively."
+    
+    show solomon smile
+    
+    z "I've only been in this position for two years, but if there's one thing my mentor ever left with me, it's that you should never let competance go to waste."
+    
+    "I brighten at that."
+    
+    si happy "It sounds like you had an excellent mentor."
+    
+    show solomon neutral
+    
+    z "There are some moments more than others where I certainly agree."
+    
+    "It might be my imagination but his eyes linger on my face a little longer than necessary, his gaze mildly appraising."
+    
+    si "I'm pleased to meet you. And you are?"
+    
+    "And then the bright smile's back, accompanied by a mischievous wink."
+    
+    show solomon smile
+    
+    z "Solomon Fox, Editor-in-Chief."
+    
+    "So in other words... my boss."
+    
+    so "I wish I could spend a little time showing you the ropes but I've got an unnecessarily full schedule."
+    
+    so "I've assigned our resident fashion editor to lend a hand. Milo's one of my best and I don't doubt you're a quick study if your reputation is anything to go by."
+    
+    show solomon serious
+    
+    so "Just a second."
+    
+    hide solomon serious
+    
+    "He turns away to pin some kind of sheet on a corkboard."
+    
+    "I'm trying my best not to stare but... it's really him."
+    
+    "There's no mistaking the crisp British accent and those eyes. They're exactly the same as when I first saw them."
+    
+    "He looks just as good as he did four years ago when he sat at the table stapling two-hundred sets of printouts and single-handedly saving my job on the worst day of my life."
+    
+    "So far, anyway. There's always room for more after all."
+    
+    "I always thought that Trina gave off good vibes, but this level of prediction is just..."
+    
+    show solomon smile
+    
+    so "Sorry about that. {w}So, Milo's not in right now. In the meantime, the least I can do is give you a brief rundown of our office so you can be acquainted with your new workspace."
+    
+    hide solomon smile
+    
+    #OFFICE MAP
+    
+    show map with moveinbottom
+    
+    so "This is where the kitchen is."
+    
+    "As soon as he says 'kitchen', a chill goes down my back."
+    
+    hide map
+    show past_filter
+    with pixellate
+    
+    ##greyscale everything cause it's a memory
+    
+    ob "There's dishes that need washing, West."
+    
+    sin "Excuse me?"
+    
+    ob "Was I unclear?"
+    
+    sin "No, but..."
+    
+    ob "But?"
+    
+    sin "B-but that's... that's not in my job description! I did {i}not{/i} join this company just to be an office maid!"
+    
+    ob "Too good to do a little cleaning, hm? {w}Well, before you get uppity, just look around you. Is there anyone else in this room whose job is as expendable as yours?"
+    
+    ob "I don't see any other interns on this floor."
+    
+    sin "..."
+    
+    ob "That's what I thought. This breakroom should be sparkling with under your care. I know how eager you are to please, after all."
+    
+    hide past_filter
+    show map
+    with pixellate
+    
+    ##back to the present
+    
+    "I don't know why I thought of it now, but I feel myself stiffen."
+    
+    "I'm not an expendable intern anymore, but I am well aware that some departments treated new transfers worse than others."
+    
+    "I can only hope that I'm on the better end of the spectrum."
+    
+    so "It's the most important place in the office, and I'm sure you'll find yourself in here more often than you'd like to admit."
+    
+    "I have a distinct sinking feeling in my stomach."
+    
+    so "Joel makes excellent coffee so be sure to try it when you get a chance."
+    
+    "Wait... Joel?"
+    
+    "Before I have time to ask who 'Joel' is, Solomon moves on."
+    
+    so "Over here is the bathroom, and of course that's the lobby."
+    
+    so "These cubicles are for the main staff and this one will be yours."
+    
+    "He lets out the same rolling chuckle, a teasing light in his eyes."
+    
+    so "It's right outside my office so make sure you're actually working because when my door's open, I can see your screen, regardless of if I actually want to."
+    
+    #HIDE MAP
+    
+    hide map with moveouttop
+    
+    "He's joking but he looks a little uncomfortable all the same."
+    
+    "I'm guessing he's seen some things."
+    
+    "Shaking it off, he gestures at me."
+    
+    show solomon neutral
+    
+    so "If you'll just follow me--"
+    
+    show solomon surprised
+    
+    z "Sir!"
+    
+    hide solomon surprised
+    
+    show joel surprised
+    
+    "A tall, young man approaches Solomon, a stack of folders cradled in his arms."
+    
+    show joel surprised at right
+    show solomon neutral at left
+    with dissolve
+    
+    so "Oh, Joel. {w}Have you met our new copy-editor?"
+    
+    jo "Not yet, sir. I don't mean to bother you but... but a-actually..."
+    
+    show solomon serious at left
+    
+    so "There's a problem."
+    
+    show joel sigh at right
+    
+    jo "I'm sorry to interrupt you, sir but... it's not just a {i}problem{/i}. We have a full-blown emergency on our hands."
+    
+    jo "Some of the Art Department staff are saying the newer deadline is too soon and they can't get the photos in to me in time to pre-format them for editing. Can you talk to them for me?"
+    
+    show solomon sigh at left
+    
+    "Solomon lets out a sigh, flitting a glance at me."
+    
+    show solomon neutral at left
+    
+    so "I did mention that I'm obscenely busy, right?"
+    
+    so "Joel, I'll be right on it."
+    
+    hide joel sigh
+    
+    hide solomon neutral
+    
+    show solomon sigh
+    
+    so "Simone, I'm sorry-- I'll be back a little later. Why don't the two of you acquaint yourselves with each other while I'm gone? I have some important calls to make."
+    
+    hide solomon sigh
+    
+    "He disappears into a room that I can only assume is his personal office."
+    
+    show joel surprised
+    
+    jo "..."
+    
+    "Joel stares at me silently for a long, uncomfortable moment. He'd been fine a moment ago talking to Solomon, so I can't help but wonder what his reluctance to speak is for--"
+    
+    show j blush2
+    
+    "And even though he's the one doing the staring, strangely enough, he's also the one starting to sweat."
+    
+    "Well then. {w}I guess I'll be the one starting introductions since Joel has his whole deer-in-the-headlights concept going for him."
+    
+    si smile "Hi, I'm Simone. I was just transferred here so today's my first day."
+    
+    hide joel surprised
+    
+    hide j blush2
+    
+    show joel disappointed
+    
+    jo "I-I know, sorry. {w}You just, uhm, weren't what I was expecting."
+    
+    "Oh? The comment is too vague for me to pinpoint his meaning, so I look at him pointedly."
+    
+    "I tease him lightly."
+    
+    si happy "Am I even better?"
+    
+    "He blinks at me so I rephrase the question."
+    
+    show joel surprised
+    
+    jo "Better?"
+    
+    si surprised "Well, what were you expecting?"
+    
+    show joel serious
+    
+    jo "Ah... well... I knew there was a new copy-editor coming but I didn't expect you to be so..."
+    
+    si "So...?"
+    
+    show j blush2
+    
+    jo "..."
+    
+    "I look at him expectantly, waiting for him to finish his statement-- or to at least drop a last name or job description."
+    
+    "Instead of responding, he starts to laugh nervously."
+    
+    "...Alrighty then."
+    
+    hide joel neutral
+    
+    hide j blush2
+    
+    "It's not too hard to guess his job at least-- even if Solomon hadn't told me, Joel has the distinct look of an intern. I'd never met someone so..."
+    
+    "I mean, even as I look at him, I feel like he's started to sweat even more profusely."
+    
+    show joel neutral
+    
+    jo "I-I'm Joel. Joel Cabrera."
+    
+    "Cabrera?"
+    
+    "I let out a laugh."
+    
+    si happy "Wow, what a coincidence."
+    
+    show joel surprised
+    
+    jo "Huh? What is?"
+    
+    si smile "Your name, Cabrera. {w}Like Miguel Cabrera from senior management? I met him once, you know. He's nicer than you'd expect for somebody so loaded."
+    
+    "I make the joke to help the poor kid lighten up but he just smiles awkwardly instead."
+    
+    show joel serious
+    
+    jo "Ah, yeah, he's really... down-to-earth."
+    
+    si "Nice, have you met him too?"
+    
+    show j blush
+    
+    show joel surprised
+    
+    "Joel reddens, his mouth opening, then shutting. He hums and haws for a few more seconds before settling on something to say."
+    
+    jo "Ah, well, uhm... sort of."
+    
+    show joel serious
+    
+    jo "He's my uncle."
+    
+    "Wow. {w}That's not 'sort of' at all."
+    
+    "It's hard not to let my jaw drop, but I manage. If Joel didn't seem so genuinely embarrassed, I'd find it impossible to believe."
+    
+    hide j blush
+    
+    hide joel serious
+    
+    "You can't blame me though-- Miguel Cabrera is a man that, even in his sixties, oozed enough charisma to make a three-piece suit jealous."
+    
+    "I'd only met him once when he came to the office for a peer review but by the time he'd left even my training manager was bowing over himself to appease him."
+    
+    "I won't say I didn't enjoy it but..."
+    
+    "Well, anyway."
+    
+    show joel serious
+    
+    "I touch his arm lightly."
+    
+    si happy "You don't have to be so shy about your silver spoon. I promise I won't treat you any differently."
+    
+    "Joel looks nervous, but I think I'm starting to understand that nervousness is simply his default expression."
+    
+    show joel neutral
+    
+    jo "A-actually, I grew up on a ranch."
+    
+    si surprised "Ooh, a farmboy?"
+    
+    "He nods."
+    
+    show joel serious
+    
+    jo "{i}Rancho{/i}, to be specific."
+    
+    si neutral"A fashionable bi-lingual farmboy, then?"
+    
+    show joel neutral
+    
+    "Joel offers a timid, slightly brighter smile."
+    
+    jo "Yeah, I guess that's me. {w}If you're as good as everyone says you are, then I guess you're like Lois Lane."
+    
+    show joel smile
+    
+    jo "{size=-6}A lot more beautiful though.{/size}"
+    
+    si happy "Sorry, say it again? I didn't hear you."
+    
+    show joel surprised
+    
+    jo "N-nothing! Nothing, sorry. Nothing."
+    
+    jo "Sorry, I have work to do, I should go."
+    
+    show joel neutral
+    
+    jo "Milo's supposed to be helping you around the office, right?"
+    
+    si "Apparently so, but he's out."
+    
+    si smile "It was nice meeting you, Joel-- I'll just get over here and set myself up at my desk the best I can in the meantime."
+    
+    show joel smile
+    
+    jo "I'll be right back, Ms. West--"
+    
+    si happy "Sure. But Joel, just call me 'Simone', alright?"
+    
+    show j blush
+    
+    "He flushes, still smiling sweetly."
+    
+    jo "Okay. Simone. {w}I, um, I need to go get the mail cart but I'll be back..."
+    
+    show joel serious
+    
+    jo "If Milo comes, can you give him these for me?"
+    
+    "I shrug. {w}It shouldn't be too inconvenient and honestly, Joel seems like he needs the type of friend to step in to cover a favor or two."
+    
+    "I wonder why he's so nervous. Solomon doesn't seem like a particularly over-demanding boss to work under so..."
+    
+    "Mystery unsolved, I turn to my cubicle as Joel disappears toward the lobby, leaving me to my own devices."
+    
+    hide joel serious
+    
+    hide j blush
+    
+    scene office cubicle with blinds
+    
+    si bored "..."
+    
+    "Of which I have none."
+    
+    "No matter-- there's no better time than the present to acquaint myself with the office tech, especially if I was going to be working as a copy-editor."
+    
+    "I take a seat at my new desk."
+    
+    "I even have a shiny placard with my name on it. Fancy."
+    
+    si sad "This..."
+    
+    "A small potted miniature fern droops sadly on the side beside my chair."
+    
+    si "...is pitiful. I really need to get some decorations in here."
+    
+    "My phone buzzes quietly from my pocket."
+    
+    "It's an email from Trina."
+    
+    "Smart, since I won't be able to use my phone at the desk."
+    
+    "Right when I'm about to open the email client, I see a new face approaching my new desk. {w}This must be..."
+    
+    scene office cubicle
+    show milo serious at right
+    with dissolve
+    
+    si smile "Hi, I'm--"
+    
+    z "Yeah, yeah, the new chick."
+    
+    z "No need for niceties. I work here."
+    
+    "He sounds disgruntled."
+    
+    "Now... usually, I can handle disgruntled but he catches me so offguard that I find myself bristling."
+    
+    "I mean, really. 'New chick?' {w}{i}'New chick?'{/i}"
+    
+    "If he was going to make the effort to grace my presence with his then he could've taken the extra step and learned my name."
+    
+    "He doesn't even have an excuse not to know it either-- I'd passed by a notice board when I came in and my transfer notice was clearly posted with my full name on it."
+    
+    "I smile coolly, trying my best not to show how much it's bothered me."
+    
+    show milo serious
+    
+    si uncomf "My name is Simone West. And you must be...?"
+    
+    "A little bit of sarcasm sneaks its way in."
+    
+    si bored "Please, remind me. I'm sure your name would ring a bell-- {w}if I've heard of it."
+    
+    show milo sigh
+    
+    z "Matthews. {w}Milo Matthews."
+    
+    si thinking "Matthews, Matthews..."
+    
+    si sigh "No, doesn't seem familiar."
+    
+    "I pause deliberately."
+    
+    si incredulous "Well, I can't be sure. I don't {i}think{/i} we've met; someone so important would've definitely left a more lasting impression and the name 'Matthews' brings absolutely no one to mind."
+    
+    "My smile comes across more coldly than I intended."
+    
+    si smile "If you're as important as you say I'm sure I would've at least heard of you. {w}But then again, people do tend to forget to tell things to the new chick."
+    
+    "It's a lie-- both Joel and Solomon himself have mentioned him to me by name-- {w}but he doesn't need to know that."
+    
+    "I'm starting to wonder about Solomon's judgment, though."
+    
+    "{i}This{/i} is the guy he wants to show me the ropes?"
+    
+    "He looks like he couldn't show a chicken out of an egg."
+    
+    show milo sigh
+    
+    "Milo snorts at me, either deciding I'm not an easy target or that I've got issues and he doesn't want to be bothered with me. Whatever he's thinking, common sense tells him not to try it."
+    
+    "He glances around."
+    
+    show milo surprised
+    
+    mi "Where's Joel, anyway? Doesn't he have my coffee ready?"
+    
+    "Ah."
+    
+    "And just like that, the missing work dynamic link clicks into place. {i}This{/i} piece of work must be the reason that Joel's a nervous wreck, mild-mannered Clark Kent or not."
+    
+    "I know how it feels to be treated like the pack mule edition of an intern and I'm not having it."
+    
+    "Not in {i}my{/i} office."
+    
+    "I stand."
+    
+    si "Sorry, don't know. These are yours."
+    
+    "I pick up the stack of paper and press them forcibly into Milo's chest and earning myself a satisfying {i}'oof.'{/i}"
+    
+    "He glances down at the folders Joel left on my desk with interest, his eyes then flickering to me with something like respect."
+    
+    show milo serious
+    
+    mi "Is this a draft of the new page-seven column?"
+    
+    "I have no clue what he's talking about, but I don't feel like honoring him with a reply."
+    
+    si incredulous "I don't know, is it? You're the man in charge."
+    
+    show milo neutral
+    
+    "He ignores my sarcasm."
+    
+    mi "So you're a new journalist, eh?"
+    
+    mi "I'll have you know that Solomon's particular about the things he approves for publishing so it'd better be in line with the 'Cufflink' standard if you don't want to find yourself writing for Carpet Monthly."
+    
+    mi "I don't know what you've been doing before you got here, but you're running with the big dogs now."
+    
+    "Wait, journalist? This guy is clearly mistaken. I'm a copy editor, I edit drafts, not write them."
+    
+    si surprised "{i}Actually{/i}, those are--"
+    
+    "A cell phone rings, effectively cutting me off as Milo answers it quickly."
+    
+    show milo surprised
+    
+    #phone ring noise
+    
+    mi "Hello? This is Matthews, speaking."
+    
+    show milo serious
+    
+    mi "...No, I'm not busy."
+    
+    si angry "Milo!"
+    
+    show milo disappointed
+    
+    "He shoots me a glare over his shoulder and steps away to continue the conversation."
+    
+    hide milo disappointed with dissolve
+    
+    "Then proceeds to walk out the office completely, folder in arm."
+    
+    si sigh "...Great."
+    
+    "I sit back down at my desk when the only normal person in the entire office returns."
+    
+    show solomon neutral at right with dissolve
+    
+    so "Ms. West, I apologize for the wait."
+    
+    "Dream job, Simone. Keep your eye on the prize."
+    
+    si happy "It was... {w}fine. {w}Fine!"
+    
+    si "I met Milo and Joel, but uh... Joel went to get the office mail, and Milo got a phone call and then went out again."
+    
+    show solomon sigh
+    
+    so "I see..."
+    
+    "Solomon claps his hands together."
+    
+    show solomon smile
+    
+    so "Well, you know what they say-- if you want a job done right, you do it yourself."
+    
+    so "Let's get on with this tour. Next up..."
+    
+    "He opens the door to his office."
+    
+    so "Let me familiarize you with my office."
+    
+    scene black with dissolve
+    
+    $ currentTimeOfDay = 1 # 0 = noon
+    show screen screen_TOD()
+    pause 3
+    hide screen screen_TOD
+    
+    scene office cubicle with dissolve
+    
+    si worried "Phew, lunch..."
+    
+    "I sit up in my chair."
+    
+    "Trina's email! I still haven't replied yet."
+    
+    "I turn toward my computer and type in my login. Promotion or no promotion, that shouldn't have changed."
+    
+    "First order of business-- read her email. Second order of busines-- to give Trina the deets on my new boss and co-workers. Now to click the email browser..."
+    
+    "{i}What OS do we run here again?{/i}"
+    
+    $ name = "Simone"
+    $ mail = []
+    $ mail_later = []
+    $ mail_queue = []
+    $ contacts = []     
+    
+    # create a contact the player can send messages to
+    #$ Contact_Trina = Contact("Joel", "lbl_Email_Misc_JoelCorrections")
+    # to change the draft message, do something like $ fredo.draft = "fred_draft2"
+    # $ fredo.delete() if you don't want him on the list anymore (sorry fred)
+    
+    #$message = GetRelationshipHintEmail("Solomon", 0, 1)
+    #$ add_message("Relationship with Solomon", "Trina", ["We seriously need to talk about...Solomon. Specifically {i}me{/i} and Solomon. Together. \nRomantically.", message])
+    #$message = GetRelationshipHintEmail("Milo", 0, 1)
+    #$ add_message("Relationship with Milo", "Trina",  [message], reply_label="fred_reply")
+    #$message = GetRelationshipHintEmail("Solomon", 0, 1)
+    #$ add_message("Relationship with Solomon", "Trina",  [message])
+    #$message = GetRelationshipHintEmail("Solomon", 0, 1)
+    #$ add_message("Relationship with Solomon", "Trina",  "", message)
+    #$message = GetRelationshipHintEmail("Joel", 5, 1)
+    #$ add_message("Relationship with Joel", "Trina",  "", message)
+    #$message = GetRelationshipHintEmail("Solomon", 10, 5)
+    #$ add_message("Relationship with Solomon", "Trina",  "", message)
+    #$message = GetRelationshipHintEmail("Solomon", 10, 15)
+    #$ add_message("Relationship with Solomon", "Trina",  "", message)
+    $ Contact_Trina = Contact("Trina", "trina_draft")
+    $new_messages = new_message_count()
+    #show simone neutral
+    #si "You now have [new_messages] messages.  Click the overlay to open the inbox."
+    
+    #si "Yes No test"
+    #call screen yesno_prompt("Yes no message Test", Return(""),Return(""))
+    #si "Ok test"    
+    #call screen info_prompt("ok message Test", Return(""))
+    
+    call lbl_Email_Tutorial_Start from _call_lbl_Email_Tutorial_Start
+    
+    "Satisfied that I've done my duty as a best friend, I jump at the sight of Joel beside my desk."
+    
+    "Speak of the Devil."
+    
+    jo "H-how's your first day going, Simone?"
+    
+    si surprised "Oh, hey, Joel. Not bad! I can tell why Solomon was promoted so young."
+    
+    si happy "His leadership skills are off the charts!"
+    
+    "Joel is nodding with me before I can get the sentence fully out."
+    
+    jo "He is! I mean, he's doing his best with me, you know. {w}Maybe you don't know yet but I'm not the best--"
+    
+    "I pat him on the shoulder."
+    
+    si neutral "Whatever you're going through, don't worry about him. Just take it one day at a time, Joel. We were all interns once."
+    
+    "Joel nods slowly, then stops."
+    
+    jo "Wait, don't worry about 'him'? What do you--"
+    
+    mi "What is {i}this{/i}?"
+    
+    "Speak the devil and he appears."
+    
+    "Milo approaches my desk and slaps down the folders he'd taken earlier, the same ones Joel'd given me."
+    
+    mi "The typos! The improper spacing! You majored in English and your papers look like {i}this{/i}? What, did you print your degree at the library?"
+    
+    "I'm about to deny it but I note beside me that Joel is trying his best to appear invisible."
+    
+    "Amazing, considering the fact that he's taller than both me {i}and{/i} Milo and the chair he's sitting in is dwarfed by comparison, but I can't blame him for trying."
+    
+    "I somehow get the vision of a mouse trying to hide behind a toothpick."
+    
+    "I sigh inwardly, resigned."
+    
+    "Even though it's annoying to hear Milo go on, I can't bear to tell him that he's actually holding Joel's proposals. {w}And anyway, I'm still anticipating the moment he realizes that I'm a new copy-editor."
+    
+    si "..."
+    
+    "Wait, has he been talking all this time? Still?"
+    
+    "Wow, I completely checked out."
+    
+    mi "--and I'll expect them on my desk, edited, by this evening."
+    
+    "And just like that, he stalks off, fuming."
+    
+    "Joel finally defrosts and looks at me meekly."
+    
+    jo "I didn't think there were {i}that{/i} many mistakes this time..."
+    
+    "I look at Joel."
+    
+    si "Well, for the record, {i}that{/i} is what I meant by 'don't worry about him.'"
+    
+    si "I've got your back, Cabrera."
+    
+    "Joel blinks at me, before smiling. I swear I can see flowers blooming around his face."
+    
+    "I don't have time to dwell on it too much before the office phone rings."
+    
+    ##phone ringing sound
+    
+    si "Excuse me, Joel, let me just take this--"
+    
+    si "Hello?"
+    
+    so "Simone, it's Solomon. Joel's not answering his work phone so if you see him before I do, can you tell him to come here? I'll need him for the rest of the afternoon."
+    
+    si "Yes, Mr. Fox."
+    
+    "I hang up the phone and look at Joel with a shrug."
+    
+    si "You overheard the man. Get in there."
+    
+    jo "But... but the corrections-- I'll never have time to finish them by this evening!"
+    
+    "I sigh aloud."
+    
+    si "I'll do it, Joel."
+    
+    jo "But your lunch--"
+    
+    si "Don't worry about all that. Now go!"
+    
+    "Joel pauses."
+    
+    jo "Let me just put the files in our office share folder, okay?"
+    
+    show black with dissolve
+    
+    hide black with dissolve
+    
+    jo "There, that should be good."
+    
+    jo "Thanks again, Simone."
+    
+    "He disappears into Solomon's office."
+    
+    si "What in the world am I getting myself into..."
+    
+    scene black with dissolve
+    
+    jump mon1_afternoon
+    
+label mon1_afternoon:
+    
+    scene sw_desk with pixellate
+    
+    si "Alright, it's the afternoon."
+    
+    "I wish I could spend it doing my own work but I promised Joel I'd finish correcting his paperwork for him..."
+    
+    "Guess that's what I'll do today then."
+    
+    show black with dissolve
+    
+    hide black with dissolve
+    
+    #Simone chibi scribble, scribble
+    
+    #Simone chibi happy
+    
+    "Alright, it's done!"
+    
+    "Now to email it to Joel..."
+    
+    "All company emails are formatted the same, so I'm pretty sure I can figure out Joel's email address."
+    
+    ##this is not the time for the tutorial
+    
+    ##just show the email GUI screen
+    
+    ##it should already be filled in
+    
+    ##To: jcabrera@fspub.com
+    ##From: swest@fspub.com
+    ##Subject: Corrections
+    
+    ##EMAIL CONTENT##
+    
+    ##Joel, here's the corrections for Milo.
+    ##Make sure to clear up that misunderstanding, alright?
+    
+    si "Hm..."
+    
+    "The corrections hadn't as bad as I thought they'd be judging by Milo's dramatics, but he definitely needs to improve if he wants to move up in the company."
+    
+    "Maybe I'll just add a quick note and send it."
+    
+    ##EMAIL SET A
+    
+    menu:
+        
+        "Link him to writing resources to help him improve.": #intellect
+            
+            ##The quality of the content wasn't bad, but I noticed you make a lot of simple mistakes, which tells that your problem is proofreading. If you plan to become an editor one day, you'll need to pay more attention to detail, alright?
+            
+            ##Here's a few websites that helped me.
+            
+            ##Simone
+            
+            ##((Then, Marionette, add that email confidentiality thing at the end of it. All company emails should have that at the bottom. It adds a cool sense of realism, I think. LOL))
+            
+            jump email_complete
+                
+        "Offer help when he needs it.": #kindness
+            
+            ##I didn't mind helping you, by the way. It wasn't just that Milo gets on my nerves (which he does, and it's only my first day. I feel like that doesn't bode well for our work relationship.) but I also don't mind helping you out if you need it.
+            
+            ##If you want someone to look over your proposals before you give them to Milo, I'll do it for you, no problem. I can help you out whenever you need me too, because I really understand what you're going through.
+            
+            ##I was an intern too, once!
+            ##Simone
+            
+            jump email_complete
+            
+        "Give constructive criticism.": #honesty
+            
+            ##Joel, I don't want to seem like a teacher, but you made a lot of simple mistakes that can easily be corrected if you're a little more careful. For example, the article is called "The Tux Effect"-- but you wrote "The Tux {i}Affect{/i}."
+            
+            ##In paragraph six, you accidentally wrote 'tei' instead of 'tie,' so looking for spelling mistakes or running it through a spell check might be best, especially when the editor correcting your work is Milo, of all people.
+            
+            ##Make sure you read through very carefully, combing for simple mistakes such has these. And great article!
+            
+            jump email_complete
+        
+        "Remind him to send it on time.": #dependability
+            
+            ##Don't forget to get this to him by this evening. I don't want him marching to my desk tomorrow because then we might start a fight, and it'll look bad for Solomon. Haha.
+            
+            ##Good work, though!
+            
+            jump email_complete
+        
+        "Tell him he owes you lunch.": #imagination
+            
+            ##You definitely owe me one. I heard you can cook from Solomon.
+            
+            ##How about we work out some kind of edible form of repayment?
+            
+            jump email_complete
+             
+        "Don’t attach anything.": #laziness
+            
+            si "...On second thought, that's good enough. I'll just send it as is."
+            
+            jump pre_mon1_evening
+            
+label pre_mon1_evening:
+    
+    "Now to log off..."
+    
+    scene sw_desk with dissolve
+    
+    si "Alright! I'm finally done."
+    
+    si "Hm... I feel like I'm forgetting something though..."
+    
+    "Trina's wedding is in two weeks and since it's on a weekend so I definitely won't need to take off-- {w}but the final dress fitting is on Thursday and I'll need to leave early."
+    
+    "This is my first day so it won't look good to take off so soon, but... as the maid of honor, Trina would die without me being there."
+    
+    "Right at that moment, I hear Joel's voice as he leaves Solomon's office."
+    
+    jo "Yes, sir. I'll bring it to you right away."
+    
+    "He glances at me with a slight smile before hastily moving towards the elevator."
+    
+    "Hm... that means Solomon's free now..."
+    
+    si "Well, best to get it out of the way now."
+    
+    jump battle_1
+    
+label mon1_evening:
+    
+    scene sw_desk with dissolve
+    
+    "It's the evening... what did Solomon say I could do if he didn't need my help?"
+    
+    si "Hm... let me think."
+    
+    "My cubicle looks like the desk equivalent of a prison cell, so I could brainstorm about the things I'll bring in tomorrow to fix it up."
+    
+    "The phone was ringing off the hook when I was on my lunch break so I could return those phone calls."
+    
+    "There's a stack of resumés for office positions I need to look through and send rejection or call back emails for."
+    
+    "I could see if Joel's around and ask him to make some coffee. There's a press deadline tomorrow morning and most of the staff is probably going to be pulling all-nighters."
+    
+    "The office kitchen might need to be restocked."
+    
+    "...Or I could text Trina to kill time. I probably shouldn't slack off on my first day in the office, but..."
+
+    menu:
+        
+        "Restock the office kitchen.": #kindness
+
+            call expression renpy.random.choice(EventLabels_KindnessEvening)
+            
+            jump email_tutorial
+            
+        "Decorate your cubicle.": #imagination
+            
+            $ redecorate = "yes"
+            
+            "My desk really looks terrible."
+            
+            "I think I'll add some flowers or something, maybe a bowl of candy."
+            
+            "I want it to be something that just gives off a Simone-esque vibe."
+            
+            "I should probably add some photos too."
+            
+            si "What else...?"
+            
+            show black with dissolve
+            
+            hide black with dissolve
+            
+            "Oh... this list is kind of long now. All of it seemed necessary when I was writing it but..."
+            
+            si "I'll narrow it down later."
+            
+            jump email_tutorial
+            
+        "Answer phone calls.": # dependability
+            
+            call expression renpy.random.choice(EventLabels_DependabilityEvening)
+            
+            jump email_tutorial
+            
+        "Reject the stack of resumés at your desk.": #honesty
+            
+            call expression renpy.random.choice(EventLabels_HonestyEvening)
+            
+            jump email_tutorial
+            
+        "Ask Joel to make everyone coffee (since he’s better at it)": #intellect
+            
+            call expression renpy.random.choice(EventLabels_IntellectEvening)
+            
+            jump email_tutorial
+            
+        "Text Trina to kill time.": #laziness
+            
+            call expression renpy.random.choice(EventLabels_LazinessEvening)
+
+            jump email_tutorial
+            
+label email_tutorial:
+    
+    scene black with dissolve
+    
+    scene sw_desk with pixellate
+    
+    si "Oh! Wow, it's almost time to go."
+    
+    si "I nearly forgot to email Trina about today."
+    
+    si "Let me do that now."
+    
+    ##EMAIL SCREEN TUTORIAL
+    
+    ##persistant.data here for the offer to skip the tutorial. completeing the tutorial automatically means you have the option to skip it (even if you don't complete a route)
+
+    ##call screen, Simone's desktop
+    
+    ##in a box in the center of the screen: [This is Simone's desktop. When she needs to send emails, click on the email icon here!] there's an 'ok' button they can click to make the box go away
+    
+    ##a circle around the email icon appears
+    
+    ##[Click on it to get started!]
+    
+    ##call screen the email GUI-- there should be one email in the inbox, from Trina.
+    
+    ##[Look at that, Simone has an email. Why not try clicking it on it?]
+    
+    ##this is the email
+        
+        ##To: swest@fspub.com
+        ##From: trinabee@pmail.com
+        ##Subject: Have a good day!
+        
+        ##EMAIL CONTENT##
+        
+        ##Hey, Simone!
+        ##I just wanted to say I hope you have a great first day. I won't be at the shop as much because... you know, wedding prep and all that, but you can talk to me any time.
+        
+        ##I feel like I'm a mom sending my kid to school.
+        
+        ##Play nice with the other kids now. I don't want to have to come to the principal's office to hear about you fighting with little Mikey.
+        
+        ##Okay! Stop reading non-work emails at work!
+        
+        ##-- T
+        
+    ##[What a nice email! Simone should reply. Click the 'Reply' button.]
+    
+    ##**at this time, all other buttons should not function
+    
+    ##So, Marionette, when Simone clicks reply, the 'to' and 'from' fields are filled in and the subject head is just RE:Have a nice day (since it's a reply)
+    
+    ##[Now Simone can send a reply.]
+    
+    ##Only option offered:
+    
+        ##"Thank Trina for emailing you.":
+        
+            ##Thanks for the email, Trina. I had a crazy day, but I think I'm going to like it here. I know you're going to be busy, and I miss you already.
+            
+            ##TBH you're not just saying that. I already met the schoolyard bully and the shy kid. I feel like the only adult here is my boss, so I guess that makes him the teacher? (More on him later).
+            
+            ##The day's almost over so I was actually pretty good today. Almost emailed you this morning but was interrupted by aforementioned schoolyard bully. :P
+            
+            ##Okay, talk to you later.
+            
+            ##Simone
+            
+        ##[Wow, what a nice email! After the email is complete, click send to get it to Trina!]
+        
+        ##[Wait! Simone forgot to tell Trina about her day! Now she has to write a new email. Normally, Simone can only write Trina once a day-- she is at work after all-- but for the purposes of this tutorial, compose a new email by selecting 'New Draft'.]
+        
+        ##[First, click the 'To' field to choose a person off your contact list.]
+        
+        ##There should just be two options, Trina and Joel. Joel is unclickable.
+        
+        ##[Simone will need to choose a subject, but that can wait until after the contents of the email are decided.]
+        
+            ##To: trinabee@pmail.com
+            ##From: swest@fspub.com
+            ##Subject: [Choice]
+            ##EMAIL CONTENT##
+            
+            ##Hey, so.... let's talk about the three guys I met at work today.
+            
+            ##Tell her about Solomon.:
+
+                ##My new boss is The British Guy. You know the guy I mean. The print-outs one you mentioned this morning from four years ago!
+                
+                ## Can you believe it?!
+                
+                ## Not only does he {i}still{/i} work here, but he's got the nerve to look {i}extra{/i} good-- and did I mention, he's my BOSS? The guy that helped me was definitely not a department head back then. There's just no way!
+                
+                ##I don't think he remembers me because he asked my name when we met. Shame.
+                
+            ##Tell her about Milo.:
+            
+                ##There's this absolute tool, Milo Matthews. First of all, what kind of fake double-0 lame-o name is 'Milo Matthews'? He's got this fancypants accent. (My boss has one too, but it's not the same!!) And he actually introduced himself like that. "Matthews. Milo Matthews." I'm telling you, I got nauseous.
+                
+            ##Tell her about Joel.:
+                
+                ##There's this total sweetheart, Joel. He's like... a puppy. He was telling me he grew up on a farm and he's just... a delicate flower that needs to be protected. I have no idea what he's going in fashion journalism considering how cutthroat it is, but he's pretty likable which is his saving grace. I would ask how he made it this far but I've got the answer. One word, Trina: nepotism.
+                
+                #But you didn't hear it from me.
+        
+        ##[Now, usually you can only make one choice, but no doubt Trina wants to know about all the guys, so go ahead and talk about them, too. Include the other options in your email.]
+        
+        ##When all the options are clicked, Marionette, it should say this.
+        
+        ##[Now, choose a subject.]
+        
+            ##Subject choices are:
+                ##The 411 of 5/7
+                ##Cufflinks? More like Chainlinks.
+                ##About the Boss (and Co-workers)
+        
+        ##[Great job. Send this one and see what happens!]
+        
+        ##As soon as the email sends, there should be a reply from Trina. (for tutorial purposes)
+            
+            ##To: swest@fspub.com
+            ##From: trinabee@pmail.com
+            ##Subject: RE:Co-workers and boss.
+            
+            ##EMAIL CONTENT##
+            
+            ##YOU'RE NOT JOKING!
+            
+            ##Wait a second... Solomon... Milo... Joel... I recognize those names! You know, I've catered for 5/7 Publishing events and I never for get a name and face... I'm pretty sure those guys are regulars. Not {i}regular{/i} regulars, but they've been by Ginseng. I would never known that they work at your company too...
+            
+            ##Wow, seems like the universe is on your side today. Since it's apparently raining men on you two weeks before the wedding you should snag one to be your date for the wedding, haha.
+            
+            ##-- T
+    
+        ##[Wow, that was fast! Usually it takes about a day for Trina to reply to emails.]
+        
+        ##[This tutorial is successfully completed. Simone can write and reply to emails. Usually, she'll send work emails during the afternoon, but she was pretty busy today. Click the 'x' in the right hand corner to exit the email screens.]
+
+    si "Alright, time to log off."
+    
+    scene black with dissolve
+    
+    scene sw_desk with pixellate
+    
+    mi "Hey, you."
+    
+    "Ugh, but not this guy again. Why's he looking at me like I did something to him?"
+    
+    si "Yes, Matthews?"
+    
+    mi "I..."
+    
+    "He won't look me in the eye. Strange."
+    
+    m "{size=-5}I'm sorry.{/size}"
+    
+    "...What?"
+    
+    si "Come again?"
+    
+    mi "I'm. {w}{i}Sorry.{/i}"
+    
+    mi "The paperwork. Joel... told me that I made a mistake so I'm apologizing."
+    
+    mi "I still expect a lot from you, so don't think you're off the hook!"
+    
+    "He sniffs derisively."
+    
+    mi "You'd better be on time tomorrow, too."
+    
+    "Milo stalks off as quickly as he approached."
+    
+    si "...If you're going to be like that, you may as well have not even bothered to apologize."
+    
+    jo "Simone?"
+    
+    si "Oh! Joel! Hey, what's up?"
+    
+    jo "Are you... going home now?"
+    
+    si "Yeah, I'm taking the train, so I have to get out of here."
+    
+    si "Why, what's wrong?"
+    
+    jo "Nothing! I just wanted to say bye, is all. Oh, and thank you. {w}So... uhm... {w}bye. {w}And thank you."
+    
+    "What a sweetheart."
+    
+    "I let out a laugh."
+    
+    si "Bye, Joel. I'll see you tomorrow morning."
+    
+    "He disappears into the office kitchen and as I pick up my purse from beneath my desk, Solomon calls my name."
+    
+    so "Simone, may I see you briefly? It'll be just for a moment."
+    
+    "I feel myself straightening without knowing why."
+    
+    si "Yes, Mr. Fox, I'll be right there."
+    
+    scene black with dissolve
+    
+    scene fox_office with pixellate
+    
+    "Hm... so this is what is office looked like."
+    
+    so "You're leaving now, yes?"
+    
+    si "Yes. Is there a problem, or--"
+    
+    so "Oh, no, not at all. I just wanted to apologize. I'm sorry that I didn't get to introduce you to the team like I intended to."
+    
+    so "I'm glad to have you here, Simone. I'm sure you'll be a valued member of the Cufflinks team, and I look {i}very{/i} forward to working hard alongside you."
+    
+    "With a boss as fine as Solomon, I'd work hard alongside him if we were employed in a button factory."
+    
+    "I can't help but smile."
+    
+    si "Thank you, Mr. Fox. I look forward to working with you, too."
+    
+    "He smiles briefly before looking back on his computer."
+    
+    so "Goodnight, Simone."
+    
+    "He glances up at me from his computer one last time."
+    
+    so "I'll be looking forward to seeing you tomorrow, bright and early."
+    
+    scene black with dissolve
+    
+    scene office with pixellate
+    
+    si "Hm..."
+    
+    "Something about Solomon is... attractive, but not in a normal, 'what a handsome man' kind of way. In a strange, I want to work hard and impress him kind of way."
+    
+    "I would say he should go into politics, but he seems to actually like accomplishing things."
+    
+    "Putting my purse on my shoulder, I leave towards the elevator."
+    
+    scene black with dissolve
+    
+    jump mon1_home
+    
+label mon1_home:
+    
+    #HOME
+    
+    scene west_home with pixellate
+    
+    si "Ah, I'm finally home."
+    
+    "Today went by much faster than I expected."
+    
+    "I collapse onto my couch tiredly."
+    
+    "Jeez, I barely feel like moving, but... life goes on."
+    
+    "Let's see."
+    
+    "I haven't had dinner or made lunch for tomorrow... I need to go to the kitchen for that."
+    
+    "I can stay right here in the living room and order out for dinner though. Oh, and I need to call Mom and see how she's doing."
+
+    "Urgh... but... my bedroom's still a mess from when I was rushing this morning... My laptop's in there too, so I could also work from home, too."
+    
+    "What should I do?"
+    
+    #call screen house map, three locations
+    
+    menu:
+        
+        "Kitchen.":
+            
+            call expression renpy.random.choice(EventLabels_Kitchen)
+            
+            jump mon1_sleep
+            
+        "Bedroom.":
+            
+            call expression renpy.random.choice(EventLabels_Bedroom)
+            
+            jump mon1_sleep
+            
+        "Living room.":
+            
+            call expression renpy.random.choice(EventLabels_LivingRoom)
+            
+            jump mon1_sleep
+
+label mon1_sleep:
+    
+    scene black with dissolve
+    
+    "Done with everything I needed to get done for the day, I climb under the covers."
+    
+    "As I lay in bed, I review today's events in my head."
+    
+    #dissolve in Solomon at center
+    
+    si "Hm..."
+    
+    "Trina's words from her email echo in my head."
+    
+    "''{i}Something could happen in the next two weeks.{/i}''"
+    
+    si "What if... I brought one of my coworkers to Trina's wedding as my date?"
+    
+    si "I mean, I could do worse than Solomon."
+    
+    si "He's rich, he's smart, he's good-looking and a natural leader."
+    
+    si "If {i}we{/i} went to the wedding..."
+    
+    "Honestly, if me and Solomon could {i}have{/i} a wedding, Nhung would have to forfeit. She could bring a thousand dates and it wouldn't be enough."
+    
+    "After all, husband {i}clearly{/i} trumps date, right?"
+    
+    si "Right."
+    
+    "..."
+    
+    "But there's no way I can convince Solomon to marry me in the next two weeks. {w}And Trina would kill me."
+    
+    #dissolve in Joel at right
+    
+    "Well, I could probably convince Joel to marry me."
+    
+    "Or at least bull-- erm, convince him to fake-marry me."
+    
+    si "Okay, maybe a little bit too wild."
+    
+    "People in movies got fake-married all the time. Nhung wouldn't have to know!"
+    
+    "But if I used Joel, he might crack under pressure and accidentally admit that the whole thing is fake. I feel like it's definitely something he would do."
+    
+    #dissolve in Milo
+    
+    "Okay, no. I'm definitely not that desperate--"
+    
+    "Wait a second."
+    
+    "Wait a {i}second{/i}."
+    
+    "I only need a date so I can look good and not alone when I walk down the aisle to watch my best friend get married, right?"
+    
+    si "Even if Milo does have a trash personality, he's still, unfortunately, handsome and fashionable-- which means he'd make great eye candy and will reflect well on me."
+    
+    si "Nhung would die if I came with him."
+    
+    "Hm... there's only two weeks left, though."
+    
+    si "Maybe I can just ask one of them to go with me, so if I explained it beforehand...?"
+    
+    "No, because they'd never agree."
+    
+    si "If they actually {i}liked{/i} me, then I'd be golden."
+    
+    "Solomon would be the best because he's total package; charasmatic, handsome, tall, rich-- but probably the hardest to convince. Joel seems like he's easily influenced, so I could probably make him fall in love with me..."
+    
+    "Milo is good looking-ish appearance-wise and since they're both jerks, I'm pretty sure he's Nhung's type."
+    
+    "And he probably deserves to fall a notch or two-- {w}but who am I to say whether he {i}deserves{/i} something or not?"
+    
+    "I don't know him all that well, so I could be mistaken..."
+    
+    "..."
+    
+    si "Simone, are you really debating the ethics of this?"
+    
+    "I let out a sigh."
+    
+    "I should just go to sleep. I've got work tomorrow."
+    
+    jump tues1_pre_morning

@@ -1,0 +1,227 @@
+init python:
+  character_speed = 50
+  current_location = [460, 660]
+  current_destination = [460, 660]
+  current_path = [[460, 660]]
+  next_destination = 0
+
+  Location1 = [475, 137]
+  Location2 = [550, 448]
+  Location3 = [908, 70]
+  Location4 = [860, 417]
+  Location5 = [864, 550]
+  LyrTaer = [738, 638]
+  House = [460, 660]
+  
+  LocationList = [ Location1,
+                   Location2,
+                   Location3,
+                   Location4,
+                   Location5,
+                   LyrTaer,
+                   House]
+                   
+  HouseToLyrTaer = [[460, 660],
+                    [510, 660],
+                    [576, 624],
+                    [600, 606],
+                    [630, 582], 
+                    [660, 570],
+                    [688, 576], 
+                    [694, 594],
+                    [683, 619],
+                    [729, 620],
+                    [742, 634] ]
+                   
+  def GetMovementAmount( _end, _start):
+    val = 0
+    if HaveArrived():
+      val = 0
+    else:
+      if (_end - _start) > 0:
+        val = (_end - _start) / character_speed
+        if val < 10:
+          val = val*2
+      else:
+        val = (_end - _start) / character_speed
+        if val > -10:
+          val = val*2
+      #if val < 10:
+      #  val = 10
+        
+    return val
+    
+  def HaveArrived():
+    match = False
+    if (((current_location[0] - current_destination[0] < character_speed) and (current_destination[0] - current_location[0] < character_speed)) and
+        ((current_location[1] - current_destination[1] < character_speed) and (current_destination[1] - current_location[1] < character_speed))):
+          match = True
+    return match
+    
+  def slide_function(trans, st, at):
+      global current_location
+      if HaveArrived():
+          current_location = list(current_destination)
+          trans.xpos = current_location[0]
+          trans.ypos = current_location[1]
+          return None
+      else:
+          trans.xpos = current_location[0] +( GetMovementAmount(current_destination[0] , current_location[0]))
+          trans.ypos = current_location[1] +( GetMovementAmount(current_destination[1] , current_location[1]))
+          current_location[0] = current_location[0] +( GetMovementAmount(current_destination[0] , current_location[0]))
+          current_location[1] = current_location[1] +( GetMovementAmount(current_destination[1] , current_location[1]))
+          return 0.1
+                   
+  def setLocationTo(_locationNumber):
+    global current_location
+    global current_destination
+    global current_path
+    global next_destination
+    next_destination = 1
+    current_path = HouseToLyrTaer
+    current_location = list(House)
+    current_destination = list(LyrTaer)
+    #current_location = list(current_destination)
+    #current_destination = list(LocationList[_locationNumber-1])
+    
+  #def DoesPositionMatch(pos1, pos2):
+  #  match = False
+  #  xOff = 34/2
+  #  yOff = 57
+  #  if (pos1[0] == pos1[0] and pos2[1] == pos2[1]):
+  #    match = True
+  #  
+  #  return match
+    
+  #def HaveArrived():
+  #  global current_location
+  #  global current_destination
+  #  global next_destination
+  #  haveArrived = False
+  #  if DoesPositionMatch(current_location,current_destination):
+  #    haveArrived = True
+  #    
+  #  if DoesPositionMatch(current_location, current_path[next_destination]):
+  #    if next_destination < len(current_path)-1:
+  #      next_destination+=1
+  #    else :
+  #      haveArrived = True
+  #      next_destination = 0
+  #  
+  #  return haveArrived
+    
+  def GetNextX():
+    return current_path[next_destination][0]
+  def GetNextY():
+    return current_path[next_destination][1]
+  def MoveToNextPoint(a,b,c):
+    global current_location
+    global current_destination
+    global next_destination
+    #if HaveArrived():
+    #  return
+    #else:
+    next_destination +=1
+    if next_destination < len(HouseToLyrTaer) and next_destination > 0:
+      current_location = current_path[next_destination-1]
+      #renpy.hide_screen('Map_Screen_PlayerPositionPointer')#,_next=next_destination)
+      #renpy.show_screen('Map_Screen_PlayerPositionPointer1')#,_next=next_destination)
+      #renpy.show_screen('Map_Screen_test',next_destination)
+      
+    else:        
+      #next_destination =0  
+      current_location = current_destination
+      #renpy.show_screen('Map_Screen')
+    
+    
+init -2:
+    transform q_move1:
+        function slide_function
+        pause 0.2
+        repeat
+        
+init -2:
+    $xOff = 34/2
+    $yOff = 57
+    transform Move_eff(_oldX, _oldY, _moveToX, _moveToY):
+      #xpos _oldX
+      #ypos _oldY
+      xpos current_location[0] -xOff
+      ypos current_location[1] -yOff
+      linear 0.8 xpos _moveToX ypos _moveToY
+      #linear 0.8 xpos GetNextX()-xOff ypos GetNextY()-yOff
+      #time 0.5
+      pause 0.2
+      MoveToNextPoint(0,0,0)
+      repeat
+      
+      
+screen countdown:
+    if not HaveArrived():
+      timer 4 repeat True action Show('Map_Screen')
+screen Map_Screen():
+  #tag menu
+  modal True
+
+  add "images/ui/map/map.jpg"
+  #$xOff = 34/2
+  #$yOff = 57
+  
+  imagebutton idle "images/ui/map/map_icon_1.png" focus_mask None xpos Location1[0]-xOff ypos Location1[1]-yOff action [Function(setLocationTo, 1)] 
+  imagebutton idle "images/ui/map/map_icon_2.png" focus_mask None xpos Location2[0]-xOff ypos Location2[1]-yOff action [Function(setLocationTo, 2)] 
+  imagebutton idle "images/ui/map/map_icon_3.png" focus_mask None xpos Location3[0]-xOff ypos Location3[1]-yOff action [Function(setLocationTo, 3)] 
+  imagebutton idle "images/ui/map/map_icon_4.png" focus_mask None xpos Location4[0]-xOff ypos Location4[1]-yOff action [Function(setLocationTo, 4)] 
+  imagebutton idle "images/ui/map/map_icon_5.png" focus_mask None xpos Location5[0]-xOff ypos Location5[1]-yOff action [Function(setLocationTo, 5)] 
+  imagebutton idle "images/ui/map/map_icon_6.png" focus_mask None xpos LyrTaer[0]-xOff ypos LyrTaer[1]-yOff action [Function(setLocationTo, 6)] 
+  imagebutton idle "images/ui/map/map_icon_7.png" focus_mask None xpos House[0]-xOff ypos House[1]-yOff action [Function(setLocationTo, 7), Show('Map_Screen_PlayerPositionPointer')] 
+  #use Map_Screen_PlayerPositionPointer
+  
+screen Map_Screen_PlayerPositionPointer:
+  tag player
+  #$xOff = 34/2
+  #$yOff = 57
+  
+  $next_destination = int(_next)
+  if HaveArrived():
+    imagebutton idle "images/ui/map/map_icon_player.png" xpos current_location[0]-xOff ypos current_location[1]-yOff action Return()  
+    text "Arrived" ypos 700
+  else:  
+    text "Not Arrived"
+  $nextPoint = list(current_path[next_destination])
+  text "nextPoint: X -%s, Y -%s"%(nextPoint[0],nextPoint[1]) ypos 660
+  text "Start Pos: X -%s, Y -%s"%(current_location[0],current_location[1]) ypos 700
+  text "Next Pos %d: X -%s, Y -%s"%(next_destination, current_path[next_destination][0],current_path[next_destination][1]) ypos 740
+  #imagebutton idle "images/ui/map/map_icon_player.png" xpos current_location[0] ypos current_location[1] action Return() at q_move1
+  #imagebutton idle "images/ui/map/map_icon_player.png" xpos current_location[0]-xOff ypos current_location[1]-yOff action Return() at Move_eff(current_location[0]-xOff, current_location[1]-yOff, current_destination[0]-xOff, current_destination[1]-yOff)
+  #$nextPoint = current_path[next_destination]
+  imagebutton idle "images/ui/map/map_icon_player.png" xpos current_location[0]-xOff ypos current_location[1]-yOff action Return() at Move_eff(current_location[0]-xOff, current_location[1]-yOff, nextPoint[0]-xOff, nextPoint[1]-yOff)
+  #use countdown 
+  use Map_Screen_test1
+  
+screen Map_Screen_PlayerPositionPointer1:
+  tag player
+  #$xOff = 34/2
+  #$yOff = 57
+  
+  #$next_destination = int(_next)
+  #if HaveArrived():
+    #imagebutton idle "images/ui/map/map_icon_player.png" xpos current_location[0]-xOff ypos current_location[1]-yOff action Return()  
+  #  text "Arrived" ypos 700
+  #else:  
+    #text "Not Arrived"
+  $nextPoint = list(current_path[next_destination])
+  text "nextPoint: X -%s, Y -%s"%(nextPoint[0],nextPoint[1]) ypos 660 xalign 0.5
+  text "Start Pos: X -%s, Y -%s"%(current_location[0],current_location[1]) ypos 700 xalign 0.5
+  text "Next Pos %d: X -%s, Y -%s"%(next_destination, current_path[next_destination][0],current_path[next_destination][1]) ypos 740
+  #imagebutton idle "images/ui/map/map_icon_player.png" xpos current_location[0] ypos current_location[1] action Return() at q_move1
+  #imagebutton idle "images/ui/map/map_icon_player.png" xpos current_location[0]-xOff ypos current_location[1]-yOff action Return() at Move_eff(current_location[0]-xOff, current_location[1]-yOff, current_destination[0]-xOff, current_destination[1]-yOff)
+  #$nextPoint = current_path[next_destination]
+  imagebutton idle "images/ui/map/map_icon_player1.png" xpos current_location[0]-xOff ypos current_location[1]-yOff action Return() at Move_eff(current_location[0]-xOff, current_location[1]-yOff, nextPoint[0]-xOff, nextPoint[1]-yOff)
+  #use countdown 
+  use Map_Screen_test1
+screen Map_Screen_test(value):
+  text "Test: %s"%(value) xalign 1.0
+
+
+screen Map_Screen_test1():
+  text "Test: %s"%(next_destination) xalign 1.0 yalign 1.0
