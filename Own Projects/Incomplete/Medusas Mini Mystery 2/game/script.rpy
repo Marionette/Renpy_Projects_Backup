@@ -42,15 +42,18 @@ init python:
 
 #init python:
 #    config.overlay_screens.append("torch")
-screen torch:
-    zorder 100
+screen dialog_torch():
+    use torch(-1)
+    
+screen torch(_zorder=100):
+    zorder _zorder
     add TrackCursor("images/torch98.png")
 screen medusa:
   add im.Crop("images/Medusa3.png",(550,0,820, 1080)) at charaPos
   
 screen dark_panorama():
   use panorama
-  use torch
+  #use torch
   use pan_controls
   
 init:
@@ -164,14 +167,13 @@ screen panorama(_useTorch=False):
   #      ypan current_ypan
   #else:
   #add "images/Panoramabg_test6.png" at PositionBg(current_zoom, current_xpan, current_ypan, 0.2)
-      #yalign 0.5    
-      
+      #yalign 0.5      
   if current_view == "room":
     imagemap at PositionBg(current_zoom, current_xpan, current_ypan, 0.2):  
         idle "images/Panoramabg_shaded.png" 
-        hover "images/Panoramabg_test7.png" 
+        hover "images/Panoramabg_shaded_highlight_debug.png" 
         #Door
-        hotspot (120, 88, 1000, 345) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 8), SetVariable("current_ypan",  0)]
+        hotspot (320, 88, 700, 345) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 8), SetVariable("current_ypan",  0), SetVariable("current_view", "door")]
         #Stairs
         #Table_small
         #Crystal Ball
@@ -179,6 +181,7 @@ screen panorama(_useTorch=False):
         #Wall Notes
         hotspot (1600, 410, 575, 370) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 70), SetVariable("current_ypan",  75)]
         #Harp
+        hotspot (2400, 730, 330, 740) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 105), SetVariable("current_ypan",  135), SetVariable("current_view", "harp")]
         #Cabinet
         
         #Fireplace
@@ -191,10 +194,36 @@ screen panorama(_useTorch=False):
         #Lockbox
         #maze
         
+  if current_view == "door":
+    imagemap at PositionBg(current_zoom, current_xpan, current_ypan, 0.2):  
+        idle "images/Panoramabg_shaded.png" 
+        hover "images/Panoramabg_shaded_highlight_debug.png" 
+        hotspot (700, 160, 120, 120) action SetVariable("selected_item", "door_symbol")
+        hotspot (630, 150, 50, 50) action SetVariable("selected_item", "door_lock_1")
+        hotspot (820, 150, 60, 50) action SetVariable("selected_item", "door_lock_2")
+        hotspot (820, 270, 50, 50) action SetVariable("selected_item", "door_lock_3")
+        hotspot (650, 260, 50, 50) action SetVariable("selected_item", "door_lock_4")
+        
+  if current_view == "harp":
+    imagemap at PositionBg(current_zoom, current_xpan, current_ypan, 0.2):  
+        idle "images/Panoramabg_shaded.png" 
+        hover "images/Panoramabg_shaded_highlight_debug.png" 
+        hotspot (2420, 914, 300, 530) action SetVariable("selected_item", "lyre_pedestal")
+        hotspot (2450, 730, 280, 260) action SetVariable("selected_item", "lyre")
+        hotspot (2505, 770, 30, 160) action SetVariable("selected_item", "lyre_string_1")
+        if string_2_found:
+            hotspot (2535, 770, 30, 160) action SetVariable("selected_item", "lyre_string_2")
+        if string_3_found:
+            hotspot (2566, 770, 30, 160) action SetVariable("selected_item", "lyre_string_3")
+        if string_4_found:
+            hotspot (2597, 770, 30, 160) action SetVariable("selected_item", "lyre_string_4")
+        hotspot (2625, 770, 30, 160) action SetVariable("selected_item", "lyre_string_5")
+        hotspot (2520, 1010, 90, 60) action SetVariable("selected_item", "lyre_pedestal_drawer")
+        
   if current_view == "shelves":
     imagemap at PositionBg(current_zoom, current_xpan, current_ypan, 0.2):  
         idle "images/Panoramabg_shaded.png" 
-        hover "images/Panoramabg_test7.png" 
+        hover "images/Panoramabg_shaded_highlight_debug.png" 
         hotspot (4640, 380, 1000, 200) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 230), SetVariable("current_ypan",  65), SetVariable("current_view", "shelves")]
         hotspot (4640, 570, 1000, 200) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 230), SetVariable("current_ypan",  80), SetVariable("current_view", "shelves")]
         hotspot (4640, 750, 1000, 200) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 230), SetVariable("current_ypan",  115), SetVariable("current_view", "shelves")]
@@ -203,13 +232,14 @@ screen panorama(_useTorch=False):
       
   #add "images/bg room.png"
   #use pan_controls
+  add "gui/textbox.png"  
             
 # The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+#define e = Character("Eileen")
 image bg room = "images/bg room.png"
 image black = Solid("#000000")
 image bg black = Solid("#000000")
@@ -220,8 +250,8 @@ image medusa neutral = "images/Medusa3.png"
 # The game starts here.
 
 label start:
-    jump lbl_test_random_character_speaks
-    jump lbl_torch_test
+    #jump lbl_test_random_character_speaks
+    #jump lbl_torch_test
     #start game
     jump lbl_intro # 420 words
     
@@ -362,7 +392,7 @@ label lbl_intro:
   "Ah, her-"
   "I-I'LL H-HOLD IT! Casssie snapped the torch out of her hand and after some fiddling managed to get it turned on."
   call show_background(20, 90, 1.0)
-  show screen torch
+  show screen dialog_torch
   show medusa shock
   
   #"Maybe we should read the letter we received before we do anything else?"
@@ -392,9 +422,10 @@ label lbl_intro:
   "[ready_to_start]"
   call lbl_team_name
   "[ready_to_start]"
+  jump lbl_game_room_start
   return
   
-#label lbl_team_name:
+label lbl_team_name:
 #  "Wait, we forgot one important step."
 #  "Yeah?"
 #  "The team name!"
@@ -424,7 +455,7 @@ label lbl_intro:
 #      $team_name = povname.strip()
 #      a "[choice_happy]"  
 #  
-#  return
+  return
   
   
 ##----- Ending -----##
@@ -492,7 +523,7 @@ label lbl_game_room_start:
   
   
 label lbl_room_explore:
-  call screen panorama(True)
+  call screen dark_panorama()
   
   $ret = _return
   call expression _return
@@ -685,33 +716,37 @@ label lbl_cauldron_mix:
   
   call lbl_cauldron_ingredients
   
-  jump lbl_cauldron_mix_check
+  #jump lbl_cauldron_mix_check
+  return
   
 label lbl_cauldron_mix_check:
+  call show_background(180, 135, 1.0)
 
   $key_potion = [False, False, False, False]
   $fire_potion = [False, False, False, False]
   
   if len(ingredient_list) == 3:
-    if "Dragon Fang" in ingredient_list:
+    if "ingredient_dragon_fang" in ingredient_list:
       $key_potion[0] = True
       $fire_potion[0] = True
       
-    if "Harpy Feather" in ingredient_list:
+    if "ingredient_harpy_feather" in ingredient_list:
       $key_potion[1] = True
       
-    if "Quicksilver" in ingredient_list:
+    if "ingredient_quicksilver" in ingredient_list:
       $key_potion[2] = True
       
-    if "Allspice Berry" in ingredient_list:
+    if "ingredient_allspice" in ingredient_list:
       $fire_potion[1] = True
       
-    if "Campfire Ash" in ingredient_list:
+    if "ingredient_campfire_ash" in ingredient_list:
       $fire_potion[2] = True
       
     if potion_philstone:
       $key_potion[3] = True
       $fire_potion[3] = True
+      
+    #"[fire_potion]"
       
     if key_potion[0] and key_potion[1] and key_potion[2] and key_potion[3]:
       "It looks like the mix was a success, and it glows a bright white before evaporating in the cauldron leaving behind a shining gold key."
@@ -725,66 +760,145 @@ label lbl_cauldron_mix_check:
   return
   
   
-screen ingredient_picker:
+screen ingredient_picker_items:
+    #style_prefix "game_menu"
     
     use pan_controls
     imagemap at PositionBg(current_zoom, current_xpan, current_ypan, 0.2):  
-        idle "images/Panoramabg_test7.png" 
-        hover "images/Panoramabg_test4.png" 
-        hotspot (4730, 380, 50, 200) action SetVariable("selected_item", "Salt")
-        hotspot (4780, 380, 50, 200) action SetVariable("selected_item", "Allspice Berry")
-        hotspot (4830, 380, 30, 200) action SetVariable("selected_item", "Cumin")
-        hotspot (4860, 380, 50, 200) action SetVariable("selected_item", "Coriander")
-        hotspot (4920, 380, 50, 200) action SetVariable("selected_item", "Garlic")
-        hotspot (4960, 380, 50, 200) action SetVariable("selected_item", "Dust")
-        hotspot (5000, 380, 50, 200) action SetVariable("selected_item", "Tears")
+        idle "images/Panoramabg_shaded.png" 
+        hover "images/Panoramabg_shaded_highlight.png" 
+        hotspot (4730, 380, 50, 200) action SetVariable("selected_item", "ingredient_salt")
+        hotspot (4780, 440, 45, 100) action SetVariable("selected_item", "ingredient_allspice")
+        hotspot (4830, 420, 30, 150) action SetVariable("selected_item", "ingredient_cumin")
+        hotspot (4860, 420, 50, 120) action SetVariable("selected_item", "ingredient_coriander")
+        hotspot (4920, 420, 50, 120) action SetVariable("selected_item", "ingredient_garlic")
+        hotspot (4960, 480, 50, 80) action SetVariable("selected_item", "ingredient_dust")
+        hotspot (5000, 480, 50, 100) action SetVariable("selected_item", "ingredient_tears")
         
-        hotspot (5360, 380, 200, 200) action SetVariable("selected_item", "Dragon Fang")  
+        hotspot (5360, 480, 200, 100) action SetVariable("selected_item", "ingredient_dragon_fang")  
         
-        hotspot (4720, 540, 100, 200) action SetVariable("selected_item", "Harpy Feather")
-        hotspot (4830, 540, 150, 200) action SetVariable("selected_item", "Red Slime")
-        hotspot (5000, 560, 100, 180) action SetVariable("selected_item", "Onion")
+        hotspot (4720, 540, 100, 200) action SetVariable("selected_item", "ingredient_harpy_feather")
+        hotspot (4810, 620, 150, 100) action SetVariable("selected_item", "ingredient_slime_red")
+        hotspot (4990, 560, 100, 180) action SetVariable("selected_item", "ingredient_onion")
         
-        hotspot (5220, 620, 70, 200) action SetVariable("selected_item", "Candle Wax")
-        hotspot (5300, 620, 110, 200) action SetVariable("selected_item", "Quicksilver")
-        hotspot (5430, 620, 110, 200) action SetVariable("selected_item", "Poison")      
+        hotspot (5220, 660, 70, 100) action SetVariable("selected_item", "ingredient_candle_wax")
+        hotspot (5280, 650, 110, 100) action SetVariable("selected_item", "ingredient_quicksilver")
+        hotspot (5430, 620, 110, 100) action SetVariable("selected_item", "ingredient_poison")      
         
-        hotspot (4780, 760, 160, 200) action SetVariable("selected_item", "Blue Slime")
-        hotspot (4950, 760, 180, 200) action SetVariable("selected_item", "Bookworms")
+        hotspot (4780, 810, 160, 100) action SetVariable("selected_item", "ingredient_slime_blue")
+        hotspot (4950, 760, 180, 150) action SetVariable("selected_item", "ingredient_book_worms")
         
-        hotspot (5180, 800, 110, 100) action SetVariable("selected_item", "Candle Wick")
-        hotspot (5300, 800, 100, 100) action SetVariable("selected_item", "Wish Ball")
-        hotspot (5400, 800, 100, 100) action SetVariable("selected_item", "Harpy Talon") 
+        hotspot (5180, 800, 110, 100) action SetVariable("selected_item", "ingredient_candle_wicks")
+        hotspot (5300, 800, 100, 100) action SetVariable("selected_item", "ingredient_dragon_orbs")
+        hotspot (5400, 800, 100, 100) action SetVariable("selected_item", "ingredient_harpy_talon") 
         
-        hotspot (4780, 960, 150, 200) action SetVariable("selected_item", "Campfire Ash")
-        hotspot (4940, 960, 150, 200) action SetVariable("selected_item", "Cheese Hole")
+        hotspot (4780, 960, 150, 100) action SetVariable("selected_item", "ingredient_campfire_ash")
+        hotspot (4940, 960, 150, 100) action SetVariable("selected_item", "ingredient_cheese_holes")
         
-        hotspot (5200, 910, 100, 200) action SetVariable("selected_item", "Dragon Scale")
-        hotspot (5330, 910, 100, 200) action SetVariable("selected_item", "Emerald Ice")
-        hotspot (5440, 910, 90, 200) action SetVariable("selected_item", "Cyclops Eye")
+        hotspot (5200, 950, 150, 100) action SetVariable("selected_item", "ingredient_dragon_scale")
+        hotspot (5330, 950, 150, 100) action SetVariable("selected_item", "ingredient_emerald_ice")
+        hotspot (5440, 910, 90, 200) action SetVariable("selected_item", "ingredient_cyclops_eye")
     
-    vbox:
-      xalign 0.5
-      text "Selected Item: [selected_item]"
-      textbutton "Add to potion!" action Return(selected_item)
-      textbutton "Cancel!" action Return()
+    use torch
+    
+screen ingredient_picker:
+    use ingredient_picker_items
+    add im.FactorScale("gui/overlay/potion_overlay.png", 1.5) xoffset -150
+    frame:
+        style_prefix "ingredient_check"
+        vbox:
+            spacing 50
+            yoffset -200
+            vbox at vbox_rotate:
+                for item in ingredient_list:
+                    $item_details = GetItemDetails(item)
+                    label "- [item_details[1]]" #text_size 24 text_font gui.interface_font
+                    
+        vbox at vbox_rotate(0):
+                xalign 0.5
+                yalign 1.0
+                yoffset 80
+                #if potion_philstone_found:
+                if potion_philstone:
+                    vbox at vbox_rotate(-5):
+                        yoffset 180
+                        textbutton _("Use Philosophers Stone") action SetVariable("potion_philstone", False)
+                else:
+                    vbox at vbox_rotate(-5):
+                        yoffset 180
+                        textbutton _("{s}Use Philosophers Stone{/s}") action SetVariable("potion_philstone", True)
+                if len(ingredient_list) < 4:
+                    if (selected_item and not selected_item == ""): 
+                        $item = GetItemDetails(selected_item)
+                        label "Selected Item: [item[1]]" xalign 0.5
+                        textbutton "Add to potion!" xalign 0.5 action Return(selected_item)
+                    else:
+                        label " " xalign 0.5
+                        label " " xalign 0.5
+                else:
+                    label " " xalign 0.5
+                    label " " xalign 0.5
+                #    label "Nothing Selected" xalign 0.5
+                #    textbutton "Add to potion!" xalign 0.5 action NullAction()
+                
+                if len(ingredient_list) > 0:
+                    textbutton "Brew!" xalign 0.5 action Return("brew")
+                else:
+                    textbutton "Cancel!" xalign 0.5 action Return("cancel")
   
-  
+style ingredient_check_label is pref_label
+style ingredient_check_label_text is pref_label_text
+style ingredient_chect_text is pref_label_text
+style ingredient_check_button is gui_button
+style ingredient_check_button_text is gui_button_text
+style ingredient_check_vbox is pref_vbox
+
+style ingredient_check_frame:    
+    xoffset 100
+    yoffset 250
+    xsize 500
+    ysize 450
+    background None
+    
+
+style ingredient_check_vbox:
+#    spacing gui.pref_button_spacing
+    xsize 500
+
+style ingredient_check_button:
+    properties gui.button_properties("check_button")
+    foreground "gui/button/check_[prefix_]foreground.png"
+
+style ingredient_check_button_text:
+    properties gui.button_text_properties("check_button")
+    size 24 
+    idle_color "#555353"
+    
+style ingredient_check_label_text:  
+    size 24 
+    color "#000000"
+    
+transform vbox_rotate(_rot=-5):
+    rotate _rot
   
 label lbl_cauldron_ingredients:
-  call show_background(230, 6, 1.0)
-  menu:
-    "Pick an ingredient":
-      call screen ingredient_picker
-      if not _return == None:
+    call show_background(200, 51, 1.0)
+    call screen ingredient_picker
+ #menu:
+ #  "Pick an ingredient":
+ #    
+ #  "Use Philosopher Stone" if potion_philstone_found:
+ #    $potion_philstone = True
+ #  "Done":
+ #    return
+      
+    if _return == "brew":
+        jump lbl_cauldron_mix_check
+    if _return == "cancel":
+        return
+    if not _return == None:
         $ingredient_list.append(_return)
-      jump lbl_cauldron_ingredients
-      
-    "Use Philosopher Stone" if potion_philstone_found:
-      $potion_philstone = True
-    "Done":
-      return
-      
+        jump lbl_cauldron_ingredients
 
 label lbl_cauldron_cupboards:
   menu:
@@ -873,6 +987,12 @@ label lbl_test_random_character_speaks:
     show side_medusa at show_side_medusa_instant:
         xalign 0.0
         yalign 1.0
+        
+    call Item_interact("d","poster_maze")
+    call Item_interact("","")
+    call Item_interact("","ingredient_cumin")
+        
+    show side_medusa at show_side_full
     m " Whats this?"
     call SaySomething("a", "NANI?!")
     call SaySomething("b", "NANI?!")
@@ -880,6 +1000,8 @@ label lbl_test_random_character_speaks:
     call SaySomething("d", "NANI?!")
     call SaySomething("e", "NANI?!")
     call SaySomething("f", "NANI?!")
+    show side_medusa at show_side_full
+    m "Hmmm..."
     call SaySomething("", "NANI?!")
     call SaySomething("", "NANI?!")
     call SaySomething("", "NANI?!")
@@ -891,7 +1013,7 @@ label SaySomething(_who="",_what=""):
         $_who = renpy.random.choice(['a', 'b', 'c', 'd', 'e', 'f'])
     
     if _who == "a":
-        "agness"
+        #"agness"
         show side_medusa at show_side_snake1
         a "[_what]"
     if _who == "b":
@@ -912,103 +1034,13 @@ label SaySomething(_who="",_what=""):
         
     return
     
-init:
-    item_list = [
-    #["item_id", "Item Name", "item description", "hint text"]
-    ##Items at wall 1 ##
-    door
-    door_symbol
-    door_lock_1
-    door_lock_2
-    door_lock_3
-    door_lock_4
-    plant_left
-    plant_right
-    stairs
-    crystal ball
-    table_small
-    table_small_drawer
-    recipe_l2g_torn_right
-    hint_papers_1    
-    ##Items at wall 2 ##
-    notes
-    painting_1
-    painting_2
-    painting_3
-    painting_4
-    painting_5
-    painting_6
-    painting_7
-    painting_8
-    painting_9
-    painting_10
-    painting_11
-    painting_12
-    painting_13
-    painting_14
-    painting_15
-    painting_16
-    painting_17
-    lyre
-    lyre_string_1
-    lyre_string_2
-    lyre_string_3
-    lyre_string_4
-    lyre_string_5
-    lyre_pedestal
-    lyre_pedestal_drawer
-    drawers
-    drawers_notes
-    drawers_hint_papers
-    drawers_top
-    drawers_middle
-    drawers_bottom
     
-    ##Items at wall 3 ##
-    poster
-    fire_mantle
-    fire_place
-    cauldron
-    shelf_left
-    shelf_right    
-    ingredient_salt
-    ingredient_allspice
-    ingredient_cumin
-    ingredient_coriander
-    ingredient_garlic
-    ingredient_dust
-    ingredient_tears
-    ingredient_harpy_feather
-    ingredient_slime_red
-    ingredient_onion
-    ingredient_slime_blue
-    ingredient_book_worms
-    ingredient_campfire_ash
-    ingredient_cheese_holes    
-    ingredient_music_sheet
-    ingredient_recipe
-    ingredient_dragon_fang
-    ingredient_candle_wax
-    ingredient_quicksilver
-    ingredient_poison
-    ingredient_candle_wicks
-    ingredient_dragon_orbs
-    ingredient_harpy_talon
-    ingredient_dragon_scale
-    ingredient_emerald_ice
-    ingredient_cyclops_eye    
-    ingredient_cupboard_left
-    ingredient_cupboard_right    
-    recipe_l2g_torn_left
-    ##Items at wall 4 ##
-    poster_maze
-    poster_1
-    poster_2
-    poster_3
-    table_large
-    box
-    table_hint_papers_left
-    table_hint_papers_right
-    table_book
+label Item_interact(_who="", _item_id=""):
+    $item = GetItemDetails(_item_id)
     
-    ]
+    show side_medusa at show_side_full
+    m "Looks like [item[1]]."
+    call SaySomething(_who, item[3])
+    
+    return
+    
