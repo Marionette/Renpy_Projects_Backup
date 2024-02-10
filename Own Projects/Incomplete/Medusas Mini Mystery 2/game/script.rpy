@@ -83,18 +83,22 @@ screen pan_controls:
     $zoom_offset_x = 0
     $zoom_offset_y = 0
     $zoom_offset_y_limit = 0
+    $xstepsize = 25
   if current_zoom == 2.0:
     $zoom_offset_x = 24
     $zoom_offset_y = 47
     $zoom_offset_y_limit = 115
+    $xstepsize = 10
   if current_zoom == 3.0:
     $zoom_offset_x = 32
     $zoom_offset_y = 65
     $zoom_offset_y_limit = 150
+    $xstepsize = 7
   if current_zoom == 4.0:
     $zoom_offset_x = 36
     $zoom_offset_y = 72
     $zoom_offset_y_limit = 170
+    $xstepsize = 5
   
   
   $xpanWrappedl = False
@@ -174,9 +178,31 @@ screen panorama(_useTorch=False):
         hover "images/Panoramabg_shaded_highlight_debug.png" 
         #Door
         hotspot (320, 88, 700, 345) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 8), SetVariable("current_ypan",  0), SetVariable("current_view", "door")]
+        
+        #Plants
+        hotspot (30,530,230,640) action [SetVariable("current_xpan", -40), SetVariable("current_ypan",  30), SetVariable("current_zoom", 1),SetVariable("selected_item", "plant_left"), SetVariable("current_view", "room")]
+        hotspot (1190,500,230,640) action [SetVariable("current_xpan", 15), SetVariable("current_ypan",  30), SetVariable("current_zoom", 1),SetVariable("selected_item", "plant_right"), SetVariable("current_view", "room")]
+        
         #Stairs
+        hotspot (110,110,300,200)   action [SetVariable("current_xpan", 0), SetVariable("current_ypan",  45), SetVariable("current_zoom", 1),SetVariable("selected_item", "stairs"), SetVariable("current_view", "room")]
+        hotspot (260,260,300,200)   action [SetVariable("current_xpan", 0), SetVariable("current_ypan",  45), SetVariable("current_zoom", 1),SetVariable("selected_item", "stairs"), SetVariable("current_view", "room")]
+        hotspot (410,410,300,200)   action [SetVariable("current_xpan", 0), SetVariable("current_ypan",  45), SetVariable("current_zoom", 1),SetVariable("selected_item", "stairs"), SetVariable("current_view", "room")]
+        hotspot (560,560,300,200)   action [SetVariable("current_xpan", 0), SetVariable("current_ypan",  45), SetVariable("current_zoom", 1),SetVariable("selected_item", "stairs"), SetVariable("current_view", "room")]
+        hotspot (710,710,300,200)   action [SetVariable("current_xpan", 0), SetVariable("current_ypan",  45), SetVariable("current_zoom", 1),SetVariable("selected_item", "stairs"), SetVariable("current_view", "room")]
+        hotspot (860,860,300,200)   action [SetVariable("current_xpan", 0), SetVariable("current_ypan",  45), SetVariable("current_zoom", 1),SetVariable("selected_item", "stairs"), SetVariable("current_view", "room")]
+        hotspot (1010,1010,300,200) action [SetVariable("current_xpan", 0), SetVariable("current_ypan",  45), SetVariable("current_zoom", 1),SetVariable("selected_item", "stairs"), SetVariable("current_view", "room")]
+        hotspot (1160,1160,300,200) action [SetVariable("current_xpan", 0), SetVariable("current_ypan",  45), SetVariable("current_zoom", 1),SetVariable("selected_item", "stairs"), SetVariable("current_view", "room")]
+        hotspot (1310,1310,300,200) action [SetVariable("current_xpan", 0), SetVariable("current_ypan",  45), SetVariable("current_zoom", 1),SetVariable("selected_item", "stairs"), SetVariable("current_view", "room")]
+        
+        
         #Table_small
+        hotspot (140,950,620,800) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 1), SetVariable("current_xpan", -20), SetVariable("current_ypan",  130), SetVariable("selected_item", "table_small"), SetVariable("current_view", "table_small")]
         #Crystal Ball
+        #hotspot (440,900,260,260) action [SetVariable("selected_item", "crystal_ball"), SetVariable("current_view", "room")]
+        
+        #Floor notes - left
+        hotspot (280,1420,265,130) action [SetVariable("selected_item", "recipe_l2g_torn_right"), SetVariable("current_view", "room")] #under table
+        hotspot (820,1245,380,280) action [SetVariable("selected_item", "hint_papers_1"), SetVariable("current_view", "room")] #under stairs
         
         #Wall Notes
         hotspot (1600, 410, 575, 370) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 70), SetVariable("current_ypan",  75)]
@@ -188,6 +214,8 @@ screen panorama(_useTorch=False):
         #Cauldren 
         #Shelves
         hotspot (4640, 300, 1000, 1060) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 1), SetVariable("current_xpan", 210), SetVariable("current_ypan",  65), SetVariable("current_view", "shelves")]
+        #Floor notes - right
+        hotspot (4875,1270,200,140) action [SetVariable("selected_item", "floor_notes_3"), SetVariable("current_view", "room")] #notes under shelves
         
         #Table_large
         #Tome
@@ -230,9 +258,22 @@ screen panorama(_useTorch=False):
         hotspot (4640, 910, 1000, 200) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 230), SetVariable("current_ypan",  140), SetVariable("current_view", "shelves")]
         hotspot (4640, 1060, 1000, 300) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 230), SetVariable("current_ypan",  180), SetVariable("current_view", "shelves")]
       
+  if current_view == "table_small":
+    imagemap at PositionBg(current_zoom, current_xpan, current_ypan, 0.2):  
+        idle "images/Panoramabg_shaded.png" 
+        hover "images/Panoramabg_shaded_highlight_debug.png" 
+        #table
+        hotspot (140,950,620,400) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 0), SetVariable("current_ypan",  175), SetVariable("current_view", "table_small"), SetVariable("selected_item", "table_small")]
+        #crystal ball
+        hotspot (440,900,260,260) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 5), SetVariable("current_ypan",  145), SetVariable("current_view", "table_small"), SetVariable("selected_item", "crystal_ball")]
+        #drawer
+        hotspot (160, 1280, 590, 195) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", -5), SetVariable("current_ypan",  215), SetVariable("current_view", "table_small_drawer"), SetVariable("selected_item", "table_small")]
+        #hotspot (140,950,620,800) action [SetVariable("selected_item", "table_small"), SetVariable("current_view", "table_small")]
+        #Crystal Ball
+        #hotspot (440,900,260,260) action [SetVariable("selected_item", "crystal_ball"), SetVariable("current_view", "table_small")]
   #add "images/bg room.png"
   #use pan_controls
-  add "gui/textbox.png"  
+  add "gui/centerMarker.png"  
             
 # The script of the game goes in this file.
 
