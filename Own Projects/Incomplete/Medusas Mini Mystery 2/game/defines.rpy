@@ -1,4 +1,6 @@
 init:
+    # A preference that enables or disables timed choices.
+    default torch_brightness = 0.98
     
     ###### POSITION DEFINES ############
     #transform left:
@@ -22,6 +24,8 @@ init:
         linear _time zoom _zoom
         
     transform PositionBg(_zoom=1.0, _xpan=1.0, _ypan=1.0, _time=1.0):
+      align (0.0,0.0)
+    
       parallel:
         linear _time zoom _zoom
       parallel:
@@ -34,6 +38,7 @@ init:
       #repeat
         
     transform PositionBgInstant(_zoom=1.0, _xpan=1.0, _ypan=1.0):
+      align (0.0,0.0)
       zoom _zoom
       xpan _xpan
       ypan _ypan
@@ -120,7 +125,8 @@ init:
       
     
     transform show_side_full(): #Melissa
-        show_snake_crop(550,100,820, 680, 1.0)
+      yalign 1.0
+      show_snake_crop(550,100,820, 680, 1.0)
         
     transform show_side_snake1(): #Agnesss
       #show_snake(0.52, 0.45, 3.0, 1.0)

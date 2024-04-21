@@ -43,20 +43,46 @@ init python:
 #init python:
 #    config.overlay_screens.append("torch")
 screen dialog_torch():
-    use torch(-1)
+    use torch(1)
     
 screen torch(_zorder=100):
     zorder _zorder
-    add TrackCursor("images/torch98.png")
+    add TrackCursor("images/torch98.png") alpha torch_brightness
 screen medusa:
   add im.Crop("images/Medusa3.png",(550,0,820, 1080)) at charaPos
   
 screen dark_panorama():
   use panorama
-  #use torch
+  use torch
   use pan_controls
   
+screen BrightnessTest():
+    
+    add "images/Panoramabg_shaded.png"  at PositionBgInstant(2.0, 118,93)
+    add "images/torch98.png" xalign 0.5 yalign 0.5 alpha torch_brightness
+    
+    vbox:
+        xsize 1100
+        xalign 0.5
+        yalign 0.1
+        text "This game is intended to be played dark but not completely pitch black." xalign 0.5
+        text "Adjust the brightness slider until the items in the dark area are just barely visible." xalign 0.5
+        text "Note: You can re-adjust the brightness in the options menu during gameplay if needed." xalign 0.5
+    
+    vbox:
+        yalign 0.8
+        xalign 0.5
+        xsize 800
+        spacing 5
+        label _("Brightness")
+
+        hbox:
+            bar value VariableValue("torch_brightness", 1.0)
+        textbutton "Continue" action Return() xalign 1.0
+  
 init:
+  default min_zoom = 1.0
+  default max_zoom = 3.0
   
   $old_xpan = 0
   $old_ypan = 0
@@ -72,7 +98,7 @@ init:
   $current_view = "room"
   
 screen pan_controls:
-  $xstepsize = 25#45
+  $xstepsize = 1#25#45
   $ystepsize = 15#15
   
   #$zoom_offset_x = 0
@@ -82,16 +108,24 @@ screen pan_controls:
   if current_zoom == 1.0:
     $zoom_offset_x = 0
     $zoom_offset_y = 0
+    $in_zoom_offset_x = 24
+    $in_zoom_offset_y = 54
     $zoom_offset_y_limit = 0
     $xstepsize = 25
   if current_zoom == 2.0:
-    $zoom_offset_x = 24
-    $zoom_offset_y = 47
+    $zoom_offset_x = 23
+    $zoom_offset_y = 53
+    $in_zoom_offset_x = 8
+    $in_zoom_offset_y = 18
+    $out_zoom_offset_x = 24
+    $out_zoom_offset_y = 54
     $zoom_offset_y_limit = 115
     $xstepsize = 10
   if current_zoom == 3.0:
-    $zoom_offset_x = 32
-    $zoom_offset_y = 65
+    $zoom_offset_x = 33
+    $zoom_offset_y = 70
+    $out_zoom_offset_x = 8
+    $out_zoom_offset_y = 18
     $zoom_offset_y_limit = 150
     $xstepsize = 7
   if current_zoom == 4.0:
@@ -124,22 +158,44 @@ screen pan_controls:
   if out_zoom <= 1.0:
     $out_zoom = 1.0
   $in_zoom = current_zoom + 1.0
-  if in_zoom >= 4.0:
-    $in_zoom = 4.0
+  if in_zoom >= max_zoom:
+    $in_zoom = max_zoom
   
-  add "gui/overlay/room_navi.png"
+  #add "gui/overlay/room_navi.png"
   
-  hbox:
-    xoffset 10
-    yoffset 10
-    spacing 64
-    imagebutton idle "gui/icons8-plus-64.png" hover "gui/icons8-plus-64.png"  action [SetVariable("current_zoom", in_zoom), SetVariable("current_xpan", int(current_xpan * (in_zoom/1.666))), SetVariable("current_ypan",  int(current_xpan * (in_zoom/1.666)))]
-    imagebutton idle "gui/icons8-minus-64.png" hover "gui/icons8-minus-64.png"  action [SetVariable("current_zoom", out_zoom), SetVariable("current_xpan", old_xpan), SetVariable("current_ypan", old_ypan), SetVariable("current_view", "room")]
+  if current_zoom < max_zoom:
+        hbox:
+            style_prefix "quick"
+            xoffset 10
+            yoffset 10
+            xalign 0.0
+            #spacing 10
+            imagebutton idle "gui/icons8-plus-64.png" hover "gui/icons8-plus-64.png"  action [SetVariable("current_zoom", in_zoom), SetVariable("current_xpan", current_xpan + in_zoom_offset_x), SetVariable("current_ypan", current_ypan + in_zoom_offset_y)]
+            textbutton "Look Closer" yalign 0.5 action [SetVariable("current_zoom", in_zoom), SetVariable("current_xpan", current_xpan + in_zoom_offset_x), SetVariable("current_ypan",  current_ypan + in_zoom_offset_y)]
+  if current_zoom > 1.0:
+        hbox:
+            style_prefix "quick"
+            xoffset -10
+            yoffset 10
+            xalign 1.0
+            #spacing 10
+            imagebutton idle "gui/icons8-minus-64.png" hover "gui/icons8-minus-64.png"  action [SetVariable("current_zoom", out_zoom), SetVariable("current_xpan", current_xpan - out_zoom_offset_x), SetVariable("current_ypan", current_ypan - out_zoom_offset_y), SetVariable("current_view", "room")]
+            textbutton "Go back" yalign 0.5 action [SetVariable("current_zoom", out_zoom), SetVariable("current_xpan", current_xpan - out_zoom_offset_x), SetVariable("current_ypan", current_ypan - out_zoom_offset_y), SetVariable("current_view", "room")]
     
-  imagebutton idle "gui/icons8-arrow-64.png" hover "gui/icons8-arrow-64.png" xpos 0 ypos 120 action [SetVariable("current_xpanWrapped", xpanWrappedl), SetVariable("current_xpan", left_pan)] at rotateButton(0)  
-  imagebutton idle "gui/icons8-arrow-64.png" hover "gui/icons8-arrow-64.png" xpos 60 ypos 60 action SetVariable("current_ypan", up_pan) at rotateButton(90)
-  imagebutton idle "gui/icons8-arrow-64.png" hover "gui/icons8-arrow-64.png" xpos 60 ypos 180  action SetVariable("current_ypan", down_pan) at rotateButton(-90)    
-  imagebutton idle "gui/icons8-arrow-64.png" hover "gui/icons8-arrow-64.png" xpos 120 ypos 120  action  [SetVariable("current_xpanWrapped", xpanWrappedr), SetVariable("current_xpan", right_pan)] at rotateButton(180)
+  #imagebutton idle "gui/icons8-arrow-64.png" hover "gui/icons8-arrow-64.png" xpos 0 ypos 120 action [SetVariable("current_xpanWrapped", xpanWrappedl), SetVariable("current_xpan", left_pan)] at rotateButton(0)  
+  #imagebutton idle "gui/icons8-arrow-64.png" hover "gui/icons8-arrow-64.png" xpos 60 ypos 60 action SetVariable("current_ypan", up_pan) at rotateButton(90)
+  #imagebutton idle "gui/icons8-arrow-64.png" hover "gui/icons8-arrow-64.png" xpos 60 ypos 180  action SetVariable("current_ypan", down_pan) at rotateButton(-90)    
+  #imagebutton idle "gui/icons8-arrow-64.png" hover "gui/icons8-arrow-64.png" xpos 120 ypos 120  action  [SetVariable("current_xpanWrapped", xpanWrappedr), SetVariable("current_xpan", right_pan)] at rotateButton(180)
+    
+  imagebutton auto "gui/button/room_navi_left_%s.png"  xalign 0.0 yalign 0.5 focus_mask True action [SetVariable("current_xpanWrapped", xpanWrappedl), SetVariable("current_xpan", left_pan)]
+  imagebutton auto "gui/button/room_navi_up_%s.png"    xalign 0.5 yalign 0.0 focus_mask True action SetVariable("current_ypan", up_pan)
+  imagebutton auto "gui/button/room_navi_down_%s.png"  xalign 0.5 yalign 1.0 focus_mask True action SetVariable("current_ypan", down_pan)  
+  imagebutton auto "gui/button/room_navi_right_%s.png" xalign 1.0 yalign 0.5 focus_mask True action  [SetVariable("current_xpanWrapped", xpanWrappedr), SetVariable("current_xpan", right_pan)]
+  
+  add "gui/icons8-arrow-64.png"  xalign 0.0 yalign 0.5 xoffset -10 rotate 0 alpha 0.75
+  add "gui/icons8-arrow-64.png"  xalign 0.5 yalign 0.0 yoffset -10 rotate 90 alpha 0.75
+  add "gui/icons8-arrow-64.png"  xalign 0.5 yalign 1.0 yoffset -10 rotate 270 alpha 0.75
+  add "gui/icons8-arrow-64.png"  xalign 1.0 yalign 0.5 xoffset 10 rotate 180 alpha 0.75
     
             
   vbox:
@@ -180,7 +236,6 @@ screen panorama(_useTorch=False):
         hotspot (320, 88, 700, 345) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 8), SetVariable("current_ypan",  0), SetVariable("current_view", "door")]
         
         #Plants
-        hotspot (30,530,230,640) action [SetVariable("current_xpan", -40), SetVariable("current_ypan",  30), SetVariable("current_zoom", 1),SetVariable("selected_item", "plant_left"), SetVariable("current_view", "room")]
         hotspot (1190,500,230,640) action [SetVariable("current_xpan", 15), SetVariable("current_ypan",  30), SetVariable("current_zoom", 1),SetVariable("selected_item", "plant_right"), SetVariable("current_view", "room")]
         
         #Stairs
@@ -196,31 +251,88 @@ screen panorama(_useTorch=False):
         
         
         #Table_small
-        hotspot (140,950,620,800) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 1), SetVariable("current_xpan", -20), SetVariable("current_ypan",  130), SetVariable("selected_item", "table_small"), SetVariable("current_view", "table_small")]
+        hotspot (140,930,620,800) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 1), SetVariable("current_xpan", -20), SetVariable("current_ypan",  130), SetVariable("selected_item", "table_small"), SetVariable("current_view", "table_small")]
         #Crystal Ball
         #hotspot (440,900,260,260) action [SetVariable("selected_item", "crystal_ball"), SetVariable("current_view", "room")]
         
-        #Floor notes - left
+        #Plants
+        hotspot (30,530,230,640) action [SetVariable("current_xpan", -40), SetVariable("current_ypan",  30), SetVariable("current_zoom", 1),SetVariable("selected_item", "plant_left"), SetVariable("current_view", "room")]
+        #Floor notes - recipe_l2g_torn_right
         hotspot (280,1420,265,130) action [SetVariable("selected_item", "recipe_l2g_torn_right"), SetVariable("current_view", "room")] #under table
         hotspot (820,1245,380,280) action [SetVariable("selected_item", "hint_papers_1"), SetVariable("current_view", "room")] #under stairs
         
         #Wall Notes
         hotspot (1600, 410, 575, 370) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 70), SetVariable("current_ypan",  75)]
-        #Harp
+        #Harp/lyre
         hotspot (2400, 730, 330, 740) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 105), SetVariable("current_ypan",  135), SetVariable("current_view", "harp")]
-        #Cabinet
         
-        #Fireplace
-        #Cauldren 
+        #Cabinet drawers        
+        hotspot (3090,1026,733,479)  action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 150), SetVariable("current_ypan",  195),SetVariable("selected_item", "drawers"), SetVariable("current_view", "cabinet")]
+
+        
+        #painting_1   
+        hotspot (1710,835,132,136) action [SetVariable("selected_item", "painting_1"), Call("Item_hint_anyone", from_current=True)]
+        #painting_2   
+        hotspot (1869,745,158,121) action [SetVariable("selected_item", "painting_2"), Call("Item_hint_anyone", from_current=True) ]
+        #painting_3   
+        hotspot (1860,916,163,133) action [SetVariable("selected_item", "painting_3"), Call("Item_hint_anyone", from_current=True) ]
+        #painting_4   
+        hotspot (2115,775,187,205) action [SetVariable("selected_item", "painting_4"), Call("Item_hint_anyone", from_current=True) ]
+        #painting_5   
+        hotspot (2166,403,163,187) action [SetVariable("selected_item", "painting_5"), Call("Item_hint_anyone", from_current=True) ]
+        #painting_6   
+        hotspot (2304,601,154,154) action [SetVariable("selected_item", "painting_6"), Call("Item_hint_anyone", from_current=True) ]
+        #painting_7   
+        hotspot (2457,379,169,199) action [SetVariable("selected_item", "painting_7"), Call("Item_hint_anyone", from_current=True) ]
+        #painting_8   
+        hotspot (2610,619,156,152) action [SetVariable("selected_item", "painting_8"), Call("Item_hint_anyone", from_current=True) ]
+        #painting_9   
+        hotspot (2718,388,191,202) action [SetVariable("selected_item", "painting_9"), Call("Item_hint_anyone", from_current=True) ]
+        #painting_10  
+        hotspot (2814,685,100,100) action [SetVariable("selected_item", "painting_10"), Call("Item_hint_anyone", from_current=True)]
+        #painting_11  
+        hotspot (2814,814,100,100) action [SetVariable("selected_item", "painting_11"), Call("Item_hint_anyone", from_current=True)]
+        #painting_12  
+        hotspot (2814,940,100,100) action [SetVariable("selected_item", "painting_12"), Call("Item_hint_anyone", from_current=True)]
+        #painting_13  
+        hotspot (2982,529,139,154) action [SetVariable("selected_item", "painting_13"), Call("Item_hint_anyone", from_current=True)]
+        #painting_14  
+        hotspot (2973,715,142,137) action [SetVariable("selected_item", "painting_14"), Call("Item_hint_anyone", from_current=True)]
+        #painting_15  
+        hotspot (3147,451,224,250) action [SetVariable("selected_item", "painting_15"), Call("Item_hint_anyone", from_current=True)]
+        #painting_16  
+        hotspot (3150,715,215,195) action [SetVariable("selected_item", "painting_16"), Call("Item_hint_anyone", from_current=True)]
+        #painting_17  
+        hotspot (3399,652,128,145) action [SetVariable("selected_item", "painting_17"), Call("Item_hint_anyone", from_current=True)]
+
+        
+        #wall poster 3rd wall 
+        hotspot (3660,510,300,328) action [SetVariable("selected_item", "poster")]
+        
+        #Fireplace        
+        hotspot (3972, 768,790,650) action [SetVariable("selected_item", "fire_place")]
+        #Fireplace mantle 
+        hotspot (3972, 748,790,64) action [SetVariable("selected_item", "fire_mantle")]
+        #Cauldron         
+        hotspot (4170,1045,328,385) action [SetVariable("selected_item", "cauldron")]
+        
         #Shelves
         hotspot (4640, 300, 1000, 1060) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 1), SetVariable("current_xpan", 210), SetVariable("current_ypan",  65), SetVariable("current_view", "shelves")]
-        #Floor notes - right
-        hotspot (4875,1270,200,140) action [SetVariable("selected_item", "floor_notes_3"), SetVariable("current_view", "room")] #notes under shelves
+        #Floor notes - recipe_l2g_torn_left
+        hotspot (4875,1270,200,140) action [SetVariable("selected_item", "recipe_l2g_torn_left"), SetVariable("current_view", "room")] #notes under shelves
         
-        #Table_large
-        #Tome
-        #Lockbox
-        #maze
+        #table_large 
+        hotspot (5700,972 ,1340,507) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 290), SetVariable("current_ypan", 165),SetVariable("selected_item", "table_large"), SetVariable("current_view", "table_large")]
+        #poster_maze 
+        hotspot (5748,288 ,539 ,550) action [SetVariable("selected_item", "poster_maze")]       
+            
+        #poster_3 
+        hotspot (6690,630,366,306) action [SetVariable("selected_item", "poster_3")]
+        #poster_2 
+        hotspot (6492,390,336,348) action [SetVariable("selected_item", "poster_2")]
+        #poster_1 
+        hotspot (6300,500,264,300) action [SetVariable("selected_item", "poster_1")]
+
         
   if current_view == "door":
     imagemap at PositionBg(current_zoom, current_xpan, current_ypan, 0.2):  
@@ -267,10 +379,38 @@ screen panorama(_useTorch=False):
         #crystal ball
         hotspot (440,900,260,260) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", 5), SetVariable("current_ypan",  145), SetVariable("current_view", "table_small"), SetVariable("selected_item", "crystal_ball")]
         #drawer
-        hotspot (160, 1280, 590, 195) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", -5), SetVariable("current_ypan",  215), SetVariable("current_view", "table_small_drawer"), SetVariable("selected_item", "table_small")]
+        hotspot (160, 1280, 590, 195) action [SetVariable("old_xpan", current_xpan), SetVariable("old_ypan", current_ypan), SetVariable("current_zoom", 2), SetVariable("current_xpan", -5), SetVariable("current_ypan",  215), SetVariable("current_view", "table_small"), SetVariable("selected_item", "table_small")]
         #hotspot (140,950,620,800) action [SetVariable("selected_item", "table_small"), SetVariable("current_view", "table_small")]
         #Crystal Ball
         #hotspot (440,900,260,260) action [SetVariable("selected_item", "crystal_ball"), SetVariable("current_view", "table_small")]
+        
+  if current_view == "cabinet":
+    imagemap at PositionBg(current_zoom, current_xpan, current_ypan, 0.2):  
+        idle "images/Panoramabg_shaded.png" 
+        hover "images/Panoramabg_shaded_highlight_debug.png"     
+        #drawers_notes
+        hotspot (3300,1070,375,75 ) action [SetVariable("selected_item", "drawers_notes") ]
+        #drawers_hint_papers
+        hotspot (3160,1160,285,244) action [SetVariable("selected_item", "drawers_hint_papers") ]
+        #drawers_top
+        hotspot (3580,1140,143,80 ) action [SetVariable("selected_item", "drawers_top") ]
+        #drawers_middle
+        hotspot (3580,1205,143,86 ) action [SetVariable("selected_item", "drawers_middle") ]
+        #drawers_bottom
+        hotspot (3580,1310,143,96 ) action [SetVariable("selected_item", "drawers_bottom") ]
+        
+  if current_view == "table_large":
+    imagemap at PositionBg(current_zoom, current_xpan, current_ypan, 0.2):  
+        idle "images/Panoramabg_shaded.png" 
+        hover "images/Panoramabg_shaded_highlight_debug.png" 
+        #table_book  
+        hotspot (6120,1032,517 ,273) action [SetVariable("selected_item", "table_book")]
+        #box         
+        hotspot (6138,882 ,224 ,208) action [SetVariable("selected_item", "box")]
+        #table_hint_papers_left  
+        hotspot (5850,1040,240,264) action [SetVariable("selected_item", "table_hint_papers_left")]
+        #table_hint_papers_right 
+        hotspot (6650,1086,300,180) action [SetVariable("selected_item", "table_hint_papers_right")]
   #add "images/bg room.png"
   #use pan_controls
   add "gui/centerMarker.png"  
@@ -291,6 +431,8 @@ image medusa neutral = "images/Medusa3.png"
 # The game starts here.
 
 label start:
+
+    call screen BrightnessTest
     #jump lbl_test_random_character_speaks
     #jump lbl_torch_test
     #start game
@@ -410,7 +552,7 @@ label show_background(_xpan=0, _ypan=0, zoom=0):
   $current_zoom = zoom
   $current_xpan = _xpan
   $current_ypan = _ypan
-  show bg panorama at PositionBgInstant(_xpan, _ypan, zoom)
+  show bg panorama at PositionBgInstant(zoom, _xpan, _ypan)
   return
   
 label show_background_current():
@@ -432,8 +574,8 @@ label lbl_intro:
   "Where did i put the torch? Melissa fumbles about in her pockets for a small torch."
   "Ah, her-"
   "I-I'LL H-HOLD IT! Casssie snapped the torch out of her hand and after some fiddling managed to get it turned on."
-  call show_background(20, 90, 1.0)
-  show screen dialog_torch
+  call show_background(0, 0, 1.0)
+  #show screen dialog_torch
   show medusa shock
   
   #"Maybe we should read the letter we received before we do anything else?"
@@ -1055,22 +1197,22 @@ label SaySomething(_who="",_what=""):
     
     if _who == "a":
         #"agness"
-        show side_medusa at show_side_snake1
+        show side_medusa at show_side_snake1 zorder 3
         a "[_what]"
     if _who == "b":
-        show side_medusa at show_side_snake2
+        show side_medusa at show_side_snake2 zorder 3
         b "[_what]"
     if _who == "c":
-        show side_medusa at show_side_snake3
+        show side_medusa at show_side_snake3 zorder 3
         c "[_what]"
     if _who == "d":
-        show side_medusa at show_side_snake4
+        show side_medusa at show_side_snake4 zorder 3
         d "[_what]"
     if _who == "e":
-        show side_medusa at show_side_snake5
+        show side_medusa at show_side_snake5 zorder 3
         e "[_what]"
     if _who == "f":
-        show side_medusa at show_side_snake6
+        show side_medusa at show_side_snake6 zorder 3
         f "[_what]"
         
     return
@@ -1079,9 +1221,54 @@ label SaySomething(_who="",_what=""):
 label Item_interact(_who="", _item_id=""):
     $item = GetItemDetails(_item_id)
     
-    show side_medusa at show_side_full
-    m "Looks like [item[1]]."
-    call SaySomething(_who, item[3])
+    show side_medusa at show_side_medusa_instant zorder 3
+    with dissolve
+    
+    if renpy.has_label("Item_interact_"+_item_id):
+        #Specific response if available
+        call expression("Item_interact_"+_item_id)
+    else:
+        #Generic response
+        m "Looks like [item[1]]."
+        call SaySomething(_who, item[3])
+    
+    hide side_medusa 
+    with dissolve
     
     return
     
+label Item_interact_painting_1:
+    m "Is that a painting?"
+    show side_medusa at show_side_snake1 zorder 3
+    a "Looks like a penguin. noot noot"
+    show side_medusa at show_side_snake2 zorder 3
+    b "noot noot"
+    show side_medusa at show_side_snake3 zorder 3
+    c "noot noot"
+    show side_medusa at show_side_snake4 zorder 3
+    d "noot noot"
+    show side_medusa at show_side_snake5 zorder 3
+    e "noot noot"
+    show side_medusa at show_side_snake6 zorder 3
+    f "noot noot"
+    show side_medusa at show_side_full zorder 3
+    m "..."
+    m "...noot noot"
+    return
+
+label Item_hint_anyone():
+    scene bg black
+    hide screen dialog_torch
+    hide screen torch
+    #"test1"
+    #"[current_zoom], [current_xpan], [current_ypan]"
+    call show_background_current   
+    #"test2" 
+    #show medusa shock zorder 3
+    #"test3"
+    show screen dialog_torch onlayer master zorder 2
+    with dissolve
+    #"test4"
+    call Item_interact("", selected_item)
+    #"test5"
+    return

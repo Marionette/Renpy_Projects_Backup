@@ -43,8 +43,9 @@ Additional UI assets used: {p}
 {p}{p}
 Audio: {p}
 "Danse Macabre" Kevin MacLeod (incompetech.com) {p}
+"Aquarium" Kevin MacLeod (incompetech.com){p}
 Licensed under Creative Commons: By Attribution 4.0 License  {p}
-http://creativecommons.org/licenses/by/4.0/
+http://creativecommons.org/licenses/by/4.0/ {p}
 """)
 
 
@@ -81,7 +82,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-define config.main_menu_music = "audio/Danse Macabre.ogg"
+define config.main_menu_music = "audio/Aquarium.ogg"
 
 define config.layers = [ 'master', 'transient', 'screens', 'char_layer', 'overlay' ]
 

@@ -274,6 +274,7 @@ style quick_button:
 
 style quick_button_text:
     properties gui.button_text_properties("quick_button")
+    outlines [ (absolute(1), "#00000099", absolute(0), absolute(0)) ]
 
 
 ################################################################################
@@ -775,6 +776,12 @@ screen preferences():
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
+                
+                vbox:
+                    label _("Torch Brightness")
+
+                    hbox:
+                        bar value VariableValue("torch_brightness", 1.0)
 
             null height (4 * gui.pref_spacing)
 
